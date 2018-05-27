@@ -11,14 +11,14 @@
   <a class="major" target="_blank" href="{{entry.presentation}}">{{entry.title}}</a></li>
   <!-- this presentation does not have a special download link and thus we give a link to a PDF named after the key -->
   {% else %}
-  <a class="major" href="{{site.baseurl}}download/research/presentations/key/{{entry.key}}-presentation.pdf">{{entry.title}}</a></li>
+  <a class="major" href="/download/research/presentations/key/{{entry.key}}-presentation.pdf">{{entry.title}}</a></li>
   {% endif %}
   <!-- always display venue of the presentation -->
   {{ entry.howpublished }} <p>
 <!-- this is a paper and thus we always display the title of the paper and link to the details page -->
 {% else %}
 <li><i class="fa-li fa fa-file-text-o fa-lg"></i>
-  <a class="major" href="{{site.baseurl}}research/papers/{{entry.key}}">{{entry.title}}</a> </li>
+  <a class="major" href="/research/papers/{{entry.key}}">{{entry.title}}</a> </li>
 <!-- always display the author(s) of the paper -->
 {{ entry.author }} <p>
 {% endif %}
