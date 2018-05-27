@@ -18,7 +18,7 @@ var checkPages = require("check-pages");
 var DEPLOY = Boolean(yargs.argv.production);
 
 // define the URL of the live site to check
-var SITE = 'http://www.cs.allegheny.edu/sites/gkapfham/';
+var SITE = 'https://www.gregorykapfhammer.com';
 
 // exclude different fragments from blc checking
 var EXCLUDE_LINKEDIN = '--exclude=linkedin';
