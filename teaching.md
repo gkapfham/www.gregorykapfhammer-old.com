@@ -21,7 +21,7 @@ description: I regularly teach courses in many areas of computer science, always
 <h2>{{ year }}</h2>
 {% endif %}
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-cog fa-lg"></i><a class="major" href="{{site.baseurl}}{{ page.url | remove_first:'/'}}">{{ page.title | capitalize_all }}</a></li>
+<li><i class="fa-li fa fa-cog fa-lg"></i><a class="major" href="/{{ page.url | remove_first:'/'}}">{{ page.title | capitalize_all }}</a></li>
 <em>{{page.subtitle}}</em>
 {% endif %}
 </ul>
@@ -33,5 +33,5 @@ description: I regularly teach courses in many areas of computer science, always
 ## Additional Courses
 
 The course materials for the classes that I taught between the Fall 2000 and Spring 2013 semesters are available if you
-[contact me]({{site.baseurl}}contact/) with your request. However, please note that the most representative and current
+[contact me](/contact/) with your request. However, please note that the most representative and current
 material is accessible through the above sites.
