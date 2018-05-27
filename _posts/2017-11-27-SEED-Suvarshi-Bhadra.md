@@ -54,8 +54,8 @@ learn.
 
 Do you have any questions about this interview? Or, do you have a response to
 Suvarshi's ideas? If you do, then I hope that you will
-[contact]({{site.baseurl}}contact/) me to share some of your thoughts. Or, do
+[contact](/contact/) me to share some of your thoughts. Or, do
 you want to be updated when I publish new interviews in this series? If you do,
-then please [subscribe]({{site.baseurl}}support/) to my mailing list.
+then please [subscribe](/support/) to my mailing list.
 
 {% include _footers/blog_footer.html %}
