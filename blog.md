@@ -10,10 +10,10 @@ description: In addition to writing about technical writing and computer science
 
 <ul class="fa-ul">
 {% for page in site.posts %}
-  <li><i class="fa-li fa fa-edit fa-lg"></i><a class="major" href="{{site.baseurl}}{{ page.url | remove_first:'/'}}">{{ page.title }}</a></li>
+  <li><i class="fa-li fa fa-edit fa-lg"></i><a class="major" href="/{{ page.url | remove_first:'/'}}">{{ page.title }}</a></li>
   <i class="fa fa-tags" aria-hidden="true"></i>
   {% for category in page.categories %}
-  <a class="tag" href="{{site.baseurl}}categories/#{{ category | slugify }}"> {{ category }}</a>
+  <a class="tag" href="/categories/#{{ category | slugify }}"> {{ category }}</a>
   {% endfor %}
   <p>
   {{ page.date | date_to_long_string }}
