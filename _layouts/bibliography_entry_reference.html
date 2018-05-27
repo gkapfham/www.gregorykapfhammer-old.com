@@ -11,7 +11,7 @@
   <a name="{{entry.key}}" target="_blank" class="major" href="{{entry.presentation}}">{{entry.title}}</a></li>
   <!-- this presentation does not have a special download link and thus we give a link to a PDF named after the key -->
   {% else %}
-  <a name="{{entry.key}}" target="_blank" class="major" href="{{site.baseurl}}download/research/presentations/key/{{entry.key}}-presentation.pdf">{{entry.title}}</a></li>
+  <a name="{{entry.key}}" target="_blank" class="major" href="/download/research/presentations/key/{{entry.key}}-presentation.pdf">{{entry.title}}</a></li>
   {% endif %}
 
   {% assign counter = 0 %}
@@ -34,7 +34,7 @@
 <!-- this is a paper and thus we always display the title of the paper and link to the details page -->
 {% else %}
 <li><i class="fa-li fa fa-file-text-o fa-lg"></i>
-  <a name="{{entry.key}}" class="major" href="{{site.baseurl}}research/papers/{{entry.key}}">{{entry.title}}</a> </li>
+  <a name="{{entry.key}}" class="major" href="/research/papers/{{entry.key}}">{{entry.title}}</a> </li>
 
   {% assign counter = 0 %}
   {% assign authors_words = entry.author | split: ' ' %}
