@@ -1,0 +1,58 @@
+---
+layout: defaults
+authors: Gregory M. Kapfhammer
+title: Categories
+description: Here are the topics that I most frequently write about! Find you favorite area and read one of my posts.
+---
+
+# {{ page.title }}
+
+<a title="Blue tag" href="https://flickr.com/photos/tjololo_photo/5700106776"><img class="img-responsive-tight" src="https://farm6.static.flickr.com/5148/5700106776_857c0ded3b_z.jpg" /></a><br /><small><a title="Blue tag" href="https://flickr.com/photos/tjololo_photo/5700106776">flickr photo</a> by <a href="https://flickr.com/people/tjololo_photo">Tjololo Photo</a> shared under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND) license</a> </small>
+
+{% comment %}
+Extract and sort the tags
+{% endcomment %}
+
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+  {% assign ttags = post.categories | join:'|' | append:'|' %}
+  {% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% comment %}
+Remove duplicate tags
+{% endcomment %}
+
+{% assign tags = "" %}
+{% for tag in rawtags %}
+  {% if tag != "" %}
+    {% if tags == "" %}
+      {% assign tags = tag | split:'|' %}
+    {% endif %}
+    {% unless tags contains tag %}
+      {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% comment %}
+List all posts with a specific tag
+{% endcomment %}
+
+{% for tag in tags %}
+<h2 id="{{ tag | slugify }}">{{ tag }}</h2>
+<ul class="fa-ul">
+{% for post in site.posts %}
+{% if post.categories contains tag %}
+  <li><i class="fa-li fa fa-edit fa-lg"></i><a class="major" href="{{site.baseurl}}{{ post.url | remove_first:'/'}}">{{ post.title }}</a></li>
+
+  <i class="fa fa-tags" aria-hidden="true"></i>
+  {% for tag in post.categories %}
+  <a class="tag" href="{{site.baseurl}}categories/#{{ tag | slugify }}"> {{ tag }}</a>
+{% endfor %} 
+<br>
+{% endif %}
+{% endfor %}
+</ul>
+{% endfor %}

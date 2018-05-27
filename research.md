@@ -1,0 +1,89 @@
+---
+title: Research
+layout: defaults
+---
+
+# {{page.title}}
+
+<a title="Color Test #4a" href="http://flickr.com/photos/multichrome/7029911579"><img class="img-responsive-tight" src="http://farm8.static.flickr.com/7280/7029911579_0ddd6e8352_z.jpg" /></a><br /><small><a title="Color Test #4a" href="http://flickr.com/photos/multichrome/7029911579">flickr photo</a> shared by <a href="http://flickr.com/people/multichrome">/Casper</a> under a <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND) license</a> </small>
+
+{% describe %}
+As an experimental computer scientist, the goal of my research is to design, implement, and rigorously evaluate
+techniques and tools that support the creation of useful, dependable, and efficient software. My
+research addresses the challenges within the fields of software engineering, software testing, and computer systems. I
+conduct this research in collaboration with undergraduates at [Allegheny College](http://www.allegheny.edu),
+graduate students and professors at other universities, and colleagues in industry.
+{% enddescribe %}
+
+My research is empirical in nature because it involves the application of the scientific method to formulate problem
+statements, carry out experiments, take observations, statistically analyze and visualize the data sets, and draw
+conclusions based on the experimental results. Each research project focuses on the development and evaluation of
+[software]({{site.baseurl}}software/) artifacts that can be used in both empirical studies and real-world practice by
+undergraduate and graduate students, software engineers, and computer scientists in both academia and industry. In
+addition to supporting my professional [service]({{site.baseurl}}service/), my research also results in award-winning
+and frequently cited research [papers]({{site.baseurl}}research/papers/), oft-complimented
+[presentations]({{site.baseurl}}research/presentations/), and useful free and open-source
+[software]({{site.baseurl}}software/).
+
+My research has concentrated on several important areas, examples of which are summarized in the following list that
+references key papers.
+
+<ul class="fa-ul">
+
+<li><i class="fa-li fa fa-arrow-right"></i>
+<a name="Kapfhammer2007d-return"></a>
+<a name="Kapfhammer2003-return"></a>
+<a name="McMinn2016a-return"></a>
+<a name="McMinn2015-return"></a>
+<b>Database Testing:</b> Since the database application is a complex artifact that must be verified, my PhD dissertation
+{% cite Kapfhammer2007d %} presented an approach for testing database applications; a notable paper derived from my
+dissertation is {% cite Kapfhammer2003 %}. My work has also focused on testing the schema of a relational database, with {%
+cite McMinn2016a %} and {% cite McMinn2015 %} being examples of papers.</li> <p>
+
+<li><i class="fa-li fa fa-arrow-right"></i>
+<a name="Walsh2015-return"></a>
+<a name="Walsh2017-return"></a>
+<b>Web Testing:</b> In response to the prevalence and complexity of mobile-ready web sites, my research has developed
+automated techniques for checking these sites. Some examples of papers describing approaches that have found defects
+in live, production web sites include {% cite Walsh2015 %} and {% cite Walsh2017 %}. </li> <p>
+
+<li><i class="fa-li fa fa-arrow-right"></i>
+<a name="Just2012b-return"></a>
+<a name="Wright2014-return"></a>
+<b>Mutation Testing:</b> Given the challenges associated with evaluating the quality of a test suite, my research has
+designed efficient ways to perform test assessment through mutation analysis. Considering both programs and relational
+database schemas, some examples of papers include {% cite Just2012b %} and {% cite Wright2014 %}. </li> <p>
+
+<li><i class="fa-li fa fa-arrow-right"></i>
+<a name="Lin2014-return"></a>
+<a name="Lin2017-return"></a>
+<a name="Walcott2006-return"></a>
+<b>Regression Testing:</b> Since software is often incrementally developed, my work on regression testing has created
+automated ways to efficiently and effectively run test suites for complex programs. Some examples of papers that present
+and evaluate regression testing techniques include {% cite Walcott2006 %}, {% cite Lin2014 %}, and {% cite Lin2017 %}.
+</li> <p>
+
+<li><i class="fa-li fa fa-arrow-right"></i>
+<a name="Conrad2010a-return"></a>
+<a name="Kukunas2010a-return"></a>
+<a name="McMinn2016b-return"></a>
+<b>Search-Based Testing:</b> Using a fitness function as a guide to a suitable solution, search-based methods have shown
+promise in a many domains. My work has focused on creating frameworks to support the development of search-based tools,
+with {% cite McMinn2016b %} being one paper. Papers such as {% cite Conrad2010a %} and {% cite Kukunas2010a %}
+describe and assess other search-based solutions to software engineering challenges. </li> <p>
+
+<li><i class="fa-li fa fa-arrow-right"></i>
+<a name="Kapfhammer2004-return"></a>
+<a name="Kapfhammer2010-return"></a>
+<a name="Kapfhammer2016-return"></a>
+<a name="McMinn2016-return"></a>
+<b>Research Methods:</b> My surveys of the research landscape in the field of software testing provide a starting point
+for individuals exploring this field, with {% cite Kapfhammer2004 %} and {% cite Kapfhammer2010 %} being examples of
+papers. Moreover, papers like {% cite Kapfhammer2016 %} and {% cite McMinn2016 %} illustrate ways in which I have
+articulated a research agenda for the field of software engineering. </li> <p>
+
+</ul>
+
+### References
+
+{% bibliography --template bibliography_entry_reference --group_by none --cited %}
