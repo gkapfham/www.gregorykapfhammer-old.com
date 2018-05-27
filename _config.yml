@@ -1,0 +1,58 @@
+me: "Gregory M. Kapfhammer"
+title: "Gregory M. Kapfhammer"
+author: "Gregory M. Kapfhammer"
+description: "Associate Professor of Computer Science"
+baseur: "/"
+url: "https://www.gregorykapfhammer.com"
+twitter:
+  username: GregKapfhammer
+social:
+  name: "Gregory M. Kapfhammer"
+  links:
+    - https://twitter.com/GregKapfhammer
+    - http://www.linkedin.com/in/GregKapfhammer
+    - https://github.com/gkapfham
+    - http://scholar.google.com/citations?user=g0eDPjYAAAAJ
+    - https://www.instagram.com/gregkapfhammer/
+logo: "/infinity.png"
+webmaster_verifications:
+  google: GRspUqgstyF-rt4Ys0KO4FLleSvGLrhwhgXrhkeb4R4
+author:
+  twitter: GregKapfhammer
+markdown: rdiscount
+permalink: pretty
+highlighter: rouge
+category-list: [teaching, research]
+plugins: ['jekyll/scholar', 'jekyll-sitemap', 'jekyll-auto-image', 'jekyll-seo-tag']
+exclude: ['Gemfile', 'Gemfile.lock', 'package.json', 'gulpfile.js', 'node_modules', 'tags', 'tags.temp', 'tags.lock', 'README.md', '*.tex', '*.sty', '*.aux', '*.dvi', '*.fls', '*.lof', '*.log', '*.lot', '*.out', '*.toc', '*.fdb_latexmk', '*.synctex.gz', '*.pdfsync', '*.ods', '**/**/**/exams', '**/**/**/logos', '**/**/**/figures', '**/**/**/code', '**/**/**/teams']
+excerpt_separator: <!--more-->
+mapped: false
+header: false
+research: false
+paper: false
+presentation: false
+featured: false
+id: 0
+max_header: 10
+max_id: 45
+future: false
+scholar:
+  style: apa
+  locale: en
+  sort_by: year,author
+  order: descending,ascending
+  group_by: year
+  group_order: descending
+  source: _bibliography/bibtex
+  bibliography: bibliography_kapfhammer.bib
+  bibliography_template: bibliography_entry
+  bibliography_list_tag: ul class="fa-ul"
+  replace_strings: true
+  join_strings: true
+  use_raw_bibtex_entry: false
+  bibtex_filters:
+  - superscript
+  - latex
+  details_dir: research/papers
+  details_layout: bibliography_details.html
+  details_link: ""
