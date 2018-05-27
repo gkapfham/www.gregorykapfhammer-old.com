@@ -25,15 +25,6 @@ me. Please [subscribe]({{site.baseurl}}support/) to my mailing list if you want
 me to send you informative status updates about my current projects.
 {% enddescribe %}
 
-{% comment %} No longer include a reference to my CV since it is _really_ out
-of date! {% endcomment %}
-
-{% comment %} or {% endcomment %}
-{% comment %} view my curriculum vitae as either a <a target="_blank" href = {% endcomment %}
-{% comment %} "{{site.baseurl}}cv/curriculum_vitae_kapfhammer.pdf">PDF</a> or an <a {% endcomment %}
-{% comment %} target="_blank" href = {% endcomment %}
-{% comment %} "{{site.baseurl}}cv/curriculum_vitae_kapfhammer.html">HTML5</a> document. {% endcomment %}
-
 ## SEED Survey
 
 {% comment %} Reference the SEED Survey for "interviews" with software engineers {% endcomment %}
