@@ -27,7 +27,8 @@ me to send you informative status updates about my current projects.
 
 ## SEED Survey
 
-{% comment %} Reference the SEED Survey for "interviews" with software engineers {% endcomment %}
+{% comment %} Reference the SEED Survey for "interviews" with software
+engineers {% endcomment %}
 
 <ul class="fa-ul"> <li><i class="fa-li fa fa-users fa-lg"></i><a class="major"
 href="{{site.baseurl}}seed/">Are you working in the software industry? Share
