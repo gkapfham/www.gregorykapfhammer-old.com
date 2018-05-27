@@ -1,0 +1,6 @@
+@inproceedings{Carlson2011,
+  author      = {Carlson, Ryan and Do, Hyunsook and Denton, Anne},
+  title       = {A Clustering Approach to Improving Test Case Prioritization: An Industrial Case Study},
+  booktitle   = {Proceedings of the 27th International Conference on Software Maintenance},
+  year        = {2011}
+}

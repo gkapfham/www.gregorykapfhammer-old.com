@@ -1,0 +1,6 @@
+# {{ page.title }}
+## <em>{{ page.date | date_to_long_string }}</em>
+{% if page.last_modified_at %}
+### <em>Updated: {{ page.last_modified_at | date_to_long_string }}</em>
+{% endif %}
+

@@ -1,0 +1,30 @@
+---
+---
+
+<!-- NOTE: The "entry" layout controls how the full listing of papers or presentations will display -->
+
+<!-- this is a presentation and we must display the title with a link to the download location (goes directly to a PDF) -->
+{% if entry.howpublished %}
+  {% if entry.nodownload != 'true' %}
+    <li><i class="fa-li fa fa-file-image-o fa-lg"></i>
+    <a class="major" target="_blank" href="{{site.baseurl}}download/research/presentations/key/{{entry.key}}-presentation.pdf">{{entry.title}}</a></li>
+    {% if entry.addendum %}
+      {{ entry.addendum }} <br>
+    {% endif %}
+    {% if entry.howpublished %}
+      {% if entry.presentation %}
+        {{ entry.howpublished }} <br>
+        <!-- this presentation also has a presentation attribute which is a link to the Speaker Deck -->
+        Preview on <a target="_blank" href="{{entry.presentation}}">Speaker Deck</a> <p></p>
+      {% else %}
+        {{ entry.howpublished }} <p></p>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+<!-- this is a paper and thus we always display the title of the paper and link to the details page -->
+{% else %}
+<li><i class="fa-li fa fa-file-text-o fa-lg"></i>
+  <a class="major" href="{{entry.key}}">{{entry.title}}</a> </li>
+<!-- always display the author(s) of the paper -->
+{{ entry.author }} <p></p>
+{% endif %}

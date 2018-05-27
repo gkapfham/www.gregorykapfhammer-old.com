@@ -1,0 +1,56 @@
+---
+---
+
+<!-- NOTE: The "reference" layout controls how the listing of papers that are referenced in a blog post or main page -->
+
+<!-- this is a presentation and we must display the title with a link to the download location (goes directly to a PDF) -->
+{% if entry.howpublished %}
+<li><i class="fa-li fa fa-file-image-o fa-lg"></i>
+  <!-- this is a presentation with a special download link, display it (will always be to Speaker Deck) -->
+  {% if entry.presentation %}
+  <a name="{{entry.key}}" target="_blank" class="major" href="{{entry.presentation}}">{{entry.title}}</a></li>
+  <!-- this presentation does not have a special download link and thus we give a link to a PDF named after the key -->
+  {% else %}
+  <a name="{{entry.key}}" target="_blank" class="major" href="{{site.baseurl}}download/research/presentations/key/{{entry.key}}-presentation.pdf">{{entry.title}}</a></li>
+  {% endif %}
+
+  {% assign counter = 0 %}
+  {% assign authors_words = entry.author | split: ' ' %}
+  {% assign authors_words_final = "" | split:"|" %}
+  {% for author_word in authors_words %}
+  {% if author_word == "and" %}
+  {% assign authors_words_final = authors_words_final | push: "&" %}
+  {% else %}
+  {% assign authors_words_final = authors_words_final | push: author_word %}
+  {% endif %}
+  {% assign counter = counter | plus: 1 %}
+  {% endfor %}
+  {% assign counter = 0 %}
+
+  <div class="major">{{authors_words_final | join: " "}}, {{entry.year}}<a href="#{{entry.key}}-return"> <i class="fa
+  fa-angle-double-up"></i> return</a></div>
+  <!-- always display the author(s) of the presentation -->
+  <p>
+<!-- this is a paper and thus we always display the title of the paper and link to the details page -->
+{% else %}
+<li><i class="fa-li fa fa-file-text-o fa-lg"></i>
+  <a name="{{entry.key}}" class="major" href="{{site.baseurl}}research/papers/{{entry.key}}">{{entry.title}}</a> </li>
+
+  {% assign counter = 0 %}
+  {% assign authors_words = entry.author | split: ' ' %}
+  {% assign authors_words_final = "" | split:"|" %}
+  {% for author_word in authors_words %}
+  {% if author_word == "and" %}
+  {% assign authors_words_final = authors_words_final | push: "&" %}
+  {% else %}
+  {% assign authors_words_final = authors_words_final | push: author_word %}
+  {% endif %}
+  {% assign counter = counter | plus: 1 %}
+  {% endfor %}
+  {% assign counter = 0 %}
+
+  <div class="major">{{authors_words_final | join: " "}}, {{entry.year}}<a href="#{{entry.key}}-return"> <i class="fa
+  fa-angle-double-up"></i> return</a></div>
+<!-- always display the author(s) of the paper -->
+<p>
+{% endif %}

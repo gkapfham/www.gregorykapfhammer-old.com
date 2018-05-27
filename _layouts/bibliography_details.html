@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    {% if page.title != site.me %}
+    <title>{{ page.title }}</title>
+    {% else %}
+    <title>{{ page.title }}</title>
+    {% endif %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="grspuqgstyf-rt4ys0ko4fllesvglrhwhgxrhkeb4r4"/>
+    <link rel="shortcut icon" href="{{site.baseurl}}infinity.ico">
+    <link rel="shortcut icon" href="{{site.baseurl}}infinity-gradient.ico">
+    <link rel="icon" type="image/png" href="{{site.baseurl}}infinity.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="{{site.baseurl}}infinity.png" sizes="192x192">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="{{site.baseurl}}css/bootstrap-gkapfham.css" rel="stylesheet">
+    <script src="{{site.baseurl}}js/instafeed.min.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}js/loadfeed.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <link href="{{site.baseurl}}feed/" type="application/rss+xml" rel="alternate" title="Ten Recent Posts by Gregory M. Kapfhammer (Atom)"/>
+    <meta name="theme-color" content="#2b2e32">
+    {% if jekyll.environment == 'production' %} {% include _headers/analytics.html %} {% endif %}
+    {% if page.entry.abstract %}
+    <meta name="description" content="{{page.entry.abstract | xml_escape | markdownify | strip_html}}">
+    <meta property="og:description" content="{{page.entry.abstract | xml_escape | markdownify | strip_html}}" />
+    {% else %}
+    <meta name="description" content="{{site.description}}">
+    <meta property="og:description" content="{{site.description}}" />
+    {% endif %}
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top">
+
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bs-navbar-collapse">
+          <span class="navigate icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand navigate-name-hide" href="{{site.baseurl}}">Gregory M. Kapfhammer</a>
+        <a class="navbar-brand navigate-menu-hide" data-toggle="modal" data-target="#menuModal">
+          <i class="fa fa-toggle-down fa-lg" aria-hidden="true"></i></a>
+
+      </div>
+
+      <div class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+
+        <ul class="nav navbar-nav navbar-right">
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle navigate" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teaching<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="navigate" href="/sites/gkapfham/teaching/">Courses</a></li>
+              <li><a class="navigate" href="/sites/gkapfham/teaching/cs103S2018">CS 103</a></li>
+              <li><a class="navigate" href="/sites/gkapfham/teaching/cs112S2018">CS 112</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle navigate" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="navigate" href="/sites/gkapfham/research/">Overview</a></li>
+              <li><a class="navigate" href="/sites/gkapfham/research/papers/">Papers</a></li>
+              <li><a class="navigate" href="/sites/gkapfham/research/presentations/">Talks</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle navigate" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Outreach<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="navigate" href="/sites/gkapfham/software/">Software</a></li>
+              <li><a class="navigate" href="/sites/gkapfham/service/">Service</a></li>
+              <li><a class="navigate" href="/sites/gkapfham/blog/">Blog</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle navigate" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span>&nbsp;&nbsp;&nbsp;</a>
+            <ul class="dropdown-menu">
+              <li><a class="navigate" href="/sites/gkapfham/biography/">Biography</a></li>
+              <li><a class="navigate" href="/sites/gkapfham/schedule/">Schedule</a></li>
+              <li><a class="navigate" href="/sites/gkapfham/contact/">Contact</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+      <div class="modal-dialog">
+
+        <div class="modal-content" style="color:#c5c8c6;">
+
+          <div class="modal-header text-center" style="border:0;">
+            <a class="navigatemodal sub" data-dismiss="modal" aria-hidden="true"><i class="fa fa-toggle-up fa-2x"></i></a>
+          </div>
+
+          <div class="modal-body text-center">
+
+            <div class="container">
+
+              <div class="row">
+
+                <div class="col-md-3">
+                </div>
+
+                <div class="col-md-3">
+                  <h2 class="big">Teaching</h2>
+                  <ul style="list-style-type:none;">
+                    <li><a class="navigatemodal sub" href="/sites/gkapfham/teaching/">Courses</a></li>
+                    <li><a class="navigate sub" href="/sites/gkapfham/teaching/cs103S2018">CS 103</a></li>
+                    <li><a class="navigate sub" href="/sites/gkapfham/teaching/cs112S2018">CS 112</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <h2 class="big">Research</h2>
+                  <ul style="list-style-type:none;">
+                    <li><a class="navigatemodal sub" href="/sites/gkapfham/research/">Overview</a></li>
+                    <li><a class="navigate sub" href="/sites/gkapfham/research/papers/">Papers</a></li>
+                    <li><a class="navigate sub" href="/sites/gkapfham/research/presentations/">Talks</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                </div>
+
+              </div>
+
+              <div class="row">
+
+                <div class="col-md-3">
+                </div>
+
+                <div class="col-md-3">
+                  <h2 class="big">Outreach</h2>
+                  <ul style="list-style-type:none;">
+                    <li><a class="navigatemodal sub" href="/sites/gkapfham/software/">Software</a></li>
+                    <li><a class="navigate sub" href="/sites/gkapfham/service/">Service</a></li>
+                    <li><a class="navigate sub" href="/sites/gkapfham/blog/">Blog</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <h2 class="big">About</h2>
+                  <ul style="list-style-type:none;">
+                    <li><a class="navigatemodal sub" href="/sites/gkapfham/biography/">Biography</a></li>
+                    <li><a class="navigate sub" href="/sites/gkapfham/schedule/">Schedule</a></li>
+                    <li><a class="navigate sub" href="/sites/gkapfham/contact/">Contact</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="modal-body text-center">
+
+            <h2 class="big tight">Photographs</h2>
+
+            <div class="row">
+
+              <div class="col-md-2">
+              </div>
+
+              <div class="col-md-8">
+                <div id="instafeed"></div>
+              </div>
+
+              <div class="col-md-2">
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="modal-body text-center">
+
+            <a class="navigate socialfooter" href="https://twitter.com/GregKapfhammer"><i class="fa fa-twitter fa-lg"></i></a> &nbsp;
+            <a class="navigate socialfooter" href="http://www.linkedin.com/in/GregKapfhammer"><i class="fa fa-linkedin fa-lg"></i></a> &nbsp;
+            <a class="navigate socialfooter" href="https://github.com/gkapfham"><i class="fa fa-github fa-lg"></i></a> &nbsp;
+            <a class="navigate socialfooter" href="http://scholar.google.com/citations?user=g0eDPjYAAAAJ"><i class="fa fa-google fa-lg"></i></a> &nbsp;
+            <a class="navigate socialfooter" href="https://www.instagram.com/gregkapfhammer/"><i class="fa fa-instagram fa-lg"></i></a> &nbsp;
+            <a class="navigate socialfooter" href="https://www.flickr.com/photos/gregkapfhammer/"><i class="fa fa-flickr fa-lg"></i></a> &nbsp;
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-1 visible-md visible-lg sidebar">
+        </div>
+
+        <div class="col-md-10">
+
+          <!-- NOTE: the "details" layout is only for papers; presentations are simply direct links -->
+
+          <!-- always display the title of the paper or presentation and the author(s) of the presentation -->
+          <h1>{{ page.entry.title }}</h1>
+          <h3>{{ page.entry.author }}</h3>
+
+          <!-- if there is a "booktitle" (i.e., proceedings) and a year, then display this as well -->
+          {% if page.entry.booktitle and page.entry.year %}
+          <em><h3>{{ page.entry.booktitle}}, {{ page.entry.year }}</h3></em>
+          {% endif %}
+
+          <!-- if there is a "journal" (i.e., it is a journal) and the other parts of a journal and a year, then display them -->
+          {% if page.entry.journal and page.entry.volume != nil and page.entry.number != nil and page.entry.year %}
+          <em><h3>{{ page.entry.journal}} {{ page.entry.volume }}:{{ page.entry.number }}, {{ page.entry.year }}</h3></em>
+          {% endif %}
+
+          <!-- if there is a "journal" (i.e., it is a journal) and the other parts of a journal and a year, then display them -->
+          {% if page.entry.journal and page.entry.volume == nil and page.entry.number == nil and page.entry.year %}
+          <em><h3>{{ page.entry.journal}}, {{ page.entry.year }}</h3></em>
+          {% endif %}
+
+          <!-- if there is an "institution" (i.e., it is a technical report) and the year, then display them -->
+          {% if page.entry.institution and page.entry.number and page.entry.year %}
+          <em><h3>Technical Report {{ page.entry.number }}, {{ page.entry.year }}</h3></em>
+          {% endif %}
+
+          <!-- one of the above two options will have been true and now we need space for the next data points for this entry -->
+          <p></p>
+
+          <!-- display the abstract of the conference or journal paper -->
+          {% if page.entry.abstract %}
+          <h3>Abstract</h3>
+          <p>{{ page.entry.abstract }}</p>
+          {% endif %}
+
+          <!-- display the label for the resources since at least one resource exists -->
+          {% if page.entry.nodownload != 'true' or
+                page.entry.presentation or
+                page.entry.presented or
+                page.entry.paper or
+                page.entry.data or
+                page.entry.tool %}
+          <h3>Resources</h3>
+          {% endif %}
+
+          <!-- display the paper download link for the paper (it is always based on the key of the specific entry) -->
+          {% if page.entry.nodownload != 'true' and page.entry.talk != 'true' and page.entry.keywords != 'undergraduate' %}
+          <p><a class="major" target="_blank" href = "{{site.baseurl}}download/research/papers/key/{{page.entry.key}}-paper.pdf"><i class="fa fa-download"></i> Paper</a></p>
+          {% endif %}
+
+          <!-- the paper is designated as being "presented" in bibtex file and thus the key-based name should be displayed -->
+          {% if page.entry.presented %}
+          <p><a class="major" target="_blank" href="{{site.baseurl}}download/research/presentations/key/{{page.entry.key}}-presentation.pdf">
+            <i class="fa fa-download"></i> Presentation</a></p>
+          {% endif %}
+
+          <!-- there is a speaker deck presentation link in the bibtex file and thus this should be displayed -->
+          {% if page.entry.presentation %}
+          <p><a class="major" target="_blank" href = "{{page.entry.presentation}}"><i class="fa fa-cloud-download"></i> Presentation</a></p>
+          {% endif %}
+
+          <!-- display the references to external resources (e.g., a GitHub site for the paper or the tool) -->
+          {% if page.entry.paper %}
+          <p><a class="major" target="_blank" href = "{{page.entry.paper}}">
+            <i class="fa fa-github"></i> {{ page.entry.paper | replace: "https://github.com/", "" }}</a></p>
+          {% endif %}
+          {% if page.entry.data %}
+          <p><a class="major" target="_blank" href = "{{page.entry.data}}">
+            <i class="fa fa-github"></i> {{ page.entry.data | replace: "https://github.com/", "" }}</a></p>
+          {% endif %}
+          {% if page.entry.tool %}
+          <p><a class="major" target="_blank" href = "{{page.entry.tool}}">
+            <i class="fa fa-github"></i> {{ page.entry.tool | replace: "https://github.com/", "" }}</a></p>
+          {% endif %}
+
+          <!-- again display extra spacing between the previous entries and the final bibtex -->
+          <p></p>
+
+          <!-- display the bibtex entry for the paper if one is available -->
+          {% if page.entry.bibtex %}
+          <h3>Reference</h3>
+          <pre>{{ page.entry.bibtex }}</pre>
+          {% endif %}
+
+          <!--provide a link for returning to the main list of the papers -->
+          <i class="fa fa-angle-double-up"></i>  <a href="..">Return to the List of Papers</a>
+
+        </div>
+
+        <div class="col-md-1 visible-md visible-lg sidebar">
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col-xs-12 bottom-pad">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-1 visible-md visible-lg sidebar">
+        </div>
+        <div class="col-sm-11">
+          <a href="https://twitter.com/GregKapfhammer"><i class="fa fa-twitter fa-2x"></i></a> &nbsp;
+          <a href="http://www.linkedin.com/in/GregKapfhammer"><i class="fa fa-linkedin fa-2x"></i></a> &nbsp;
+          <a href="https://github.com/gkapfham"><i class="fa fa-github fa-2x"></i></a> &nbsp;
+          <a href="http://scholar.google.com/citations?user=g0eDPjYAAAAJ"><i class="fa fa-google fa-2x"></i></a> &nbsp;
+          <a href="https://www.instagram.com/gregkapfhammer/"><i class="fa fa-instagram fa-2x"></i></a> &nbsp;
+          <a href="{{site.baseurl}}feed/"><i class="fa fa-rss fa-2x"></i></a> &nbsp;
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1 visible-md visible-lg sidebar">
+        </div>
+        <div class="col-sm-11">
+          <div class="footerquestion">Please <a href="{{site.baseurl}}support/">support</a> my work!</div>
+        </div>
+      </div>
+
+      <a href="#" class="back-to-top"><i class="fa fa-angle-double-up fa-2x"></i></a>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+    <script src="{{site.baseurl}}js/bootstrap.min.js"></script>
+
+    <script>
+            jQuery(document).ready(function() {
+                var offset = 500;
+                var duration = 250;
+                jQuery(window).scroll(function() {
+                    if (jQuery(this).scrollTop() > offset) {
+                        jQuery('.back-to-top').fadeIn(duration);
+                    } else {
+                        jQuery('.back-to-top').fadeOut(duration);
+                    }
+                });
+                jQuery('.back-to-top').click(function(event) {
+                    event.preventDefault();
+                    jQuery('html, body').animate({scrollTop: 0}, duration);
+                    return false;
+                })
+            });
+    </script>
+
+  </body>
+
+</html>

@@ -1,0 +1,3 @@
+" Configure deoplete so that it uses tabs
+let g:SuperTabDefaultCompletionType = "<C-n>"
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"

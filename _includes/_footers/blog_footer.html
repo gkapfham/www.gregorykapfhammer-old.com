@@ -1,0 +1,26 @@
+{% assign found_post = 0 %}
+{% for post in site.posts limit:1 %}
+  {% if post.title != page.title %}
+  <em>Enjoy this post?</em> If so, please read,
+  <a class="major" href="{{site.baseurl}}{{ post.url | remove_first:'/'}}">{{ post.title }}</a>, my most recent article.
+  {% else %}
+  {% for post in site.posts %}
+  {% if post.last_modified_at and found_post == 0 %}
+  <em>Enjoy this post?</em> If so, please read,
+  <a class="major" href="{{site.baseurl}}{{ post.url | remove_first:'/'}}">{{ post.title }}</a>, a recently updated article.
+  {% assign found_post = 1 %}
+  {% endif %}
+  {% endfor %}
+  {% endif %}
+{% endfor %}
+
+### Categories
+
+<ul class="fa-ul">
+{% for category in page.categories %}
+<li><i class="fa-li fa fa-tag"></i>
+<a class="tagreference" href="{{site.baseurl}}categories/#{{ category | slugify }}"> {{ category }}</a>
+</li>
+{% endfor %}
+</ul>
+
