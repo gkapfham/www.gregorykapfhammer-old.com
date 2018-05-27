@@ -7,7 +7,7 @@
 {% if entry.howpublished %}
   {% if entry.nodownload != 'true' %}
     <li><i class="fa-li fa fa-file-image-o fa-lg"></i>
-    <a class="major" target="_blank" href="{{site.baseurl}}download/research/presentations/key/{{entry.key}}-presentation.pdf">{{entry.title}}</a></li>
+    <a class="major" target="_blank" href="/download/research/presentations/key/{{entry.key}}-presentation.pdf">{{entry.title}}</a></li>
     {% if entry.addendum %}
       {{ entry.addendum }} <br>
     {% endif %}

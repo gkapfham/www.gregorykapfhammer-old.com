@@ -9,18 +9,18 @@
     {% endif %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="grspuqgstyf-rt4ys0ko4fllesvglrhwhgxrhkeb4r4"/>
-    <link rel="shortcut icon" href="{{site.baseurl}}infinity.ico">
-    <link rel="shortcut icon" href="{{site.baseurl}}infinity-gradient.ico">
-    <link rel="icon" type="image/png" href="{{site.baseurl}}infinity.png" sizes="192x192">
-    <link rel="apple-touch-icon" href="{{site.baseurl}}infinity.png" sizes="192x192">
+    <link rel="shortcut icon" href="/infinity.ico">
+    <link rel="shortcut icon" href="/infinity-gradient.ico">
+    <link rel="icon" type="image/png" href="/infinity.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="/infinity.png" sizes="192x192">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="{{site.baseurl}}css/bootstrap-gkapfham.css" rel="stylesheet">
-    <script src="{{site.baseurl}}js/instafeed.min.js"></script>
-    <script type="text/javascript" src="{{site.baseurl}}js/loadfeed.js"></script>
+    <link href="/css/bootstrap-gkapfham.css" rel="stylesheet">
+    <script src="/js/instafeed.min.js"></script>
+    <script type="text/javascript" src="/js/loadfeed.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
-    <link href="{{site.baseurl}}feed/" type="application/rss+xml" rel="alternate" title="Ten Recent Posts by Gregory M. Kapfhammer (Atom)"/>
+    <link href="/feed/" type="application/rss+xml" rel="alternate" title="Ten Recent Posts by Gregory M. Kapfhammer (Atom)"/>
     <meta name="theme-color" content="#2b2e32">
     {% if jekyll.environment == 'production' %} {% include _headers/analytics.html %} {% endif %}
     {% if page.entry.abstract %}
@@ -43,7 +43,7 @@
           <span class="icon-bar"></span>
         </button>
 
-        <a class="navbar-brand navigate-name-hide" href="{{site.baseurl}}">Gregory M. Kapfhammer</a>
+        <a class="navbar-brand navigate-name-hide" href="/">Gregory M. Kapfhammer</a>
         <a class="navbar-brand navigate-menu-hide" data-toggle="modal" data-target="#menuModal">
           <i class="fa fa-toggle-down fa-lg" aria-hidden="true"></i></a>
 
@@ -191,9 +191,9 @@
           <div class="modal-body text-center">
 
             <a class="navigate socialfooter" href="https://twitter.com/GregKapfhammer"><i class="fa fa-twitter fa-lg"></i></a> &nbsp;
-            <a class="navigate socialfooter" href="http://www.linkedin.com/in/GregKapfhammer"><i class="fa fa-linkedin fa-lg"></i></a> &nbsp;
+            <a class="navigate socialfooter" href="https://www.linkedin.com/in/GregKapfhammer"><i class="fa fa-linkedin fa-lg"></i></a> &nbsp;
             <a class="navigate socialfooter" href="https://github.com/gkapfham"><i class="fa fa-github fa-lg"></i></a> &nbsp;
-            <a class="navigate socialfooter" href="http://scholar.google.com/citations?user=g0eDPjYAAAAJ"><i class="fa fa-google fa-lg"></i></a> &nbsp;
+            <a class="navigate socialfooter" href="https://scholar.google.com/citations?user=g0eDPjYAAAAJ"><i class="fa fa-google fa-lg"></i></a> &nbsp;
             <a class="navigate socialfooter" href="https://www.instagram.com/gregkapfhammer/"><i class="fa fa-instagram fa-lg"></i></a> &nbsp;
             <a class="navigate socialfooter" href="https://www.flickr.com/photos/gregkapfhammer/"><i class="fa fa-flickr fa-lg"></i></a> &nbsp;
 
@@ -259,12 +259,12 @@
 
           <!-- display the paper download link for the paper (it is always based on the key of the specific entry) -->
           {% if page.entry.nodownload != 'true' and page.entry.talk != 'true' and page.entry.keywords != 'undergraduate' %}
-          <p><a class="major" target="_blank" href = "{{site.baseurl}}download/research/papers/key/{{page.entry.key}}-paper.pdf"><i class="fa fa-download"></i> Paper</a></p>
+          <p><a class="major" target="_blank" href = "/download/research/papers/key/{{page.entry.key}}-paper.pdf"><i class="fa fa-download"></i> Paper</a></p>
           {% endif %}
 
           <!-- the paper is designated as being "presented" in bibtex file and thus the key-based name should be displayed -->
           {% if page.entry.presented %}
-          <p><a class="major" target="_blank" href="{{site.baseurl}}download/research/presentations/key/{{page.entry.key}}-presentation.pdf">
+          <p><a class="major" target="_blank" href="/download/research/presentations/key/{{page.entry.key}}-presentation.pdf">
             <i class="fa fa-download"></i> Presentation</a></p>
           {% endif %}
 
@@ -316,18 +316,18 @@
         </div>
         <div class="col-sm-11">
           <a href="https://twitter.com/GregKapfhammer"><i class="fa fa-twitter fa-2x"></i></a> &nbsp;
-          <a href="http://www.linkedin.com/in/GregKapfhammer"><i class="fa fa-linkedin fa-2x"></i></a> &nbsp;
+          <a href="https://www.linkedin.com/in/GregKapfhammer"><i class="fa fa-linkedin fa-2x"></i></a> &nbsp;
           <a href="https://github.com/gkapfham"><i class="fa fa-github fa-2x"></i></a> &nbsp;
-          <a href="http://scholar.google.com/citations?user=g0eDPjYAAAAJ"><i class="fa fa-google fa-2x"></i></a> &nbsp;
+          <a href="https://scholar.google.com/citations?user=g0eDPjYAAAAJ"><i class="fa fa-google fa-2x"></i></a> &nbsp;
           <a href="https://www.instagram.com/gregkapfhammer/"><i class="fa fa-instagram fa-2x"></i></a> &nbsp;
-          <a href="{{site.baseurl}}feed/"><i class="fa fa-rss fa-2x"></i></a> &nbsp;
+          <a href="/feed/"><i class="fa fa-rss fa-2x"></i></a> &nbsp;
         </div>
       </div>
       <div class="row">
         <div class="col-md-1 visible-md visible-lg sidebar">
         </div>
         <div class="col-sm-11">
-          <div class="footerquestion">Please <a href="{{site.baseurl}}support/">support</a> my work!</div>
+          <div class="footerquestion">Please <a href="/support/">support</a> my work!</div>
         </div>
       </div>
 
@@ -336,8 +336,8 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
-    <script src="{{site.baseurl}}js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 
     <script>
             jQuery(document).ready(function() {
