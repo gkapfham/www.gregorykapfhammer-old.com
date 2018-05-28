@@ -27,6 +27,8 @@ var EXCLUDE_JJUMADINOVA = '--exclude=jjumadinova';
 var EXCLUDE_OBONHAMCARTER = '--exclude=obonhamcarter';
 var RECURSIVE = "-ro";
 
+// assumes that Jekyll's plugins are managed by bundle
+
 // TASK: build the web site in full, no incremental
 gulp.task('build', function(cb) {
   var spawn = require('child_process').spawn;
@@ -51,7 +53,7 @@ gulp.task('serve', function(cb) {
     env.JEKYLL_ENV = 'production';
     options.env = env;
   }
-  var jekyll = spawn('jekyll', ['serve', '--watch', '--incremental'], options);
+  var jekyll = spawn('bundle', ['exec', 'exec', 'jekyll', '--watch', '--incremental'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
