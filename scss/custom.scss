@@ -8,24 +8,34 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab"
 
 // Typography {{{
 
+// Define fonts from Google, also using platform fallback fonts
+
 $font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+// Assume the base font size is 16px and define the base font to be 18 px or 18 / 16 = 1.125rem
 
 $font-size-base: 1.125rem;
 
+// Define the main font for all of the headings
+
 $headings-font-family: "Roboto Slab";
 
-$h1-font-size: 3.125rem !default;
-$h2-font-size: 1.75rem !default;
-$h3-font-size: 1.5rem !default;
-$h4-font-size: 1.25rem !default;
-$h5-font-size: 1rem !default;
-$h6-font-size: 0.75rem !default;
+// Define all of the header fonts in rem units
 
-$headings-font-weight: 500 !default;
+$h1-font-size: 3.375rem;
+$h2-font-size: 1.75rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 1rem;
+$h6-font-size: 0.75rem;
+
+// Make the heading font be more bold
+
+$headings-font-weight: 600 !default;
 
 // }}}
 
-// Required Imports {{{
+// Import all of Bootstrap {{{
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
