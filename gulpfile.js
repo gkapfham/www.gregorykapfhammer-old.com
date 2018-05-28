@@ -18,7 +18,7 @@ var checkPages = require("check-pages");
 var DEPLOY = Boolean(yargs.argv.production);
 
 // define the URL of the live site to check
-var SITE = 'http://www.cs.allegheny.edu/sites/gkapfham/';
+var SITE = 'https://www.gregorykapfhammer.com';
 
 // exclude different fragments from blc checking
 var EXCLUDE_LINKEDIN = '--exclude=linkedin';
@@ -26,6 +26,8 @@ var EXCLUDE_AMOHAN = '--exclude=amohan';
 var EXCLUDE_JJUMADINOVA = '--exclude=jjumadinova';
 var EXCLUDE_OBONHAMCARTER = '--exclude=obonhamcarter';
 var RECURSIVE = "-ro";
+
+// assumes that Jekyll's plugins are managed by bundle
 
 // TASK: build the web site in full, no incremental
 gulp.task('build', function(cb) {
@@ -36,7 +38,7 @@ gulp.task('build', function(cb) {
     env.JEKYLL_ENV = 'production';
     options.env = env;
   }
-  var jekyll = spawn('jekyll', ['build'], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
@@ -51,7 +53,7 @@ gulp.task('serve', function(cb) {
     env.JEKYLL_ENV = 'production';
     options.env = env;
   }
-  var jekyll = spawn('jekyll', ['serve', '--watch', '--incremental'], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch', '--incremental'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
@@ -66,7 +68,7 @@ gulp.task('fullserve', function(cb) {
     env.JEKYLL_ENV = 'production';
     options.env = env;
   }
-  var jekyll = spawn('jekyll', ['serve', '--watch'], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
