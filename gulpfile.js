@@ -38,7 +38,7 @@ gulp.task('build', function(cb) {
     env.JEKYLL_ENV = 'production';
     options.env = env;
   }
-  var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve'], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
@@ -53,7 +53,7 @@ gulp.task('serve', function(cb) {
     env.JEKYLL_ENV = 'production';
     options.env = env;
   }
-  var jekyll = spawn('bundle', ['exec', 'exec', 'jekyll', '--watch', '--incremental'], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch', '--incremental'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
