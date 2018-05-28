@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     {% if page.title != site.me %}
     <title>{{ page.title }}</title>
     {% else %}
     <title>{{ page.title }} | {{ site.description }}</title>
     {% endif %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% if page.description %}
     <meta name="description" content="{{page.description | xml_escape | markdownify | strip_html}}">
     {% else %}
