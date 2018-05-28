@@ -1,129 +1,172 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <!-- Define the meta characteristics of the site for responsive design -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <!-- Define the meta characteristics of the site for responsive design -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Define the title of the page if specified -->
-    {% if page.title != site.me %}
-    <title>{{ page.title }}</title>
-    {% else %}
-    <title>{{ page.title }} | {{ site.description }}</title>
-    {% endif %}
+  <!-- Define the title of the page if specified -->
+  {% if page.title != site.me %}
+  <title>{{ page.title }}</title>
+  {% else %}
+  <title>{{ page.title }} | {{ site.description }}</title>
+  {% endif %}
 
-    <!-- Define the description of the page if specified -->
-    {% if page.description %}
-    <meta name="description" content="{{page.description | xml_escape | markdownify | strip_html}}">
-    {% else %}
-    <meta name="description" content="{{site.description}}">
-    {% endif %}
+  <!-- Define the description of the page if specified -->
+  {% if page.description %}
+  <meta name="description" content="{{page.description | xml_escape | markdownify | strip_html}}"> {% else %}
+  <meta name="description" content="{{site.description}}"> {% endif %}
 
-    <!-- Specify the Google site verification for analytics and details -->
-    <meta name="google-site-verification" content="grspuqgstyf-rt4ys0ko4fllesvglrhwhgxrhkeb4r4"/>
+  <!-- Specify the Google site verification for analytics and details -->
+  <meta name="google-site-verification" content="grspuqgstyf-rt4ys0ko4fllesvglrhwhgxrhkeb4r4" />
 
-    <!-- Define the "favicon" -->
-    <link rel="shortcut icon" href="/infinity.ico">
-    <link rel="icon" type="image/png" href="/infinity.png" sizes="192x192">
-    <link rel="apple-touch-icon" href="/infinity.png" sizes="192x192">
+  <!-- Define the "favicon" -->
+  <link rel="shortcut icon" href="/infinity.ico">
+  <link rel="icon" type="image/png" href="/infinity.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="/infinity.png" sizes="192x192">
 
-    <!-- Load the customize CSS file generated from SCSS Bootstrap -->
-    <link href="/css/custom.css" rel="stylesheet">
+  <!-- Load the customize CSS file generated from SCSS Bootstrap -->
+  <link href="/css/custom.css" rel="stylesheet">
 
-    <!-- Load the JavaScript for displaying the Twitter feed -->
-    <script src="/js/twitterFetcher.js"></script>
+  <!-- Load the JavaScript for displaying the Twitter feed -->
+  <script src="/js/twitterFetcher.js"></script>
 
-    <!-- Load the 4.0 version of Font Awesome -->
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- Load the 4.0 version of Font Awesome -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-    <!-- Define the RSS feed -->
-    <link href="/feed/" type="application/rss+xml" rel="alternate" title="Ten Recent Posts by Gregory M. Kapfhammer (Atom)"/>
+  <!-- Define the RSS feed -->
+  <link href="/feed/" type="application/rss+xml" rel="alternate" title="Ten Recent Posts by Gregory M. Kapfhammer (Atom)" />
 
-    <!-- Define the shifting function that allows for zooming back to the page's top -->
-    <script>
-      var shiftWindow = function() { scrollBy(0, -60) };
-      window.addEventListener("hashchange", shiftWindow);
-      function load() { if (window.location.hash) shiftWindow(); }
-    </script>
+  <!-- Define the shifting function that allows for zooming back to the page's top -->
+  <script>
+    var shiftWindow = function() {
+      scrollBy(0, -60)
+    };
+    window.addEventListener("hashchange", shiftWindow);
 
-    <!-- Load in all of the Google analytics code if Jekyll runs in production mode -->
-    {% if jekyll.environment == 'production' %} {% include _headers/analytics.html %} {% endif %}
-  </head>
+    function load() {
+      if (window.location.hash) shiftWindow();
+    }
+  </script>
 
-  <body onload="load()">
+  <!-- Load in all of the Google analytics code if Jekyll runs in production mode -->
+  {% if jekyll.environment == 'production' %} {% include _headers/analytics.html %} {% endif %}
+</head>
 
-    <!-- Container for all of the content -->
-    <div class="container">
+<body onload="load()">
 
-      <div class="row">
-        <!-- Padding on the left -->
-        <div class="col-md-1 visible-md visible-lg sidebar">
-        </div>
-        <!-- Main content -->
-        <div class="col-md-10">
-          {{ content }}
-        </div>
-        <!-- Padding on the right -->
-        <div class="col-md-1 visible-md visible-lg sidebar">
-        </div>
+  <!-- Define the navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+
+  <!-- Container for all of the content -->
+  <div class="container">
+
+    <div class="row">
+      <!-- Padding on the left -->
+      <div class="col-md-1 visible-md visible-lg sidebar">
       </div>
-
-      <div class="row">
-        <div class="col-xs-12 bottom-pad">
-        </div>
+      <!-- Main content -->
+      <div class="col-md-10">
+        {{ content }}
       </div>
-
-      <div class="row">
-        <div class="col-md-1 visible-md visible-lg sidebar">
-        </div>
-        <div class="col-sm-11">
-          <a href="https://twitter.com/GregKapfhammer"><i class="fa fa-twitter fa-2x"></i></a> &nbsp;
-          <a href="https://www.linkedin.com/in/GregKapfhammer"><i class="fa fa-linkedin fa-2x"></i></a> &nbsp;
-          <a href="https://github.com/gkapfham"><i class="fa fa-github fa-2x"></i></a> &nbsp;
-          <a href="https://scholar.google.com/citations?user=g0eDPjYAAAAJ"><i class="fa fa-google fa-2x"></i></a> &nbsp;
-          <a href="https://www.instagram.com/gregkapfhammer/"><i class="fa fa-instagram fa-2x"></i></a> &nbsp;
-          <a href="/feed/"><i class="fa fa-rss fa-2x"></i></a> &nbsp;
-        </div>
+      <!-- Padding on the right -->
+      <div class="col-md-1 visible-md visible-lg sidebar">
       </div>
-      <div class="row">
-        <div class="col-md-1 visible-md visible-lg sidebar">
-        </div>
-        <div class="col-sm-11">
-          <div class="footerquestion">Please <a href="/support/">support</a> my work!</div>
-        </div>
-      </div>
-
-      <a href="#" class="back-to-top"><i class="fa fa-angle-double-up fa-2x"></i></a>
-
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <div class="row">
+      <div class="col-xs-12 bottom-pad">
+      </div>
+    </div>
 
-    <script>
-            jQuery(document).ready(function() {
-                var offset = 500;
-                var duration = 250;
-                jQuery(window).scroll(function() {
-                    if (jQuery(this).scrollTop() > offset) {
-                        jQuery('.back-to-top').fadeIn(duration);
-                    } else {
-                        jQuery('.back-to-top').fadeOut(duration);
-                    }
-                });
-                jQuery('.back-to-top').click(function(event) {
-                    event.preventDefault();
-                    jQuery('html, body').animate({scrollTop: 0}, duration);
-                    return false;
-                })
-            });
-    </script>
+    <div class="row">
+      <div class="col-md-1 visible-md visible-lg sidebar">
+      </div>
+      <div class="col-sm-11">
+        <a href="https://twitter.com/GregKapfhammer"><i class="fa fa-twitter fa-2x"></i></a> &nbsp;
+        <a href="https://www.linkedin.com/in/GregKapfhammer"><i class="fa fa-linkedin fa-2x"></i></a> &nbsp;
+        <a href="https://github.com/gkapfham"><i class="fa fa-github fa-2x"></i></a> &nbsp;
+        <a href="https://scholar.google.com/citations?user=g0eDPjYAAAAJ"><i class="fa fa-google fa-2x"></i></a> &nbsp;
+        <a href="https://www.instagram.com/gregkapfhammer/"><i class="fa fa-instagram fa-2x"></i></a> &nbsp;
+        <a href="/feed/"><i class="fa fa-rss fa-2x"></i></a> &nbsp;
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1 visible-md visible-lg sidebar">
+      </div>
+      <div class="col-sm-11">
+        <div class="footerquestion">Please <a href="/support/">support</a> my work!</div>
+      </div>
+    </div>
 
-  </body>
+    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up fa-2x"></i></a>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+
+  <script>
+    jQuery(document).ready(function() {
+      var offset = 500;
+      var duration = 250;
+      jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+          jQuery('.back-to-top').fadeIn(duration);
+        } else {
+          jQuery('.back-to-top').fadeOut(duration);
+        }
+      });
+      jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({
+          scrollTop: 0
+        }, duration);
+        return false;
+      })
+    });
+  </script>
+
+</body>
 
 </html>
