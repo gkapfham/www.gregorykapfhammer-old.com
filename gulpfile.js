@@ -68,7 +68,7 @@ gulp.task('fullserve', function(cb) {
     env.JEKYLL_ENV = 'production';
     options.env = env;
   }
-  var jekyll = spawn('jekyll', ['serve', '--watch'], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
