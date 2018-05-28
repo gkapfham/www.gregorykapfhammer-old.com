@@ -16,6 +16,7 @@
     "gulp-htmlmin": "^4.0.0",
     "gulp-postcss": "^7.0.1",
     "gulp-rsync": "0.0.8",
+    "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8"
   },
