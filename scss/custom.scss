@@ -135,6 +135,28 @@ $navbar-dark-toggler-border-color: $gray-600;
 
 // }}}
 
+// Dropdowns {{{
+
+$component-active-color: $gray-200;
+$component-active-bg: $primary;
+
+$dropdown-min-width:                10rem !default;
+$dropdown-padding-y:                .5rem !default;
+$dropdown-spacer:                   .125rem !default;
+$dropdown-bg:                       $black !default;
+$dropdown-border-color:             rgba($black, .85) !default;
+$dropdown-divider-bg:               $gray-200 !default;
+$dropdown-box-shadow:               0 .5rem 1rem rgba($black, .175) !default;
+
+$dropdown-link-color:               $gray-600 !default;
+$dropdown-link-hover-color:         darken($gray-800, 5%) !default;
+$dropdown-link-hover-bg:            $gray-800 !default;
+
+$dropdown-link-active-color:        $component-active-color !default;
+$dropdown-link-active-bg:           $component-active-bg !default;
+
+// }}}
+
 // Headings {{{
 
 // Define the color for all of the headings
