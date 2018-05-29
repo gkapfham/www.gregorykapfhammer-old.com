@@ -154,15 +154,16 @@ $body-color: $gray-400;
 body {
   min-height:  75rem;
   padding-top: 4.25rem;
+  word-wrap: break-word;
 }
 
 // }}}
 
 // Links {{{
 
-$link-color:            theme-color("primary") !default;
+$link-color:            $primary;
 $link-decoration:       none !default;
-$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-color:      material-color("orange", "700");
 $link-hover-decoration: underline !default;
 
 // }}}
