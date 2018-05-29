@@ -71,7 +71,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab"
 $font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 // Assume the base font size is 16px and define the base font to be 18 px or 18 / 16 = 1.125rem
-$font-size-base: 1.125rem;
+$font-size-base: 1.5rem;
 
 // Define the font weights for the body text
 $font-weight-light: 300;
@@ -116,20 +116,20 @@ $navbar-dark-toggler-border-color: $gray-600;
 
 // Define the colors for when dropdown is hovered or clicked
 $component-active-color: $gray-200;
-$component-active-bg: $gray-800;
+$component-active-bg:    $gray-800;
 
 // Define the background and border colors for the dropdown menu in the navbar
 $dropdown-bg: $black;
 $dropdown-border-color: rgba($black, 0.85);
 
 // Define the link colors for the dropdown menu in the navbar
-$dropdown-link-color: $gray-500;
+$dropdown-link-color:       $gray-500;
 $dropdown-link-hover-color: $gray-300;
-$dropdown-link-hover-bg: $gray-800;
+$dropdown-link-hover-bg:    $gray-800;
 
 // Define the colors when the links are hovered or clicked
 $dropdown-link-active-color: $component-active-color;
-$dropdown-link-active-bg: $component-active-bg;
+$dropdown-link-active-bg:    $component-active-bg;
 
 // }}}
 
@@ -139,7 +139,7 @@ $dropdown-link-active-bg: $component-active-bg;
 $headings-color: $gray-600;
 
 // Give more spacing to the bottom of headings
-$spacer: 1rem;
+$spacer:                 1rem;
 $headings-margin-bottom: 1.2 * $spacer;
 
 // }}}
@@ -147,14 +147,23 @@ $headings-margin-bottom: 1.2 * $spacer;
 // Body {{{
 
 // Define the background and main text color
-$body-bg: $secondary;
+$body-bg:    $secondary;
 $body-color: $gray-400;
 
 // Push down the main content to accommodate the fixed header
 body {
-  min-height: 75rem;
+  min-height:  75rem;
   padding-top: 4.25rem;
 }
+
+// }}}
+
+// Links {{{
+
+$link-color:            theme-color("primary") !default;
+$link-decoration:       none !default;
+$link-hover-color:      darken($link-color, 15%) !default;
+$link-hover-decoration: underline !default;
 
 // }}}
 
