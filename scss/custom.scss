@@ -106,11 +106,11 @@ $font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe
 $font-size-base: 1.125rem;
 
 // Define the font weights for the body text
-$font-weight-light: 300;
+$font-weight-light:  300;
 $font-weight-normal: 500;
-$font-weight-bold: 700;
-$font-weight-base: $font-weight-normal;
-$line-height-base: 1.5;
+$font-weight-bold:   700;
+$font-weight-base:   $font-weight-normal;
+$line-height-base:   1.5;
 
 // Define all of the header fonts in rem units
 $h1-font-size: 3.375rem;
@@ -130,32 +130,38 @@ $headings-line-height: 1.1;
 // Navbar {{{
 
 // Define the colors for the Navbar
-$navbar-dark-color: $gray-600;
-$navbar-dark-hover-color: $gray-500;
-$navbar-dark-active-color: $gray-600;
+$navbar-dark-color:                $gray-500;
+$navbar-dark-hover-color:          $gray-400;
+$navbar-dark-active-color:         $gray-400;
 $navbar-dark-toggler-border-color: $gray-600;
+
+// Make the Navbar more bold (default is 500)
+.navbar-dark {
+  .nav-link {
+    font-weight: 600;
+  }
+}
 
 // }}}
 
 // Dropdowns {{{
 
+// Define the colors for when dropdown is hovered or clicked
 $component-active-color: $gray-200;
-$component-active-bg: $primary;
+$component-active-bg: $gray-800;
 
-$dropdown-min-width:    10rem !default;
-$dropdown-padding-y:    .5rem !default;
-$dropdown-spacer:       .125rem !default;
-$dropdown-bg:           $black !default;
-$dropdown-border-color: rgba($black, .85) !default;
-$dropdown-divider-bg:   $gray-200 !default;
-$dropdown-box-shadow:   0 .5rem 1rem rgba($black, .175) !default;
+// Define the background and border colors for the dropdown menu in the navbar
+$dropdown-bg:           $black;
+$dropdown-border-color: rgba($black, .85);
 
-$dropdown-link-color:       $gray-600;
+// Define the link colors for the dropdown menu in the navbar
+$dropdown-link-color:       $gray-500;
 $dropdown-link-hover-color: $gray-300;
 $dropdown-link-hover-bg:    $gray-800;
 
-$dropdown-link-active-color:        $component-active-color !default;
-$dropdown-link-active-bg:           $component-active-bg !default;
+// Define the colors when the links are hovered or clicked
+$dropdown-link-active-color: $component-active-color;
+$dropdown-link-active-bg:    $component-active-bg;
 
 // }}}
 
@@ -169,12 +175,12 @@ $headings-color: $gray-600;
 // Body {{{
 
 // Define the background and main text color
-$body-bg: $secondary;
+$body-bg:    $secondary;
 $body-color: $gray-400;
 
 // Push down the main content to accommodate the fixed header
 body {
-  min-height: 75rem;
+  min-height:  75rem;
   padding-top: 4.25rem;
 }
 
