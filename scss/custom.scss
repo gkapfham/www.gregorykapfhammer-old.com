@@ -7,6 +7,7 @@
 // Color System {{{
 
 // Define the grey scale colors
+
 $white:    #fff !default;
 $gray-100: material-color('grey', '100');
 $gray-200: material-color('grey', '200');
@@ -20,8 +21,8 @@ $gray-900: material-color('grey', '900');
 $black:    #000 !default;
 
 // Create the mapping for grey scale colors
-$grays: () !default;
-$grays: map-merge((
+$grays:  () !default;
+$grays:  map-merge((
   "100": $gray-100,
   "200": $gray-200,
   "300": $gray-300,
@@ -34,55 +35,56 @@ $grays: map-merge((
 ), $grays);
 
 // Define the colors
-$blue:    material-color('blue', '800');
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
-$red:     #dc3545 !default;
-$orange:  material-color('orange', '800');
-$yellow:  #ffc107 !default;
-$green:   #28a745 !default;
-$teal:    #20c997 !default;
-$cyan:    #17a2b8 !default;
+
+$blue:   material-color('blue', '800');
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink:   #e83e8c !default;
+$red:    #dc3545 !default;
+$orange: material-color('orange', '800');
+$yellow: #ffc107 !default;
+$green:  #28a745 !default;
+$teal:   #20c997 !default;
+$cyan:   #17a2b8 !default;
 
 // Creating the mapping for the colors
-$colors: () !default;
-$colors: map-merge((
-  "blue":       $blue,
-  "indigo":     $indigo,
-  "purple":     $purple,
-  "pink":       $pink,
-  "red":        $red,
-  "orange":     $orange,
-  "yellow":     $yellow,
-  "green":      $green,
-  "teal":       $teal,
-  "cyan":       $cyan,
-  "white":      $white,
-  "gray":       $gray-600,
-  "gray-dark":  $gray-900
+$colors:       () !default;
+$colors:       map-merge((
+  "blue":      $blue,
+  "indigo":    $indigo,
+  "purple":    $purple,
+  "pink":      $pink,
+  "red":       $red,
+  "orange":    $orange,
+  "yellow":    $yellow,
+  "green":     $green,
+  "teal":      $teal,
+  "cyan":      $cyan,
+  "white":     $white,
+  "gray":      $gray-600,
+  "gray-dark": $gray-900
 ), $colors);
 
 // Define the theme colors
-$primary:       $orange;
-$secondary:     $gray-900;
-$success:       $green !default;
-$info:          $cyan !default;
-$warning:       $yellow !default;
-$danger:        $red !default;
-$light:         $gray-200;
-$dark:          $black;
+$primary:   $orange;
+$secondary: $gray-900;
+$success:   $green !default;
+$info:      $cyan !default;
+$warning:   $yellow !default;
+$danger:    $red !default;
+$light:     $gray-200;
+$dark:      $black;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
-  "primary":    $primary,
-  "secondary":  $secondary,
-  "success":    $success,
-  "info":       $info,
-  "warning":    $warning,
-  "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark
+  "primary":   $primary,
+  "secondary": $secondary,
+  "success":   $success,
+  "info":      $info,
+  "warning":   $warning,
+  "danger":    $danger,
+  "light":     $light,
+  "dark":      $dark
 ), $theme-colors);
 
 // }}}
@@ -140,17 +142,17 @@ $navbar-dark-toggler-border-color: $gray-600;
 $component-active-color: $gray-200;
 $component-active-bg: $primary;
 
-$dropdown-min-width:                10rem !default;
-$dropdown-padding-y:                .5rem !default;
-$dropdown-spacer:                   .125rem !default;
-$dropdown-bg:                       $black !default;
-$dropdown-border-color:             rgba($black, .85) !default;
-$dropdown-divider-bg:               $gray-200 !default;
-$dropdown-box-shadow:               0 .5rem 1rem rgba($black, .175) !default;
+$dropdown-min-width:    10rem !default;
+$dropdown-padding-y:    .5rem !default;
+$dropdown-spacer:       .125rem !default;
+$dropdown-bg:           $black !default;
+$dropdown-border-color: rgba($black, .85) !default;
+$dropdown-divider-bg:   $gray-200 !default;
+$dropdown-box-shadow:   0 .5rem 1rem rgba($black, .175) !default;
 
-$dropdown-link-color:               $gray-600 !default;
-$dropdown-link-hover-color:         darken($gray-800, 5%) !default;
-$dropdown-link-hover-bg:            $gray-800 !default;
+$dropdown-link-color:       $gray-600;
+$dropdown-link-hover-color: $gray-300;
+$dropdown-link-hover-bg:    $gray-800;
 
 $dropdown-link-active-color:        $component-active-color !default;
 $dropdown-link-active-bg:           $component-active-bg !default;
