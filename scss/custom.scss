@@ -190,6 +190,18 @@ body {
 
 // }}}
 
+// Footer {{{
+
+footer {
+  background-color: material-color('deep-orange', '900');
+  margin-top: 1rem;
+  a {
+    color: $secondary;
+  }
+}
+
+// }}}
+
 // Import all of Bootstrap {{{
 
 @import "node_modules/bootstrap/scss/bootstrap";
