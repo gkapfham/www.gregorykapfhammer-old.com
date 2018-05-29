@@ -170,6 +170,10 @@ $dropdown-link-active-bg:    $component-active-bg;
 // Define the color for all of the headings
 $headings-color: $gray-600;
 
+// Give more spacing to the bottom of headings
+$spacer: 1rem;
+$headings-margin-bottom: 1.2 * $spacer;
+
 // }}}
 
 // Body {{{
