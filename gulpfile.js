@@ -31,7 +31,7 @@ var RECURSIVE = "-ro";
 // TASK: Generate the CSS files from the Sassy CSS files
 
 gulp.task('sass', function() {
-    return gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', 'scss/*.scss'])
+    return gulp.src(['scss/*.scss'])
         .pipe(sass())
         .pipe(gulp.dest("css/"));
 });
