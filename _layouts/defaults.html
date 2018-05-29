@@ -16,8 +16,7 @@
   <!-- Define the description of the page if specified -->
   {% if page.description %}
   <meta name="description" content="{{page.description | xml_escape | markdownify | strip_html}}"> {% else %}
-  <meta name="description" content="{{site.description}}">
-  {% endif %}
+  <meta name="description" content="{{site.description}}"> {% endif %}
 
   <!-- Include the code that loads all of the required CSS and JavaScript -->
   {% include _headers/head_load.html %}
@@ -36,21 +35,21 @@
 
     <div class="row">
       <!-- Padding on the left -->
-      <div class="col-md-1 visible-md visible-lg sidebar">
+      <div class="col-md-1">
       </div>
       <!-- Main content -->
       <div class="col-md-10">
         {{ content }}
       </div>
       <!-- Padding on the right -->
-      <div class="col-md-1 visible-md visible-lg sidebar">
+      <div class="col-md-1">
       </div>
     </div>
 
-  </div>
+    <!-- Include the code that loads all of the required CSS and JavaScript -->
+    {% include _footers/default_footer.html %}
 
-  <!-- Include the code that loads all of the required CSS and JavaScript -->
-  {% include _footers/default_footer.html %}
+  </div>
 
   <!-- Include all of the JavaScript libraries -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
