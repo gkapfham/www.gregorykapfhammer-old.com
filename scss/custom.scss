@@ -157,9 +157,10 @@ body {
   min-height: 75rem;
   padding-top: 4.25rem;
   word-wrap: break-word;
+
   // Make spacing on the right for the social media icons
   a.social {
-    margin-right: .5 * $spacer;
+    margin-right: 0.5 * $spacer;
   }
 }
 
@@ -234,5 +235,10 @@ $link-hover-decoration: underline;
 // Import all of Bootstrap {{{
 
 @import "node_modules/bootstrap/scss/bootstrap";
+
+// }}}
+
+// Page Zooming {{{
+
 
 // }}}
