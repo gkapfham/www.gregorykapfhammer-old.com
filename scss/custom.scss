@@ -19,6 +19,7 @@ $gray-800: material-color('grey', '800');
 $gray-900: material-color('grey', '900');
 $black:    #000 !default;
 
+// Create the mapping for grey scale colors
 $grays: () !default;
 $grays: map-merge((
   "100": $gray-100,
@@ -44,6 +45,7 @@ $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
+// Creating the mapping for the colors
 $colors: () !default;
 $colors: map-merge((
   "blue":       $blue,
@@ -58,7 +60,7 @@ $colors: map-merge((
   "cyan":       $cyan,
   "white":      $white,
   "gray":       $gray-600,
-  "gray-dark":  $gray-800
+  "gray-dark":  $gray-900
 ), $colors);
 
 // Define the theme colors
@@ -69,7 +71,7 @@ $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-200;
-$dark:          $gray-800;
+$dark:          $black;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
@@ -103,14 +105,14 @@ $font-size-base: 1.125rem;
 
 // Define the font weights for the body text
 $font-weight-light: 300;
-$font-weight-normal: 600;
+$font-weight-normal: 500;
 $font-weight-bold: 700;
 $font-weight-base: $font-weight-normal;
 $line-height-base: 1.5;
 
 // Define all of the header fonts in rem units
 $h1-font-size: 3.375rem;
-$h2-font-size: 1.75rem;
+$h2-font-size: 2.375rem;
 $h3-font-size: 1.5rem;
 $h4-font-size: 1.25rem;
 $h5-font-size: 1rem;
@@ -149,7 +151,7 @@ $body-color: $gray-400;
 // Push down the main content to accommodate the fixed header
 body {
   min-height: 75rem;
-  padding-top: 4.5rem;
+  padding-top: 4.25rem;
 }
 
 // }}}
