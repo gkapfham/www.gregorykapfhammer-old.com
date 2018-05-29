@@ -5,7 +5,7 @@ layout: defaults
 
 # {{page.title}}
 
-<a title="Color Test #4a" href="http://flickr.com/photos/multichrome/7029911579"><img class="img-responsive-tight" src="http://farm8.static.flickr.com/7280/7029911579_0ddd6e8352_z.jpg" /></a><br /><small><a title="Color Test #4a" href="http://flickr.com/photos/multichrome/7029911579">flickr photo</a> shared by <a href="http://flickr.com/people/multichrome">/Casper</a> under a <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND) license</a> </small>
+<a title="Color Test #4a" href="http://flickr.com/photos/multichrome/7029911579"><img class="img-fluid" src="http://farm8.static.flickr.com/7280/7029911579_0ddd6e8352_z.jpg" /></a><br /><small><a title="Color Test #4a" href="http://flickr.com/photos/multichrome/7029911579">flickr photo</a> shared by <a href="http://flickr.com/people/multichrome">/Casper</a> under a <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND) license</a> </small>
 
 {% describe %}
 As an experimental computer scientist, the goal of my research is to design, implement, and rigorously evaluate

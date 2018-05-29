@@ -6,7 +6,7 @@ description: In addition to editing volumes of journals, my colleagues and stude
 
 # {{ page.title }}
 
-<a title="window detail bethlemi" href="https://flickr.com/photos/56938735@N03/10600355815"><img class="img-responsive-tight" src="https://farm3.static.flickr.com/2873/10600355815_18896130aa_z.jpg" /></a><br /><small><a title="window detail bethlemi" href="https://flickr.com/photos/56938735@N03/10600355815">flickr photo</a> by <a href="https://flickr.com/people/56938735@N03">rost8668</a> shared under a <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC (BY-SA) license</a> </small>
+<a title="window detail bethlemi" href="https://flickr.com/photos/56938735@N03/10600355815"><img class="img-fluid" src="https://farm3.static.flickr.com/2873/10600355815_18896130aa_z.jpg" /></a><br /><small><a title="window detail bethlemi" href="https://flickr.com/photos/56938735@N03/10600355815">flickr photo</a> by <a href="https://flickr.com/people/56938735@N03">rost8668</a> shared under a <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC (BY-SA) license</a> </small>
 
 {% comment %} display all of the research papers that are not edited volumes and published conference or journal papers {% endcomment %}
 ## Research Papers
