@@ -31,12 +31,12 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
-$blue:    material-color('cyan', '400');
+$blue:    material-color('blue', '800');
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
 $red:     #dc3545 !default;
-$orange: material-color('orange', '900');
+$orange:  material-color('orange', '900');
 $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
@@ -60,13 +60,13 @@ $colors: map-merge((
 ), $colors);
 
 $primary:       $orange;
-$secondary:     $gray-900 !default;
+$secondary:     $gray-900;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-800 !default;
+$light:         $gray-200;
+$dark:          $gray-800;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
@@ -122,14 +122,23 @@ $h6-font-size: 0.75rem;
 
 // Make the heading font be more bold
 
-$headings-font-weight: 600 !default;
+$headings-font-weight: 500 !default;
+
+// }}}
+
+// Navbar {{{
+
+$navbar-dark-color: $gray-400;
+$navbar-dark-hover-color: $gray-300;
+$navbar-dark-active-color: $gray-400;
+$navbar-dark-toggler-border-color: $gray-400;
 
 // }}}
 
 // Body {{{
 
-$body-bg: $gray-700;
-$body-color: $gray-200;
+$body-bg: $secondary;
+$body-color: $gray-600;
 
 // }}}
 
