@@ -117,20 +117,20 @@ $navbar-dark-toggler-border-color: $gray-600;
 
 // Define the colors for when dropdown is hovered or clicked
 $component-active-color: $gray-200;
-$component-active-bg:    $gray-800;
+$component-active-bg: $gray-800;
 
 // Define the background and border colors for the dropdown menu in the navbar
 $dropdown-bg: $black;
 $dropdown-border-color: rgba($black, 0.85);
 
 // Define the link colors for the dropdown menu in the navbar
-$dropdown-link-color:       $gray-500;
+$dropdown-link-color: $gray-500;
 $dropdown-link-hover-color: $gray-300;
-$dropdown-link-hover-bg:    $gray-800;
+$dropdown-link-hover-bg: $gray-800;
 
 // Define the colors when the links are hovered or clicked
 $dropdown-link-active-color: $component-active-color;
-$dropdown-link-active-bg:    $component-active-bg;
+$dropdown-link-active-bg: $component-active-bg;
 
 // }}}
 
@@ -140,7 +140,7 @@ $dropdown-link-active-bg:    $component-active-bg;
 $headings-color: $gray-600;
 
 // Give more spacing to the bottom of headings
-$spacer:                 1rem;
+$spacer: 1rem;
 $headings-margin-bottom: 1.2 * $spacer;
 
 // }}}
@@ -148,24 +148,29 @@ $headings-margin-bottom: 1.2 * $spacer;
 // Body {{{
 
 // Define the background and main text color
-$body-bg:    $secondary;
+$body-bg: $secondary;
 $body-color: $gray-400;
 
-// Push down the main content to accommodate the fixed header
+// Define non-Bootstrap rules for body elements
 body {
-  min-height:  75rem;
+  // Push down the main content to accommodate the fixed header
+  min-height: 75rem;
   padding-top: 4.25rem;
   word-wrap: break-word;
+  // Make spacing on the right for the social media icons
+  a.social {
+    margin-right: .5 * $spacer;
+  }
 }
 
 // }}}
 
 // Links {{{
 
-$link-color:            $primary;
-$link-decoration:       none !default;
-$link-hover-color:      material-color("orange", "700");
-$link-hover-decoration: underline !default;
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-color: material-color("orange", "700");
+$link-hover-decoration: underline;
 
 // }}}
 
