@@ -1,4 +1,4 @@
-// Material Design Colors {{{
+// Import the Material Design Colors {{{
 
 @import 'node_modules/sass-material-colors/sass/sass-material-colors';
 
@@ -38,7 +38,7 @@ $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
 $red:     #dc3545 !default;
-$orange:  material-color('orange', '900');
+$orange:  material-color('orange', '800');
 $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
