@@ -6,16 +6,16 @@
 
 // Color System {{{
 
-default$white:    #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #6c757d !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
+$white:    #fff !default;
+$gray-100: material-color('grey', '100');
+$gray-200: material-color('grey', '200');
+$gray-300: material-color('grey', '300');
+$gray-400: material-color('grey', '400');
+$gray-500: material-color('grey', '500');
+$gray-600: material-color('grey', '600');
+$gray-700: material-color('grey', '700');
+$gray-800: material-color('grey', '800');
+$gray-900: material-color('grey', '900');
 $black:    #000 !default;
 
 $grays: () !default;
@@ -36,7 +36,7 @@ $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
 $red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
+$orange: material-color('orange', '900');
 $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
@@ -59,8 +59,8 @@ $colors: map-merge((
   "gray-dark":  $gray-800
 ), $colors);
 
-$primary:       $blue !default;
-$secondary:     $gray-600 !default;
+$primary:       $orange;
+$secondary:     $gray-900 !default;
 $success:       $green !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
@@ -99,6 +99,14 @@ $font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe
 
 $font-size-base: 1.125rem;
 
+// Define the font weights for the body text
+
+$font-weight-light: 300;
+$font-weight-normal: 600;
+$font-weight-bold: 700;
+$font-weight-base: $font-weight-normal;
+$line-height-base: 1.5;
+
 // Define the main font for all of the headings
 
 $headings-font-family: "Roboto Slab";
@@ -115,6 +123,13 @@ $h6-font-size: 0.75rem;
 // Make the heading font be more bold
 
 $headings-font-weight: 600 !default;
+
+// }}}
+
+// Body {{{
+
+$body-bg: $gray-700;
+$body-color: $gray-200;
 
 // }}}
 
