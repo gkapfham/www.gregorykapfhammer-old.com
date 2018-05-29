@@ -6,6 +6,7 @@
 
 // Color System {{{
 
+// Define the grey scale colors
 $white:    #fff !default;
 $gray-100: material-color('grey', '100');
 $gray-200: material-color('grey', '200');
@@ -31,6 +32,7 @@ $grays: map-merge((
   "900": $gray-900
 ), $grays);
 
+// Define the colors
 $blue:    material-color('blue', '800');
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
@@ -59,6 +61,7 @@ $colors: map-merge((
   "gray-dark":  $gray-800
 ), $colors);
 
+// Define the theme colors
 $primary:       $orange;
 $secondary:     $gray-900;
 $success:       $green !default;
@@ -84,6 +87,7 @@ $theme-colors: map-merge((
 
 // Fonts {{{
 
+// Use fonts from Google Web Fonts
 $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" !default;
 @import url($web-font-path);
 
@@ -92,27 +96,19 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab"
 // Typography {{{
 
 // Define fonts from Google, also using platform fallback fonts
-
 $font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
 // Assume the base font size is 16px and define the base font to be 18 px or 18 / 16 = 1.125rem
-
 $font-size-base: 1.125rem;
 
 // Define the font weights for the body text
-
 $font-weight-light: 300;
 $font-weight-normal: 600;
 $font-weight-bold: 700;
 $font-weight-base: $font-weight-normal;
 $line-height-base: 1.5;
 
-// Define the main font for all of the headings
-
-$headings-font-family: "Roboto Slab";
-
 // Define all of the header fonts in rem units
-
 $h1-font-size: 3.375rem;
 $h2-font-size: 1.75rem;
 $h3-font-size: 1.5rem;
@@ -120,14 +116,16 @@ $h4-font-size: 1.25rem;
 $h5-font-size: 1rem;
 $h6-font-size: 0.75rem;
 
-// Make the heading font be more bold
-
-$headings-font-weight: 500 !default;
+// Define the main font for all of the headings
+$headings-font-family: "Roboto Slab";
+$headings-font-weight: 500;
+$headings-line-height: 1.1;
 
 // }}}
 
 // Navbar {{{
 
+// Define the colors for the Navbar
 $navbar-dark-color: $gray-400;
 $navbar-dark-hover-color: $gray-300;
 $navbar-dark-active-color: $gray-400;
