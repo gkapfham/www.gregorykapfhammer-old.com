@@ -133,11 +133,18 @@ $navbar-dark-toggler-border-color: $gray-400;
 
 // }}}
 
+// Headings {{{
+
+// Define the color for all of the headings
+$headings-color: $gray-600;
+
+// }}}
+
 // Body {{{
 
-// Define the background and main font color
+// Define the background and main text color
 $body-bg: $secondary;
-$body-color: $gray-600;
+$body-color: $gray-400;
 
 // Push down the main content to accommodate the fixed header
 body {
