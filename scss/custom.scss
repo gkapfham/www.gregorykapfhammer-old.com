@@ -61,6 +61,7 @@ $theme-colors: map-merge(("primary": $primary, "secondary": $secondary, "success
 // Use fonts from Google Web Fonts
 $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" !default;
 
+// Load these fonts through CSS, no HTML changes are needed
 @import url($web-font-path);
 
 // }}}
