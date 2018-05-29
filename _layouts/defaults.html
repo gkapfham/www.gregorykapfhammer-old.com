@@ -22,9 +22,6 @@
   <!-- Include the code that loads all of the required CSS and JavaScript -->
   {% include _headers/head_load.html %}
 
-  <!-- Include the code that loads the JavaScript to implement page-top-zooming -->
-  {% include _headers/head_zoom.html %}
-
   <!-- Load in all of the Google analytics code if Jekyll runs in production mode -->
   {% if jekyll.environment == 'production' %} {% include _headers/analytics.html %} {% endif %}
 </head>
@@ -50,35 +47,9 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-xs-12 bottom-pad">
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-1 visible-md visible-lg sidebar">
-      </div>
-      <div class="col-sm-11">
-        <a href="https://twitter.com/GregKapfhammer"><i class="fa fa-twitter fa-2x"></i></a> &nbsp;
-        <a href="https://www.linkedin.com/in/GregKapfhammer"><i class="fa fa-linkedin fa-2x"></i></a> &nbsp;
-        <a href="https://github.com/gkapfham"><i class="fa fa-github fa-2x"></i></a> &nbsp;
-        <a href="https://scholar.google.com/citations?user=g0eDPjYAAAAJ"><i class="fa fa-google fa-2x"></i></a> &nbsp;
-        <a href="https://www.instagram.com/gregkapfhammer/"><i class="fa fa-instagram fa-2x"></i></a> &nbsp;
-        <a href="/feed/"><i class="fa fa-rss fa-2x"></i></a> &nbsp;
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-1 visible-md visible-lg sidebar">
-      </div>
-      <div class="col-sm-11">
-        <div class="footerquestion">Please <a href="/support/">support</a> my work!</div>
-      </div>
-    </div>
-
-    <a href="#" class="back-to-top"><i class="fa fa-angle-double-up fa-2x"></i></a>
-
   </div>
 
+  <!-- Include all of the JavaScript libraries -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
