@@ -135,8 +135,15 @@ $navbar-dark-toggler-border-color: $gray-400;
 
 // Body {{{
 
+// Define the background and main font color
 $body-bg: $secondary;
 $body-color: $gray-600;
+
+// Push down the main content to accommodate the fixed header
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
 
 // }}}
 
