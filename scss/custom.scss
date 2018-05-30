@@ -209,10 +209,31 @@ $link-hover-decoration: underline;
 // Buttons {{{
 
 body {
+
   .btn {
-    color: gray-400;
+    color: $gray-400;
     font-size: 1rem;
   }
+
+  .btn-info.disabled, .btn-info:disabled {
+    color: $gray-200;
+    background-color: $blue;
+    border-color: $blue;
+    box-shadow: 0 0 0 0rem;
+  }
+
+  .btn-info:not(:disabled):not(.disabled):active,
+  .btn-info:not(:disabled):not(.disabled).active,
+  .show > .btn-info.dropdown-toggle {
+    color: $gray-200;
+    background-color: $blue;
+    border-color: $blue;
+  }
+
+  .btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-info.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0rem; }
+
 }
 
 // }}}
