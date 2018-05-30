@@ -104,6 +104,8 @@ $font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe
 
 // Assume the base font size is 16px and define the base font to be 18 px or 18 / 16 = 1.125rem
 $font-size-base: 1.275rem;
+$font-size-lg:   ($font-size-base * 1.275);
+$font-size-sm:   ($font-size-base * .875);
 
 // Define the font weights for the body text
 $font-weight-light: 300;
@@ -209,7 +211,6 @@ $link-hover-decoration: underline;
 // Buttons {{{
 
 body {
-
   // Make the buttons have a smaller font than 16px (i.e., 1rem)
   .btn {
     color: $gray-300;
@@ -237,8 +238,21 @@ body {
   .btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
   .show > .btn-info.dropdown-toggle:focus {
   box-shadow: 0 0 0 0rem; }
-
 }
+
+// }}}
+
+// Popovers {{{
+
+$popover-font-size:    $font-size-sm !default;
+$popover-bg:           material-color('blue', '800');
+$popover-max-width:    276px !default;
+$popover-border-color: rgba($black, .2) !default;
+
+$popover-header-bg:    darken($popover-bg, 3%) !default;
+$popover-header-color: $headings-color !default;
+
+$popover-body-color: material-color('blue', '700');
 
 // }}}
 
