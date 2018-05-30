@@ -13,6 +13,9 @@ layout: defaults
   CC (BY-NC-ND)
 </button>
 
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="7029911579_0ddd6e8352_z.jpg" label="CC (BY-NC-ND)" %}
+
 {% describe %}
 As an experimental computer scientist, the goal of my research is to design, implement, and rigorously evaluate
 techniques and tools that support the creation of useful, dependable, and efficient software. My
