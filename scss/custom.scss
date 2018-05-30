@@ -240,5 +240,12 @@ $link-hover-decoration: underline;
 
 // Page Zooming {{{
 
+a.major:target {
+  outline: 0;
+  border-bottom: 2px solid currentColor;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
 
 // }}}
