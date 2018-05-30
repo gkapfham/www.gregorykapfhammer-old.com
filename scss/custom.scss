@@ -208,6 +208,12 @@ $link-hover-decoration: underline;
 
 // Buttons {{{
 
+body {
+  .btn {
+    color: gray-400;
+    font-size: 1rem;
+  }
+}
 
 // }}}
 
