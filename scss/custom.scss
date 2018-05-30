@@ -22,10 +22,19 @@ $black: #000 !default;
 
 // Create the mapping for grey scale colors
 $grays: () !default;
-$grays: map-merge(("100": $gray-100, "200": $gray-200, "300": $gray-300, "400": $gray-400, "500": $gray-500, "600": $gray-600, "700": $gray-700, "800": $gray-800, "900": $gray-900), $grays);
+$grays: map-merge((
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+), $grays);
 
 // Define the colors
-
 $blue:   material-color("blue", "800");
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
@@ -37,9 +46,22 @@ $green:  #28a745 !default;
 $teal:   #20c997 !default;
 $cyan:   #17a2b8 !default;
 
-// Creating the mapping for the colors
-$colors: () !default;
-$colors: map-merge(("blue": $blue, "indigo": $indigo, "purple": $purple, "pink": $pink, "red": $red, "orange": $orange, "yellow": $yellow, "green": $green, "teal": $teal, "cyan": $cyan, "white": $white, "gray": $gray-600, "gray-dark": $gray-900), $colors);
+$colors:       () !default;
+$colors:       map-merge((
+  "blue":      $blue,
+  "indigo":    $indigo,
+  "purple":    $purple,
+  "pink":      $pink,
+  "red":       $red,
+  "orange":    $orange,
+  "yellow":    $yellow,
+  "green":     $green,
+  "teal":      $teal,
+  "cyan":      $cyan,
+  "white":     $white,
+  "gray":      $gray-600,
+  "gray-dark": $gray-800
+), $colors);
 
 // Define the theme colors
 $primary:   $orange;
@@ -52,7 +74,16 @@ $light:     $gray-200;
 $dark:      $black;
 
 $theme-colors: () !default;
-$theme-colors: map-merge(("primary": $primary, "secondary": $secondary, "success": $success, "info": $info, "warning": $warning, "danger": $danger, "light": $light, "dark": $dark), $theme-colors);
+$theme-colors: map-merge((
+  "primary":   $primary,
+  "secondary": $secondary,
+  "success":   $success,
+  "info":      $info,
+  "warning":   $warning,
+  "danger":    $danger,
+  "light":     $light,
+  "dark":      $dark
+), $theme-colors);
 
 // }}}
 
