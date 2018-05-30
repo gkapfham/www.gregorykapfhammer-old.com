@@ -259,8 +259,10 @@ $popover-body-color:   $gray-300;
 $popover-border-color: rgba($black, .2);
 
 // Make the links brighter and the divider more evident
+// Use an header font that is like the body text
 body{
   .popover-header {
+    font-family: $font-family-sans-serif;
     border-bottom: 1px solid material-color('blue', '900');
   }
   .popover {
