@@ -238,6 +238,24 @@ body {
   .btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
   .show > .btn-info.dropdown-toggle:focus {
   box-shadow: 0 0 0 0rem; }
+
+  // Change the color and styling of the "Success" buttons
+  .btn-success:not(:disabled):not(.disabled):active,
+  .btn-success:not(:disabled):not(.disabled).active, .show >
+  .btn-success.dropdown-toggle {
+    color: $gray-300;
+    background-color: $blue;
+    border-color: $blue;
+    box-shadow: 0 0 0 0rem;
+    line-height: 0rem;
+    padding: 0.01rem 0.25rem;
+  }
+
+  // Do not display a box shadow (it looks like a button border) for the "Success" buttons
+  .btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-info.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0rem; }
+
 }
 
 // }}}
