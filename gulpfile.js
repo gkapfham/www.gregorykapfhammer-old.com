@@ -29,7 +29,6 @@ var EXCLUDE_OBONHAMCARTER = '--exclude=obonhamcarter';
 var RECURSIVE = "-ro";
 
 // TASK: Generate the CSS files from the Sassy CSS files
-
 gulp.task('sass', function() {
     return gulp.src(['scss/*.scss'])
         .pipe(sass())
