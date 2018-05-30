@@ -206,6 +206,29 @@ $link-hover-decoration: underline;
 
 // }}}
 
+// Buttons {{{
+
+
+// }}}
+
+// Import all of Bootstrap {{{
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// }}}
+
+// Page Zooming {{{
+
+a.major:target {
+  outline: 0;
+  border-bottom: 2px solid currentColor;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+// }}}
+
 // Twitter {{{
 
 #tw-gkapfham li {
@@ -263,20 +286,3 @@ $link-hover-decoration: underline;
 
 // }}}
 
-// Import all of Bootstrap {{{
-
-@import "node_modules/bootstrap/scss/bootstrap";
-
-// }}}
-
-// Page Zooming {{{
-
-a.major:target {
-  outline: 0;
-  border-bottom: 2px solid currentColor;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-}
-
-// }}}
