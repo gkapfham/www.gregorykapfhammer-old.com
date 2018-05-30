@@ -210,26 +210,30 @@ $link-hover-decoration: underline;
 
 body {
 
+  // Make the buttons have a smaller font than 16px (i.e., 1rem)
   .btn {
-    color: $gray-400;
-    font-size: 1rem;
+    color: $gray-300;
+    font-size: .75rem;
   }
 
+  // Change the color and styling of the "Info" buttons when disabled
   .btn-info.disabled, .btn-info:disabled {
-    color: $gray-200;
+    color: $gray-300;
     background-color: $blue;
     border-color: $blue;
     box-shadow: 0 0 0 0rem;
   }
 
+  // Change the color and styling of the "Info" buttons when active
   .btn-info:not(:disabled):not(.disabled):active,
   .btn-info:not(:disabled):not(.disabled).active,
   .show > .btn-info.dropdown-toggle {
-    color: $gray-200;
+    color: $gray-300;
     background-color: $blue;
     border-color: $blue;
   }
 
+  // Do not display a box shadow (it looks like a button border) for the "Info" buttons
   .btn-info:not(:disabled):not(.disabled):active:focus, .btn-info:not(:disabled):not(.disabled).active:focus,
   .show > .btn-info.dropdown-toggle:focus {
   box-shadow: 0 0 0 0rem; }
