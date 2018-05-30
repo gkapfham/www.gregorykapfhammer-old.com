@@ -5,16 +5,8 @@ layout: defaults
 
 # {{page.title}}
 
-{% comment %} <a title="Color Test #4a" href="http://flickr.com/photos/multichrome/7029911579"><img class="img-fluid" src="http://farm8.static.flickr.com/7280/7029911579_0ddd6e8352_z.jpg" /></a><br /><small><a title="Color Test #4a" href="http://flickr.com/photos/multichrome/7029911579">flickr photo</a> shared by <a href="http://flickr.com/people/multichrome">/Casper</a> under a <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND) license</a> </small> {% endcomment %}
-
-<img class="img-fluid" src="http://farm8.static.flickr.com/7280/7029911579_0ddd6e8352_z.jpg"/>
-
-<button type="button" title="Photo Reference" class="btn btn-info btn-small active" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="right" data-content="<a title='Color Test #4a' target='_blank' href='http://flickr.com/photos/multichrome/7029911579'>flickr photo</a> shared by <a target='_blank' href='http://flickr.com/people/multichrome'>/Casper</a> under a <a target='_blank' href='http://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>">
-  CC (BY-NC-ND)
-</button>
-
 <!-- Include header image -->
-{% include _popovers/image_reference.html image="7029911579_0ddd6e8352_z.jpg" label="CC (BY-NC-ND)" %}
+{% include _popovers/image_reference.html image="7029911579_0ddd6e8352_z.jpg" content="<a title='Color Test #4a' target='_blank' href='http://flickr.com/photos/multichrome/7029911579'>flickr photo</a> shared by <a target='_blank' href='http://flickr.com/people/multichrome'>/Casper</a> under a <a target='_blank' href='http://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
 As an experimental computer scientist, the goal of my research is to design, implement, and rigorously evaluate
