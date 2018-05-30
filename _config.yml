@@ -3,6 +3,7 @@ title: "Gregory M. Kapfhammer"
 author: "Gregory M. Kapfhammer"
 description: "Associate Professor of Computer Science"
 url: "https://www.gregorykapfhammer.com"
+baseurl: "/"
 twitter:
   username: GregKapfhammer
 social:
