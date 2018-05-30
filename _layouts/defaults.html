@@ -57,14 +57,21 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
 
-  <!-- Enable popovers (which require tooltips) -->
+  <!-- Enable and configure the popovers (which require tooltips) -->
   <script>
+    // Enable the tooltips and popovers
     $(function() {
       $('[data-toggle="tooltip"]').tooltip()
     })
     $(function() {
       $('[data-toggle="popover"]').popover()
     })
+    // Close a popover by a click on the button or the popover
+    $('[data-trigger="manual"]').click(function() {
+        $(this).popover('toggle');
+    }).blur(function() {
+    $(this).popover('hide');
+    });
   </script>
 
 </body>
