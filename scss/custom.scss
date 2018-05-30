@@ -214,7 +214,7 @@ body {
   // Make the buttons have a smaller font than 16px (i.e., 1rem)
   .btn {
     color: $gray-300;
-    font-size: .75rem;
+    font-size: .875rem;
   }
 
   // Change the color and styling of the "Info" buttons when disabled
@@ -251,9 +251,9 @@ $popover-font-size: .875 * $font-size-sm;
 $popover-bg:           material-color('blue', '800');
 $popover-header-bg:    material-color('blue', '800');
 
-// Always use the gray-200 color for the textual content
+// Always use the gray-300 color for the textual content
 $popover-header-color: $gray-300;
-$popover-body-color:   $gray-200;
+$popover-body-color:   $gray-300;
 
 // Define the popover's border to be variant of black
 $popover-border-color: rgba($black, .2);
