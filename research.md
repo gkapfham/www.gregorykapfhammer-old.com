@@ -94,7 +94,3 @@ papers. Moreover, papers like {% cite Kapfhammer2016 %} and {% cite McMinn2016 %
 articulated a research agenda for the field of software engineering. </li> <p>
 
 </ul>
-
-### References
-
-{% bibliography --template bibliography_entry_reference --group_by none --cited %}
