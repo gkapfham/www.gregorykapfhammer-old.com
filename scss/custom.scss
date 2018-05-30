@@ -244,15 +244,31 @@ body {
 
 // Popovers {{{
 
-$popover-font-size:    $font-size-sm !default;
+// Define the font size for popovers
+$popover-font-size: .875 * $font-size-sm;
+
+// Change the background colors for main popover and its header
 $popover-bg:           material-color('blue', '800');
-$popover-max-width:    276px !default;
-$popover-border-color: rgba($black, .2) !default;
+$popover-header-bg:    material-color('blue', '800');
 
-$popover-header-bg:    darken($popover-bg, 3%) !default;
-$popover-header-color: $headings-color !default;
+// Always use the gray-200 color for the textual content
+$popover-header-color: $gray-300;
+$popover-body-color:   $gray-200;
 
-$popover-body-color: material-color('blue', '700');
+// Define the popover's border to be variant of black
+$popover-border-color: rgba($black, .2);
+
+// Make the links brighter and the divider more evident
+body{
+  .popover-header {
+    border-bottom: 1px solid material-color('blue', '900');
+  }
+  .popover {
+    a {
+      color: material-color('amber', '900');
+    }
+  }
+}
 
 // }}}
 
