@@ -3,6 +3,7 @@ title: "Gregory M. Kapfhammer"
 author: "Gregory M. Kapfhammer"
 description: "Associate Professor of Computer Science"
 url: "https://www.gregorykapfhammer.com"
+baseurl: "/"
 twitter:
   username: GregKapfhammer
 social:
@@ -23,7 +24,7 @@ permalink: pretty
 highlighter: rouge
 category-list: [teaching, research]
 plugins: ['jekyll/scholar', 'jekyll-sitemap', 'jekyll-auto-image', 'jekyll-seo-tag']
-exclude: ['Gemfile', 'Gemfile.lock', 'package.json', 'gulpfile.js', 'node_modules', 'tags', 'tags.temp', 'tags.lock', 'README.md', '*.tex', '*.sty', '*.aux', '*.dvi', '*.fls', '*.lof', '*.log', '*.lot', '*.out', '*.toc', '*.fdb_latexmk', '*.synctex.gz', '*.pdfsync', '*.ods', '**/**/**/exams', '**/**/**/logos', '**/**/**/figures', '**/**/**/code', '**/**/**/teams']
+exclude: ['.gitignore', 'Gemfile', 'Gemfile.lock', 'package.json', 'gulpfile.js', 'node_modules', 'scss', 'tags', 'tags.temp', 'tags.lock', 'README.md', '*.tex', '*.sty', '*.aux', '*.dvi', '*.fls', '*.lof', '*.log', '*.lot', '*.out', '*.toc', '*.fdb_latexmk', '*.synctex.gz', '*.pdfsync', '*.ods', '**/**/**/exams', '**/**/**/logos', '**/**/**/figures', '**/**/**/code', '**/**/**/teams']
 excerpt_separator: <!--more-->
 mapped: false
 header: false

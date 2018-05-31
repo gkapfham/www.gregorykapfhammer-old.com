@@ -1,0 +1,22 @@
+<!-- Include all of the JavaScript libraries -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+
+<!-- Enable and configure the popovers (which require tooltips) -->
+<script>
+  // Enable the tooltips and popovers
+  $(function() {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+  $(function() {
+    $('[data-toggle="popover"]').popover()
+  })
+  // Close a popover by a click on the button or the popover
+  $('[data-trigger="manual"]').click(function() {
+    $(this).popover('toggle');
+  }).blur(function() {
+    $(this).popover('hide');
+  });
+</script>

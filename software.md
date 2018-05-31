@@ -6,7 +6,8 @@ description: In addition to submitting defect reports and sharing replication pa
 
 # {{ page.title }}
 
-<a title="Code" href="http://flickr.com/photos/txmx-2/6145817075"><img class="img-responsive-tight" src="http://farm7.static.flickr.com/6086/6145817075_2536dd7b4c_z.jpg" /></a><br /><small><a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND)</a> <a title="Code" href="http://flickr.com/photos/txmx-2/6145817075">flickr photo</a> shared by <a href="http://flickr.com/people/txmx-2">txmx 2</a></small>
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="6145817075_2536dd7b4c_z.jpg" content="<a title='Code' href='https://flickr.com/photos/txmx-2/6145817075'>flickr photo</a> by <a href='https://flickr.com/people/txmx-2'>txmx 2</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>Creative Commons (BY-NC-ND) license</a> </small>" label="CC (BY-NC-ND)" %}
 
 ## Research Software
 

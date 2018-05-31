@@ -5,7 +5,8 @@ layout: defaults
 
 # {{ page.title }}
 
-<a title="Light bulbs" href="https://flickr.com/photos/126725739@N05/15373329032"><img class="img-responsive-tight" src="https://farm4.static.flickr.com/3931/15373329032_668c8184e9_z.jpg" /></a><br /><small><a title="Light bulbs" href="https://flickr.com/photos/126725739@N05/15373329032">flickr photo</a> shared by <a href="https://flickr.com/people/126725739@N05">peachesh</a> under a <a href="https://creativecommons.org/licenses/by/2.0/">CC (BY) license</a> </small>
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="15373329032_668c8184e9_z.jpg" content="<a title='Light bulbs' href='https://flickr.com/photos/126725739@N05/15373329032'>flickr photo</a> shared by <a href='https://flickr.com/people/126725739@N05'>peachesh</a> under a <a href='https://creativecommons.org/licenses/by/2.0/'>CC (BY) license</a> </small>" label="CC (BY)" %}
 
 ## Subscription
 

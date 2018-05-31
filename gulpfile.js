@@ -2,6 +2,7 @@
 var gulp = require('gulp');
 
 // declare variables for used packages
+var checkPages = require("check-pages");
 var cp = require('child_process');
 var cssnano = require('cssnano');
 var debug = require('gulp-debug');
@@ -10,9 +11,9 @@ var htmlmin = require('gulp-htmlmin');
 var postcss = require('gulp-postcss');
 var pump = require('pump');
 var rsync = require('gulp-rsync');
+var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
-var checkPages = require("check-pages");
 
 // read the "--production" environment variable
 var DEPLOY = Boolean(yargs.argv.production);
@@ -26,6 +27,13 @@ var EXCLUDE_AMOHAN = '--exclude=amohan';
 var EXCLUDE_JJUMADINOVA = '--exclude=jjumadinova';
 var EXCLUDE_OBONHAMCARTER = '--exclude=obonhamcarter';
 var RECURSIVE = "-ro";
+
+// TASK: Generate the CSS files from the Sassy CSS files
+gulp.task('sass', function() {
+    return gulp.src(['scss/*.scss'])
+        .pipe(sass())
+        .pipe(gulp.dest("css/"));
+});
 
 // assumes that Jekyll's plugins are managed by bundle
 
@@ -112,7 +120,7 @@ gulp.task(
 // TASK: first build and then run the minifiers in parallel
 gulp.task(
   'minifybuild',
-  gulp.series('build', gulp.parallel('cssminify', 'htmlminify', 'jsminify'))
+  gulp.series('sass', 'build', gulp.parallel('cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: use rsync to deploy the web site to the server

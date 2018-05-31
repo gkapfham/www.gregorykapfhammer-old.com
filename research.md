@@ -5,40 +5,47 @@ layout: defaults
 
 # {{page.title}}
 
-<a title="Color Test #4a" href="http://flickr.com/photos/multichrome/7029911579"><img class="img-responsive-tight" src="http://farm8.static.flickr.com/7280/7029911579_0ddd6e8352_z.jpg" /></a><br /><small><a title="Color Test #4a" href="http://flickr.com/photos/multichrome/7029911579">flickr photo</a> shared by <a href="http://flickr.com/people/multichrome">/Casper</a> under a <a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND) license</a> </small>
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="7029911579_0ddd6e8352_z.jpg" content="<a title='Color Test #4a' target='_blank' href='http://flickr.com/photos/multichrome/7029911579'>flickr photo</a> shared by <a target='_blank' href='http://flickr.com/people/multichrome'>/Casper</a> under a <a target='_blank' href='http://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
-As an experimental computer scientist, the goal of my research is to design, implement, and rigorously evaluate
-techniques and tools that support the creation of useful, dependable, and efficient software. My
-research addresses the challenges within the fields of software engineering, software testing, and computer systems. I
-conduct this research in collaboration with undergraduates at [Allegheny College](http://www.allegheny.edu),
-graduate students and professors at other universities, and colleagues in industry.
+As an experimental computer scientist, the goal of my research is to design,
+implement, and rigorously evaluate techniques and tools that support the
+creation of useful, dependable, and efficient software. My research addresses
+the challenges within the fields of software engineering, software testing, and
+computer systems. I conduct this research in collaboration with undergraduates
+at [Allegheny College](http://www.allegheny.edu), graduate students and
+professors at other universities, and colleagues in industry.
 {% enddescribe %}
 
-My research is empirical in nature because it involves the application of the scientific method to formulate problem
-statements, carry out experiments, take observations, statistically analyze and visualize the data sets, and draw
-conclusions based on the experimental results. Each research project focuses on the development and evaluation of
-[software]({{site.baseurl}}software/) artifacts that can be used in both empirical studies and real-world practice by
-undergraduate and graduate students, software engineers, and computer scientists in both academia and industry. In
-addition to supporting my professional [service]({{site.baseurl}}service/), my research also results in award-winning
-and frequently cited research [papers]({{site.baseurl}}research/papers/), oft-complimented
-[presentations]({{site.baseurl}}research/presentations/), and useful free and open-source
-[software]({{site.baseurl}}software/).
+My research is empirical in nature because it involves the application of the
+scientific method to formulate problem statements, carry out experiments, take
+observations, statistically analyze and visualize the data sets, and draw
+conclusions based on the experimental results. Each research project focuses on
+the development and evaluation of [software]({{site.baseurl}}software/)
+artifacts that can be used in both empirical studies and real-world practice by
+undergraduate and graduate students, software engineers, and computer scientists
+in both academia and industry. In addition to supporting my professional
+[service]({{site.baseurl}}service/), my research also results in award-winning
+and frequently cited research [papers]({{site.baseurl}}research/papers/),
+oft-complimented [presentations]({{site.baseurl}}research/presentations/), and
+useful free and open-source [software]({{site.baseurl}}software/).
 
-My research has concentrated on several important areas, examples of which are summarized in the following list that
-references key papers.
+My research has concentrated on several important areas, examples of which are
+summarized in the following list that references key papers.
 
 <ul class="fa-ul">
 
 <li><i class="fa-li fa fa-arrow-right"></i>
-<a name="Kapfhammer2007d-return"></a>
-<a name="Kapfhammer2003-return"></a>
-<a name="McMinn2016a-return"></a>
-<a name="McMinn2015-return"></a>
-<b>Database Testing:</b> Since the database application is a complex artifact that must be verified, my PhD dissertation
-{% cite Kapfhammer2007d %} presented an approach for testing database applications; a notable paper derived from my
-dissertation is {% cite Kapfhammer2003 %}. My work has also focused on testing the schema of a relational database, with {%
-cite McMinn2016a %} and {% cite McMinn2015 %} being examples of papers.</li> <p>
+<b>Database Testing:</b> Since the database application is a complex artifact
+that must be verified, my PhD dissertation {% include
+_popovers/paper_reference.html cite="Kapfhammer2007d" %} presented an approach
+for testing database applications; a notable paper derived from my dissertation
+is {% include _popovers/paper_reference.html cite="Kapfhammer2003" %}. My work
+has also focused on testing the schema of a relational database, with {% include
+_popovers/paper_reference.html cite="McMinn2016a" %} and {% include
+_popovers/paper_reference.html cite="McMinn2015" %} being examples of
+papers.</li> <p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
 <a name="Walsh2015-return"></a>
@@ -83,7 +90,3 @@ papers. Moreover, papers like {% cite Kapfhammer2016 %} and {% cite McMinn2016 %
 articulated a research agenda for the field of software engineering. </li> <p>
 
 </ul>
-
-### References
-
-{% bibliography --template bibliography_entry_reference --group_by none --cited %}
