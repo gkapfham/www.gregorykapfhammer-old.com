@@ -23,9 +23,16 @@
 
   <!-- Load in all of the Google analytics code if Jekyll runs in production mode -->
   {% if jekyll.environment == 'production' %} {% include _headers/analytics.html %} {% endif %}
+
+    <script>
+      var shiftWindow = function() { scrollBy(0, -50) };
+      window.addEventListener("hashchange", shiftWindow);
+      function load() { if (window.location.hash) shiftWindow(); }
+    </script>
+
 </head>
 
-<body>
+<body onload="load()">
 
   <!-- Define the navigation bar -->
   {% include _headers/navbar.html %}
