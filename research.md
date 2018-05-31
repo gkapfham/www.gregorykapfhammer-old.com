@@ -29,7 +29,6 @@ and frequently cited research [papers]({{site.baseurl}}research/papers/), oft-co
 My research has concentrated on several important areas, examples of which are summarized in the following list that
 references key papers.
 
-
 <ul class="fa-ul">
 
 <li><i class="fa-li fa fa-arrow-right"></i>
