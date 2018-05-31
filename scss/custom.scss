@@ -217,23 +217,6 @@ body {
     font-size: .875rem;
   }
 
-  // // Change the color and styling of the "Info" buttons when disabled
-  // .btn-info.disabled, .btn-info:disabled {
-  //   color: $gray-300;
-  //   background-color: $blue;
-  //   border-color: $blue;
-  //   box-shadow: 0 0 0 0rem;
-  // }
-
-  // // Change the color and styling of the "Info" buttons when active
-  // .btn-info:not(:disabled):not(.disabled):active,
-  // .btn-info:not(:disabled):not(.disabled).active,
-  // .show > .btn-info.dropdown-toggle {
-  //   color: $gray-300;
-  //   background-color: $blue;
-  //   border-color: $blue;
-  // }
-
   // Change the color and styling of the "Info" buttons
   .btn-info:not(:disabled):not(.disabled):active,
   .btn-info:not(:disabled):not(.disabled).active, .show >
