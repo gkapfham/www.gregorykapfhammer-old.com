@@ -43,16 +43,6 @@ _popovers/paper_reference.html cite="McMinn2015" %} being examples of
 papers.</li> <p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
-<a name="Kapfhammer2007d-return"></a>
-<a name="Kapfhammer2003-return"></a>
-<a name="McMinn2016a-return"></a>
-<a name="McMinn2015-return"></a>
-<b>Database Testing:</b> Since the database application is a complex artifact that must be verified, my PhD dissertation
-{% cite Kapfhammer2007d %} presented an approach for testing database applications; a notable paper derived from my
-dissertation is {% cite Kapfhammer2003 %}. My work has also focused on testing the schema of a relational database, with {%
-cite McMinn2016a %} and {% cite McMinn2015 %} being examples of papers.</li> <p>
-
-<li><i class="fa-li fa fa-arrow-right"></i>
 <a name="Walsh2015-return"></a>
 <a name="Walsh2017-return"></a>
 <b>Web Testing:</b> In response to the prevalence and complexity of mobile-ready web sites, my research has developed
