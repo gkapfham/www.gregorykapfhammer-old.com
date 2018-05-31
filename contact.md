@@ -6,9 +6,10 @@ description: I appreciate feedback about my work in the fields of software engin
 
 # {{page.title}}
 
-<a title="Good Night" href="https://flickr.com/photos/ian-arlett/40827242235"><img class="img-responsive-tight" src="https://farm1.static.flickr.com/963/40827242235_b4587375de_z.jpg" /></a><br /><small><a title="Good Night" href="https://flickr.com/photos/ian-arlett/40827242235">flickr photo</a> by <a href="https://flickr.com/people/ian-arlett">Ian D. Keating</a> shared under a <a href="https://creativecommons.org/licenses/by/2.0/">CC (BY) license</a> </small>
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="40827242235_b4587375de_z.jpg" content="<a title='Good Night' href='https://flickr.com/photos/ian-arlett/40827242235'>flickr photo</a> by <a href='https://flickr.com/people/ian-arlett'>Ian D. Keating</a> shared under a <a href='https://creativecommons.org/licenses/by/2.0/'>CC (BY) license</a>" label="CC (BY)" %}
 
-Dr. Gregory M. Kapfhammer <br>
+Gregory M. Kapfhammer, PhD <br>
 Department of Computer Science <br>
 Allegheny College <br>
 Box Q <br>
