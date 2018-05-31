@@ -217,21 +217,31 @@ body {
     font-size: .875rem;
   }
 
-  // Change the color and styling of the "Info" buttons when disabled
-  .btn-info.disabled, .btn-info:disabled {
+  // // Change the color and styling of the "Info" buttons when disabled
+  // .btn-info.disabled, .btn-info:disabled {
+  //   color: $gray-300;
+  //   background-color: $blue;
+  //   border-color: $blue;
+  //   box-shadow: 0 0 0 0rem;
+  // }
+
+  // // Change the color and styling of the "Info" buttons when active
+  // .btn-info:not(:disabled):not(.disabled):active,
+  // .btn-info:not(:disabled):not(.disabled).active,
+  // .show > .btn-info.dropdown-toggle {
+  //   color: $gray-300;
+  //   background-color: $blue;
+  //   border-color: $blue;
+  // }
+
+  // Change the color and styling of the "Info" buttons
+  .btn-info:not(:disabled):not(.disabled):active,
+  .btn-info:not(:disabled):not(.disabled).active, .show >
+  .btn-info.dropdown-toggle {
     color: $gray-300;
     background-color: $blue;
     border-color: $blue;
     box-shadow: 0 0 0 0rem;
-  }
-
-  // Change the color and styling of the "Info" buttons when active
-  .btn-info:not(:disabled):not(.disabled):active,
-  .btn-info:not(:disabled):not(.disabled).active,
-  .show > .btn-info.dropdown-toggle {
-    color: $gray-300;
-    background-color: $blue;
-    border-color: $blue;
   }
 
   // Do not display a box shadow (it looks like a button border) for the "Info" buttons
@@ -254,8 +264,8 @@ body {
   // Do not display a box shadow (it looks like a button border) for the "Success" buttons
   .btn-success:not(:disabled):not(.disabled):active:focus, .btn-success:not(:disabled):not(.disabled).active:focus,
   .show > .btn-info.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0rem; }
-
+    box-shadow: 0 0 0 0rem;
+  }
 }
 
 // }}}
@@ -295,18 +305,6 @@ body{
 // Import all of Bootstrap {{{
 
 @import "node_modules/bootstrap/scss/bootstrap";
-
-// }}}
-
-// Page Zooming {{{
-
-a.major:target {
-  outline: 0;
-  border-bottom: 2px solid currentColor;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-}
 
 // }}}
 
