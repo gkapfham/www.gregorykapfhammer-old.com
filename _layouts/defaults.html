@@ -19,7 +19,7 @@
   <meta name="description" content="{{site.description}}"> {% endif %}
 
   <!-- Include the code that loads all of the required CSS and JavaScript -->
-  {% include _headers/head_load.html %}
+  {% include _headers/head_load.html name=page.title %}
 
   <!-- Load in all of the Google analytics code if Jekyll runs in production mode -->
   {% if jekyll.environment == 'production' %} {% include _headers/analytics.html %} {% endif %}
