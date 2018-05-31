@@ -5,11 +5,12 @@ layout: defaults
 
 # {{ page.title }}
 
-<a title="'Gregory M. Kapfhammer - Computer' - by Tanya Greer" href="{{site.baseurl}}{{page.url | remove_first:'/'}}"><img class="img-responsive-tight" src="{{site.baseurl}}download/images/gregory-kapfhammer-biography-small.jpg" /></a><br /><small><a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">CC (BY-NC-ND)</a> photo shared by <a href="https://www.facebook.com/tkpapinchak">Tanya Greer</a></small>
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="gregory-kapfhammer-biography-small.jpg" content="Photo by <a href='https://www.facebook.com/tkpapinchak'>Tanya Greer</a> shared under a <a href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>CC (BY-NC-ND)</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
-[Gregory M. Kapfhammer]({{site.baseurl}}) is an Associate Professor in and
-Chair of the [Department of Computer Science](http://www.cs.allegheny.edu) at
+[Gregory M. Kapfhammer]({{site.baseurl}}) is an Associate Professor in and Chair
+of the [Department of Computer Science](http://www.cs.allegheny.edu) at
 [Allegheny College](http://www.allegheny.edu). He earned his PhD from the
 [Department of Computer Science](https://cs.pitt.edu) at the [University of
 Pittsburgh](http://www.pitt.edu); his PhD dissertation research was supervised
@@ -17,13 +18,12 @@ by [Mary Lou Soffa](http://www.cs.virginia.edu/~soffa/). Kapfhammer also earned
 a BSc in Computer Science from Allegheny College and a MSc in Computer Science
 from the University of Pittsburgh. Kapfhammer was previously a short-term
 visitor in the [Department of Computer Science](http://www.cs.virginia.edu) at
-the [University of Virginia](http://www.virginia.edu), the [Institute of
-Applied Information Processing](http://iai.mathematik.uni-ulm.de/en/index.html)
-at the [University of Ulm](http://www.uni-ulm.de/en), and the [Department of
-Computer Science](https://www.sheffield.ac.uk/dcs) at the [University of
+the [University of Virginia](http://www.virginia.edu), the [Institute of Applied
+Information Processing](http://iai.mathematik.uni-ulm.de/en/index.html) at the
+[University of Ulm](http://www.uni-ulm.de/en), and the [Department of Computer
+Science](https://www.sheffield.ac.uk/dcs) at the [University of
 Sheffield](http://www.sheffield.ac.uk/). In the past, Gregory Kapfhammer was a
-research associate at Cigital, a software company
-that was acquired by
+research associate at Cigital, a software company that was acquired by
 [Synopsys](https://www.synopsys.com/).
 {% enddescribe %}
 
@@ -45,9 +45,10 @@ pursues research that results in award-winning and frequently cited research
 open-source [software]({{site.baseurl}}software/), and valued
 [service]({{site.baseurl}}/service/) to a variety of organizations.
 
-<a name="Kapfhammer2003-return"></a>
-<a name="Conrad2010a-return"></a>
-<a name="Kapfhammer2016-return"></a>
+{% comment %} <a name="Kapfhammer2003-return"></a> {% endcomment %}
+{% comment %} <a name="Conrad2010a-return"></a> {% endcomment %}
+{% comment %} <a name="Kapfhammer2016-return"></a> {% endcomment %}
+
 The paper {% cite Kapfhammer2003 %} was selected to receive the ACM SIGSOFT
 Distinguished Paper Award at the [2003 ACM SIGSOFT Foundations of Software
 Engineering Conference (ESEC/FSE 2003)](http://esecfse.cs.helsinki.fi/).
@@ -89,6 +90,5 @@ positive impact on the community.
 Take advantage of every opportunity to encourage your students and colleagues.
 Always end a conversation or a meeting with a positive remark.
 
-### References
-
-{% bibliography --template bibliography_entry_reference --group_by none --cited %}
+{% comment %} ### References {% endcomment %}
+{% comment %} {% bibliography --template bibliography_entry_reference --group_by none --cited %} {% endcomment %}
