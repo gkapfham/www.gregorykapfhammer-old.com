@@ -87,7 +87,7 @@ gulp.task('fullserve', function(cb) {
 gulp.task('imageoptimize', () =>
     gulp.src('download/images/*')
         .pipe(imagemin([imagemin.jpegtran({progressive: true}),
-                        imagemin.optipng({optimizationLevel: 10}),]))
+                        imagemin.optipng({optimizationLevel: 7}),]))
         .pipe(gulp.dest('_site/download/images/'))
 );
 
