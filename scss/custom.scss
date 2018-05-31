@@ -107,7 +107,7 @@ $font-size-base: 1.275rem;
 $font-size-lg:   ($font-size-base * 1.275);
 $font-size-sm:   ($font-size-base * .875);
 
-// Define the font weights for the body text
+// Define the font weights for the Body text
 $font-weight-light: 300;
 $font-weight-normal: 500;
 $font-weight-bold: 700;
@@ -136,6 +136,22 @@ $navbar-dark-color: $gray-500;
 $navbar-dark-hover-color: $gray-400;
 $navbar-dark-active-color: $gray-400;
 $navbar-dark-toggler-border-color: $gray-600;
+
+// Define the padding on the navbar to be
+// small than the Bootstrap 4 defaults
+$spacer: 1rem !default;
+$navbar-padding-x: ($spacer/2);
+
+// Define the hamburger menu to be 1em
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
 
 // Make the Navbar more bold (default is 500)
 .navbar-dark {
@@ -195,6 +211,10 @@ body {
   a.social {
     margin-right: 0.5 * $spacer;
   }
+
+  // Force the height to be auto for all pages. This should not be needed, but
+  // if not here then some pages with little content have blank space!
+  min-height: auto !important;
 }
 
 // }}}
