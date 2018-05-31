@@ -19,13 +19,17 @@
   <meta name="description" content="{{site.description}}"> {% endif %}
 
   <!-- Include the code that loads all of the required CSS and JavaScript -->
-  {% include _headers/head_load.html %}
+  {% include _headers/head_load.html name=page.title %}
 
   <!-- Load in all of the Google analytics code if Jekyll runs in production mode -->
   {% if jekyll.environment == 'production' %} {% include _headers/analytics.html %} {% endif %}
+
+  <!-- Include the code that supports zooming to anchors while accounting for fixed header -->
+  {% include _headers/head_zoom.html %}
 </head>
 
-<body>
+<!-- Always call the load() function so that clicking on links to anchors handles the fixed navbar -->
+<body onload="load()">
 
   <!-- Define the navigation bar -->
   {% include _headers/navbar.html %}

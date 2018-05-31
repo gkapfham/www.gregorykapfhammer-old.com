@@ -8,6 +8,7 @@ var cssnano = require('cssnano');
 var debug = require('gulp-debug');
 var del = require('del');
 var htmlmin = require('gulp-htmlmin');
+var imagemin = require('gulp-imagemin');
 var postcss = require('gulp-postcss');
 var pump = require('pump');
 var rsync = require('gulp-rsync');
@@ -82,6 +83,14 @@ gulp.task('fullserve', function(cb) {
   });
 });
 
+// TASK: optimize the images, making them smaller
+gulp.task('imageoptimize', () =>
+    gulp.src('download/images/*')
+        .pipe(imagemin([imagemin.jpegtran({progressive: true}),
+                        imagemin.optipng({optimizationLevel: 7}),]))
+        .pipe(gulp.dest('_site/download/images/'))
+);
+
 // TASK: minify all of the CSS files
 gulp.task('cssminify', function () {
     var plugins = [
@@ -120,7 +129,7 @@ gulp.task(
 // TASK: first build and then run the minifiers in parallel
 gulp.task(
   'minifybuild',
-  gulp.series('sass', 'build', gulp.parallel('cssminify', 'htmlminify', 'jsminify'))
+  gulp.series('sass', 'build', gulp.parallel('imageoptimize', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: use rsync to deploy the web site to the server

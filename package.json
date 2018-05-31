@@ -15,11 +15,16 @@
     "gulp-csso": "^3.0.1",
     "gulp-debug": "^4.0.0",
     "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
     "gulp-postcss": "^7.0.1",
     "gulp-rsync": "0.0.8",
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
+    "imagemin-gifsicle": "^5.2.0",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-optipng": "^5.2.1",
+    "imagemin-svgo": "^6.0.0",
     "sass-material-colors": "0.0.5"
   },
   "scripts": {
