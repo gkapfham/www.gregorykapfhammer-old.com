@@ -36,10 +36,10 @@ release a retrospective in which I report on the key lessons taught by all of
 the interviewees and make suggestions for ways in which educators like me can
 improve their teaching and research.
 
+<a name="seedsurvey"></a>
 Please [contact]({{site.baseurl}}contact/) me with any questions or comments
 that you have about this initiative.
 
-<a name="seedsurvey"></a>
 <form method="POST" action="https://getsimpleform.com/messages?form_api_token=036ec14e0a86e2bf39ae488655d68c50" data-toggle="validator" data-feedback='{"success": "fa-check", "error": "fa-times"}' role="form">
 
   <div class="form-group has-feedback">
