@@ -45,25 +45,25 @@ pursues research that results in award-winning and frequently cited research
 open-source [software]({{site.baseurl}}software/), and valued
 [service]({{site.baseurl}}/service/) to a variety of organizations.
 
-{% comment %} <a name="Kapfhammer2003-return"></a> {% endcomment %}
-{% comment %} <a name="Conrad2010a-return"></a> {% endcomment %}
-{% comment %} <a name="Kapfhammer2016-return"></a> {% endcomment %}
-
-The paper {% cite Kapfhammer2003 %} was selected to receive the ACM SIGSOFT
-Distinguished Paper Award at the [2003 ACM SIGSOFT Foundations of Software
-Engineering Conference (ESEC/FSE 2003)](http://esecfse.cs.helsinki.fi/).
-Gregory Kapfhammer's paper  {% cite Conrad2010a %} was also recognized as the
-best paper in the [Search-Based Software Engineering
-Track](http://www.sigevo.org/gecco-2010/organizers-tracks.html#sbse) of the
-[2010 ACM SIGEVO Genetic and Evolutionary Computation Conference (GECCO
-2010)](http://www.sigevo.org/gecco-2010/). Additionally, Kapfhammer's
-presentation for {% cite Kapfhammer2016 %} won the best presentation award at
-the [2016 International Workshop on Search-Based Software
-Testing](https://cse.sc.edu/~ggay/sbst2016/). He frequently serves the research
-community as a reviewer for conferences and journals, technical program
-committee member, program co-chair for workshops and conferences, workshop
-co-chair and program co-chair, and review panelist at the U.S. National Science
-Foundation.
+<p>
+The paper {% include _popovers/paper_reference.html
+cite="Kapfhammer2003" %} was selected to receive the ACM SIGSOFT
+Distinguished Paper Award at the <a href="http://esecfse.cs.helsinki.fi/">2003
+ACM SIGSOFT Foundations of Software Engineering Conference (ESEC/FSE 2003)</a>.
+Gregory Kapfhammer's paper {% include _popovers/paper_reference.html
+cite="Conrad2010a" %} was also recognized as the best paper in the <a
+href="http://www.sigevo.org/gecco-2010/organizers-tracks.html#sbse">Search-Based
+Software Engineering Track</a> of the <a
+href="http://www.sigevo.org/gecco-2010/">2010 ACM SIGEVO Genetic and
+Evolutionary Computation Conference (GECCO 2010)</a>. Additionally, Kapfhammer's
+presentation for {% include _popovers/paper_reference.html
+cite="Kapfhammer2016" %} won the best presentation award at the <a
+href="https://cse.sc.edu/~ggay/sbst2016/">2016 International Workshop on
+Search-Based Software Testing</a>. He frequently serves the research community
+as a reviewer for conferences and journals, technical program committee member,
+program co-chair for workshops and conferences, workshop co-chair and program
+co-chair, and review panelist at the U.S. National Science Foundation.</p>
+</p>
 
 As an outworking of his Christian faith, Gregory Kapfhammer's endeavors are
 guided by the following professional principles:
@@ -89,6 +89,3 @@ positive impact on the community.
 **Principle 5 (Contagious Joy)**: Pursue everything with passion and enthusiasm.
 Take advantage of every opportunity to encourage your students and colleagues.
 Always end a conversation or a meeting with a positive remark.
-
-{% comment %} ### References {% endcomment %}
-{% comment %} {% bibliography --template bibliography_entry_reference --group_by none --cited %} {% endcomment %}
