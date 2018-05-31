@@ -9,8 +9,11 @@
 <!-- Load the customize CSS file generated from SCSS Bootstrap -->
 <link href="/css/custom.css" rel="stylesheet">
 
+<!-- Load in all of the Google analytics code if Jekyll runs in production mode -->
+{% if include.name == 'Gregory M. Kapfhammer' %}
 <!-- Load the JavaScript for displaying the Twitter feed -->
 <script src="/js/twitterFetcher.js"></script>
+{% endif %}
 
 <!-- Load the 4.0 version of Font Awesome -->
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
