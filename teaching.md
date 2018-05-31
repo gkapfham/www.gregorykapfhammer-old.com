@@ -6,7 +6,8 @@ description: I regularly teach courses in many areas of computer science, always
 
 # {{ page.title }}
 
-<a title="" href="https://flickr.com/photos/foto_olio/11484919766"><img class="img-fluid" src="https://farm8.static.flickr.com/7355/11484919766_33a2c4677f_z.jpg" /></a><br /><small><a title="Untitled" href="https://flickr.com/photos/foto_olio/11484919766">flickr photo</a> by <a href="https://flickr.com/people/foto_olio">Olio</a> shared under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND) license</a> </small>
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="11484919766_33a2c4677f_z.jpg" content="<a title='Untitled' href='https://flickr.com/photos/foto_olio/11484919766'>flickr photo</a> by <a href='https://flickr.com/people/foto_olio'>Olio</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% assign max_id = -34 %}
 {% assign stop_id = 0 %}
