@@ -8,13 +8,13 @@ var cssnano = require('cssnano');
 var debug = require('gulp-debug');
 var del = require('del');
 var htmlmin = require('gulp-htmlmin');
+var imagemin = require('gulp-imagemin');
 var postcss = require('gulp-postcss');
 var pump = require('pump');
 var rsync = require('gulp-rsync');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
-var imagemin = require('gulp-imagemin');
 
 // read the "--production" environment variable
 var DEPLOY = Boolean(yargs.argv.production);
