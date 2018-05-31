@@ -5,7 +5,10 @@ layout: defaults
 
 # {{ page.title }}
 
-<a title="SEED PODS" href="https://flickr.com/photos/meloart/8608133415"><img class="img-responsive-tight" src="https://farm9.static.flickr.com/8541/8608133415_35de14d034_z.jpg" /></a><br /><small><a title="SEED PODS" href="https://flickr.com/photos/meloart/8608133415">flickr photo</a> by <a href="https://flickr.com/people/meloart">meloart</a> shared under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND) license</a> </small>
+{% comment %} <a title="SEED PODS" href="https://flickr.com/photos/meloart/8608133415"><img class="img-responsive-tight" src="https://farm9.static.flickr.com/8541/8608133415_35de14d034_z.jpg" /></a><br /><small><a title="SEED PODS" href="https://flickr.com/photos/meloart/8608133415">flickr photo</a> by <a href="https://flickr.com/people/meloart">meloart</a> shared under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND) license</a> </small> {% endcomment %}
+
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="8608133415_35de14d034_z.jpg" content="<a title='SEED PODS' href='https://flickr.com/photos/meloart/8608133415'>flickr photo</a> by <a href='https://flickr.com/people/meloart'>meloart</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a> </small>" label="CC (BY-NC-ND)" %}
 
 {% assign size = site.baseurl | size | minus: 1 %}
 
@@ -15,22 +18,28 @@ members of your field? Do you want to influence the way academics teach and cond
 out this <a href="#seedsurvey">survey</a>.
 {% enddescribe %}
 
-To learn the details of why I am interviewing you through this survey, I encourage you to read the [introduction to the
-SEED project]({{ site.baseurl | slice: 0, size }}{% post_url 2017-07-05-Introducing-SEED %}). In a nutshell, the SEED
-project's aim is to enable both aspiring members of the software industry and the academics who teach them to receive
-advice from those who are already a part of this exciting field.
+To learn the details of why I am interviewing you through this survey, I
+encourage you to read the [introduction to the SEED project]({{ site.baseurl |
+slice: 0, size }}{% post_url 2017-07-05-Introducing-SEED %}). In a nutshell, the
+SEED project's aim is to enable both aspiring members of the software industry
+and the academics who teach them to receive advice from those who are already a
+part of this exciting field.
 
-In addition to requesting your biographical information, the SEED survey only asks you to answer three questions,
-requiring perhaps one or two paragraphs for each response. While the time that you invest in this survey will be minimal,
-I anticipate that students will greatly benefit from the advice that you share.
+In addition to requesting your biographical information, the SEED survey only
+asks you to answer three questions, requiring perhaps one or two paragraphs for
+each response. While the time that you invest in this survey will be minimal, I
+anticipate that students will greatly benefit from the advice that you share.
 
-After you complete this survey, I will copy-edit your responses and publish them on my [blog]({{site.baseurl}}blog/),
-enabling me to incorporate your advice into the [teaching]({{site.baseurl}}teaching/) of my courses and my
-[research]({{site.baseurl}}research/)  with students. At the start of 2018, I will release a retrospective in which I
-report on the key lessons taught by all of the interviewees and make suggestions for ways in which educators like me can
+After you complete this survey, I will copy-edit your responses and publish them
+on my [blog]({{site.baseurl}}blog/), enabling me to incorporate your advice into
+the [teaching]({{site.baseurl}}teaching/) of my courses and my
+[research]({{site.baseurl}}research/)  with students. At the end of 2018, I will
+release a retrospective in which I report on the key lessons taught by all of
+the interviewees and make suggestions for ways in which educators like me can
 improve their teaching and research.
 
-Please [contact]({{site.baseurl}}contact/) me with any questions or comments that you have about this initiative.
+Please [contact]({{site.baseurl}}contact/) me with any questions or comments
+that you have about this initiative.
 
 <a name="seedsurvey"></a>
 <form method="POST" action="https://getsimpleform.com/messages?form_api_token=036ec14e0a86e2bf39ae488655d68c50" data-toggle="validator" data-feedback='{"success": "fa-check", "error": "fa-times"}' role="form">
