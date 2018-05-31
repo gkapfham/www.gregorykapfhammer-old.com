@@ -14,6 +14,7 @@ var rsync = require('gulp-rsync');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
+var imagemin = require('gulp-imagemin');
 
 // read the "--production" environment variable
 var DEPLOY = Boolean(yargs.argv.production);
@@ -81,6 +82,14 @@ gulp.task('fullserve', function(cb) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
 });
+
+// TASK: optimize the images, making them smaller
+gulp.task('imageoptimize', () =>
+    gulp.src('download/images/*')
+        .pipe(imagemin([imagemin.jpegtran({progressive: true}),
+                        imagemin.optipng({optimizationLevel: 10}),]))
+        .pipe(gulp.dest('_site/download/images/'))
+);
 
 // TASK: minify all of the CSS files
 gulp.task('cssminify', function () {
