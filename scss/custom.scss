@@ -64,6 +64,10 @@ $colors:       map-merge((
 ), $colors);
 
 // Define the theme colors
+// Define $dark to be a slightly 
+// darker version of $secondary.
+// While this is not strictly a 
+// material color it fits better.
 $primary:   $orange;
 $secondary: $gray-900;
 $success:   $green !default;
@@ -71,7 +75,7 @@ $info:      $blue;
 $warning:   $yellow !default;
 $danger:    $red !default;
 $light:     $gray-200;
-$dark:      $black;
+$dark:      darken($secondary, 5%);
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
@@ -169,8 +173,8 @@ $component-active-color: $gray-200;
 $component-active-bg: $gray-800;
 
 // Define the background and border colors for the dropdown menu in the navbar
-$dropdown-bg: $black;
-$dropdown-border-color: rgba($black, 0.85);
+$dropdown-bg: $dark;
+$dropdown-border-color: rgba($dark, 0.85);
 
 // Define the link colors for the dropdown menu in the navbar
 $dropdown-link-color: $gray-500;
