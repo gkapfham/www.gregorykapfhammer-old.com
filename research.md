@@ -57,7 +57,7 @@ web sites, my research has developed automated techniques for checking these
 sites. Some examples of papers describing approaches that have found defects in
 live, production web sites include {% include _popovers/paper_reference.html
 cite="Walsh2015" %} and {% include _popovers/paper_reference.html
-cite="Walsh2017" %}.
+cite="Walsh2017" trailing="." %}
 </li>
 <p>
 
@@ -68,7 +68,7 @@ quality of a test suite, my research has designed efficient ways to perform test
 assessment through mutation analysis. Considering both programs and relational
 database schemas, some examples of papers include {% include
 _popovers/paper_reference.html cite="Just2012b" %} and {% include
-_popovers/paper_reference.html cite="Wright2014" %}.
+_popovers/paper_reference.html cite="Wright2014" trailing="." %}
 </li>
 <p>
 
@@ -78,9 +78,9 @@ _popovers/paper_reference.html cite="Wright2014" %}.
 work on regression testing has created automated ways to efficiently and
 effectively run test suites for complex programs. Some examples of papers that
 present and evaluate regression testing techniques include {% include
-_popovers/paper_reference.html cite="Walcott2006" %}, {% include
-_popovers/paper_reference.html cite="Lin2014" %}, and {% include
-_popovers/paper_reference.html cite="Lin2017" %}.
+_popovers/paper_reference.html cite="Walcott2006" trailing="," %} {% include
+_popovers/paper_reference.html cite="Lin2014" trailing="," %} and {% include
+_popovers/paper_reference.html cite="Lin2017" trailing="."%}
 </li>
 <p>
 
