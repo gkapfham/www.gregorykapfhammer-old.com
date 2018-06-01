@@ -220,6 +220,44 @@ body {
   // Force the height to be auto for all pages. This should not be needed, but
   // if not here then some pages with little content have blank space!
   min-height: auto !important;
+
+@media (min-width: 768px) {
+.back-to-top {
+  position: fixed;
+  bottom: 1.25rem;
+  right: 0rem;
+  text-decoration: none;
+  color: $gray-300;
+  background-color: rgba($blue, 1.0);
+  font-size: $font-size-base;
+  padding: 1.25rem;
+  display: none;
+  outline: none;
+}
+}
+@media (max-width: 767px) {
+.back-to-top {
+  position: fixed;
+  bottom: 1.25rem;
+  right: 0rem;
+  text-decoration: none;
+  color: $gray-300;
+  background-color: rgba($blue, 0.50);
+  font-size: 18px;
+  padding: 1.25rem;
+  display: none;
+  outline: none;
+}
+}
+.back-to-top:hover {
+  color: $gray-300;
+  outline: none;
+}
+.back-to-top:focus {
+  color: $gray-300;
+  outline: none;
+}
+
 }
 
 // }}}
