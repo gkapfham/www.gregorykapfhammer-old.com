@@ -15,8 +15,10 @@
 
   <!-- Define the description of the page if specified -->
   {% if page.description %}
-  <meta name="description" content="{{page.description | xml_escape | markdownify | strip_html}}"> {% else %}
-  <meta name="description" content="{{site.description}}"> {% endif %}
+  <meta name="description" content="{{page.description | xml_escape | markdownify | strip_html}}">
+  {% else %}
+  <meta name="description" content="{{site.description}}">
+  {% endif %}
 
   <!-- Include the code that loads all of the required CSS and JavaScript -->
   {% include _headers/head_load.html name=page.title %}
