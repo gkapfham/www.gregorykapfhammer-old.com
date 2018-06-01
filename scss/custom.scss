@@ -207,6 +207,7 @@ $body-color: $gray-400;
 
 // Define non-Bootstrap rules for body elements
 body {
+
   // Push down the main content to accommodate the fixed header
   min-height: 75rem;
   padding-top: 4.25rem;
@@ -221,42 +222,48 @@ body {
   // if not here then some pages with little content have blank space!
   min-height: auto !important;
 
-@media (min-width: 768px) {
-.back-to-top {
-  position: fixed;
-  bottom: 1.25rem;
-  right: 0rem;
-  text-decoration: none;
-  color: $gray-400;
-  background-color: rgba($blue, 1.0);
-  font-size: $font-size-base;
-  padding: 1.25rem;
-  display: none;
-  outline: none;
-}
-}
-@media (max-width: 767px) {
-.back-to-top {
-  position: fixed;
-  bottom: 1.25rem;
-  right: 0rem;
-  text-decoration: none;
-  color: $gray-400;
-  background-color: rgba($blue, 0.70);
-  font-size: $font-size-base;
-  padding: 1.25rem;
-  display: none;
-  outline: none;
-}
-}
-.back-to-top:hover {
-  color: $gray-400;
-  outline: none;
-}
-.back-to-top:focus {
-  color: $gray-400;
-  outline: none;
-}
+  // Configure the scroll-to-top "button"  for desktop screens
+  @media (min-width: 768px) {
+    .back-to-top {
+      position: fixed;
+      bottom: 1.25rem;
+      right: 0rem;
+      text-decoration: none;
+      color: $gray-400;
+      background-color: rgba($blue, 1.0);
+      font-size: $font-size-base;
+      padding: 1.25rem;
+      display: none;
+      outline: none;
+    }
+  }
+
+  // Configure the scroll-to-top "button"  for desktop screens
+  // The key difference is that the "button" is now partially transparent
+  @media (max-width: 767px) {
+    .back-to-top {
+      position: fixed;
+      bottom: 1.25rem;
+      right: 0rem;
+      text-decoration: none;
+      color: $gray-400;
+      background-color: rgba($blue, 0.70);
+      font-size: $font-size-base;
+      padding: 1.25rem;
+      display: none;
+      outline: none;
+    }
+  }
+
+  // Do not make any changes to the "button" when hovering or focusing
+  .back-to-top:hover {
+    color: $gray-400;
+    outline: none;
+  }
+  .back-to-top:focus {
+    color: $gray-400;
+    outline: none;
+  }
 
 }
 
