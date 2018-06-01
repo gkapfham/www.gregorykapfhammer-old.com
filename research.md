@@ -41,11 +41,11 @@ summarized in the following list that references key papers.
 that must be verified, my PhD dissertation {% include
 _popovers/paper_reference.html cite="Kapfhammer2007d" %} presented an approach
 for testing database applications; a notable paper derived from my dissertation
-is {% include _popovers/paper_reference.html cite="Kapfhammer2003" %}. My work
-has also focused on testing the schema of a relational database, with {% include
-_popovers/paper_reference.html cite="McMinn2016a" %} and {% include
-_popovers/paper_reference.html cite="McMinn2015" %} being examples of
-papers.</li> <p>
+is {% include _popovers/paper_reference.html cite="Kapfhammer2003"
+trailing="."%} My work has also focused on testing the schema of a relational
+database, with {% include _popovers/paper_reference.html cite="McMinn2016a" %}
+and {% include _popovers/paper_reference.html cite="McMinn2015" %} being
+examples of papers.</li> <p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
 <a name="Walsh2015-return"></a>
