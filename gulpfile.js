@@ -10,7 +10,7 @@ var del = require('del');
 var htmlmin = require('gulp-htmlmin');
 var imagemin = require('gulp-imagemin');
 var imageminJpegRecompress = require('imagemin-jpeg-recompress');
-var imageminPngquant = require('imagemin-jpeg-recompress');
+var imageminPngquant = require('imagemin-pngquant');
 var postcss = require('gulp-postcss');
 var pump = require('pump');
 var rsync = require('gulp-rsync');
@@ -104,8 +104,8 @@ gulp.task('imagecompress', function () {
         .pipe(imagemin([
             imagemin.optipng(),
             imagemin.jpegtran(),
-            imageminPngquant(),
-            imageminJpegRecompress()
+            imageminPngquant(speed=1),
+            imageminJpegRecompress(accurate=true, loops=10)
         ]))
         .pipe(gulp.dest(IMAGES_DEST));
 });
