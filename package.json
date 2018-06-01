@@ -22,8 +22,10 @@
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
     "imagemin-gifsicle": "^5.2.0",
+    "imagemin-jpeg-recompress": "^5.1.0",
     "imagemin-jpegtran": "^5.0.2",
     "imagemin-optipng": "^5.2.1",
+    "imagemin-pngquant": "^5.1.0",
     "imagemin-svgo": "^6.0.0",
     "sass-material-colors": "0.0.5"
   },
