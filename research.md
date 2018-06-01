@@ -56,8 +56,10 @@ examples of papers.
 web sites, my research has developed automated techniques for checking these
 sites. Some examples of papers describing approaches that have found defects in
 live, production web sites include {% include _popovers/paper_reference.html
-cite="Walsh2015" %} and {% include _popovers/paper_reference.html
-cite="Walsh2017" trailing="." %}
+cite="Walsh2015" trailing="," %} and {% include _popovers/paper_reference.html
+cite="Walsh2017" trailing="," %} and {% include _popovers/paper_reference.html
+cite="Walsh2017a" trailing="." %}
+
 </li>
 <p>
 
@@ -67,8 +69,10 @@ cite="Walsh2017" trailing="." %}
 quality of a test suite, my research has designed efficient ways to perform test
 assessment through mutation analysis. Considering both programs and relational
 database schemas, some examples of papers include {% include
-_popovers/paper_reference.html cite="Just2012b" %} and {% include
-_popovers/paper_reference.html cite="Wright2014" trailing="." %}
+_popovers/paper_reference.html cite="Just2012b" trailing="," %} {% include
+_popovers/paper_reference.html cite="Wright2014" trailing="," %} and {% include
+_popovers/paper_reference.html cite="McMinn2018" trailing="." %}
+
 </li>
 <p>
 
@@ -106,7 +110,11 @@ include _popovers/paper_reference.html cite="Kapfhammer2010" %} being examples
 of papers. Moreover, papers like {% include _popovers/paper_reference.html
 cite="Kapfhammer2016" %} and {% include _popovers/paper_reference.html
 cite="McMinn2016" %} illustrate ways in which I have articulated a research
-agenda for the field of software engineering.
+agenda for the field of software engineering. Finally, I have written papers
+like {% include _popovers/paper_reference.html cite="Alsharif2018a" %} and {%
+include _popovers/paper_reference.html cite="Alsharif2018b" %} that explain how
+to replicate the research results that I publish.
+
 </li> <p>
 
 </ul>
