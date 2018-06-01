@@ -90,12 +90,6 @@ gulp.task('fullserve', function(cb) {
   });
 });
 
-// gulp.task('imagesreduced', function () {
-//     return gulp.src(IMAGES_SOURCE)
-//         .pipe(imagemin())
-//         .pipe(gulp.dest(IMAGES_DEST));
-// });
-
 // TASK: optimize the images in a lossless fashion
 gulp.task('imageoptimize', () =>
     gulp.src('download/images/*')
