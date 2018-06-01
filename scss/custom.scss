@@ -227,7 +227,7 @@ body {
   bottom: 1.25rem;
   right: 0rem;
   text-decoration: none;
-  color: $gray-300;
+  color: $gray-400;
   background-color: rgba($blue, 1.0);
   font-size: $font-size-base;
   padding: 1.25rem;
@@ -241,7 +241,7 @@ body {
   bottom: 1.25rem;
   right: 0rem;
   text-decoration: none;
-  color: $gray-300;
+  color: $gray-400;
   background-color: rgba($blue, 0.50);
   font-size: 18px;
   padding: 1.25rem;
@@ -250,11 +250,11 @@ body {
 }
 }
 .back-to-top:hover {
-  color: $gray-300;
+  color: $gray-400;
   outline: none;
 }
 .back-to-top:focus {
-  color: $gray-300;
+  color: $gray-400;
   outline: none;
 }
 
