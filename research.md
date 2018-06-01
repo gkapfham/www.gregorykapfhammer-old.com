@@ -72,7 +72,6 @@ database schemas, some examples of papers include {% include
 _popovers/paper_reference.html cite="Just2012b" trailing="," %} {% include
 _popovers/paper_reference.html cite="Wright2014" trailing="," %} and {% include
 _popovers/paper_reference.html cite="McMinn2018" trailing="." %}
-
 </li>
 <p>
 
@@ -113,8 +112,8 @@ cite="McMinn2016" %} illustrate ways in which I have articulated a research
 agenda for the field of software engineering. Finally, I have written papers
 like {% include _popovers/paper_reference.html cite="Alsharif2018a" %} and {%
 include _popovers/paper_reference.html cite="Alsharif2018b" %} that explain how
-to replicate the research results that I publish.
-
-</li> <p>
+to replicate my research results.
+</li>
+<p>
 
 </ul>
