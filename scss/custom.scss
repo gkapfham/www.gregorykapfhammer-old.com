@@ -7,7 +7,6 @@
 // Color System {{{
 
 // Define the grey scale colors
-
 $white: #fff !default;
 $gray-100: material-color("grey", "100");
 $gray-200: material-color("grey", "200");
@@ -46,6 +45,7 @@ $green:  #28a745 !default;
 $teal:   #20c997 !default;
 $cyan:   #17a2b8 !default;
 
+// Create the mapping for the colors
 $colors:       () !default;
 $colors:       map-merge((
   "blue":      $blue,
@@ -64,6 +64,10 @@ $colors:       map-merge((
 ), $colors);
 
 // Define the theme colors
+// Define $dark to be a slightly 
+// darker version of $secondary.
+// While this is not strictly a 
+// material color it fits better.
 $primary:   $orange;
 $secondary: $gray-900;
 $success:   $green !default;
@@ -71,8 +75,9 @@ $info:      $blue;
 $warning:   $yellow !default;
 $danger:    $red !default;
 $light:     $gray-200;
-$dark:      $black;
+$dark:      darken($secondary, 5%);
 
+// Create the map for the theme's colors
 $theme-colors: () !default;
 $theme-colors: map-merge((
   "primary":   $primary,
@@ -169,8 +174,8 @@ $component-active-color: $gray-200;
 $component-active-bg: $gray-800;
 
 // Define the background and border colors for the dropdown menu in the navbar
-$dropdown-bg: $black;
-$dropdown-border-color: rgba($black, 0.85);
+$dropdown-bg: $dark;
+$dropdown-border-color: rgba($dark, 0.85);
 
 // Define the link colors for the dropdown menu in the navbar
 $dropdown-link-color: $gray-500;
