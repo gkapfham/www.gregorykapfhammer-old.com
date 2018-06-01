@@ -324,6 +324,22 @@ body {
 
 // }}}
 
+// Tooltips {{{
+
+// Change the colors and spacing of the tooltips
+$tooltip-color:                     $gray-300;
+$tooltip-bg:                        $blue;
+$tooltip-padding-y:                 .25rem;
+$tooltip-padding-x:                 .3rem;
+$tooltip-margin:                    1rem;
+
+// Improve the spacing for the tooltip arrows
+$tooltip-arrow-width:               .8rem;
+$tooltip-arrow-height:              1rem;
+$tooltip-arrow-color:               $tooltip-bg;
+
+// }}}
+
 // Popovers {{{
 
 // Define the font size for popovers
