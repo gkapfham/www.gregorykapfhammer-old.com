@@ -113,11 +113,12 @@ $font-size-lg:   ($font-size-base * 1.275);
 $font-size-sm:   ($font-size-base * .875);
 
 // Define the font weights for the Body text
-$font-weight-light: 300;
-$font-weight-normal: 500;
-$font-weight-bold: 700;
-$font-weight-base: $font-weight-normal;
-$line-height-base: 1.5;
+$font-weight-light:     300;
+$font-weight-normal:    500;
+$font-weight-demi-bold: 600;
+$font-weight-bold:      700;
+$font-weight-base:      $font-weight-normal;
+$line-height-base:      1.5;
 
 // Define all of the header fonts in rem units
 $h1-font-size: 3.375rem;
@@ -161,7 +162,7 @@ $navbar-padding-x: ($spacer/2);
 // Make the Navbar more bold (default is 500)
 .navbar-dark {
   .nav-link {
-    font-weight: 600;
+    font-weight: $font-weight-demi-bold;
   }
 }
 
@@ -323,6 +324,22 @@ body {
 
 // }}}
 
+// Tooltips {{{
+
+// Change the colors and spacing of the tooltips
+$tooltip-color:                     $gray-300;
+$tooltip-bg:                        $blue;
+$tooltip-padding-y:                 .25rem;
+$tooltip-padding-x:                 .3rem;
+$tooltip-margin:                    1rem;
+
+// Improve the spacing for the tooltip arrows
+$tooltip-arrow-width:               .8rem;
+$tooltip-arrow-height:              1rem;
+$tooltip-arrow-color:               $tooltip-bg;
+
+// }}}
+
 // Popovers {{{
 
 // Define the font size for popovers
@@ -358,6 +375,24 @@ body{
 // Import all of Bootstrap {{{
 
 @import "node_modules/bootstrap/scss/bootstrap";
+
+// }}}
+
+// Service {{{
+
+// A service item needs to have negative vertical space on the bottom
+.serviceitem {
+  text-decoration: none;
+  font-weight: $font-weight-bold;
+  margin-bottom: -20px;
+}
+
+// If there is only a service item, then less negative vertical space
+.serviceitemonly {
+  text-decoration: none;
+  font-weight: $font-weight-demi-bold;
+  margin-bottom: -10px;
+}
 
 // }}}
 
