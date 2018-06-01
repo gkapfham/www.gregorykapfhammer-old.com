@@ -37,56 +37,87 @@ summarized in the following list that references key papers.
 <ul class="fa-ul">
 
 <li><i class="fa-li fa fa-arrow-right"></i>
+
 <b>Database Testing:</b> Since the database application is a complex artifact
 that must be verified, my PhD dissertation {% include
 _popovers/paper_reference.html cite="Kapfhammer2007d" %} presented an approach
 for testing database applications; a notable paper derived from my dissertation
 is {% include _popovers/paper_reference.html cite="Kapfhammer2003"
-trailing="."%} My work has also focused on testing the schema of a relational
+trailing="." %} My work has also focused on testing the schema of a relational
 database, with {% include _popovers/paper_reference.html cite="McMinn2016a" %}
 and {% include _popovers/paper_reference.html cite="McMinn2015" %} being
-examples of papers.</li> <p>
+examples of papers.
+</li>
+<p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
-<a name="Walsh2015-return"></a>
-<a name="Walsh2017-return"></a>
-<b>Web Testing:</b> In response to the prevalence and complexity of mobile-ready web sites, my research has developed
-automated techniques for checking these sites. Some examples of papers describing approaches that have found defects
-in live, production web sites include {% cite Walsh2015 %} and {% cite Walsh2017 %}. </li> <p>
+
+<b>Web Testing:</b> In response to the prevalence and complexity of mobile-ready
+web sites, my research has developed automated techniques for checking these
+sites. Some examples of papers describing approaches that have found defects in
+live, production web sites include {% include _popovers/paper_reference.html
+cite="Walsh2015" trailing="," %} and {% include _popovers/paper_reference.html
+cite="Walsh2017" trailing="," %} and {% include _popovers/paper_reference.html
+cite="Walsh2017a" trailing="." %}
+
+</li>
+<p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
-<a name="Just2012b-return"></a>
-<a name="Wright2014-return"></a>
-<b>Mutation Testing:</b> Given the challenges associated with evaluating the quality of a test suite, my research has
-designed efficient ways to perform test assessment through mutation analysis. Considering both programs and relational
-database schemas, some examples of papers include {% cite Just2012b %} and {% cite Wright2014 %}. </li> <p>
+
+<b>Mutation Testing:</b> Given the challenges associated with evaluating the
+quality of a test suite, my research has designed efficient ways to perform test
+assessment through mutation analysis. Considering both programs and relational
+database schemas, some examples of papers include {% include
+_popovers/paper_reference.html cite="Just2012b" trailing="," %} {% include
+_popovers/paper_reference.html cite="Wright2014" trailing="," %} and {% include
+_popovers/paper_reference.html cite="McMinn2018" trailing="." %}
+</li>
+<p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
-<a name="Lin2014-return"></a>
-<a name="Lin2017-return"></a>
-<a name="Walcott2006-return"></a>
-<b>Regression Testing:</b> Since software is often incrementally developed, my work on regression testing has created
-automated ways to efficiently and effectively run test suites for complex programs. Some examples of papers that present
-and evaluate regression testing techniques include {% cite Walcott2006 %}, {% cite Lin2014 %}, and {% cite Lin2017 %}.
-</li> <p>
+
+<b>Regression Testing:</b> Since software is often incrementally developed, my
+work on regression testing has created automated ways to efficiently and
+effectively run test suites for complex programs. Some examples of papers that
+present and evaluate regression testing techniques include {% include
+_popovers/paper_reference.html cite="Walcott2006" trailing="," %} {% include
+_popovers/paper_reference.html cite="Lin2014" trailing="," %} and {% include
+_popovers/paper_reference.html cite="Lin2017" trailing="."%}
+</li>
+<p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
-<a name="Conrad2010a-return"></a>
-<a name="Kukunas2010a-return"></a>
-<a name="McMinn2016b-return"></a>
-<b>Search-Based Testing:</b> Using a fitness function as a guide to a suitable solution, search-based methods have shown
-promise in a many domains. My work has focused on creating frameworks to support the development of search-based tools,
-with {% cite McMinn2016b %} being one paper. Papers such as {% cite Conrad2010a %} and {% cite Kukunas2010a %}
-describe and assess other search-based solutions to software engineering challenges. </li> <p>
+
+<b>Search-Based Testing:</b> Using a fitness function as a guide to a suitable
+solution, search-based methods have shown promise in a many domains. My work has
+focused on creating frameworks to support the development of search-based tools,
+with {% include _popovers/paper_reference.html cite="McMinn2016b" %} being one
+paper. Papers such as {% include _popovers/paper_reference.html
+cite="Conrad2010a" %} and {% include _popovers/paper_reference.html
+cite="Kukunas2010a" %} describe and assess other search-based solutions to
+software engineering challenges.
+</li>
+<p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
-<a name="Kapfhammer2004-return"></a>
-<a name="Kapfhammer2010-return"></a>
-<a name="Kapfhammer2016-return"></a>
-<a name="McMinn2016-return"></a>
-<b>Research Methods:</b> My surveys of the research landscape in the field of software testing provide a starting point
-for individuals exploring this field, with {% cite Kapfhammer2004 %} and {% cite Kapfhammer2010 %} being examples of
-papers. Moreover, papers like {% cite Kapfhammer2016 %} and {% cite McMinn2016 %} illustrate ways in which I have
-articulated a research agenda for the field of software engineering. </li> <p>
+
+<b>Research Methods:</b> My surveys of the research landscape in the field of
+software testing provide a starting point for individuals exploring this field,
+with {% include _popovers/paper_reference.html cite="Kapfhammer2004" %} and {%
+include _popovers/paper_reference.html cite="Kapfhammer2010" %} being examples
+of papers. Moreover, papers like {% include _popovers/paper_reference.html
+cite="Kapfhammer2016" %} and {% include _popovers/paper_reference.html
+cite="McMinn2016" %} illustrate ways in which I have articulated a research
+agenda for the field of software engineering. Finally, I have written papers
+like {% include _popovers/paper_reference.html cite="Alsharif2018a" %} and {%
+include _popovers/paper_reference.html cite="Alsharif2018b" %} that explain how
+to replicate my research results.
+</li>
+<p>
 
 </ul>
+
+Do you conduct research in one of these areas and are you interested in
+collaborating with me on a project? If so, then please
+[contact]({{site.baseurl}}contact/) me with your ideas.
