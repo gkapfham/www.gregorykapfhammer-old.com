@@ -9,12 +9,19 @@ var debug = require('gulp-debug');
 var del = require('del');
 var htmlmin = require('gulp-htmlmin');
 var imagemin = require('gulp-imagemin');
+var imageminJpegRecompress = require('imagemin-jpeg-recompress');
+var imageminPngquant = require('imagemin-jpeg-recompress');
 var postcss = require('gulp-postcss');
 var pump = require('pump');
 var rsync = require('gulp-rsync');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
+
+// define the directories for the images
+var IMAGES_SOURCE = 'download/images/**/*.{png,jpeg,jpg,svg,gif}';
+var IMAGES_OPTIMIZED = '_site/download/images/**/*.{png,jpeg,jpg,svg,gif}';
+var IMAGES_DEST = '_site/download/images'
 
 // read the "--production" environment variable
 var DEPLOY = Boolean(yargs.argv.production);
@@ -83,13 +90,31 @@ gulp.task('fullserve', function(cb) {
   });
 });
 
-// TASK: optimize the images, making them smaller
+// gulp.task('imagesreduced', function () {
+//     return gulp.src(IMAGES_SOURCE)
+//         .pipe(imagemin())
+//         .pipe(gulp.dest(IMAGES_DEST));
+// });
+
+// TASK: optimize the images in a lossless fashion
 gulp.task('imageoptimize', () =>
     gulp.src('download/images/*')
         .pipe(imagemin([imagemin.jpegtran({progressive: true}),
                         imagemin.optipng({optimizationLevel: 7}),]))
         .pipe(gulp.dest('_site/download/images/'))
 );
+
+// TASK: optimize the images in a lossy fashion
+gulp.task('imagecompress', function () {
+    return gulp.src(IMAGES_OPTIMIZED)
+        .pipe(imagemin([
+            imagemin.optipng(),
+            imagemin.jpegtran(),
+            imageminPngquant(),
+            imageminJpegRecompress()
+        ]))
+        .pipe(gulp.dest(IMAGES_DEST));
+});
 
 // TASK: minify all of the CSS files
 gulp.task('cssminify', function () {
