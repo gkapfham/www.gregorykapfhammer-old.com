@@ -1,6 +1,6 @@
 <!-- References: include.cite -->
 <!-- References: include.trailing with a default of "" -->
 <!-- Note that this code uses single quotes to surround the data-content -->
-<a href = "/research/papers/{{include.cite}}">({{include.cite}})</a> <button type="button" title="Paper Reference" class="btn btn-success btn-small active" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="right" data-content='{% reference {{include.cite}} %} <b><a target="_blank" href="/research/papers/{{include.cite}}">Read this paper!</a></b>'>
+<nobr><a href = "/research/papers/{{include.cite}}">({{include.cite}})</a> <button type="button" title="Paper Reference" class="btn btn-success btn-small active" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="right" data-content='{% reference {{include.cite}} %} <b><a target="_blank" href="/research/papers/{{include.cite}}">Read this paper!</a></b>'>
 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-</button>&thinsp;{{ include.trailing | default: "" }}
+</button>&#8239;{{ include.trailing | default: "" }}</nobr>
