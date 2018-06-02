@@ -118,6 +118,6 @@ to replicate my research results.
 
 </ul>
 
-Do you conduct research in one of these areas and are you interested in
-collaborating with me on a project? If so, then please
-[contact]({{site.baseurl}}contact/) me with your ideas.
+Do you work in one of these areas and are you interested in collaborating with
+me on a project? If so, then please [contact]({{site.baseurl}}contact/) me with
+your ideas.
