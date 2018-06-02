@@ -64,9 +64,9 @@ $colors:       map-merge((
 ), $colors);
 
 // Define the theme colors
-// Define $dark to be a slightly 
+// Define $dark to be a slightly
 // darker version of $secondary.
-// While this is not strictly a 
+// While this is not strictly a
 // material color it fits better.
 $primary:   $orange;
 $secondary: $gray-900;
@@ -358,7 +358,7 @@ $popover-border-color: rgba($black, .2);
 
 // Make the links brighter and the divider more evident
 // Use an header font that is like the body text
-body{
+body {
   .popover-header {
     font-family: $font-family-sans-serif;
     border-bottom: 1px solid material-color('blue', '900');
@@ -372,9 +372,31 @@ body{
 
 // }}}
 
+// Pre {{{
+
+$pre-color:                 $gray-400;
+$pre-scrollable-max-height: 340px;
+
+body {
+  pre {
+    white-space: pre-wrap;
+  }
+}
+
+// }}}
+
 // Import all of Bootstrap {{{
 
 @import "node_modules/bootstrap/scss/bootstrap";
+
+// }}}
+
+// Research Papers {{{
+
+// A research item needs extra space on the bottom
+.researchitem {
+  margin-bottom: .5rem;
+}
 
 // }}}
 
@@ -397,6 +419,8 @@ body{
 // }}}
 
 // Twitter {{{
+
+// All of this styling is specialized for the twitterFetcher JavaScript
 
 #tw-gkapfham li {
   width: 90%;
