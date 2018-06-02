@@ -5,6 +5,8 @@
   {% include _headers/head_all.html %}
 </head>
 
+<!-- NOTE: the "details" layout is only for papers; presentations are simply direct links -->
+
 <!-- Always call the load() function so that clicking on links to anchors handles the fixed navbar -->
 <body onload="load()">
 
@@ -20,8 +22,6 @@
       </div>
       <!-- Main content -->
       <div class="col-md-10">
-
-          <!-- NOTE: the "details" layout is only for papers; presentations are simply direct links -->
 
           <!-- always display the title of the paper or presentation and the author(s) of the presentation -->
           <h1>{{ page.entry.title }}</h1>
@@ -68,32 +68,48 @@
 
           <!-- display the paper download link for the paper (it is always based on the key of the specific entry) -->
           {% if page.entry.nodownload != 'true' and page.entry.talk != 'true' and page.entry.keywords != 'undergraduate' %}
-          <p><a class="major" target="_blank" href = "/download/research/papers/key/{{page.entry.key}}-paper.pdf"><i class="fa fa-download"></i> Paper</a></p>
+          <div class="researchitem">
+          <a target="_blank" href = "/download/research/papers/key/{{page.entry.key}}-paper.pdf"><i class="fa fa-download"></i> Paper</a>
+          </div>
           {% endif %}
 
           <!-- the paper is designated as being "presented" in bibtex file and thus the key-based name should be displayed -->
           {% if page.entry.presented %}
-          <p><a class="major" target="_blank" href="/download/research/presentations/key/{{page.entry.key}}-presentation.pdf">
-            <i class="fa fa-download"></i> Presentation</a></p>
+          <div class="researchitem">
+          <a class="researchitem" target="_blank" href="/download/research/presentations/key/{{page.entry.key}}-presentation.pdf">
+            <i class="fa fa-download"></i> Presentation</a>
+          </div>
           {% endif %}
 
           <!-- there is a speaker deck presentation link in the bibtex file and thus this should be displayed -->
           {% if page.entry.presentation %}
-          <p><a class="major" target="_blank" href = "{{page.entry.presentation}}"><i class="fa fa-cloud-download"></i> Presentation</a></p>
+          <div class="researchitem">
+          <a class="researchitem" target="_blank" href = "{{page.entry.presentation}}"><i class="fa fa-cloud-download"></i> Presentation</a>
+          </div>
           {% endif %}
 
-          <!-- display the references to external resources (e.g., a GitHub site for the paper or the tool) -->
+          <!-- PAPER: display the references to external resources (e.g., a GitHub site for the paper or the tool) -->
           {% if page.entry.paper %}
-          <p><a class="major" target="_blank" href = "{{page.entry.paper}}">
-            <i class="fa fa-github"></i> {{ page.entry.paper | replace: "https://github.com/", "" }}</a></p>
+          <div class="researchitem">
+          <a class="researchitem" target="_blank" href = "{{page.entry.paper}}">
+            <i class="fa fa-github"></i> {{ page.entry.paper | replace: "https://github.com/", "" }}</a>
+          </div>
           {% endif %}
+
+          <!-- DATA: display the references to external resources (e.g., a GitHub site for the paper or the tool) -->
           {% if page.entry.data %}
-          <p><a class="major" target="_blank" href = "{{page.entry.data}}">
-            <i class="fa fa-github"></i> {{ page.entry.data | replace: "https://github.com/", "" }}</a></p>
+          <div class="researchitem">
+          <a class="researchitem" target="_blank" href = "{{page.entry.data}}">
+            <i class="fa fa-github"></i> {{ page.entry.data | replace: "https://github.com/", "" }}</a>
+          </div>
           {% endif %}
+
+          <!-- TOOL: display the references to external resources (e.g., a GitHub site for the paper or the tool) -->
           {% if page.entry.tool %}
-          <p><a class="major" target="_blank" href = "{{page.entry.tool}}">
-            <i class="fa fa-github"></i> {{ page.entry.tool | replace: "https://github.com/", "" }}</a></p>
+          <div class="researchitem">
+          <a class="researchitem" target="_blank" href = "{{page.entry.tool}}">
+            <i class="fa fa-github"></i> {{ page.entry.tool | replace: "https://github.com/", "" }}</a>
+          </div>
           {% endif %}
 
           <!-- again display extra spacing between the previous entries and the final bibtex -->
@@ -102,11 +118,14 @@
           <!-- display the bibtex entry for the paper if one is available -->
           {% if page.entry.bibtex %}
           <h3>Reference</h3>
-          <pre>{{ page.entry.bibtex }}</pre>
+          <!-- use Bootstrap 4 classes to style the border for the pre tag -->
+          <pre class="border border-light rounded-top p-3">{{ page.entry.bibtex }}</pre>
           {% endif %}
 
           <!--provide a link for returning to the main list of the papers -->
+          <p>
           <i class="fa fa-angle-double-up"></i>  <a href="..">Return to the List of Papers</a>
+          </p>
 
       </div>
       <!-- Padding on the right -->
