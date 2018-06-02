@@ -21,7 +21,7 @@ var yargs = require('yargs');
 // define the directories for the images
 var IMAGES_SOURCE = 'download/images/**/*.{png,jpeg,jpg,svg,gif}';
 var IMAGES_OPTIMIZED = '_site/download/images/**/*.{png,jpeg,jpg,svg,gif}';
-var IMAGES_DEST = '_site/download/images'
+var IMAGES_DEST = '_site/download/images';
 
 // read the "--production" environment variable
 var DEPLOY = Boolean(yargs.argv.production);
