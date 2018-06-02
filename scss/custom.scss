@@ -198,6 +198,22 @@ $headings-color: $gray-600;
 $spacer: 1rem;
 $headings-margin-bottom: 1.2 * $spacer;
 
+// Allow for hyphenation in the headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  hyphens: auto;
+}
+
 // }}}
 
 // Body {{{
