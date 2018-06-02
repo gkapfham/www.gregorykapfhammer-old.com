@@ -1,5 +1,7 @@
+<!-- Compensate for the size of the sticky header by pulling -->
+<!-- content back up the page (no overlap of the header now) -->
 <script>
-  var shiftWindow = function() { scrollBy(0, -50) };
+  var shiftWindow = function() { scrollBy(0, -60) };
   window.addEventListener("hashchange", shiftWindow);
   function load() { if (window.location.hash) shiftWindow(); }
 </script>
