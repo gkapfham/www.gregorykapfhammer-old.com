@@ -1,0 +1,29 @@
+  <!-- Define the meta characteristics of the site for responsive design -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Define the meta characteristics for the theme color -->
+  <meta name="theme-color" content="#141414">
+
+  <!-- Define the title of the page if specified -->
+  {% if page.title != site.me %}
+  <title>{{ page.title }}</title>
+  {% else %}
+  <title>{{ page.title }} | {{ site.description }}</title>
+  {% endif %}
+
+  <!-- Define the description of the page if specified -->
+  {% if page.description %}
+  <meta name="description" content="{{page.description | xml_escape | markdownify | strip_html}}">
+  {% else %}
+  <meta name="description" content="{{site.description}}">
+  {% endif %}
+
+  <!-- Include the code that loads all of the required CSS and JavaScript -->
+  {% include _headers/head_load.html name=page.title %}
+
+  <!-- Load in all of the Google analytics code if Jekyll runs in production mode -->
+  {% if jekyll.environment == 'production' %} {% include _headers/analytics.html %} {% endif %}
+
+  <!-- Include the code that supports zooming to anchors while accounting for fixed header -->
+  {% include _headers/head_zoom.html %}
