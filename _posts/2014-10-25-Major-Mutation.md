@@ -20,7 +20,6 @@ correctness of the program under test&mdash;and there also could be defects lurk
 One strategy for assessing the quality of your test suite is to run coverage analysis with a tool like
 [JaCoCo](http://www.eclemma.org/jacoco/).  Since a test case cannot find a defect unless it first executes it, the idea
 is that you can judge a test suite to be good if it adequately covers the code in the program under test.
-
 However, coverage analysis does not help a tester to know with certainty that the tests are design in such a way that
 they are likely to find defects.  As an alternative to, or in addition to coverage analysis, mutation testing inserts
 simple faults into the program under test to determine whether or not the tests can find them.  Intuitively, a test case
@@ -31,9 +30,9 @@ While mutation analysis is simple and useful, historically, it has been difficul
 because it was computationally expensive. This all changed with the design, implementation, and release of <a
 href="http://www.mutation-testing.org">Major</a>, a compiler-integrated mutation testing tool for the Java programming
 language. You can learn more about Major by reading {% include _popovers/paper_reference.html cite="Just2011a" %} and {%
-include _popovers/paper_reference.html cite="Just2011b" %}; more details about how Major makes mutation testing
+include _popovers/paper_reference.html cite="Just2011b" trailing=";" %} more details about how Major makes mutation testing
 scalable through use of non-redundant mutation operators and test suite prioritization is available in {% include
-_popovers/paper_reference.html cite="Just2012b" %}.
+_popovers/paper_reference.html cite="Just2012b" trailing="." %}
 </p>
 
 Starting to use the tool is as easy as changing the Java compiler that you use at build time, as demonstrated by the
