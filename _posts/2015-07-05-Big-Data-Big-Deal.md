@@ -15,10 +15,10 @@ last_modified_at: 2016-01-07
 <p>
 This statement was written to support my participation in a panel at the <em>27th International Conference on Software
 Engineering and Knowledge Engineering</em>. To view the accompanying slides for this presentation, please refer to {%
-cite Kapfhammer2015a %}. If you want to learn more about new work that my colleagues and students and I are conducting
-in the area of efficiently testing data-centric applications, please read {% include _popovers/paper_reference.html
-cite="Kinneer2015" %} and {% include _popovers/paper_reference.html cite="Kinneer2015a" trailing="," %} two papers that
-were also presented at the same conference.
+include _popovers/paper_reference.html cite="Kapfhammer2015a" %}. If you want to learn more about new work that my
+colleagues and students and I are conducting in the area of efficiently testing data-centric applications, please read
+{% include _popovers/paper_reference.html cite="Kinneer2015" %} and {% include _popovers/paper_reference.html
+cite="Kinneer2015a" trailing="," %} two papers that were also presented at the same conference.
 </p>
 {% enddescribe %}
 
@@ -53,9 +53,9 @@ positive influence on society &mdash; thus proving to be a "bigger deal" togethe
 <p>
 Interested in learning more about this topic? Since this blog post was first written, my colleagues and students and I
 have published several additional papers about the testing of relational database schemas, with the most noteworthy one
-being {% include _popovers/paper_reference.html cite="McMinn2015" %}. If you are interested in using SchemaAnalyst to
-test your own database schema, then please download and use the tool, which is now available from the GitHub site <a
-href="https://github.com/schemaanalyst/schemaanalyst">schemaanalyst/schemaanalyst</a>.
+being {% include _popovers/paper_reference.html cite="McMinn2015" trailing="." %} If you are interested in using
+SchemaAnalyst to test your own database schema, then please download and use the tool, which is now available from the
+GitHub site <a href="https://github.com/schemaanalyst/schemaanalyst">schemaanalyst/schemaanalyst</a>.
 </p>
 
 {% include _footers/blog_footer.html %}
