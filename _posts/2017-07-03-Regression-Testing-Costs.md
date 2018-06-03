@@ -26,6 +26,7 @@ product](http://dl.acm.org/citation.cfm?id=2119649) required several days. Of
 course, even if a regression test suite only takes minutes to run, developers
 may find its execution distracting.
 
+<p>
 Prior work has developed many techniques to address the substantial
 computational cost associated with regression testing, with test suite reduction
 and prioritization emerging as two of the most promising. Test suite reduction
@@ -35,15 +36,18 @@ trailing="." %} Alternatively, test suite prioritization aims to find a test
 ordering such that faults in a program can be detected as early as is possible,
 thus enabling the processes of debugging and program repair to quickly start {%
 include _popovers/paper_reference.html cite="Lin2013" trailing="." %}
+</p>
 
+<p>
 Another approach to regression testing involves selecting only those test cases
 that exercise the program functionality that was most recently changed. A recent
-paper reports that test selection [saves
-Microsoft](https://www.microsoft.com/en-us/research/publication/the-art-of-testing-less-without-sacrificing-quality/#)
-millions of dollars every year &mdash; all without compromising the quality of
-the program under test. So, interested in learning more about regression
-testing? If you are, then please read {% include _popovers/paper_reference.html
-cite="Kapfhammer2010" trailing="." %}.
+paper reports that test selection <a href =
+"https://www.microsoft.com/en-us/research/publication/the-art-of-testing-less-without-sacrificing-quality/">saves
+Microsoft</a> millions of dollars every year &mdash; all without compromising
+the quality of the program under test. So, interested in learning more about
+regression testing? If you are, then please read {% include
+_popovers/paper_reference.html cite="Kapfhammer2010" trailing="." %}
+</p>
 
 Do you perform regression testing of software in industry? Or, do you conduct
 regression testing on an open-source tool? Are you interested in discovering
