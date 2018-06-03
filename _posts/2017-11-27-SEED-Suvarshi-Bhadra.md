@@ -10,12 +10,12 @@ web_site: "https://www.linkedin.com/in/sbhadra/"
 # {{page.title}}
 ## <em>{{ page.date | date_to_long_string }}</em>
 
-<a title="Blue light" href="https://flickr.com/photos/f-l-e-x/2488888194"><img class="img-responsive-tight" src="https://farm3.static.flickr.com/2229/2488888194_a837faa302_z.jpg" /></a><br /><small><a title="Blue light" href="https://flickr.com/photos/f-l-e-x/2488888194">flickr photo</a> by <a href="https://flickr.com/people/f-l-e-x">Sjoerd van Oosten</a> shared under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND) license</a> </small>
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="2488888194_a837faa302_z.jpg" content="<a title='Blue light' href='https://flickr.com/photos/f-l-e-x/2488888194'>flickr photo</a> by <a href='https://flickr.com/people/f-l-e-x'>Sjoerd van Oosten</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% assign size = site.baseurl | size | minus: 1 %}
 
 {% describe %}
-
 As part of the [SEED project]({{ site.baseurl | slice: 0, size }}{% post_url
 2017-07-05-Introducing-SEED %}), I recently talked with [Suvarshi
 Bhadra]({{page.web_site}}), a {{page.title_name}} at {{page.company_name}}. In
@@ -25,7 +25,6 @@ want to be software engineers should focus on following a software idea from its
 inception to its completion and release. Read Suvarshi's responses to the three
 SEED questions to learn more about his unique perspective on the engineering of
 software in industry.
-
 {% enddescribe %}
 
 ## What is one fun fact that you can share about your company or a current project?
@@ -53,9 +52,9 @@ dive into the details of networking, databases, or whatever else you want to
 learn.
 
 Do you have any questions about this interview? Or, do you have a response to
-Suvarshi's ideas? If you do, then I hope that you will
-[contact](/contact/) me to share some of your thoughts. Or, do
-you want to be updated when I publish new interviews in this series? If you do,
-then please [subscribe](/support/) to my mailing list.
+Suvarshi's ideas? If you do, then I hope that you will [contact](/contact/) me
+to share some of your thoughts. Or, do you want to be updated when I publish new
+interviews in this series? If you do, then please [subscribe](/support/) to my
+mailing list.
 
 {% include _footers/blog_footer.html %}
