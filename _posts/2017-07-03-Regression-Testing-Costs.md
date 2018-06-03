@@ -55,10 +55,4 @@ ways to transition cutting-edge research into your practice of regressing
 testing? If you answered "yes" to any of these questions, I hope that you will
 soon [contact]({{site.baseurl}}contact/) me with your own ideas and experiences.
 
-Finally, want to cite the 2011 conference paper that I mentioned? You can use this BibTeX reference:
-
-```
-{% include _references/carlson2011.ref %}
-```
-
 {% include _footers/blog_footer.html %}
