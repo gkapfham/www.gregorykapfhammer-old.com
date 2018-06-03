@@ -25,16 +25,18 @@ SBSE community would advance if its "hitchhikers" had access to "free vehicles"
 in the form of GitHub repositories containing the data sets and statistical
 analysis code used for published papers.
 
+<p>
 To learn more about the benefits associated with using shared repositories of
-statistical code in SBSE, you can read {% include
-_popovers/paper_reference.html cite="Kapfhammer2016" trailing="'" %}s
-suggestions for improving the study of data arising from experiments with
+statistical code in SBSE, you can read the suggestions in {% include
+_popovers/paper_reference.html cite="Kapfhammer2016" %}
+for improving the study of data arising from experiments with
 randomized algorithms. If you would like to examine the source code of that
 paper, then you can visit its GitHub repository at <a
 href="https://github.com/gkapfham/sbst2016-paper">gkapfham/sbst2016-paper</a>
 Or, do you have ideas about how the SBSE community should create, share, and
 apply statistical software? If so, then please
 [contact]({{site.baseurl}}/contact/) me to share your thoughts!
+</p>
 
 <p>
 Interested in learning more about this topic? Since this blog post was written,
