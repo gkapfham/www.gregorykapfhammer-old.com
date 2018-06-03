@@ -35,7 +35,7 @@ paper, then you can visit its GitHub repository at <a
 href="https://github.com/gkapfham/sbst2016-paper">gkapfham/sbst2016-paper</a>
 Or, do you have ideas about how the SBSE community should create, share, and
 apply statistical software? If so, then please
-[contact]({{site.baseurl}}/contact/) me to share your thoughts!
+<a href="{{site.baseurl}}contact">contact</a> me to share your thoughts!
 </p>
 
 <p>
@@ -47,7 +47,8 @@ that paper, then I encourage you to visit <a
 href="https://github.com/gkapfham/virtualmutationanalysis">gkapfham/virtualmutationanalysis</a>
 on GitHub. I would also appreciate your feedback on the approach that we took
 to create and release this replication package. So, please
-[contact]({{site.baseurl}}contact) me to share your insights!
+<a href="{{site.baseurl}}contact">contact</a>
+me to share your insights!
 </p>
 
 {% include _footers/blog_footer.html %}
