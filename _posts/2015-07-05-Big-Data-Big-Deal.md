@@ -8,17 +8,18 @@ last_modified_at: 2016-01-07
 
 {% include _headers/blog_header.html %}
 
-<a title="vases" href="http://flickr.com/photos/mybloodyself/2428544365"><img class="img-responsive-tight" src="http://farm4.static.flickr.com/3094/2428544365_4fdd69c25d_z.jpg" /></a><br /><small><a title="vases" href="http://flickr.com/photos/mybloodyself/2428544365">flickr photo</a> shared by <a href="http://flickr.com/people/mybloodyself">danmachold</a> under a <a href="http://creativecommons.org/licenses/by-nc-sa/2.0/">CC (BY-NC-SA) license</a> </small>
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="2428544365_4fdd69c25d_z.jpg" content="<a title='vases' href='http://flickr.com/photos/mybloodyself/2428544365'>flickr photo</a> shared by <a href='http://flickr.com/people/mybloodyself'>danmachold</a> under a <a href='http://creativecommons.org/licenses/by-nc-sa/2.0/'>CC (BY-NC-SA) license</a>" label="CC (BY-NC-SA)" %}
 
-<a name="Kapfhammer2015a-return"></a>
-<a name="Kinneer2015-return"></a>
-<a name="Kinneer2015a-return"></a>
 {% describe %}
-This statement was written to support my participation in a panel at the *27th International Conference on Software
-Engineering and Knowledge Engineering*. To view the accompanying slides for this presentation, please refer to {% cite
-Kapfhammer2015a %}. If you want to learn more about new work that my colleagues and students and I are conducting in
-the area of efficiently testing data-centric applications, please read {% cite Kinneer2015 %} and {% cite Kinneer2015a
-%}, two papers that were also presented at the same conference.
+<p>
+This statement was written to support my participation in a panel at the <em>27th International Conference on Software
+Engineering and Knowledge Engineering</em>. To view the accompanying slides for this presentation, please refer to {%
+cite Kapfhammer2015a %}. If you want to learn more about new work that my colleagues and students and I are conducting
+in the area of efficiently testing data-centric applications, please read {% include _popovers/paper_reference.html
+cite="Kinneer2015" %} and {% include _popovers/paper_reference.html cite="Kinneer2015a" trailing="," %} two papers that
+were also presented at the same conference.
+</p>
 {% enddescribe %}
 
 Big data analytics software allows researchers and practitioners to create descriptive models and make predictions.
@@ -49,12 +50,12 @@ each other to develop efficient and effective data analytics systems that constr
 accurate predictions. Let's collaborate across the fields of software engineering and big data to ensure that we have a
 positive influence on society &mdash; thus proving to be a "bigger deal" together than we would have been on our own.
 
-<a name="McMinn2015-return"></a>
+<p>
 Interested in learning more about this topic? Since this blog post was first written, my colleagues and students and I
 have published several additional papers about the testing of relational database schemas, with the most noteworthy one
-being {% cite McMinn2015 %}. If you are interested in using SchemaAnalyst to test your own database schema, then please
-download and use the tool, which is now available from the GitHub site
-[schemaanalyst/schemaanalyst](https://github.com/schemaanalyst/schemaanalyst).
+being {% include _popovers/paper_reference.html cite="McMinn2015" %}. If you are interested in using SchemaAnalyst to
+test your own database schema, then please download and use the tool, which is now available from the GitHub site <a
+href="https://github.com/schemaanalyst/schemaanalyst">schemaanalyst/schemaanalyst</a>.
+</p>
 
 {% include _footers/blog_footer.html %}
-{% include _footers/blog_references.html %}
