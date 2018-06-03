@@ -22,18 +22,28 @@
       <div class="col-md-10">
         {{ content }}
 
-          <div class="row">
-            <div class="col-xs-6">
-              {% if page.next != nil %}
+        <div class="row">
+          <div class="col">
+            {% if page.next != nil %}
               <i class="fa fa-long-arrow-left"></i> <a href="/{{ page.next.url | remove_first:'/'}}">{{ page.next.title }}</a>
-              {% endif %}
-            </div>
-            <div class="col-xs-6">
-              {% if page.previous != nil %}
-              <a href="/{{ page.previous.url | remove_first:'/'}}">{{ page.previous.title }}</a> <i class="fa fa-long-arrow-right"></i>
-              {% endif %}
-            </div>
+            {% endif %}
           </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            {% if page.previous != nil %}
+            <p>
+              <a href="/{{ page.previous.url | remove_first:'/'}}">{{ page.previous.title }}</a> <i class="fa fa-long-arrow-right"></i>
+            </p>
+            {% endif %}
+          </div>
+        </div>
+
+        <!-- Give an extra blank row for additional space padding -->
+        <div class="row">
+          <div class="col-xs-12">
+          </div>
+        </div>
 
       </div>
 
