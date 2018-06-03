@@ -8,7 +8,8 @@ date: 2017-07-01
 
 {% include _headers/blog_header.html %}
 
-<a title="Speedy Red Citroen" href="https://flickr.com/photos/extremearq/160181261"><img class="img-responsive-tight" src="https://farm1.static.flickr.com/72/160181261_8694ae7eb5_z.jpg" /></a><br /><small><a title="Speedy Red Citroen" href="https://flickr.com/photos/extremearq/160181261">flickr photo</a> by <a href="https://flickr.com/people/extremearq">ExtremearQ</a> shared under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND) license</a> </small>
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="160181261_8694ae7eb5_z.jpg" content="<a title='Speedy Red Citroen' href='https://flickr.com/photos/extremearq/160181261'>flickr photo</a> by <a href='https://flickr.com/people/extremearq'>ExtremearQ</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
 Since, in my experience, writing technical research [papers]({{site.baseurl}}research/papers/) is a challenging task, I
