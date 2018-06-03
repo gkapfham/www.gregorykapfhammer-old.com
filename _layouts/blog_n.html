@@ -1,296 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    {% if page.title != site.me %}
-    <title>{{ page.title }}</title>
-    {% else %}
-    <title>{{ page.title }}</title>
-    {% endif %}
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% if page.description %}
-    <meta name="description" content="{{page.description | xml_escape | markdownify | strip_html}}">
-    {% else %}
-    <meta name="description" content="{{site.description}}">
-    {% endif %}
-   <meta name="google-site-verification" content="grspuqgstyf-rt4ys0ko4fllesvglrhwhgxrhkeb4r4"/>
-    <link rel="shortcut icon" href="/infinity.ico">
-    <link rel="icon" type="image/png" href="/infinity.png" sizes="192x192">
-    <link rel="apple-touch-icon" href="/infinity.png" sizes="192x192">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="/css/bootstrap-gkapfham.css" rel="stylesheet">
-    <script src="/js/instafeed.min.js"></script>
-    <script type="text/javascript" src="/js/loadfeed.js"></script>
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
-    <link href="/feed/" type="application/rss+xml" rel="alternate" title="Ten Recent Posts by Gregory M. Kapfhammer (Atom)"/>
-    <meta name="theme-color" content="#2b2e32">
-    <script>
-      var shiftWindow = function() { scrollBy(0, -60) };
-      window.addEventListener("hashchange", shiftWindow);
-      function load() { if (window.location.hash) shiftWindow(); }
-    </script>
-    {% if jekyll.environment == 'production' %} {% include _headers/analytics.html %} {% endif %}
-  </head>
+<head>
+  {% include _headers/head_all.html %}
+</head>
 
-  <body onload="load()">
+<!-- Always call the load() function so that clicking on links to anchors handles the fixed navbar -->
+<body onload="load()">
 
-    <div class="navbar navbar-default navbar-fixed-top">
+  <!-- Define the navigation bar -->
+  {% include _headers/navbar.html %}
 
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".bs-navbar-collapse">
-          <span class="navigate icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
+  <!-- Container for all of the content -->
+  <div class="container">
 
-        <a class="navbar-brand navigate-name-hide" href="/">Gregory M. Kapfhammer</a>
-        <a class="navbar-brand navigate-menu-hide" data-toggle="modal" data-target="#menuModal">
-          <i class="fa fa-toggle-down fa-lg" aria-hidden="true"></i></a>
-
+    <div class="row">
+      <!-- Padding on the left -->
+      <div class="col-md-1">
       </div>
+      <!-- Main content -->
+      <div class="col-md-10">
+        {{ content }}
 
-      <div class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-
-        <ul class="nav navbar-nav navbar-right">
-
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle navigate" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teaching<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a class="navigate" href="/teaching/">Courses</a></li>
-              <li><a class="navigate" href="/teaching/cs103S2018">CS 103</a></li>
-              <li><a class="navigate" href="/teaching/cs112S2018">CS 112</a></li>
-            </ul>
-          </li>
-
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle navigate" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Research<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a class="navigate" href="/research/">Overview</a></li>
-              <li><a class="navigate" href="/research/papers/">Papers</a></li>
-              <li><a class="navigate" href="/research/presentations/">Talks</a></li>
-            </ul>
-          </li>
-
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle navigate" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Outreach<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a class="navigate" href="/software/">Software</a></li>
-              <li><a class="navigate" href="/service/">Service</a></li>
-              <li><a class="navigate" href="/blog/">Blog</a></li>
-            </ul>
-          </li>
-
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle navigate" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span>&nbsp;&nbsp;&nbsp;</a>
-            <ul class="dropdown-menu">
-              <li><a class="navigate" href="/biography/">Biography</a></li>
-              <li><a class="navigate" href="/schedule/">Schedule</a></li>
-              <li><a class="navigate" href="/contact/">Contact</a></li>
-            </ul>
-          </li>
-
-        </ul>
-      </div>
-
-    </div>
-
-    <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-
-      <div class="modal-dialog">
-
-        <div class="modal-content" style="color:#c5c8c6;">
-
-          <div class="modal-header text-center" style="border:0;">
-            <a class="navigatemodal sub" data-dismiss="modal" aria-hidden="true"><i class="fa fa-toggle-up fa-2x"></i></a>
-          </div>
-
-          <div class="modal-body text-center">
-
-            <div class="container">
-
-              <div class="row">
-
-                <div class="col-md-3">
-                </div>
-
-                <div class="col-md-3">
-                  <h2 class="big">Teaching</h2>
-                  <ul style="list-style-type:none;">
-                    <li><a class="navigatemodal sub" href="/teaching/">Courses</a></li>
-                    <li><a class="navigate sub" href="/teaching/cs103S2018">CS 103</a></li>
-                    <li><a class="navigate sub" href="/teaching/cs112S2018">CS 112</a></li>
-                  </ul>
-                </div>
-
-                <div class="col-md-3">
-                  <h2 class="big">Research</h2>
-                  <ul style="list-style-type:none;">
-                    <li><a class="navigatemodal sub" href="/research/">Overview</a></li>
-                    <li><a class="navigate sub" href="/research/papers/">Papers</a></li>
-                    <li><a class="navigate sub" href="/research/presentations/">Talks</a></li>
-                  </ul>
-                </div>
-
-                <div class="col-md-3">
-                </div>
-
-              </div>
-
-              <div class="row">
-
-                <div class="col-md-3">
-                </div>
-
-                <div class="col-md-3">
-                  <h2 class="big">Outreach</h2>
-                  <ul style="list-style-type:none;">
-                    <li><a class="navigatemodal sub" href="/software/">Software</a></li>
-                    <li><a class="navigate sub" href="/service/">Service</a></li>
-                    <li><a class="navigate sub" href="/blog/">Blog</a></li>
-                  </ul>
-                </div>
-
-                <div class="col-md-3">
-                  <h2 class="big">About</h2>
-                  <ul style="list-style-type:none;">
-                    <li><a class="navigatemodal sub" href="/biography/">Biography</a></li>
-                    <li><a class="navigate sub" href="/schedule/">Schedule</a></li>
-                    <li><a class="navigate sub" href="/contact/">Contact</a></li>
-                  </ul>
-                </div>
-
-                <div class="col-md-3">
-                </div>
-
-              </div>
-
-
-            </div>
-
-          </div>
-
-          <div class="modal-body text-center">
-
-            <h2 class="big tight">Photographs</h2>
-
-            <div class="row">
-
-              <div class="col-md-2">
-              </div>
-
-              <div class="col-md-8">
-                <div id="instafeed"></div>
-              </div>
-
-              <div class="col-md-2">
-              </div>
-
-            </div>
-
-          </div>
-
-          <div class="modal-body text-center">
-
-            <a class="navigate socialfooter" href="https://twitter.com/GregKapfhammer"><i class="fa fa-twitter fa-lg"></i></a> &nbsp;
-            <a class="navigate socialfooter" href="https://www.linkedin.com/in/GregKapfhammer"><i class="fa fa-linkedin fa-lg"></i></a> &nbsp;
-            <a class="navigate socialfooter" href="https://github.com/gkapfham"><i class="fa fa-github fa-lg"></i></a> &nbsp;
-            <a class="navigate socialfooter" href="https://scholar.google.com/citations?user=g0eDPjYAAAAJ"><i class="fa fa-google fa-lg"></i></a> &nbsp;
-            <a class="navigate socialfooter" href="https://www.instagram.com/gregkapfhammer/"><i class="fa fa-instagram fa-lg"></i></a> &nbsp;
-            <a class="navigate socialfooter" href="https://www.flickr.com/photos/gregkapfhammer/"><i class="fa fa-flickr fa-lg"></i></a> &nbsp;
-
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-
-      <div class="row">
-
-        <div class="col-md-1 visible-md visible-lg sidebar">
-        </div>
-
-        <div class="col-md-10">
-          {{ content }}
           <div class="row">
-
             <div class="col-xs-6">
               {% if page.next != nil %}
               <i class="fa fa-long-arrow-left"></i> <a href="/{{ page.next.url | remove_first:'/'}}">{{ page.next.title }}</a>
               {% endif %}
             </div>
-
             <div class="col-xs-6">
               {% if page.previous != nil %}
               <a href="/{{ page.previous.url | remove_first:'/'}}">{{ page.previous.title }}</a> <i class="fa fa-long-arrow-right"></i>
               {% endif %}
             </div>
-
           </div>
 
-        </div>
-
-        <div class="col-md-1 visible-md visible-lg sidebar">
-        </div>
-
       </div>
 
-      <div class="row">
-        <div class="col-xs-12 bottom-pad">
-        </div>
+      <!-- Padding on the right -->
+      <div class="col-md-1">
       </div>
-
-      <div class="row">
-        <div class="col-md-1 visible-md visible-lg sidebar">
-        </div>
-        <div class="col-sm-11">
-          <a href="https://twitter.com/GregKapfhammer"><i class="fa fa-twitter fa-2x"></i></a> &nbsp;
-          <a href="https://www.linkedin.com/in/GregKapfhammer"><i class="fa fa-linkedin fa-2x"></i></a> &nbsp;
-          <a href="https://github.com/gkapfham"><i class="fa fa-github fa-2x"></i></a> &nbsp;
-          <a href="https://scholar.google.com/citations?user=g0eDPjYAAAAJ"><i class="fa fa-google fa-2x"></i></a> &nbsp;
-          <a href="https://www.instagram.com/gregkapfhammer/"><i class="fa fa-instagram fa-2x"></i></a> &nbsp;
-          <a href="/feed/"><i class="fa fa-rss fa-2x"></i></a> &nbsp;
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-1 visible-md visible-lg sidebar">
-        </div>
-        <div class="col-sm-11">
-          <div class="footerquestion">Please <a href="/support/">support</a> my work!</div>
-        </div>
-      </div>
-
-      <a href="#" class="back-to-top"><i class="fa fa-angle-double-up fa-2x"></i></a>
-
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <!-- Include the code creates the footer -->
+    {% include _footers/default_footer.html %}
 
-    <script>
-            jQuery(document).ready(function() {
-                var offset = 500;
-                var duration = 250;
-                jQuery(window).scroll(function() {
-                    if (jQuery(this).scrollTop() > offset) {
-                        jQuery('.back-to-top').fadeIn(duration);
-                    } else {
-                        jQuery('.back-to-top').fadeOut(duration);
-                    }
-                });
-                jQuery('.back-to-top').click(function(event) {
-                    event.preventDefault();
-                    jQuery('html, body').animate({scrollTop: 0}, duration);
-                    return false;
-                })
-            });
-    </script>
+  </div>
 
-  </body>
+  <!-- Include the code creates the footer -->
+  {% include _footers/default_javascript_footer.html %}
+
+</body>
 
 </html>
