@@ -20,7 +20,7 @@
     <!-- Note that this will always be in a paragraph because it comes last -->
     {% if page.previous != nil %}
     <p>
-    <a href="/{{ page.previous.url | remove_first:'/'}}">{{ page.previous.title | truncatewords: 7 }}</a> <i class="fa fa-long-arrow-right"></i>
+    <i class="fa fa-long-arrow-right"></i> <a href="/{{ page.previous.url | remove_first:'/'}}">{{ page.previous.title | truncatewords: 7 }}</a>
     </p>
     {% endif %}
   </div>

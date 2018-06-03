@@ -8,7 +8,8 @@ date: 2017-06-24
 
 {% include _headers/blog_header.html %}
 
-<a title="Avoid" href="https://flickr.com/photos/drownedman/4199642840"><img class="img-responsive-tight" src="https://farm3.static.flickr.com/2615/4199642840_7f9bc7a73a_z.jpg" /></a><br /><small><a title="Avoid" href="https://flickr.com/photos/drownedman/4199642840">flickr photo</a> by <a href="https://flickr.com/people/drownedman">Rebirth Cycle</a> shared under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND) license</a> </small>
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="4199642840_7f9bc7a73a_z.jpg" content="<a title='Avoid' href='https://flickr.com/photos/drownedman/4199642840'>flickr photo</a> by <a href='https://flickr.com/people/drownedman'>Rebirth Cycle</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
 As a writer of technical content in a field like computer science you should strive for papers that are clear and easy

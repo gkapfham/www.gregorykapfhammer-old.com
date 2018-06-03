@@ -290,7 +290,7 @@ body {
 
 $link-color: $primary;
 $link-decoration: none;
-$link-hover-color: material-color("orange", "600");
+$link-hover-color: Material-color("orange", "600");
 $link-hover-decoration: underline;
 
 // }}}
@@ -362,8 +362,8 @@ $tooltip-arrow-color:               $tooltip-bg;
 $popover-font-size: .875 * $font-size-sm;
 
 // Change the background colors for main popover and its header
-$popover-bg:           material-color('blue', '800');
-$popover-header-bg:    material-color('blue', '800');
+$popover-bg:        material-color('blue', '800');
+$popover-header-bg: material-color('blue', '800');
 
 // Always use the gray-300 color for the textual content
 $popover-header-color: $gray-300;
@@ -381,7 +381,7 @@ body {
   }
   .popover {
     a {
-      color: material-color('amber', '900');
+      color: material-color('orange', '900');
     }
   }
 }
@@ -398,6 +398,12 @@ body {
     white-space: pre-wrap;
   }
 }
+
+// }}}
+
+// Code {{{
+
+$code-color: $gray-400;
 
 // }}}
 

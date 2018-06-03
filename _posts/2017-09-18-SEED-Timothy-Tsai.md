@@ -10,7 +10,8 @@ web_site: "https://www.linkedin.com/in/timothy-tsai-6501ba2/"
 # {{page.title}}
 ## <em>{{ page.date | date_to_long_string }}</em>
 
-<a title="Painted Glass" href="https://flickr.com/photos/stevensnodgrass/6117679215"><img class="img-responsive-tight" src="https://farm7.static.flickr.com/6064/6117679215_cf28a0e6e2_z.jpg" /></a><br /><small><a title="Painted Glass" href="https://flickr.com/photos/stevensnodgrass/6117679215">flickr photo</a> by <a href="https://flickr.com/people/stevensnodgrass">Steve Snodgrass</a> shared under a <a href="https://creativecommons.org/licenses/by/2.0/">CC (BY) license</a> </small>
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="6117679215_cf28a0e6e2_z.jpg" content="<a title='Painted Glass' href='https://flickr.com/photos/stevensnodgrass/6117679215'>flickr photo</a> by <a href='https://flickr.com/people/stevensnodgrass'>Steve Snodgrass</a> shared under a <a href='https://creativecommons.org/licenses/by/2.0/'>CC (BY) license</a>" label="CC (BY)" %}
 
 {% assign size = site.baseurl | size | minus: 1 %}
 

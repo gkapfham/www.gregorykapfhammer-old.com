@@ -10,7 +10,8 @@ web_site: "https://www.linkedin.com/in/brian-blose-2545871a/"
 # {{page.title}}
 ## <em>{{ page.date | date_to_long_string }}</em>
 
-<a title="Glass, Stained" href="https://flickr.com/photos/sammcox/7787947034"><img class="img-responsive-tight" src="https://farm8.static.flickr.com/7274/7787947034_482bc3662e_z.jpg" /></a><br /><small><a title="Glass, Stained" href="https://flickr.com/photos/sammcox/7787947034">flickr photo</a> by <a href="https://flickr.com/people/sammcox">SammCox</a> shared under a <a href="https://creativecommons.org/licenses/by-nc/2.0/">CC (BY-NC) license</a> </small>
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="7787947034_482bc3662e_z.jpg" content="<a title='Glass, Stained' href='https://flickr.com/photos/sammcox/7787947034'>flickr photo</a> by <a href='https://flickr.com/people/sammcox'>SammCox</a> shared under a <a href='https://creativecommons.org/licenses/by-nc/2.0/'>CC (BY-NC) license</a> </small>" label="CC (BY-NC)" %}
 
 {% assign size = site.baseurl | size | minus: 1 %}
 
