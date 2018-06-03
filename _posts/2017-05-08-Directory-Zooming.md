@@ -40,11 +40,13 @@ frequently visited and then passes that program's output to Fzf.
 {% include _code/directory_zooming.sh.code %}
 ```
 
+<p>
 Now, if I type `t paper` in my terminal window, I would see the following
 output. At this point it would be possible to type in partial matches of
 directory names (e.g., "avmf") and then immediately zoom to the directory that
 contains the source code for a paper that my colleague and I recently published
 {% include _popovers/paper_reference.html cite="McMinn2016b" trailing="." %}
+</p>
 
 ```
 {% include _output/directory_zooming.output %}
