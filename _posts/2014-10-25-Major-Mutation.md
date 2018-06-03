@@ -26,6 +26,7 @@ they are likely to find defects.  As an alternative to, or in addition to covera
 simple faults into the program under test to determine whether or not the tests can find them.  Intuitively, a test case
 that can find many of these faults is judged to be a good one.
 
+<p>
 While mutation analysis is simple and useful, historically, it has been difficult to apply to large-scale programs
 because it was computationally expensive. This all changed with the design, implementation, and release of <a
 href="http://www.mutation-testing.org">Major</a>, a compiler-integrated mutation testing tool for the Java programming
@@ -33,6 +34,7 @@ language. You can learn more about Major by reading {% include _popovers/paper_r
 include _popovers/paper_reference.html cite="Just2011b" %}; more details about how Major makes mutation testing
 scalable through use of non-redundant mutation operators and test suite prioritization is available in {% include
 _popovers/paper_reference.html cite="Just2012b" %}.
+</p>
 
 Starting to use the tool is as easy as changing the Java compiler that you use at build time, as demonstrated by the
 following line from Major's online documentation.
@@ -48,8 +50,10 @@ is now available for download&mdash;check Major's site so that you can download 
 analysis for your JUnit test suites! If you are interested in Major, then you may also want to investigate the use of
 [PIT](http://pitest.org/), another mutation testing tool for programs written in the Java language.
 
+<p>
 Interested in learning more about this topic? Since this blog post was first written, my colleagues and students and I
 have published additional papers about mutation testing, with the most noteworthy one being {% include
 _popovers/paper_reference.html cite="McCurdy2016" %}.
+</p>
 
 {% include _footers/blog_footer.html %}
