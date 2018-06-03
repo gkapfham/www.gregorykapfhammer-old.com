@@ -7,14 +7,12 @@ categories: [main]
 # Gregory M. Kapfhammer
 
 {% describe %}
-
 Welcome! My name is Gregory M. Kapfhammer. Focusing on technical areas such as
 software engineering, software testing, and data science, I
 [teach]({{site.baseurl}}teaching/) courses, conduct
 [research]({{site.baseurl}}research/), write
-[papers]({{site.baseurl}}research/papers/) and a
-[blog]({{site.baseurl}}research/blog/), give
-[presentations]({{site.baseurl}}research/presentations/), create
+[papers]({{site.baseurl}}research/papers/) and a [blog]({{site.baseurl}}blog/),
+give [presentations]({{site.baseurl}}research/presentations/), create
 [software]({{site.baseurl}}software/), and [serve]({{site.baseurl}}service/)
 organizations. I am an Associate Professor in and Chair of the [Department of
 Computer Science](http://www.cs.allegheny.edu) at [Allegheny
@@ -25,7 +23,6 @@ consultant for the software industry. You can read my professional
 [biography]({{site.baseurl}}biography/) if you would like to learn more about
 me. Please [subscribe]({{site.baseurl}}support/) to my mailing list if you want
 me to send you informative status updates about my current projects.
-
 {% enddescribe %}
 
 ## SEED Survey
