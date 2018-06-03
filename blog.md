@@ -18,7 +18,8 @@ description: In addition to writing about technical writing and computer science
   <a class="tag" href="/categories/#{{ category | slugify }}"> {{ category }}</a>
   {% endfor %}
   <p>
-  {{ page.date | date_to_long_string }}
+  <i class="fa fa-calendar-o" aria-hidden="true"></i>
+  &nbsp; {{ page.date | date_to_long_string }}
   {% if page.last_modified_at %}
   (Updated: {{ page.last_modified_at | date_to_long_string }})
   <p></p>
