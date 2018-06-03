@@ -7,7 +7,8 @@ description: Here are the topics that I most frequently write about! Find you fa
 
 # {{ page.title }}
 
-<a title="Blue tag" href="https://flickr.com/photos/tjololo_photo/5700106776"><img class="img-responsive-tight" src="https://farm6.static.flickr.com/5148/5700106776_857c0ded3b_z.jpg" /></a><br /><small><a title="Blue tag" href="https://flickr.com/photos/tjololo_photo/5700106776">flickr photo</a> by <a href="https://flickr.com/people/tjololo_photo">Tjololo Photo</a> shared under a <a href="https://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND) license</a> </small>
+<!-- Include header image -->
+{% include _popovers/image_reference.html image="5700106776_857c0ded3b_z.jpg" content="<a title='Blue tag' href='https://flickr.com/photos/tjololo_photo/5700106776'>flickr photo</a> by <a href='https://flickr.com/people/tjololo_photo'>Tjololo Photo</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% comment %}
 Extract and sort the tags

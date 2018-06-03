@@ -495,3 +495,23 @@ body {
 
 // }}}
 
+// Blog Tags {{{
+
+.tag {
+  color: material-color('blue', '700');
+  margin-left: 8px;
+}
+
+.tag:hover {
+  color: material-color('blue', '500');
+}
+
+.tagreference {
+  color: material-color('blue', '700');
+}
+
+.tagreference:hover {
+  color: material-color('blue', '500');
+}
+
+// }}}
