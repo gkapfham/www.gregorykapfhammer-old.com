@@ -8,10 +8,8 @@ last_modified_at: 2016-10-12
 
 {% include _headers/blog_header.html %}
 
-<a title="cap & nib" href="http://flickr.com/photos/mysight/8663830964"><img class="img-responsive-tight" src="http://farm9.static.flickr.com/8254/8663830964_76117e9b4b_z.jpg" /></a><br /><small><a href="http://creativecommons.org/licenses/by-nc-nd/2.0/">CC (BY-NC-ND)</a> <a title="cap & nib" href="http://flickr.com/photos/mysight/8663830964">flickr photo</a> shared by <a href="http://flickr.com/people/mysight">Inkysloth</a></small>
-
 <!-- Include header image -->
-{% include _popovers/image_reference.html image="7029911579_0ddd6e8352_z.jpg" content="<a title='Color Test #4a' target='_blank' href='http://flickr.com/photos/multichrome/7029911579'>flickr photo</a> shared by <a target='_blank' href='http://flickr.com/people/multichrome'>/Casper</a> under a <a target='_blank' href='http://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
+{% include _popovers/image_reference.html image="" content="<a title='cap & nib' href='https://flickr.com/photos/mysight/8663830964'>cap & nib</a> flickr photo by <a href='https://flickr.com/people/mysight'>Inkysloth</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>Creative Commons (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
 If you are like me, then you may enjoy writing in a notebook with a fountain pen
