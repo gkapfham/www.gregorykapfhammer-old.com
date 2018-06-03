@@ -51,4 +51,3 @@ download and use the tool, which is now available from the GitHub site
 [schemaanalyst/schemaanalyst](https://github.com/schemaanalyst/schemaanalyst).
 
 {% include _footers/blog_footer.html %}
-{% include _footers/blog_references.html %}
