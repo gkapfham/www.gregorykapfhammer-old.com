@@ -44,8 +44,8 @@ frequently visited and then passes that program's output to Fzf.
 Now, if I type `t paper` in my terminal window, I would see the following
 output. At this point it would be possible to type in partial matches of
 directory names (e.g., "avmf") and then immediately zoom to the directory that
-contains the source code for a paper that my colleague and I recently published
-{% include _popovers/paper_reference.html cite="McMinn2016b" trailing="." %}
+contains the source code for a paper, {% include _popovers/paper_reference.html
+cite="McMinn2016b" trailing="," %} that my colleague and I recently published.
 </p>
 
 ```
