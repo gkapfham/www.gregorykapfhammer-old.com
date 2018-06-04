@@ -22,43 +22,8 @@
       <div class="col-md-10">
         {{ content }}
 
-        <!-- Compute the values for the specific courses -->
-        {% assign max_id = -45 %} {% assign stop_id = 0 %} {% assign nextid = page.id | plus:1 %} {% assign previd = page.id | minus:1 %}
-
-        <!-- Assume that you have not found a link to the left or the right -->
-        {% assign found_left = 0 %}
-        {% assign found_right = 0 %}
-
-        <!-- Display the link to the previous course -->
-        <div class="row">
-          <div class="col">
-            {% for thispage in site.pages %} {% if thispage.id == previd %} {% if thispage.course == true %}
-            <!-- Display the link -->
-            <i class="fa fa-long-arrow-left"></i>  <a href="/{{ thispage.url | remove_first:'/'}}">{{ thispage.title | capitalize_all }}</a>
-            <!-- Indicate that the left arrow link has been found -->
-            {% assign found_left = 1 %}
-            {% endif %} {% endif %} {% endfor %}
-          </div>
-        </div>
-
-        <!-- Display the link to the previous course -->
-        <div class="row">
-          <div class="col">
-            {% for thispage in site.pages %} {% if thispage.id == nextid %} {% if thispage.course == true %}
-            <i class="fa fa-long-arrow-right"></i> <a href="/{{ thispage.url | remove_first:'/'}}">{{ thispage.title | capitalize_all }}</a>
-            <!-- We have already displayed a left link, so extra space is needed -->
-            {% if found_left == 0 %}
-            <p></p>
-            {% endif %}
-            <!-- Indicate that the right arrow has been found -->
-            {% assign found_right = 1 %}
-            {% endif %} {% endif %} {% endfor %}
-            <!-- If there was either a left arrow or a right arrow then space is needed -->
-            {% if found_right == 1 or found_left == 1 %}
-            <p></p>
-            {% endif %}
-          </div>
-        </div>
+        <!-- Include the code creates the footer -->
+        {% include _footers/course_crumb_footer.html %}
 
       </div>
 
