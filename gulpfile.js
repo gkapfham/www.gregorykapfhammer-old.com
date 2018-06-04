@@ -105,7 +105,7 @@ gulp.task('imagecompress', function () {
             imagemin.optipng(),
             imagemin.jpegtran(),
             imageminPngquant(speed=1),
-            imageminJpegRecompress(accurate=true, loops=10)
+            imageminJpegRecompress(accurate=true, loops=10, max=70)
         ]))
         .pipe(gulp.dest(IMAGES_DEST));
 });
