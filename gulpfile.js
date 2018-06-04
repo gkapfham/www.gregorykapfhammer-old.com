@@ -110,6 +110,21 @@ gulp.task('imagecompress', function () {
         .pipe(gulp.dest(IMAGES_DEST));
 });
 
+// TASK: serve the web site in full
+gulp.task('imagemogrify', function(cb) {
+  var spawn = require('child_process').spawn;
+  var options = {stdio: 'inherit'};
+  if (DEPLOY) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'production';
+    options.env = env;
+  }
+  var jekyll = spawn('mogrify', ['_site/download/images/*.jpg', '-sampling-factor', '4:2:0', '-strip', '-quality',  '85', '-interlace', 'JPEG', '-colorspace', 'sRGB', '_site/download/images/*.jpg'], options);
+  jekyll.on('exit', function(code) {
+    cb(code === 0 ? null : 'Error: mogrify process exited with code: ' + code);
+  });
+});
+
 // TASK: minify all of the CSS files
 gulp.task('cssminify', function () {
     var plugins = [
@@ -148,7 +163,7 @@ gulp.task(
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizedbuild',
-  gulp.series('sass', 'build', 'imageoptimize', 'imagecompress',
+  gulp.series('sass', 'build', 'imageoptimize', 'imagecompress', 'imagemogrify',
       gulp.parallel('cssminify', 'htmlminify', 'jsminify'))
 );
 
