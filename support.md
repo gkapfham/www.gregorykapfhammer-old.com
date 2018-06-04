@@ -14,22 +14,40 @@ Please subscribe to my mailing list! Instead of selling your email or bombarding
 informative and useful updates each year. <br>
 
 <form method="POST" action="https://getsimpleform.com/messages?form_api_token=036ec14e0a86e2bf39ae488655d68c50" class="form-inline" data-toggle="validator" data-feedback='{"success": "fa-check", "error": "fa-times"}' role="form">
-<div class="form-group has-feedback">
-  <label for="name">Name</label>
-  <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required/>
-  <span class="fa form-control-feedback" aria-hidden="true"></span>
+
+<div class="row">
+
+  <!-- Create the input field for the name -->
+  <div class="col">
+    <div class="form-group has-feedback">
+      <label for="name">Name</label>
+      <input type="text" class="form-control" name="name" id="name" placeholder="Your Name" required/>
+      <span class="fa form-control-feedback" aria-hidden="true"></span>
+    </div>
+  </div>
+
+  <!-- Create the input field for the email address -->
+  <div class="col">
+    <div class="form-group has-feedback">
+      <label for="reply_to">Email</label>
+      <input type="email" class="form-control" name="reply_to" id="reply_to" placeholder="user.name@example.com" required/>
+      <span class="fa form-control-feedback" aria-hidden="true"></span>
+      <input type="hidden" name="redirect_to" value="http://www.cs.allegheny.edu/sites/gkapfham/emailthanks/"/>
+      <input type="hidden" name="_subject" value="Updates from Gregory M. Kapfhammer"/>
+      <input type="hidden" name="_format" value="plain"/>
+    </div>
+  </div>
+
 </div>
-<div class="form-group has-feedback">
-  <label for="reply_to">Email</label>
-  <input type="email" class="form-control" name="reply_to" id="reply_to" placeholder="user.name@example.com" required/>
-  <span class="fa form-control-feedback" aria-hidden="true"></span>
-  <input type="hidden" name="redirect_to" value="http://www.cs.allegheny.edu/sites/gkapfham/emailthanks/"/>
-  <input type="hidden" name="_subject" value="Updates from Gregory M. Kapfhammer"/>
-  <input type="hidden" name="_format" value="plain"/>
+
+<div class="row mt-3">
+  <div class="col">
+    <div class="form-group">
+      <button type="submit" class="btn btn-info">Subscribe</button>
+    </div>
+  </div>
 </div>
-<div class="form-group">
-  <button type="submit" class="btn btn-default">Subscribe</button>
-</div>
+
 </form>
 
 ## Connection
