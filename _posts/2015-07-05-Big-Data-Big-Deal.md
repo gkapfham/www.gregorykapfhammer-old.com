@@ -17,7 +17,7 @@ This statement was written to support my participation in a panel at the <em>27t
 Engineering and Knowledge Engineering</em>. To view the accompanying slides for this presentation, please refer to {%
 include _popovers/paper_reference.html cite="Kapfhammer2015a" trailing="." %} If you want to learn more about new work
 that my colleagues and students and I are conducting in the area of efficiently testing data-centric applications,
-please read {% include _popovers/paper_reference.html cite="Kinneer2015" %} and {% include
+then please read {% include _popovers/paper_reference.html cite="Kinneer2015" %} and {% include
 _popovers/paper_reference.html cite="Kinneer2015a" trailing="," %} two papers that were also presented at the same
 conference.
 </p>
