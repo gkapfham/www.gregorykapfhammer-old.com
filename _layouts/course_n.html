@@ -46,11 +46,14 @@
           <div class="col">
             {% for thispage in site.pages %} {% if thispage.id == nextid %} {% if thispage.course == true %}
             <i class="fa fa-long-arrow-right"></i> <a href="/{{ thispage.url | remove_first:'/'}}">{{ thispage.title | capitalize_all }}</a>
+            <!-- We have already displayed a left link, so extra space is needed -->
             {% if found_left == 0 %}
             <p></p>
             {% endif %}
+            <!-- Indicate that the right arrow has been found -->
             {% assign found_right = 1 %}
             {% endif %} {% endif %} {% endfor %}
+            <!-- If there was either a left arrow or a right arrow then space is needed -->
             {% if found_right == 1 or found_left == 1 %}
             <p></p>
             {% endif %}
