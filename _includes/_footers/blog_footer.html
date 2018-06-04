@@ -1,9 +1,14 @@
 {% assign found_post = 0 %}
 {% for post in site.posts limit:1 %}
+  <!-- This is not the most recent article, so link to the most recent one -->
   {% if post.title != page.title %}
   <em>Enjoy this post?</em> If so, please read,
   <a class="major" href="/{{ post.url | remove_first:'/'}}">{{ post.title }}</a>, my most recent article.
   {% else %}
+  <!-- This is the most recent article, so link to the most recent -->
+  <!-- one that is also the one that was modified -->
+  <!-- Note that this does not find the article that was most -->
+  <!-- recently modified, but I guess that is acceptable -->
   {% for post in site.posts %}
   {% if post.last_modified_at and found_post == 0 %}
   <em>Enjoy this post?</em> If so, please read,
@@ -14,6 +19,8 @@
   {% endif %}
 {% endfor %}
 
+<!-- Display all of the tags for this post -->
+
 ### Categories
 
 <ul class="fa-ul">
@@ -23,4 +30,3 @@
 </li>
 {% endfor %}
 </ul>
-
