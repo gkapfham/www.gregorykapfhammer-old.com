@@ -152,19 +152,6 @@ that you have about this initiative.
   </div>
 
   <div class="form-group has-feedback">
-    <div class="row">
-      <div class="col-xs-1">
-        <div class="checkbox">
-          <input type="checkbox" name="advancecopy" id="advancecopy">
-        </div>
-      </div>
-      <div class="col-xs-11">
-        <label for="advancecopy">Do you want to receive an advance copy of the final post?</label>
-      </div>
-    </div>
-  </div>
-
-  <div class="form-group has-feedback">
     <label for="time">How many minutes did it take you to complete this survey?</label>
     <div class="row">
       <div class="col-sm-6">
@@ -177,7 +164,7 @@ that you have about this initiative.
   </div>
 
   <div class="form-group">
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="submit" class="btn btn-info">Submit</button>
     <input type="hidden" name="redirect_to" value="http://www.cs.allegheny.edu/sites/gkapfham/seedthanks/"/>
     <input type="hidden" name="_subject" value="Submission to the SEED Project"/>
     <input type="hidden" name="_format" value="plain"/>
