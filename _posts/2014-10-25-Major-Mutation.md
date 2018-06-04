@@ -3,7 +3,7 @@ title: Using Major to perform mutation analysis of Java programs
 layout: blog_n
 categories: [testing, mutation, research]
 author: Gregory M. Kapfhammer
-last_modified_at: 2016-10-12
+last_modified_at: 2018-6-4
 ---
 
 {% include _headers/blog_header.html %}
@@ -51,8 +51,9 @@ analysis for your JUnit test suites! If you are interested in Major, then you ma
 
 <p>
 Interested in learning more about this topic? Since this blog post was first written, my colleagues and students and I
-have published additional papers about mutation testing, with the most noteworthy one being {% include
-_popovers/paper_reference.html cite="McCurdy2016" trailing="." %}
+have published additional papers about mutation testing, with two of the most noteworthy being {% include
+_popovers/paper_reference.html cite="McCurdy2016" trailing="" %} and {% include _popovers/paper_reference.html
+cite="McMinn2018" trailing="." %}
 </p>
 
 {% include _footers/blog_footer.html %}
