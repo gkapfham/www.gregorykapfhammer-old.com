@@ -8,19 +8,21 @@
   {% if entry.nodownload != 'true' %}
     <li><i class="fa-li fa fa-file-image-o fa-lg"></i>
     <a class="major" target="_blank" href="/download/research/presentations/key/{{entry.key}}-presentation.pdf">{{entry.title}}</a></li>
+    <!-- <ul class="fa-ul"> -->
     {% if entry.addendum %}
-      {{ entry.addendum }} <br>
+      <i class="fa fa-caret-right" aria-hidden="true"></i> {{ entry.addendum }} <br>
     {% endif %}
     {% if entry.howpublished %}
       {% if entry.presentation %}
-        {{ entry.howpublished }} <br>
+        <i class="fa fa-caret-right" aria-hidden="true"></i> {{ entry.howpublished }} <br>
         <!-- this presentation also has a presentation attribute which is a link to the Speaker Deck -->
-        Preview on <a target="_blank" href="{{entry.presentation}}">Speaker Deck</a> <p></p>
+        <i class="fa fa-caret-right" aria-hidden="true"></i> Preview on <a target="_blank"
+                                                                           href="{{entry.presentation}}">Speaker Deck</a> <br>
       {% else %}
-        {{ entry.howpublished }} <p></p>
+        <i class="fa fa-caret-right" aria-hidden="true"></i> {{ entry.howpublished }} <br>
       {% endif %}
     {% endif %}
-  {% endif %}
+    {% endif %}
 <!-- this is a paper and thus we always display the title of the paper and link to the details page -->
 {% else %}
 <li><i class="fa-li fa fa-file-text-o fa-lg"></i>
