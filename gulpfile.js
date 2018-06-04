@@ -110,7 +110,7 @@ gulp.task('imagecompress', function () {
         .pipe(gulp.dest(IMAGES_DEST));
 });
 
-// TASK: serve the web site in full
+// TASK: mogrify the images to reduce size further
 gulp.task('imagemogrify', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {stdio: 'inherit'};
