@@ -20,26 +20,22 @@
       </div>
       <!-- Main content -->
       <div class="col-md-10">
+        <!-- Include the page content that comes from Markdown file -->
         {{ content }}
-
-        <div class="row">
-          <div class="col-xs-12">
-            <i class="fa fa-angle-double-up"></i>  <a href="..">Return to the Site for the {{page.subtitle}} Course</a>
-          </div>
-        </div>
-
+        <!-- Include the code creates the footer -->
+        {% include _footers/course_item_return_footer.html %}
       </div>
       <!-- Padding on the right -->
       <div class="col-md-1">
       </div>
     </div>
 
-    <!-- Include the code creates the footer -->
+    <!-- Include the code that creates the footer -->
     {% include _footers/default_footer.html %}
 
   </div>
 
-  <!-- Include the code creates the footer -->
+  <!-- Include the code creates the footer for JavaScript -->
   {% include _footers/default_javascript_footer.html %}
 
 </body>
