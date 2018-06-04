@@ -40,14 +40,20 @@ informative and useful updates each year. <br>
     </div>
   </div>
   <!-- Create the input field for the email address -->
-    <div class="form-group has-feedback row">
-      <label for="reply_to" class="col">Email</label>
-      <input type="email" class="form-control col" name="reply_to" id="reply_to" placeholder="user.name@example.com" required/>
-      <span class="fa form-control-feedback col" aria-hidden="true"></span>
-      <input type="hidden" name="redirect_to" value="http://www.cs.allegheny.edu/sites/gkapfham/emailthanks/"/>
-      <input type="hidden" name="_subject" value="Updates from Gregory M. Kapfhammer"/>
-      <input type="hidden" name="_format" value="plain"/>
+  <div class="form-group has-feedback">
+    <label for="reply_to" class="col">Email</label>
+    <div class="row">
+      <div class="col-sm-10">
+        <input type="email" class="form-control col" name="reply_to" id="reply_to" placeholder="user.name@example.com" required/>
+      </div>
+      <div class="col-sm-2">
+        <span class="fa form-control-feedback col" aria-hidden="true"></span>
+      </div>
     </div>
+  </div>
+  <input type="hidden" name="redirect_to" value="http://www.cs.allegheny.edu/sites/gkapfham/emailthanks/"/>
+  <input type="hidden" name="_subject" value="Updates from Gregory M. Kapfhammer"/>
+  <input type="hidden" name="_format" value="plain"/>
     <!-- Create the button -->
     <div class="form-group row">
       <div class="col">
