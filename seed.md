@@ -131,7 +131,7 @@ that you have about this initiative.
           <input type="checkbox" name="copyedit" id="copyedit">
         </div>
       </div>
-      <div class="col-8">
+      <div class="col-10">
         <label for="copyedit">Do you allow minimal copy-editing of your responses?</label>
       </div>
     </div>
