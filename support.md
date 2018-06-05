@@ -13,35 +13,29 @@ layout: defaults
 Please subscribe to my mailing list! Instead of selling your email or bombarding you with spam, I will send you several
 informative and useful updates each year. <br>
 
-<form method="POST" action="https://getsimpleform.com/messages?form_api_token=036ec14e0a86e2bf39ae488655d68c50" data-toggle="validator" data-feedback='{"success": "fa-check", "error": "fa-times"}' role="form">
+<form method="POST" action="https://getsimpleform.com/messages?form_api_token=036ec14e0a86e2bf39ae488655d68c50">
 
-  <div class="form-group has-feedback">
-    <label for="name">Name</label>
+  <div class="form-group">
+    <label for="name">Name</label >
     <div class="row">
-      <div class="col-sm-6">
-        <input type="text" class="form-control" name="name" id="name" placeholder="Your name" data-required-error="Please fill out this field" required/>
-      </div>
-      <div class="col-sm-6">
-        <div class="help-block with-errors">&nbsp;</div>
+      <div class="col mb-3">
+        <input type="text" class="form-control" name="name" id="name" placeholder="Your name" required>
       </div>
     </div>
   </div>
 
-  <div class="form-group has-feedback">
+  <div class="form-group">
     <label for="reply_to">Email</label>
     <div class="row">
-      <div class="col-sm-6">
-        <input type="email" class="form-control" name="reply_to" id="reply_to" placeholder="user.name@example.com" data-error="Please enter a valid email address" data-required-error="Please fill out this field" required/>
-      </div>
-      <div class="col-sm-6">
-        <div class="help-block with-errors">&nbsp;</div>
+      <div class="col">
+        <input type="email" class="form-control" name="reply_to" id="reply_to" placeholder="user.name@example.com" required>
       </div>
     </div>
   </div>
 
   <div class="form-group">
     <button type="submit" class="btn btn-info">Submit</button>
-    <input type="hidden" name="redirect_to" value="https://www.gregorykapfhammer.com/emailhanks/"/>
+    <input type="hidden" name="redirect_to" value="https://www.gregorykapfhammer.com/emailthanks/"/>
     <input type="hidden" name="_subject" value="Updates from Gregory M. Kapfhammer"/>
     <input type="hidden" name="_format" value="plain"/>
   </div>
