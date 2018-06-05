@@ -31,3 +31,6 @@
 [submodule "teaching/provide"]
 	path = teaching/provide
 	url = https://github.com/gkapfham/cs60060120142015.git
+[submodule "teaching/cs600F2014/provide"]
+	path = teaching/cs600F2014/provide
+	url = https://github.com/gkapfham/cs60060120142015.git
