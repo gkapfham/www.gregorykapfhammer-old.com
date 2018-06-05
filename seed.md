@@ -31,7 +31,7 @@ anticipate that students will greatly benefit from the advice that you share.
 After you complete this survey, I will copy-edit your responses and publish them
 on my [blog]({{site.baseurl}}blog/), enabling me to incorporate your advice into
 the [teaching]({{site.baseurl}}teaching/) of my courses and my
-[research]({{site.baseurl}}research/)  with students. At the end of every year,
+[research]({{site.baseurl}}research/) with students. At the end of every year,
 I will release a retrospective in which I report on the key lessons taught by
 all of the interviewees and make suggestions for ways in which educators can
 improve their teaching and research and students can improve their learning.
