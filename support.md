@@ -72,7 +72,7 @@ Find an article of interest to you and draw it to the attention of your colleagu
 If you are a member of the software industry, please take this survey.</li> <p>
 
 <li><i class="fa-li fa fa-lightbulb-o fa-lg"></i><a class="major" href="{{site.baseurl}}service/">Service</a>:
-Learn more about how I serve the technical community and ask me to help you.</li> <p>
+Learn how I serve the technical community and ask me to help you.</li> <p>
 
 <li><i class="fa-li fa fa-lightbulb-o fa-lg"></i><a class="major" href="{{site.baseurl}}feed/">Updates</a>:
 Subscribe to my Atom feed so that you can stay updated about new developments.</li> <p>
