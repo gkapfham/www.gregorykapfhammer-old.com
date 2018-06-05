@@ -73,3 +73,6 @@
 [submodule "teaching/cs600F2016/provide"]
 	path = teaching/cs600F2016/provide
 	url = git@github.com:gkapfham/cs60061020162017.git
+[submodule "teaching/cs111S2016/provide"]
+	path = teaching/cs111S2016/provide
+	url = git@github.com:gkapfham/cs111S2016.git
