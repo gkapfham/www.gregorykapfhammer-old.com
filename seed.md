@@ -40,7 +40,10 @@ Please [contact]({{site.baseurl}}contact/) me with any questions or comments
 that you have about this initiative.
 
 <a name="seedsurvey"></a>
-<form method="POST" action="https://getsimpleform.com/messages?form_api_token=036ec14e0a86e2bf39ae488655d68c50" data-toggle="validator" data-feedback='{"success": "fa-check", "error": "fa-times"}' role="form">
+
+{% comment %} <form method="POST" action="https://getsimpleform.com/messages?form_api_token=036ec14e0a86e2bf39ae488655d68c50" data-toggle="validator" data-feedback='{"success": "fa-check", "error": "fa-times"}' role="form"> {% endcomment %}
+
+<form method="POST" action="https://getsimpleform.com/messages?form_api_token=036ec14e0a86e2bf39ae488655d68c50" role="form">
 
   <div class="form-group has-feedback">
     <label for="name">Name</label>
