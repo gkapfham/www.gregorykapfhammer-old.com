@@ -98,65 +98,60 @@ that you have about this initiative.
     <label for="question_fact">What is one fun fact that you can share about your company or a current project?</label>
     <div class="row">
       <div class="col">
-        <textarea type="text" class="form-control" name="question_fact" id="question_fact" rows="5" placeholder="Share a fun fact about your company or your current project" required/></textarea>
+        <textarea type="text" class="form-control" name="question_fact" id="question_fact" rows="5" placeholder="Share a fun fact about your company or your current project" required></textarea>
       </div>
     </div>
   </div>
 
-  <div class="form-group has-feedback">
+  <!-- Request the greatest challenge that is faced -->
+  <div class="form-group">
     <label for="question_challenge">What is the greatest challenge that you face when working in your field?</label>
     <div class="row">
-      <div class="col-sm-7">
-        <textarea type="text" class="form-control" name="question_challenge" id="question_challenge" rows="5" placeholder="Share the greatest challenge that you face in your field" data-required-error="Please fill out this field" required></textarea>
-      </div>
-      <div class="col-sm-5">
-        <div class="help-block with-errors">&nbsp;</div>
+      <div class="col">
+        <textarea type="text" class="form-control" name="question_challenge" id="question_challenge" rows="5" placeholder="Share the greatest challenge that you face in your field" required></textarea>
       </div>
     </div>
   </div>
 
-  <div class="form-group has-feedback">
+  <!-- Request the point of advice -->
+  <div class="form-group">
     <label for="question_advice">What is one point of advice that you can give to people who plan to enter your field?</label>
     <div class="row">
-      <div class="col-sm-7">
-        <textarea type="text" class="form-control" name="question_advice" id="question_advice" rows="5" placeholder="Share a point of advice to someone who intends to enter your field" data-required-error="Please fill out this field" required></textarea>
-      </div>
-      <div class="col-sm-5">
-        <div class="help-block with-errors">&nbsp;</div>
+      <div class="col">
+        <textarea type="text" class="form-control" name="question_advice" id="question_advice" rows="5" placeholder="Share a point of advice to someone who intends to enter your field" required></textarea>
       </div>
     </div>
   </div>
 
-  <div class="form-group has-feedback">
+  <!-- Ask if copy-editing is acceptable -->
+  <div class="form-group">
     <div class="row">
-      <div class="col-xs-1">
+      <div class="col">
         <div class="checkbox">
           <input type="checkbox" name="copyedit" id="copyedit">
         </div>
       </div>
-      <div class="col-xs-11">
+      <div class="col-8">
         <label for="copyedit">Do you allow minimal copy-editing of your responses?</label>
       </div>
     </div>
   </div>
 
-  <div class="form-group has-feedback">
+  <!-- Ask how long it took to complete this survey -->
+  <div class="form-group">
     <label for="time">How many minutes did it take you to complete this survey?</label>
     <div class="row">
-      <div class="col-sm-6">
-        <input type="number" class="form-control" name="time" id="time" min=1 step=1 placeholder="Time to completion in minutes" data-error="Please enter a whole number of minutes" required/>
-      </div>
-      <div class="col-sm-6">
-        <div class="help-block with-errors">&nbsp;</div>
+      <div class="col">
+        <input type="number" class="form-control" name="time" id="time" min=1 step=1 placeholder="Time to completion in minutes" required>
       </div>
     </div>
   </div>
 
+  <!-- Display the button -->
+  <!-- Transmit a hidden field for spam detection -->
   <div class="form-group">
-    <button type="submit" class="btn btn-info">Submit</button>
-    <input type="hidden" name="redirect_to" value="http://www.cs.allegheny.edu/sites/gkapfham/seedthanks/"/>
-    <input type="hidden" name="_subject" value="Submission to the SEED Project"/>
-    <input type="hidden" name="_format" value="plain"/>
+  <button type="submit" class="btn btn-info">Submit</button>
+  <input type="hidden" name="bot-field"/>
   </div>
 
 </form>
