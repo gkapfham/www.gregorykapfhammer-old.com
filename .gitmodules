@@ -19,3 +19,6 @@
 [submodule "teaching/cs111F2014/provide"]
 	path = teaching/cs111F2014/provide
 	url = https://github.com/gkapfham/cs111F2014.git
+[submodule "teaching/cs380F2014/provide"]
+	path = teaching/cs380F2014/provide
+	url = https://github.com/gkapfham/cs380F2014.git
