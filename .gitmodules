@@ -4,3 +4,6 @@
 [submodule "teaching/fs101F2013/provide"]
 	path = teaching/fs101F2013/provide
 	url = https://github.com/gkapfham/fs101F2013.git
+[submodule "teaching/cs290F2013/provide"]
+	path = teaching/cs290F2013/provide
+	url = https://github.com/gkapfham/cs290F2013.git
