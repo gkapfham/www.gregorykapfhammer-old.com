@@ -40,3 +40,6 @@
 [submodule "teaching/cs440S2014/provide"]
 	path = teaching/cs440S2014/provide
 	url = https://github.com/gkapfham/cs440S2014.git
+[submodule "teaching/cs500501S2014/provide"]
+	path = teaching/cs500501S2014/provide
+	url = https://github.com/gkapfham/cs500501S2014.git
