@@ -13,12 +13,12 @@ layout: defaults
 Please subscribe to my mailing list! Instead of selling your email or bombarding you with spam, I will send you several
 informative and useful updates each year. <br>
 
-<form name="mailinglist" method="POST" action="/emailthanks/" netlify>
+<form name="mailinglist" method="POST" action="/emailthanks/" netlify-honeypot="bot-field" netlify>
 
   <div class="form-group">
     <label for="name">Name</label >
     <div class="row">
-      <div class="col mb-3">
+      <div class="col">
         <input type="text" class="form-control" name="name" id="name" placeholder="Your name" required>
       </div>
     </div>
@@ -35,6 +35,7 @@ informative and useful updates each year. <br>
 
   <div class="form-group">
     <button type="submit" class="btn btn-info">Submit</button>
+    <input type="hidden" name="bot-field"/>
   </div>
 
 </form>
