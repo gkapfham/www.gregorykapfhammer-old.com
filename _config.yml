@@ -24,7 +24,7 @@ permalink: pretty
 highlighter: rouge
 category-list: [teaching, research]
 plugins: ['jekyll/scholar', 'jekyll-sitemap', 'jekyll-auto-image', 'jekyll-seo-tag']
-exclude: ['.gitignore', '.gitmodules', 'Gemfile', 'Gemfile.lock', 'package.json', 'gulpfile.js', 'node_modules', 'scss', 'tags', 'tags.temp', 'tags.lock', 'README.md', '*.tex', '*.sty', '*.aux', '*.dvi', '*.fls', '*.lof', '*.log', '*.lot', '*.out', '*.toc', '*.fdb_latexmk', '*.synctex.gz', '*.pdfsync', '*.ods', '**/**/**/exams', '**/**/**/logos', '**/**/**/figures', '**/**/**/code', '**/**/**/teams']
+exclude: ['.htaccess', '.gitignore', '.gitmodules', 'Gemfile', 'Gemfile.lock', 'package.json', 'gulpfile.js', 'node_modules', 'scss', 'tags', 'tags.temp', 'tags.lock', 'README.md', '*.tex', '*.sty', '*.aux', '*.dvi', '*.fls', '*.lof', '*.log', '*.lot', '*.out', '*.toc', '*.fdb_latexmk', '*.synctex.gz', '*.pdfsync', '*.ods', '**/**/**/exams', '**/**/**/logos', '**/**/**/figures', '**/**/**/code', '**/**/**/teams']
 excerpt_separator: <!--more-->
 mapped: false
 header: false
