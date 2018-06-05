@@ -43,74 +43,62 @@ that you have about this initiative.
 
 <form name="seedsurvey" method="POST" action="/seedthanks/" netlify-honeypot="bot-field" netlify>
 
-  <div class="form-group has-feedback">
+  <!-- Request the name -->
+  <div class="form-group">
     <label for="name">Name</label>
     <div class="row">
-      <div class="col-sm-6">
-        <input type="text" class="form-control" name="name" id="name" placeholder="Your name" data-required-error="Please fill out this field" required/>
-      </div>
-      <div class="col-sm-6">
-        <div class="help-block with-errors">&nbsp;</div>
+      <div class="col">
+        <input type="text" class="form-control" name="name" id="name" placeholder="Your name" required>
       </div>
     </div>
   </div>
 
-  <div class="form-group has-feedback">
+  <!-- Request the email -->
+  <div class="form-group">
     <label for="reply_to">Email</label>
     <div class="row">
-      <div class="col-sm-6">
-        <input type="email" class="form-control" name="reply_to" id="reply_to" placeholder="user.name@example.com" data-error="Please enter a valid email address" data-required-error="Please fill out this field" required/>
-      </div>
-      <div class="col-sm-6">
-        <div class="help-block with-errors">&nbsp;</div>
+      <div class="col">
+        <input type="email" class="form-control" name="reply_to" id="reply_to" placeholder="user.name@example.com" required>
       </div>
     </div>
   </div>
 
-  <div class="form-group has-feedback">
+  <!-- Request the company -->
+  <div class="form-group">
     <label for="company_name">Company</label>
     <div class="row">
-      <div class="col-sm-6">
-        <input type="text" class="form-control" name="company_name" id="company_name" placeholder="Company name" data-required-error="Please fill out this field" required/>
-      </div>
-      <div class="col-sm-6">
-        <div class="help-block with-errors">&nbsp;</div>
+      <div class="col">
+        <input type="text" class="form-control" name="company_name" id="company_name" placeholder="Company name" required>
       </div>
     </div>
   </div>
 
-  <div class="form-group has-feedback">
+  <!-- Request the job title -->
+  <div class="form-group">
     <label for="title_name">Job Title</label>
     <div class="row">
-      <div class="col-sm-6">
-        <input type="text" class="form-control" name="title_name" id="title_name" placeholder="Your job title" data-required-error="Please fill out this field" required/>
-      </div>
-      <div class="col-sm-6">
-        <div class="help-block with-errors">&nbsp;</div>
+      <div class="col">
+        <input type="text" class="form-control" name="title_name" id="title_name" placeholder="Your job title" required>
       </div>
     </div>
   </div>
 
-  <div class="form-group has-feedback">
+  <!-- Request the web site -->
+  <div class="form-group">
     <label for="web_site">Web Site</label>
     <div class="row">
-      <div class="col-sm-6">
-        <input type="url" class="form-control" name="web_site" id="web_site" placeholder="Your web site (LinkedIn is fine)" data-error="Please enter a valid URL" data-required-error="Please fill out this field" required/>
-      </div>
-      <div class="col-sm-6">
-        <div class="help-block with-errors">&nbsp;</div>
+      <div class="col">
+        <input type="url" class="form-control" name="web_site" id="web_site" placeholder="Your web site (LinkedIn is fine)" required>
       </div>
     </div>
   </div>
 
-  <div class="form-group has-feedback">
+  <!-- Request the fun fact about the company -->
+  <div class="form-group">
     <label for="question_fact">What is one fun fact that you can share about your company or a current project?</label>
     <div class="row">
-      <div class="col-sm-7">
-        <textarea type="text" class="form-control" name="question_fact" id="question_fact" rows="5" placeholder="Share a fun fact about your company or your current project" data-required-error="Please fill out this field" required></textarea>
-      </div>
-      <div class="col-sm-5">
-        <div class="help-block with-errors">&nbsp;</div>
+      <div class="col">
+        <textarea type="text" class="form-control" name="question_fact" id="question_fact" rows="5" placeholder="Share a fun fact about your company or your current project" required/></textarea>
       </div>
     </div>
   </div>
