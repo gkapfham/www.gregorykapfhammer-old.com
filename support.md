@@ -13,7 +13,6 @@ layout: defaults
 Please subscribe to my mailing list! Instead of selling your email or bombarding you with spam, I will send you several
 informative and useful updates each year. <br>
 
-<!-- <form method="POST" action="https://getsimpleform.com/messages?form_api_token=036ec14e0a86e2bf39ae488655d68c50"> -->
 <form name="mailinglist" method="POST" action="/emailthanks/" netlify>
 
   <div class="form-group">
@@ -36,9 +35,6 @@ informative and useful updates each year. <br>
 
   <div class="form-group">
     <button type="submit" class="btn btn-info">Submit</button>
-  <!--   <input type="hidden" name="redirect_to" value="https://www.gregorykapfhammer.com/emailthanks/"/> -->
-  <!--   <input type="hidden" name="_subject" value="Updates from Gregory M. Kapfhammer"/> -->
-  <!--   <input type="hidden" name="_format" value="plain"/> -->
   </div>
 
 </form>
