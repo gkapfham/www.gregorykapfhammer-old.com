@@ -31,19 +31,17 @@ anticipate that students will greatly benefit from the advice that you share.
 After you complete this survey, I will copy-edit your responses and publish them
 on my [blog]({{site.baseurl}}blog/), enabling me to incorporate your advice into
 the [teaching]({{site.baseurl}}teaching/) of my courses and my
-[research]({{site.baseurl}}research/)  with students. At the end of 2018, I will
-release a retrospective in which I report on the key lessons taught by all of
-the interviewees and make suggestions for ways in which educators like me can
-improve their teaching and research.
+[research]({{site.baseurl}}research/)  with students. At the end of every year,
+I will release a retrospective in which I report on the key lessons taught by
+all of the interviewees and make suggestions for ways in which educators can
+improve their teaching and research and students can improve their learning.
 
 Please [contact]({{site.baseurl}}contact/) me with any questions or comments
 that you have about this initiative.
 
 <a name="seedsurvey"></a>
 
-{% comment %} <form method="POST" action="https://getsimpleform.com/messages?form_api_token=036ec14e0a86e2bf39ae488655d68c50" data-toggle="validator" data-feedback='{"success": "fa-check", "error": "fa-times"}' role="form"> {% endcomment %}
-
-<form method="POST" action="https://getsimpleform.com/messages?form_api_token=036ec14e0a86e2bf39ae488655d68c50" role="form">
+<form name="seedsurvey" method="POST" action="/seedthanks/" netlify-honeypot="bot-field" netlify>
 
   <div class="form-group has-feedback">
     <label for="name">Name</label>
