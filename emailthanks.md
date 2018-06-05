@@ -12,4 +12,5 @@ layout: defaults
 Thank you for signing up for my mailing list! Instead of selling your email
 address or bombarding you with spam, I will send you a few updates each year.
 Please [contact]({{site.baseurl}}contact/) me with any questions or comments
+that you have about my mailing list.
 {% enddescribe %}
