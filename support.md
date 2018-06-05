@@ -15,6 +15,7 @@ informative and useful updates each year. <br>
 
 <form name="mailinglist" method="POST" action="/emailthanks/" netlify-honeypot="bot-field" netlify>
 
+  <!-- Request the name -->
   <div class="form-group">
     <label for="name">Name</label >
     <div class="row">
@@ -24,6 +25,7 @@ informative and useful updates each year. <br>
     </div>
   </div>
 
+  <!-- Request the email -->
   <div class="form-group">
     <label for="reply_to">Email</label>
     <div class="row">
@@ -33,9 +35,11 @@ informative and useful updates each year. <br>
     </div>
   </div>
 
+  <!-- Display the button -->
+  <!-- Transmit a hidden field for spam detection -->
   <div class="form-group">
-    <button type="submit" class="btn btn-info">Submit</button>
-    <input type="hidden" name="bot-field"/>
+  <button type="submit" class="btn btn-info">Submit</button>
+  <input type="hidden" name="bot-field"/>
   </div>
 
 </form>
