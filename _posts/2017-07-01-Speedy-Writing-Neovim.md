@@ -32,6 +32,6 @@ accustomed to using the `<TAB>` key to perform completion, then you might want t
 ```
 
 What tools do you use to ensure that you write in an efficient and effective fashion? I invite you to
-[contact]({{site.baseurl}}/contact/) me with your own tips for speedy technical writing.
+[contact]({{site.baseurl}}contact/) me with your own tips for speedy technical writing.
 
 {% include _footers/blog_footer.html %}
