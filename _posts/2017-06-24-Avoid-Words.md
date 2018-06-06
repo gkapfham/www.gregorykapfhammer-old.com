@@ -40,6 +40,6 @@ is automatically performed by an algorithm, then you are underselling your paper
 (and your co-authors, if you jointly wrote the paper) manually transform this graph.
 
 Do you also find that these five words confuse you? What are the words that you find obscure your technical writing? I
-hope that you will soon [contact]({{site.baseurl}}/contact/) me with your own tips for clear technical writing.
+hope that you will soon [contact]({{site.baseurl}}contact/) me with your own tips for clear technical writing.
 
 {% include _footers/blog_footer.html %}
