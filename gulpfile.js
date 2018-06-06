@@ -19,9 +19,9 @@ var uglify = require('gulp-uglify');
 var yargs = require('yargs');
 
 // define the directories for the images
-var IMAGES_SOURCE = 'download/images/**/*.{png,jpeg,jpg,svg,gif}';
+var IMAGES_SOURCE    = 'download/images/**/*.{png,jpeg,jpg,svg,gif}';
 var IMAGES_OPTIMIZED = '_site/download/images/**/*.{png,jpeg,jpg,svg,gif}';
-var IMAGES_DEST = '_site/download/images';
+var IMAGES_DEST      = '_site/download/images';
 
 // read the "--production" environment variable
 var DEPLOY = Boolean(yargs.argv.production);
@@ -30,11 +30,10 @@ var DEPLOY = Boolean(yargs.argv.production);
 var SITE = 'https://www.gregorykapfhammer.com';
 
 // exclude different fragments from blc checking
-var EXCLUDE_LINKEDIN = '--exclude=linkedin';
-var EXCLUDE_AMOHAN = '--exclude=amohan';
-var EXCLUDE_JJUMADINOVA = '--exclude=jjumadinova';
-var EXCLUDE_OBONHAMCARTER = '--exclude=obonhamcarter';
-var RECURSIVE = "-ro";
+var EXCLUDE_LINKEDIN  = '--exclude=linkedin';
+var EXCLUDE_SYNOPYSYS = '--exclude=synopsys';
+var EXCLUDE_FLICKR    = '--exclude=flickr';
+var RECURSIVE         = "-ro";
 
 // TASK: Generate the CSS files from the Sassy CSS files
 gulp.task('sass', function() {
@@ -181,8 +180,10 @@ gulp.task('deploy', function() {
 gulp.task('linkchecker', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {stdio: 'inherit'};
+  // run the linkchecker on the main web site
   var linkchecker = spawn('linkchecker', [SITE], options);
   linkchecker.on('exit', function(code) {
+    // error indicates that a broken link was found
     cb(code === 0 ? null : 'Error: linkchecker process exited with code: ' + code);
   });
 });
@@ -192,8 +193,11 @@ gulp.task('blc', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {stdio: 'inherit'};
   SITE = SITE;
-  var blc = spawn('blc', [SITE, EXCLUDE_LINKEDIN, EXCLUDE_AMOHAN, EXCLUDE_JJUMADINOVA, EXCLUDE_OBONHAMCARTER, RECURSIVE], options);
+  // run the linkchecker on the web site, don't follow LinkedIn or Synopsys links as they deny
+  // note that excluding flickr will mask some broken links to images on slides
+  var blc = spawn('blc', [SITE, EXCLUDE_LINKEDIN, EXCLUDE_SYNOPYSYS, EXCLUDE_FLICK, RECURSIVE], options);
   blc.on('exit', function(code) {
+    // error indicates that a broken link was found
     cb(code === 0 ? null : 'Error: blc process exited with code: ' + code);
   });
 });
