@@ -41,6 +41,6 @@ second line is needed.
 
 If you are a longtime Vim user, what are some ways in which you tweaked your
 configuration so that it worked for Neovim? I hope that you will soon
-[contact]({{site.baseurl}}/contact/) me with your own tips for using Neovim.
+[contact]({{site.baseurl}}contact/) me with your own tips for using Neovim.
 
 {% include _footers/blog_footer.html %}
