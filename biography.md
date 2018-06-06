@@ -43,7 +43,7 @@ pursues research that results in award-winning and frequently cited research
 [papers]({{site.baseurl}}research/papers/), oft-complimented
 [presentations]({{site.baseurl}}research/presentations/), useful free and
 open-source [software]({{site.baseurl}}software/), and valued
-[service]({{site.baseurl}}/service/) to a variety of organizations.
+[service]({{site.baseurl}}service/) to a variety of organizations.
 
 <p>
 The paper {% include _popovers/paper_reference.html
