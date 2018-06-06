@@ -12,8 +12,8 @@ date: 2017-06-26
 {% include _popovers/image_reference.html image="6290429625_f6cf4b09b2_z.jpg" content="<a title='301/365' href='https://flickr.com/photos/tomwachtel/6290429625'>flickr photo</a> by <a href='https://flickr.com/people/tomwachtel'>Tom Wachtel</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
-I enjoy using Vim when I am writing LaTeX documents for my [teaching]({{site.baseurl}}/teaching/) and
-[research]({{site.baseurl}}/research/). Since [Neovim](https://neovim.io/) became available I have been using it as a
+I enjoy using Vim when I am writing LaTeX documents for my [teaching]({{site.baseurl}}teaching/) and
+[research]({{site.baseurl}}research/). Since [Neovim](https://neovim.io/) became available I have been using it as a
 (capable and compelling) alternative to Vim. I find that Neovim often works really well! But, if you want
 the [vimtex](https://github.com/lervag/vimtex) plugin to work with Neovim, then you need to take two extra steps.
 {% enddescribe %}
