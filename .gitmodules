@@ -88,3 +88,6 @@
 [submodule "teaching/cs280F2017/provide/slides"]
 	path = teaching/cs280F2017/provide/slides
 	url = https://github.com/Allegheny-Computer-Science-280-F2017/cs280-F2017-slides.git
+[submodule "teaching/fs102S2017/provide"]
+	path = teaching/fs102S2017/provide
+	url = git@github.com:gkapfham/fs102S2017.git
