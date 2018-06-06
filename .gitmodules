@@ -82,3 +82,6 @@
 [submodule "teaching/cs610S2016/provide"]
 	path = teaching/cs610S2016/provide
 	url = https://github.com/gkapfham/cs60060120152016.git
+[submodule "teaching/cs111F2017/provide/slides"]
+	path = teaching/cs111F2017/provide/slides
+	url = https://github.com/Allegheny-Computer-Science-111-F2017/cs111-F2017-slides.git
