@@ -19,9 +19,9 @@ Computer Science](http://www.cs.allegheny.edu) at [Allegheny
 College](http://www.allegheny.edu). In addition to delivering seminars on
 research methods and effective communication, I advise undergraduate and
 graduate students and consult for the software industry. You can learn more
-about me by reading my professional [biography]({{site.baseurl}}biography/).
-Please [subscribe]({{site.baseurl}}support/) to my mailing list if you want me
-to send you informative status updates about my current projects.
+about me by reading my professional [biography]({{site.baseurl}}biography/). If
+you [subscribe]({{site.baseurl}}support/) to my mailing list I will send you
+informative status updates about my current projects.
 {% enddescribe %}
 
 ## SEED Survey
