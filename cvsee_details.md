@@ -82,8 +82,8 @@ Conference </div>
 ## Transactions and Journals
 
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2017 Transactions on Services Computing </div>
-<br> Reviewer (One time)
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2017 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 Transactions on Services Computing </div>
+<br> Reviewer (Two times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2017 Transactions on Industrial Informatics </div>
 <br> Reviewer (One time)
@@ -131,7 +131,7 @@ Conference </div>
 <br> Reviewer (One time)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2006 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 Transactions on Software Engineering </div>
-<br> Reviewer (Thirty times)
+<br> Reviewer (Thirty-one times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2004 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2015 Transactions on Software Engineering and Methodology </div>
 <br> Reviewer (Six times)
