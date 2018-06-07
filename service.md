@@ -9,7 +9,7 @@ layout: defaults
 {% include _popovers/image_reference.html image="3944094295_833175fc98_z.jpg" content="<a title='Forward, Deck 6' href='https://flickr.com/photos/jeremybrooks/3944094295'>flickr photo</a> by <a href='https://flickr.com/people/jeremybrooks'>Jeremy Brooks</a> shared under a <a href='https://creativecommons.org/licenses/by-nc/2.0/'>Creative Commons (BY-NC) license</a>" label="CC (BY-NC)" %}
 
 {% describe %}
-Need help with your project? I am available to assist your company as an
+Need help with your project? I am available to assist your organization as an
 instructor, consultant, or expert witness. I can also give a keynote at your
 conference or serve as a member of its program committee. Additionally, I can
 help your journal by reviewing papers or serving on its editorial board. An
