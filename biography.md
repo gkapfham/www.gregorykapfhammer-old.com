@@ -29,11 +29,11 @@ research associate at Cigital, a software company that was acquired by
 
 As an educator, Gregory Kapfhammer develops and teaches
 [courses]({{site.baseurl}}teaching) in the areas of software engineering,
-software testing, data management, mobile app development, operating systems,
-and distributed systems. He is also involved in the teaching of the department's
-introductory courses, junior seminar, senior seminar, and a research adviser for
-undergraduate theses. Kapfhammer's expertise in teaching was recently recognized
-when Allegheny College presented him with the [Thoburn Award for Excellence in
+software testing, web development, data management, mobile app design, operating
+systems, and distributed systems. He is also a research adviser for
+undergraduate and graduate theses. Kapfhammer's expertise in teaching was
+recently recognized when Allegheny College presented him with the [Thoburn Award
+for Excellence in
 Teaching](https://sites.allegheny.edu/alumni/award-recipients/#thoburn). As an
 experimental computer scientist, Gregory Kapfhammer conducts
 [research]({{site.baseurl}}research/) in the areas of software engineering,

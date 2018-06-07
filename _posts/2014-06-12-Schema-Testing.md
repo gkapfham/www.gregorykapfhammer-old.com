@@ -36,13 +36,17 @@ data that will both satisfy and negate the constraints in the database schema.
 </p>
 
 <p>
-Of course, the process of automatically generating test data raises the question "well, how good is this data?" The
-paper {% include _popovers/paper_reference.html cite="Wright2013" %} introduces efficient techniques for answering this
-question. The presented mutation analysis methods insert simple faults into the database's schema and check to see
-whether or not the test cases can find them. Intuitively, the tests are not very good if they can not find these faults!
-In recent empirical studies designed to evaluate the effectiveness of SchemaAnalyst we compared it to a popular tool for
-generating table data, [DBMonster](http://dbmonster.sourceforge.net/). With competitive or faster data generation times,
-our method outperforms DBMonster in terms of both the schema constraint coverage and mutation adequacy scores.
+Of course, the process of automatically generating test data raises the question
+"well, how good is this data?" The paper {% include
+_popovers/paper_reference.html cite="Wright2013" %} introduces efficient
+techniques for answering this question. The presented mutation analysis methods
+insert simple faults into the database's schema and check to see whether or not
+the test cases can find them. Intuitively, the tests are not very good if they
+can not find these faults! In recent empirical studies designed to evaluate the
+effectiveness of SchemaAnalyst we compared it to a popular tool for generating
+table data, <a href="http://dbmonster.sourceforge.net/">DBMonster</a>. With
+competitive or faster data generation times, our method outperforms DBMonster in
+terms of both the schema constraint coverage and mutation adequacy scores.
 </p>
 
 <p>
