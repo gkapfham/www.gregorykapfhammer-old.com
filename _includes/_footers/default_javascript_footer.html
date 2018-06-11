@@ -1,18 +1,16 @@
 <!-- Include all of the JavaScript libraries -->
 <!-- jQuery is needed for the zoom-to-top feature -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<!-- Popper is needed for the tooltips and popovers -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<!-- Bootstrap is needed for responsive layout -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+<!-- <1!-- Popper is needed for the tooltips and popovers --1> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+<!-- <1!-- Bootstrap is needed for responsive layout --1> -->
+<!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> -->
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
 <!-- ScrollToMin is needed for the zoom-to-top feature -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
-
-<!-- Load in the Twitter loading JavaScript only for the first page -->
-{% if include.name == 'Gregory M. Kapfhammer' %}
-<!-- Load the JavaScript for displaying the Twitter feed -->
-<script src="/js/twitterFetcher.js"></script>
-{% endif %}
 
 <!-- Enable and configure the popovers (which require tooltips) -->
 <script>
