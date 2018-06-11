@@ -8,6 +8,12 @@
 <!-- ScrollToMin is needed for the zoom-to-top feature -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 
+<!-- Load in the Twitter loading JavaScript only for the first page -->
+{% if include.name == 'Gregory M. Kapfhammer' %}
+<!-- Load the JavaScript for displaying the Twitter feed -->
+<script src="/js/twitterFetcher.js"></script>
+{% endif %}
+
 <!-- Enable and configure the popovers (which require tooltips) -->
 <script>
   // Enable the tooltips and popovers
