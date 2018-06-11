@@ -92,17 +92,10 @@ $theme-colors: map-merge((
 
 // }}}
 
-// Fonts {{{
-
-// Use fonts from Google Web Fonts
-// $web-font-path: "https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" !default;
-
-// Load these fonts through CSS, no HTML changes are needed
-// @import url($web-font-path);
-
-// }}}
-
 // Typography {{{
+
+// Note that all site fonts are loaded in the HTML file:
+// Montserrat for body text and Roboto Slab for headers
 
 // Define fonts from Google, also using platform fallback fonts
 $font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
