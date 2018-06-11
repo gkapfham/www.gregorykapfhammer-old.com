@@ -9,5 +9,11 @@
 <!-- Load the customize CSS file generated from SCSS Bootstrap -->
 <link href="/css/custom.css" rel="stylesheet">
 
+<!-- Load in the Twitter loading JavaScript only for the first page -->
+{% if include.name == 'Gregory M. Kapfhammer' %}
+<!-- Load the JavaScript for displaying the Twitter feed -->
+<script async src="/js/twitterFetcher.js"></script>
+{% endif %}
+
 <!-- Define the RSS feed -->
 <link href="/feed/index.xml" type="application/rss+xml" rel="alternate" title="Ten Recent Posts by Gregory M. Kapfhammer (Atom)" />
