@@ -56,7 +56,7 @@ gulp.task('fonts', function () {
   return gulp.src(FONT_SOURCE).pipe(gulp.dest(FONT_DEST));
 });
 
-// TASK; Copy all of the bootstrap JavaScript to _site
+// TASK; Copy all of Bootstrap's JavaScript to _site
 gulp.task('javascript', function () {
   return gulp.src(JS_SOURCE).pipe(gulp.dest(JS_DEST));
 });
