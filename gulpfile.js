@@ -19,6 +19,10 @@ var uglify = require('gulp-uglify');
 var yargs = require('yargs');
 var browserSync = require('browser-sync').create();
 
+// define the directory for the fonts
+var FONT_SOURCE = "node_modules/font-awesome/fonts/**/*"
+var FONT_DEST = "_site/fonts/"
+
 // define the directories for the images
 var IMAGES_SOURCE    = 'download/images/**/*.{png,jpeg,jpg,svg,gif}';
 var IMAGES_OPTIMIZED = '_site/download/images/**/*.{png,jpeg,jpg,svg,gif}';
@@ -41,6 +45,11 @@ gulp.task('sass', function() {
     return gulp.src(['scss/*.scss'])
         .pipe(sass())
         .pipe(gulp.dest("css/"));
+});
+
+// TASK; Copy all of the font-awesome fonts to _site
+gulp.task('fonts', function () {
+  return gulp.src(FONT_SOURCE).pipe(gulp.dest(FONT_DEST));
 });
 
 // assumes that Jekyll's plugins are managed by bundle
@@ -169,7 +178,7 @@ gulp.task(
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizedbuild',
-  gulp.series('sass', 'build', 'imageoptimize', 'imagecompress', 'imagemogrify',
+  gulp.series('fonts', 'sass', 'build', 'imageoptimize', 'imagecompress', 'imagemogrify',
       gulp.parallel('cssminify', 'htmlminify', 'jsminify'))
 );
 
