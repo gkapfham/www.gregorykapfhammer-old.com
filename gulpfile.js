@@ -178,8 +178,8 @@ gulp.task(
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizedbuild',
-  gulp.series('fonts', 'sass', 'build', 'imageoptimize', 'imagecompress', 'imagemogrify',
-      gulp.parallel('cssminify', 'htmlminify', 'jsminify'))
+  gulp.series('sass', 'build', 'imageoptimize', 'imagecompress', 'imagemogrify',
+      gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: use rsync to deploy the web site to the server
