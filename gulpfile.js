@@ -57,12 +57,11 @@ gulp.task('fonts', function () {
   return gulp.src(FONT_SOURCE).pipe(gulp.dest(FONT_DEST));
 });
 
-// TASK; Copy all of Bootstrap's JavaScript to _site
-gulp.task('javascript', function () {
-  return gulp.src(JS_SOURCE)
-    .pipe(concat('allscripts.js'))
-    .pipe(gulp.dest(JS_DEST));
-});
+// // TASK; Copy all of Bootstrap's JavaScript to _site
+// gulp.task('javascript', function () {
+//   return gulp.src(JS_SOURCE)
+//         .pipe(gulp.dest(JS_DEST));
+// });
 
 // gulp.task('scripts', function() {
 //     return gulp.src(jsFiles)
@@ -196,14 +195,14 @@ gulp.task(
 // TASK: perform the full build, but do not optimize images
 gulp.task(
   'fullbuild',
-  gulp.series('sass', 'build', 'javascript',
+  gulp.series('sass', 'build',
       gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizedbuild',
-  gulp.series('sass', 'build', 'javascript', 'imageoptimize', 'imagecompress', 'imagemogrify',
+  gulp.series('sass', 'build', 'imageoptimize', 'imagecompress', 'imagemogrify',
       gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
