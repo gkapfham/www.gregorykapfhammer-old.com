@@ -2,7 +2,9 @@
 var gulp = require('gulp');
 
 // declare variables for used packages
+var browserSync = require('browser-sync').create();
 var checkPages = require("check-pages");
+var concat = require('gulp-concat');
 var cp = require('child_process');
 var cssnano = require('cssnano');
 var debug = require('gulp-debug');
@@ -17,14 +19,13 @@ var rsync = require('gulp-rsync');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
-var browserSync = require('browser-sync').create();
 
 // define the directory for the fonts
 var FONT_SOURCE = "node_modules/font-awesome/fonts/**/*"
 var FONT_DEST = "_site/fonts/"
 
 // define the directory for the JavaScript
-var JS_SOURCE = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+var JS_SOURCE = "js/**/*.js"
 var JS_DEST = "_site/js/"
 
 // define the directories for the images
@@ -58,8 +59,16 @@ gulp.task('fonts', function () {
 
 // TASK; Copy all of Bootstrap's JavaScript to _site
 gulp.task('javascript', function () {
-  return gulp.src(JS_SOURCE).pipe(gulp.dest(JS_DEST));
+  return gulp.src(JS_SOURCE)
+    .pipe(concat('allscripts.js'))
+    .pipe(gulp.dest(JS_DEST));
 });
+
+// gulp.task('scripts', function() {
+//     return gulp.src(jsFiles)
+//         .pipe(concat('scripts.js'))
+//         .pipe(gulp.dest(jsDest));
+// });
 
 // assumes that Jekyll's plugins are managed by bundle
 
@@ -187,15 +196,15 @@ gulp.task(
 // TASK: perform the full build, but do not optimize images
 gulp.task(
   'fullbuild',
-  gulp.series('sass', 'build',
-      gulp.parallel('fonts', 'javascript', 'cssminify', 'htmlminify', 'jsminify'))
+  gulp.series('sass', 'build', 'javascript',
+      gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizedbuild',
-  gulp.series('sass', 'build', 'imageoptimize', 'imagecompress', 'imagemogrify',
-      gulp.parallel('fonts', 'javascript', 'cssminify', 'htmlminify', 'jsminify'))
+  gulp.series('sass', 'build', 'javascript', 'imageoptimize', 'imagecompress', 'imagemogrify',
+      gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: use rsync to deploy the web site to the server
