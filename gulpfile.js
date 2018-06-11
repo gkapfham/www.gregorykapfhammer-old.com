@@ -17,6 +17,7 @@ var rsync = require('gulp-rsync');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
+var browserSync = require('browser-sync').create();
 
 // define the directories for the images
 var IMAGES_SOURCE    = 'download/images/**/*.{png,jpeg,jpg,svg,gif}';
@@ -87,6 +88,12 @@ gulp.task('fullserve', function(cb) {
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
+});
+
+// TASK: use browsersync to load the site for local synced testing
+gulp.task('sync', function () {
+    browserSync.init({server: {baseDir: '_site/'}, open: false});
+    gulp.watch('_site/**/*.*').on('change', browserSync.reload);
 });
 
 // TASK: optimize the images in a lossless fashion
