@@ -23,6 +23,10 @@ var browserSync = require('browser-sync').create();
 var FONT_SOURCE = "node_modules/font-awesome/fonts/**/*"
 var FONT_DEST = "_site/fonts/"
 
+// define the directory for the JavaScript
+var JS_SOURCE = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+var JS_DEST = "_site/js/"
+
 // define the directories for the images
 var IMAGES_SOURCE    = 'download/images/**/*.{png,jpeg,jpg,svg,gif}';
 var IMAGES_OPTIMIZED = '_site/download/images/**/*.{png,jpeg,jpg,svg,gif}';
@@ -50,6 +54,11 @@ gulp.task('sass', function() {
 // TASK; Copy all of the font-awesome fonts to _site
 gulp.task('fonts', function () {
   return gulp.src(FONT_SOURCE).pipe(gulp.dest(FONT_DEST));
+});
+
+// TASK; Copy all of the bootstrap JavaScript to _site
+gulp.task('javascript', function () {
+  return gulp.src(JS_SOURCE).pipe(gulp.dest(JS_DEST));
 });
 
 // assumes that Jekyll's plugins are managed by bundle
@@ -175,11 +184,18 @@ gulp.task(
   gulp.parallel('cssminify', 'htmlminify', 'jsminify')
 );
 
+// TASK: perform the full build, but do not optimize images
+gulp.task(
+  'fullbuild',
+  gulp.series('sass', 'build',
+      gulp.parallel('fonts', 'javascript', 'cssminify', 'htmlminify', 'jsminify'))
+);
+
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizedbuild',
   gulp.series('sass', 'build', 'imageoptimize', 'imagecompress', 'imagemogrify',
-      gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
+      gulp.parallel('fonts', 'javascript', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: use rsync to deploy the web site to the server
