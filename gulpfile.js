@@ -173,7 +173,6 @@ gulp.task('htmlminify', function() {
   return gulp.src(['_site/**/*.html', '!_site/google00ff3c571b113c8c.html', '!_site/teaching/**/cs*.html'])
     .pipe(htmlmin({collapseWhitespace: true,
       minifyJS: true,
-      removeComments: true,
       removeCommentsFromCDATA: true,
       collapseBooleanAttributes: true,
       removeEmptyAttributes: true }))
