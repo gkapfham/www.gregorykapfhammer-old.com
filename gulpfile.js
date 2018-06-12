@@ -28,7 +28,7 @@ var HTTPTWO_SOURCE = "_headers"
 var HTTPTWO_DEST = "_site/"
 
 // define the directory for the JavaScript
-var JS_SOURCE = "js/**/*.js"
+var JS_SOURCE = ['_js/jquery-3.3.1.min.js', '_js/popper.min.js', '_js/bootstrap.min.js', '_js/jquery.scrollTo.min.js']
 var JS_DEST = "_site/js/"
 
 // define the directories for the images
@@ -64,6 +64,13 @@ gulp.task('fonts', function () {
 gulp.task('httptwo', function () {
   return gulp.src(HTTPTWO_SOURCE)
         .pipe(gulp.dest(HTTPTWO_DEST));
+});
+
+// TASK:
+gulp.task('javascripts', function() {
+  return gulp.src(JS_SOURCE)
+    .pipe(concat('scripts.js'))
+    .pipe(gulp.dest(JS_DEST));
 });
 
 // Tasks assume that Jekyll's plugins are managed by bundle
@@ -196,7 +203,7 @@ gulp.task(
 // TASK: perform the full build, but do not optimize images
 gulp.task(
   'fullbuild',
-  gulp.series('sass', 'build',
+  gulp.series('sass', 'build', 'javascripts',
       gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
