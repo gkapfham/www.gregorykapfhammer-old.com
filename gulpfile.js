@@ -66,7 +66,7 @@ gulp.task('httptwo', function () {
         .pipe(gulp.dest(HTTPTWO_DEST));
 });
 
-// TASK:
+// TASK: Concatenate JavaScript in correct order
 gulp.task('javascripts', function() {
   return gulp.src(JS_SOURCE)
     .pipe(concat('scripts.js'))
