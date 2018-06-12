@@ -151,7 +151,7 @@ gulp.task('imagemogrify', function(cb) {
     env.JEKYLL_ENV = 'production';
     options.env = env;
   }
-  var jekyll = spawn('mogrify', ['_site/download/images/*.jpg', '-sampling-factor', '4:2:0', '-strip', '-quality',  '85', '-interlace', 'JPEG', '-colorspace', 'sRGB', '_site/download/images/*.jpg'], options);
+  var jekyll = spawn('mogrify', ['_site/download/images/*.jpg', '-sampling-factor', '4:2:0', '-strip', '-quality',  '45', '-interlace', 'JPEG', '-colorspace', 'sRGB', '_site/download/images/*.jpg'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: mogrify process exited with code: ' + code);
   });
