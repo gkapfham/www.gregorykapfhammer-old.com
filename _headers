@@ -1,3 +1,4 @@
 /server-push-path
-  Link: </js/jquery-3.3.1.min.js>; rel=preload; as=script
+  Link: </js/bootstrap.min.js>; rel=preload; as=script
+  Link: </js/twitterFetcher.js>; rel=preload; as=script
   Link: </css/custom.css>; rel=preload; as=style
