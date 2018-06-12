@@ -203,14 +203,14 @@ gulp.task(
 // TASK: perform the full build, but do not optimize images
 gulp.task(
   'fullbuild',
-  gulp.series('sass', 'build', 'javascripts',
+  gulp.series('sass', 'httptwo', 'build', 'javascripts',
       gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizedbuild',
-  gulp.series('sass', 'build', 'imageoptimize', 'imagecompress', 'imagemogrify',
+  gulp.series('sass', 'httptwo', 'build', 'javascripts', 'imageoptimize', 'imagecompress', 'imagemogrify',
       gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
