@@ -7,7 +7,6 @@ var checkPages = require("check-pages");
 var concat = require('gulp-concat');
 var cp = require('child_process');
 var cssnano = require('cssnano');
-var debug = require('gulp-debug');
 var del = require('del');
 var htmlmin = require('gulp-htmlmin');
 var imagemin = require('gulp-imagemin');
