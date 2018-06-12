@@ -1,10 +1,14 @@
   <!-- Define the meta characteristics of the site for responsive design -->
   <meta charset="utf-8">
 
-  <!-- Perform DNS prefetching for the sites commonly referenced -->
-  <link rel="dns-prefetch" href="//fonts.googleapis.com">
-  <link rel="dns-prefetch" href="//ssl.google-analytics.com">
-  <link rel="dns-prefetch" href="//speakerdeck.com/">
+  <!-- Perform a full preconnect (DNS plus more) for the sites commonly referenced -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://www.google-analytics.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.syndication.twimg.com" crossorigin>
+
+  <!-- Perform a preload for the font-awesome fonts -->
+  <link rel="preload" href="/fonts/fontawesome-webfont.woff2" as="font">
 
   <!-- Define the viewport so that Bootstrap works on mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

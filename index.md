@@ -7,7 +7,7 @@ categories: [main]
 # Gregory M. Kapfhammer
 
 {% describe %}
-Welcome! My name is Gregory M. Kapfhammer. Focusing on technical areas such as
+Welcome! My name is Gregory M. Kapfhammer. Innovating in technical areas such as
 software engineering, software testing, and data science, I
 [teach]({{site.baseurl}}teaching/) courses, conduct
 [research]({{site.baseurl}}research/), write
