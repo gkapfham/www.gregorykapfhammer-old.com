@@ -55,12 +55,12 @@ gulp.task('sass', function() {
         .pipe(gulp.dest("css/"));
 });
 
-// TASK; Copy all of the font-awesome fonts to _site
+// TASK: Copy all of the font-awesome fonts to _site
 gulp.task('fonts', function () {
   return gulp.src(FONT_SOURCE).pipe(gulp.dest(FONT_DEST));
 });
 
-// TASK; Copy all of Bootstrap's JavaScript to _site
+// TASK: Copy all the HTTP2 header to _site
 gulp.task('httptwo', function () {
   return gulp.src(HTTPTWO_SOURCE)
         .pipe(gulp.dest(HTTPTWO_DEST));
