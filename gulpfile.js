@@ -24,8 +24,8 @@ var FONT_SOURCE = "node_modules/font-awesome/fonts/**/*"
 var FONT_DEST = "_site/fonts/"
 
 // define the source and destination for HTTP/2
-var FONT_SOURCE = "_headers"
-var FONT_DEST = "_site/"
+var HTTPTWO_SOURCE = "_headers"
+var HTTPTWO_DEST = "_site/"
 
 // define the directory for the JavaScript
 var JS_SOURCE = "js/**/*.js"
