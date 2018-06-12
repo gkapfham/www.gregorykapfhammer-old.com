@@ -2,7 +2,9 @@
 var gulp = require('gulp');
 
 // declare variables for used packages
+var browserSync = require('browser-sync').create();
 var checkPages = require("check-pages");
+var concat = require('gulp-concat');
 var cp = require('child_process');
 var cssnano = require('cssnano');
 var debug = require('gulp-debug');
@@ -17,6 +19,14 @@ var rsync = require('gulp-rsync');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
+
+// define the directory for the fonts
+var FONT_SOURCE = "node_modules/font-awesome/fonts/**/*"
+var FONT_DEST = "_site/fonts/"
+
+// define the directory for the JavaScript
+var JS_SOURCE = "js/**/*.js"
+var JS_DEST = "_site/js/"
 
 // define the directories for the images
 var IMAGES_SOURCE    = 'download/images/**/*.{png,jpeg,jpg,svg,gif}';
@@ -41,6 +51,23 @@ gulp.task('sass', function() {
         .pipe(sass())
         .pipe(gulp.dest("css/"));
 });
+
+// TASK; Copy all of the font-awesome fonts to _site
+gulp.task('fonts', function () {
+  return gulp.src(FONT_SOURCE).pipe(gulp.dest(FONT_DEST));
+});
+
+// // TASK; Copy all of Bootstrap's JavaScript to _site
+// gulp.task('javascript', function () {
+//   return gulp.src(JS_SOURCE)
+//         .pipe(gulp.dest(JS_DEST));
+// });
+
+// gulp.task('scripts', function() {
+//     return gulp.src(jsFiles)
+//         .pipe(concat('scripts.js'))
+//         .pipe(gulp.dest(jsDest));
+// });
 
 // assumes that Jekyll's plugins are managed by bundle
 
@@ -89,6 +116,12 @@ gulp.task('fullserve', function(cb) {
   });
 });
 
+// TASK: use browsersync to load the site for local synced testing
+gulp.task('browsersync', function () {
+    browserSync.init({server: {baseDir: '_site/'}, open: false});
+    gulp.watch('_site/**/*.*').on('change', browserSync.reload);
+});
+
 // TASK: optimize the images in a lossless fashion
 gulp.task('imageoptimize', () =>
     gulp.src('download/images/*')
@@ -118,7 +151,7 @@ gulp.task('imagemogrify', function(cb) {
     env.JEKYLL_ENV = 'production';
     options.env = env;
   }
-  var jekyll = spawn('mogrify', ['_site/download/images/*.jpg', '-sampling-factor', '4:2:0', '-strip', '-quality',  '85', '-interlace', 'JPEG', '-colorspace', 'sRGB', '_site/download/images/*.jpg'], options);
+  var jekyll = spawn('mogrify', ['_site/download/images/*.jpg', '-sampling-factor', '4:2:0', '-strip', '-quality',  '45', '-interlace', 'JPEG', '-colorspace', 'sRGB', '_site/download/images/*.jpg'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: mogrify process exited with code: ' + code);
   });
@@ -138,7 +171,11 @@ gulp.task('cssminify', function () {
 // NOTE: ignore the slides for courses and Google marker
 gulp.task('htmlminify', function() {
   return gulp.src(['_site/**/*.html', '!_site/google00ff3c571b113c8c.html', '!_site/teaching/**/cs*.html'])
-    .pipe(htmlmin({collapseWhitespace: true, minifyJS: true}))
+    .pipe(htmlmin({collapseWhitespace: true,
+      minifyJS: true,
+      removeCommentsFromCDATA: true,
+      collapseBooleanAttributes: true,
+      removeEmptyAttributes: true }))
     .pipe(gulp.dest('_site/'));
 });
 
@@ -159,11 +196,18 @@ gulp.task(
   gulp.parallel('cssminify', 'htmlminify', 'jsminify')
 );
 
+// TASK: perform the full build, but do not optimize images
+gulp.task(
+  'fullbuild',
+  gulp.series('sass', 'build',
+      gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
+);
+
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizedbuild',
   gulp.series('sass', 'build', 'imageoptimize', 'imagecompress', 'imagemogrify',
-      gulp.parallel('cssminify', 'htmlminify', 'jsminify'))
+      gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: use rsync to deploy the web site to the server

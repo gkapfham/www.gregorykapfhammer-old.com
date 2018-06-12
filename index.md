@@ -16,13 +16,15 @@ give [presentations]({{site.baseurl}}research/presentations/), create
 [software]({{site.baseurl}}software/), and [serve]({{site.baseurl}}service/)
 organizations. I am an Associate Professor in and Chair of the [Department of
 Computer Science](http://www.cs.allegheny.edu) at [Allegheny
-College](http://www.allegheny.edu). In addition to delivering seminars on
-research methods and effective communication, I advise undergraduate and
-graduate students and consult for the software industry. You can learn more
-about me by reading my professional [biography]({{site.baseurl}}biography/). If
-you [subscribe]({{site.baseurl}}support/) to my mailing list I will send you
+College](http://www.allegheny.edu). You can learn more about me by reading my
+professional [biography]({{site.baseurl}}biography/). If you
+[subscribe]({{site.baseurl}}support/) to my mailing list I will send you
 informative status updates about my current projects.
 {% enddescribe %}
+
+{% comment %} In addition to delivering seminars on research methods and effective {% endcomment %}
+{% comment %} communication, I advise undergraduate and graduate students and consult for the {% endcomment %}
+{% comment %} software industry. {% endcomment %}
 
 ## SEED Survey
 
