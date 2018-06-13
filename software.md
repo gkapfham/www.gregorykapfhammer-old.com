@@ -163,6 +163,9 @@ Analyzer and displayer of responses to the SEED survey</li>
 <ul class="fa-ul">
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-111-F2017">cs111F2017</a>: Course content for Computer Science 111 Fall 2017</li>
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
 target="_blank" rel="noopener" href="https://github.com/gkapfham/cs111S2017">cs111S2017</a>: Course content for Computer Science 111 Spring 2017</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
