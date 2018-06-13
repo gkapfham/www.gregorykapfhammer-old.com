@@ -69,14 +69,14 @@
           <!-- display the paper download link for the paper (it is always based on the key of the specific entry) -->
           {% if page.entry.nodownload != 'true' and page.entry.talk != 'true' and page.entry.keywords != 'undergraduate' %}
           <div class="researchitem">
-          <a target="_blank" href = "/download/research/papers/key/{{page.entry.key}}-paper.pdf"><i class="fa fa-download"></i> Paper</a>
+          <a target="_blank" rel="noopener" href = "/download/research/papers/key/{{page.entry.key}}-paper.pdf"><i class="fa fa-download"></i> Paper</a>
           </div>
           {% endif %}
 
           <!-- the paper is designated as being "presented" in bibtex file and thus the key-based name should be displayed -->
           {% if page.entry.presented %}
           <div class="researchitem">
-          <a class="researchitem" target="_blank" href="/download/research/presentations/key/{{page.entry.key}}-presentation.pdf">
+          <a class="researchitem" target="_blank" rel="noopener" href="/download/research/presentations/key/{{page.entry.key}}-presentation.pdf">
             <i class="fa fa-download"></i> Presentation</a>
           </div>
           {% endif %}
@@ -84,14 +84,14 @@
           <!-- there is a speaker deck presentation link in the bibtex file and thus this should be displayed -->
           {% if page.entry.presentation %}
           <div class="researchitem">
-          <a class="researchitem" target="_blank" href = "{{page.entry.presentation}}"><i class="fa fa-cloud-download"></i> Presentation</a>
+          <a class="researchitem" target="_blank" rel="noopener" href = "{{page.entry.presentation}}"><i class="fa fa-cloud-download"></i> Presentation</a>
           </div>
           {% endif %}
 
           <!-- PAPER: display the references to external resources (e.g., a GitHub site for the paper or the tool) -->
           {% if page.entry.paper %}
           <div class="researchitem">
-          <a class="researchitem" target="_blank" href = "{{page.entry.paper}}">
+          <a class="researchitem" target="_blank" rel="noopener" href = "{{page.entry.paper}}">
             <i class="fa fa-github"></i> {{ page.entry.paper | replace: "https://github.com/", "" }}</a>
           </div>
           {% endif %}
@@ -99,7 +99,7 @@
           <!-- DATA: display the references to external resources (e.g., a GitHub site for the paper or the tool) -->
           {% if page.entry.data %}
           <div class="researchitem">
-          <a class="researchitem" target="_blank" href = "{{page.entry.data}}">
+          <a class="researchitem" target="_blank" rel="noopener" href = "{{page.entry.data}}">
             <i class="fa fa-github"></i> {{ page.entry.data | replace: "https://github.com/", "" }}</a>
           </div>
           {% endif %}
@@ -107,7 +107,7 @@
           <!-- TOOL: display the references to external resources (e.g., a GitHub site for the paper or the tool) -->
           {% if page.entry.tool %}
           <div class="researchitem">
-          <a class="researchitem" target="_blank" href = "{{page.entry.tool}}">
+          <a class="researchitem" target="_blank" rel="noopener" href = "{{page.entry.tool}}">
             <i class="fa fa-github"></i> {{ page.entry.tool | replace: "https://github.com/", "" }}</a>
           </div>
           {% endif %}
@@ -115,13 +115,20 @@
           <!-- again display extra spacing between the previous entries and the final bibtex -->
           <p></p>
 
-          <!-- display the bibtex entry for the paper if one is available -->
+          <!-- display the complete paper reference if a BiBTeX is available -->
           {% if page.entry.bibtex %}
           <h3>Reference</h3>
-          <!-- use Bootstrap 4 classes to style the border for the pre tag -->
-          <pre class="border border-light rounded-top p-3">{{page.entry.bibtex}}</pre>
+          <!-- Give the paper reference -->
+          <p>
+          {% reference page.entry.key %}
+          </p>
+          <!-- Link to the GitHub repository for the BiBTeX reference -->
+          <p>
+          <h3>Citation</h3>
+          <p>
+          Want to cite this paper? Look in the BiBTeX file of <a target="_blank" rel="noopener" href="https://github.com/gkapfham/research-bibliography">gkapfham/research-bibliography</a> for the key "{{page.entry.key}}".
           {% endif %}
-
+          </p>
           <!--provide a link for returning to the main list of the papers -->
           <p>
           <i class="fa fa-angle-double-up"></i>  <a href="..">Return to the List of Papers</a>
