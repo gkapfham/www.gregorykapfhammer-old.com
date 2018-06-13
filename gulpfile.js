@@ -90,6 +90,21 @@ gulp.task('build', function(cb) {
   });
 });
 
+// TASK: build the web site in full, includes incremental
+gulp.task('incrementalbuild', function(cb) {
+  var spawn = require('child_process').spawn;
+  var options = {stdio: 'inherit'};
+  if (DEPLOY) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'production';
+    options.env = env;
+  }
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', '--incremental'], options);
+  jekyll.on('exit', function(code) {
+    cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
+  });
+});
+
 // TASK: serve the web site incrementally
 gulp.task('serve', function(cb) {
   var spawn = require('child_process').spawn;
@@ -123,7 +138,7 @@ gulp.task('fullserve', function(cb) {
 // TASK: use browsersync to load the site for local synced testing
 gulp.task('browsersync', function () {
     browserSync.init({server: {baseDir: '_site/'}, open: false});
-    gulp.watch('_site/**/*.*').on('change', browserSync.reload);
+    gulp.watch(['_site/**/*.html', '_site/**/*.css', '_site/**/*.js']).on('change', browserSync.reload);
 });
 
 // TASK: optimize the images in a lossless fashion
@@ -198,6 +213,13 @@ gulp.task('jsminify', function (cb) {
 gulp.task(
   'minify',
   gulp.parallel('cssminify', 'htmlminify', 'jsminify')
+);
+
+// TASK: perform the full build, but do not optimize images or minify
+gulp.task(
+  'quickbuild',
+  gulp.series('sass', 'httptwo', 'build', 'javascripts',
+      gulp.parallel('fonts'))
 );
 
 // TASK: perform the full build, but do not optimize images
