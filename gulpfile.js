@@ -200,6 +200,13 @@ gulp.task(
   gulp.parallel('cssminify', 'htmlminify', 'jsminify')
 );
 
+// TASK: perform the full build, but do not optimize images or minify
+gulp.task(
+  'quickbuild',
+  gulp.series('sass', 'httptwo', 'build', 'javascripts',
+      gulp.parallel('fonts'))
+);
+
 // TASK: perform the full build, but do not optimize images
 gulp.task(
   'fullbuild',
