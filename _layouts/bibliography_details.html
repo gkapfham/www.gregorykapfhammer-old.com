@@ -115,11 +115,13 @@
           <!-- again display extra spacing between the previous entries and the final bibtex -->
           <p></p>
 
-          <!-- display the bibtex entry for the paper if one is available -->
+          <!-- display the complete paper reference if a BiBTeX is available -->
           {% if page.entry.bibtex %}
           <h3>Reference</h3>
-          <!-- use Bootstrap 4 classes to style the border for the pre tag -->
-          <pre class="border border-light rounded-top p-3">{{page.entry.bibtex}}</pre>
+          <!-- Give the paper reference -->
+          <p>
+          {% reference page.entry.key %}
+          </p>
           {% endif %}
 
           <!--provide a link for returning to the main list of the papers -->
