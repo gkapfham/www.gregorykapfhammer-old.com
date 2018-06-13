@@ -1,4 +1,3 @@
 /server-push-path
   Link: </js/scripts.js>; rel=preload; as=script
   Link: </css/custom.css>; rel=preload; as=style
-  Link: </fonts/fontawesome-webfont.woff2>; rel=preload; as=font
