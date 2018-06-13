@@ -25,5 +25,5 @@ look forward to having you [contact]({{site.baseurl}}contact/) me!
 {% enddescribe %}
 
 {% comment %} Include the generated files that were created by a run of the cvsee Python program {% endcomment %}
-{% include_relative cvsee_summary.md%}
+{% include_relative cvsee_summary.md %}
 {% include_relative cvsee_details.md %}
