@@ -218,7 +218,7 @@ gulp.task(
 // TASK: perform the full build, but do not optimize images or minify
 gulp.task(
   'quickbuild',
-  gulp.series('sass', 'httptwo', 'incrementalbuild', 'javascripts',
+  gulp.series('sass', 'httptwo', 'build', 'javascripts',
       gulp.parallel('fonts'))
 );
 
