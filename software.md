@@ -206,7 +206,7 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/tmuxinators">tm
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/artur-shaik/vim-javacomplete2/issues/277">artur-shaik/vim-javacomplete2 Issue #277</a>: Errors when starting Vim or Neovim ...</li>
 
-<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/education/classroom/issues/1117">education/classroom  #1117</a>: Internal Server Error 500 When Accessing an Assignment</li>
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/education/classroom/issues/1117">education/classroom  #1117</a>: Internal Server Error 500 When Accessing ...</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/junegunn/fzf/issues/712">junegunn/fzf Issue #712</a>: Setting foreground without background</li>
 
