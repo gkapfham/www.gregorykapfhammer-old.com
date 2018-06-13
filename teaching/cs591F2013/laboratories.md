@@ -9,7 +9,7 @@ layout: course_item
 
 <ul>
 
-<li><a href="{{site.baseurl}}teaching/cs591F2013/provide/homework/hw1/cs591F2013-hw1.pdf">Laboratory Assignment One: Understanding and Customizing Android</a> <p>Learn how to customize and use the Android operating system on the Nexus 7 tablets.</p>
+<li><a href="{{site.baseurl}}teaching/cs591F2013/provide/homework/hw1/cs591F2013-hw1.pdf">Laboratory Assignment One: Understanding and Customizing Android</a> <p>Customize and use the Android operating system on the Nexus 7 tablets.</p>
 
 <li><a href="{{site.baseurl}}teaching/cs591F2013/provide/homework/hw2/cs591F2013-hw2.pdf">Laboratory Assignment Two: Using Conditional Logic in Automation Tasks</a> <p>Start learning how to program in Tasker.</p>
 

@@ -19,12 +19,12 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_whystudycomputerscience.html">Why Study Computer Science?</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_introduction.html">Introduction to Computer Science I</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_lessons_from_google.html">Lessons from Google &mdash; And Each Other!</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter1.html">Chapter 1: Introduction to Computation and Programming</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter2.html">Chapter 2: Data and Expressions</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter3.html">Chapter 3: Using Classes and Objects</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_whystudycomputerscience.html">Why Study Computer Science?</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_introduction.html">Introduction to Computer Science I</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_lessons_from_google.html">Lessons from Google &mdash; And Each Other!</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter1.html">Chapter 1: Introduction to Computation and Programming</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter2.html">Chapter 2: Data and Expressions</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter3.html">Chapter 3: Using Classes and Objects</a>
 
 </ul>
 
@@ -39,8 +39,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter4.html">Chapter 4: Writing Classes</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter5.html">Chapter 5: Conditionals and Loops</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter4.html">Chapter 4: Writing Classes</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter5.html">Chapter 5: Conditionals and Loops</a>
 
 </ul>
 
@@ -53,9 +53,9 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter6.html">Chapter 6: More Conditionals and Loops</a>
-  <li> <a target="_blank" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter8.html">Chapter 8: Arrays</a>
-  <li> <a target="_blank" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_advertise112.html">Enroll in CMPSC 112!</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter6.html">Chapter 6: More Conditionals and Loops</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter8.html">Chapter 8: Arrays</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_advertise112.html">Enroll in CMPSC 112!</a>
 
 </ul>
 
@@ -68,7 +68,7 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter11.html">Chapter 11: Exceptions</a>
-  <li> <a target="_blank" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter12.html">Chapter 12: Recursion</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter11.html">Chapter 11: Exceptions</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2016/provide/slides/cs111_chapter12.html">Chapter 12: Recursion</a>
 
 </ul>
