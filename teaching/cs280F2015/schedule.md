@@ -19,14 +19,14 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_introduction.html">Introduction to Software Development</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_lessons_from_google.html">Lessons from Google &mdash; And Each Other!</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter1.html">Chapter 1: SETP</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter2.html">Chapter 2: SETP</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter3.html">Chapter 3: SETP</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_MMM_chapter1.html">Chapter 1: MMM</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_MMM_chapter2.html">Chapter 2: MMM</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_MMM_chapter3.html">Chapter 3: MMM</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_introduction.html">Introduction to Software Development</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_lessons_from_google.html">Lessons from Google &mdash; And Each Other!</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter1.html">Chapter 1: SETP</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter2.html">Chapter 2: SETP</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter3.html">Chapter 3: SETP</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_MMM_chapter1.html">Chapter 1: MMM</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_MMM_chapter2.html">Chapter 2: MMM</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_MMM_chapter3.html">Chapter 3: MMM</a>
 
 </ul>
 
@@ -41,10 +41,10 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter4.html">Chapter 4: SETP</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter5.html">Chapter 5: SETP</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter6.html">Chapter 6: SETP</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_MMM_chapter4.html">Chapter 4: MMM</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter4.html">Chapter 4: SETP</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter5.html">Chapter 5: SETP</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter6.html">Chapter 6: SETP</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_MMM_chapter4.html">Chapter 4: MMM</a>
 
 </ul>
 
@@ -59,9 +59,9 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter7.html">Chapter 7: SETP</a>
-  <li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_MMM_chapter12.html">Chapter 12: MMM</a>
-  <li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_MMM_chapter13.html">Chapter 13: MMM</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter7.html">Chapter 7: SETP</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_MMM_chapter12.html">Chapter 12: MMM</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_MMM_chapter13.html">Chapter 13: MMM</a>
 
 </ul>
 
@@ -74,9 +74,9 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter8.html">Chapter 8: SETP</a>
-  <li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter9.html">Chapter 9: SETP</a>
-  <li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter10.html">Chapter 10: SETP</a>
-  <li> <a target="_blank" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_MMM_chapter16.html">Chapter 16: MMM</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter8.html">Chapter 8: SETP</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter9.html">Chapter 9: SETP</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_SETP_chapter10.html">Chapter 10: SETP</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs280F2015/provide/slides/cs280_MMM_chapter16.html">Chapter 16: MMM</a>
 
 </ul>

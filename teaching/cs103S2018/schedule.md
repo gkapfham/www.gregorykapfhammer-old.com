@@ -18,10 +18,10 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_whystudycomputerscience.html">Why Study Computer Science?</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_introduction.html">Introduction to the Course</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter1.html">Introduction to Web Development</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter2.html">How the Web Works</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_whystudycomputerscience.html">Why Study Computer Science?</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_introduction.html">Introduction to the Course</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter1.html">Introduction to Web Development</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter2.html">How the Web Works</a>
 
 </ul>
 
@@ -37,9 +37,9 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter3.html">Introduction to HTML</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter4.html">Introduction to CSS</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter5.html">HTML Tables and Forms</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter3.html">Introduction to HTML</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter4.html">Introduction to CSS</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter5.html">HTML Tables and Forms</a>
 
 </ul>
 
@@ -54,8 +54,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter6.html">Web Media</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter7.html">Advanced CSS: Layout</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter6.html">Web Media</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter7.html">Advanced CSS: Layout</a>
 
 </ul>
 
@@ -70,8 +70,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter8.html">JavaScript Fundamentals</a>
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter9.html">Using JavaScript</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter8.html">JavaScript Fundamentals</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter9.html">Using JavaScript</a>
 
 </ul>
 
@@ -84,6 +84,6 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter20.html">JavaScript Frameworks</a>
+<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs103S2018/provide/slides/cs103_chapter20.html">JavaScript Frameworks</a>
 
 </ul>
