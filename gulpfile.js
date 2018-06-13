@@ -123,7 +123,7 @@ gulp.task('fullserve', function(cb) {
 // TASK: use browsersync to load the site for local synced testing
 gulp.task('browsersync', function () {
     browserSync.init({server: {baseDir: '_site/'}, open: false});
-    gulp.watch('_site/**/*.*').on('change', browserSync.reload);
+    gulp.watch(['_site/**/*.html', '_site/**/*.css', '_site/**/*.js']).on('change', browserSync.reload);
 });
 
 // TASK: optimize the images in a lossless fashion
