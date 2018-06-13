@@ -90,6 +90,21 @@ gulp.task('build', function(cb) {
   });
 });
 
+// TASK: build the web site in full, includes incremental
+gulp.task('incrementalbuild', function(cb) {
+  var spawn = require('child_process').spawn;
+  var options = {stdio: 'inherit'};
+  if (DEPLOY) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'production';
+    options.env = env;
+  }
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', '--incremental'], options);
+  jekyll.on('exit', function(code) {
+    cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
+  });
+});
+
 // TASK: serve the web site incrementally
 gulp.task('serve', function(cb) {
   var spawn = require('child_process').spawn;
@@ -203,7 +218,7 @@ gulp.task(
 // TASK: perform the full build, but do not optimize images or minify
 gulp.task(
   'quickbuild',
-  gulp.series('sass', 'httptwo', 'build', 'javascripts',
+  gulp.series('sass', 'httptwo', 'incrementalbuild', 'javascripts',
       gulp.parallel('fonts'))
 );
 
