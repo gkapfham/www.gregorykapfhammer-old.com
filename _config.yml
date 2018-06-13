@@ -21,7 +21,7 @@ author:
   twitter: GregKapfhammer
 markdown: rdiscount
 permalink: pretty
-highlighter: rouge
+highlighter: none
 category-list: [teaching, research]
 plugins: ['jekyll/scholar', 'jekyll-sitemap', 'jekyll-auto-image', 'jekyll-seo-tag']
 exclude: ['.htaccess', '.gitignore', '.gitmodules', 'Gemfile', 'Gemfile.lock', 'package.json', 'gulpfile.js', 'postcss.config.js', 'Gruntfile.js', 'node_modules', 'scss', 'tags', 'tags.temp', 'tags.lock', 'README.md', '*.tex', '*.sty', '*.aux', '*.dvi', '*.fls', '*.lof', '*.log', '*.lot', '*.out', '*.toc', '*.fdb_latexmk', '*.synctex.gz', '*.pdfsync', '*.ods', '**/**/**/exams', '**/**/**/logos', '**/**/**/figures', '**/**/**/code', '**/**/**/teams', '**/**/**/**/package.json', '**/**/**/**/Gruntfile.js', '**/**/**/**/README.md', '**/**/**/README.md']
