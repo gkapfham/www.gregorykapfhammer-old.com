@@ -204,7 +204,7 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/tmuxinators">tm
 
 <ul class="fa-ul">
 
-<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/artur-shaik/vim-javacomplete2/issues/277">artur-shaik/vim-javacomplete2 Issue #277</a>: Errors when starting Vim or Neovim with Java file</li>
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/artur-shaik/vim-javacomplete2/issues/277">artur-shaik/vim-javacomplete2 Issue #277</a>: Errors when starting Vim or Neovim ...</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/education/classroom/issues/1117">education/classroom  #1117</a>: Internal Server Error 500 When Accessing an Assignment</li>
 
@@ -220,15 +220,15 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/tmuxinators">tm
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/lervag/vimtex/issues/312">lervag/vimtex Issue #312</a>: Additional MuPDF window on forward search</li>
 
-<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/lervag/vimtex/issues/762">lervag/vimtex Issue #762</a>: BibTeX reference completion crashes with "Can't open file tmpfile.bbl"</li>
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/lervag/vimtex/issues/762">lervag/vimtex Issue #762</a>: BibTeX reference completion crashes with ...</li>
 
-<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/lervag/vimtex/issues/903">lervag/vimtex Issue #903</a>: Restarting continuous compilation breaks PDF refreshing in MuPDF</li>
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/lervag/vimtex/issues/903">lervag/vimtex Issue #903</a>: Restarting continuous compilation breaks PDF ...</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/neovim/neovim/issues/6204">neovim/neovim Issue #6204</a>: Using FZF turns off `relativenumber`</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/Shougo/deoplete.nvim/issues/500">Shougo/deoplete.nvim #500</a>: nvim source deoplete/util.vim slow</li>
 
-<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/Shougo/deoplete.nvim/issues/508">Shougo/deoplete.nvim #508</a>: Deoplete.nvim does not provide completions when it is loaded lazily</li>
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/Shougo/deoplete.nvim/issues/508">Shougo/deoplete.nvim #508</a>: Deoplete.nvim does not provide completions ...</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/wellle/tmux-complete.vim/issues/63">welle/tmux-complete.vim Issue #63</a>: Tmux completion no longer works</li>
 
