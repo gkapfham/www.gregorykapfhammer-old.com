@@ -224,6 +224,8 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/tmuxinators">tm
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/lervag/vimtex/issues/903">lervag/vimtex Issue #903</a>: Restarting continuous compilation breaks PDF ...</li>
 
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/ludovicchabant/vim-gutentags/issues/168">ludovicchabant/vim-gutentags Issue #168</a>: Error when deoplete installed</li>
+
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/neovim/neovim/issues/6204">neovim/neovim Issue #6204</a>: Using FZF turns off `relativenumber`</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/Shougo/deoplete.nvim/issues/500">Shougo/deoplete.nvim #500</a>: nvim source deoplete/util.vim slow</li>
