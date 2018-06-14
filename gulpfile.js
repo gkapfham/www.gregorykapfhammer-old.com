@@ -19,6 +19,7 @@ var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
 var changed = require('gulp-changed');
+var changedInPlace = require('gulp-changed-in-place');
 
 // define the directories for the fonts
 var FONT_SOURCE = "node_modules/font-awesome/fonts/**/*"
@@ -208,7 +209,7 @@ gulp.task('cssminify', function () {
         cssnano()
     ];
     return gulp.src('_site/css/*.css')
-        .pipe(changed('_site/css/*.css'))
+        .pipe(changedInPlace('_site/css/*.css'))
         .pipe(postcss())
         .pipe(gulp.dest('_site/css/'));
 });
@@ -217,7 +218,7 @@ gulp.task('cssminify', function () {
 // NOTE: ignore the slides for courses and Google marker
 gulp.task('htmlminify', function() {
   return gulp.src(['_site/**/*.html', '!_site/google00ff3c571b113c8c.html', '!_site/teaching/**/cs*.html'])
-    .pipe(changed('_site/**/*.html'))
+    .pipe(changedInPlace('_site/**/*.html'))
     .pipe(htmlmin({collapseWhitespace: true,
       minifyJS: true,
       removeCommentsFromCDATA: true,
@@ -230,7 +231,7 @@ gulp.task('htmlminify', function() {
 gulp.task('jsminify', function (cb) {
   pump([
         gulp.src('_site/js/*.js'),
-        changed('_site/js/*.js'),
+        changedInPlace('_site/js/*.js'),
         uglify(),
         gulp.dest('_site/js/')
     ],
