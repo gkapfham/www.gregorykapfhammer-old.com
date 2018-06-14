@@ -19,7 +19,7 @@ webmaster_verifications:
   google: GRspUqgstyF-rt4Ys0KO4FLleSvGLrhwhgXrhkeb4R4
 author:
   twitter: GregKapfhammer
-markdown: redcarpet
+markdown: rdiscount
 permalink: pretty
 highlighter: none
 category-list: [teaching, research]
