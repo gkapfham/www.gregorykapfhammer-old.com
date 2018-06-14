@@ -18,6 +18,7 @@ var rsync = require('gulp-rsync');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
+var changed = require('gulp-changed');
 
 // define the directories for the fonts
 var FONT_SOURCE = "node_modules/font-awesome/fonts/**/*"
@@ -30,14 +31,19 @@ var HTTPTWO_DEST = "_site/"
 // define the directory for the JavaScript
 var JS_SOURCE = ['_js/jquery-3.3.1.min.js', '_js/popper.min.js', '_js/bootstrap.min.js', '_js/jquery.scrollTo.min.js']
 var JS_DEST = "_site/js/"
+var JS_COMBINE = "scripts.js"
+
+// define the directory for all of the download files
+var DOWNLOAD_SOURCE = '_download/**/*';
+var DOWNLOAD_DEST = '_site/download/';
 
 // define the directories for the images
-var IMAGES_SOURCE    = 'download/images/**/*.{png,jpeg,jpg,svg,gif}';
+var IMAGES_SOURCE    = '_download/images/**/*.{png,jpeg,jpg,svg,gif}';
 var IMAGES_OPTIMIZED = '_site/download/images/**/*.{png,jpeg,jpg,svg,gif}';
 var IMAGES_DEST      = '_site/download/images';
 
 // read the "--production" environment variable
-var DEPLOY = Boolean(yargs.argv.production);
+var PRODUCTION = Boolean(yargs.argv.production);
 
 // define the URL of the live site to check
 var SITE = 'https://www.gregorykapfhammer.com';
@@ -48,6 +54,8 @@ var EXCLUDE_SYNOPYSYS = '--exclude=synopsys';
 var EXCLUDE_FLICKR    = '--exclude=flickr';
 var RECURSIVE         = "-ro";
 
+// {{{ PRE ---> Copy, Combine, Generate
+
 // TASK: Generate the CSS files from the Sassy CSS files
 gulp.task('sass', function() {
     return gulp.src(['scss/*.scss'])
@@ -55,31 +63,44 @@ gulp.task('sass', function() {
         .pipe(gulp.dest("css/"));
 });
 
-// TASK: Copy all of the font-awesome fonts to _site
+// TASK: Copy all of the changed font-awesome fonts to _site
 gulp.task('fonts', function () {
-  return gulp.src(FONT_SOURCE).pipe(gulp.dest(FONT_DEST));
+  return gulp.src(FONT_SOURCE)
+    .pipe(changed(FONT_DEST))
+    .pipe(gulp.dest(FONT_DEST));
+});
+
+// TASK: Copy the changed download objects to _site
+gulp.task('downloads', function () {
+  return gulp.src(DOWNLOAD_SOURCE)
+    .pipe(changed(DOWNLOAD_DEST))
+    .pipe(gulp.dest(DOWNLOAD_DEST));
 });
 
 // TASK: Copy all the HTTP2 header to _site
 gulp.task('httptwo', function () {
   return gulp.src(HTTPTWO_SOURCE)
-        .pipe(gulp.dest(HTTPTWO_DEST));
+    .pipe(changed(HTTPTWO_DEST))
+    .pipe(gulp.dest(HTTPTWO_DEST));
 });
 
 // TASK: Concatenate JavaScript in correct order
 gulp.task('javascripts', function() {
   return gulp.src(JS_SOURCE)
-    .pipe(concat('scripts.js'))
+    .pipe(concat(JS_COMBINE))
+    .pipe(changed(JS_DEST))
     .pipe(gulp.dest(JS_DEST));
 });
 
-// Tasks assume that Jekyll's plugins are managed by bundle
+// }}}
+
+// {{{ BUILD and SERVE ---> Run Jekyll and Browsersync
 
 // TASK: build the web site in full, no incremental
 gulp.task('build', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {stdio: 'inherit'};
-  if (DEPLOY) {
+  if (PRODUCTION) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'production';
     options.env = env;
@@ -94,7 +115,7 @@ gulp.task('build', function(cb) {
 gulp.task('incrementalbuild', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {stdio: 'inherit'};
-  if (DEPLOY) {
+  if (PRODUCTION) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'production';
     options.env = env;
@@ -109,7 +130,7 @@ gulp.task('incrementalbuild', function(cb) {
 gulp.task('serve', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {stdio: 'inherit'};
-  if (DEPLOY) {
+  if (PRODUCTION) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'production';
     options.env = env;
@@ -124,7 +145,7 @@ gulp.task('serve', function(cb) {
 gulp.task('fullserve', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {stdio: 'inherit'};
-  if (DEPLOY) {
+  if (PRODUCTION) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'production';
     options.env = env;
@@ -140,6 +161,10 @@ gulp.task('browsersync', function () {
     browserSync.init({server: {baseDir: '_site/'}, open: false});
     gulp.watch(['_site/**/*.html', '_site/**/*.css', '_site/**/*.js']).on('change', browserSync.reload);
 });
+
+// }}}
+
+// {{{ OPTIMIZE and TRANSFORM ---> Images, CSS, JavaScript, HTML
 
 // TASK: optimize the images in a lossless fashion
 gulp.task('imageoptimize', () =>
@@ -165,7 +190,7 @@ gulp.task('imagecompress', function () {
 gulp.task('imagemogrify', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {stdio: 'inherit'};
-  if (DEPLOY) {
+  if (PRODUCTION) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'production';
     options.env = env;
@@ -215,36 +240,34 @@ gulp.task(
   gulp.parallel('cssminify', 'htmlminify', 'jsminify')
 );
 
+// }}}
+
+// {{{ DEPLOY ---> Build and all needed steps, customized
+
 // TASK: perform the full build, but do not optimize images or minify
 gulp.task(
-  'quickbuild',
-  gulp.series('sass', 'httptwo', 'incrementalbuild', 'javascripts',
-      gulp.parallel('fonts'))
+  'quickdeploy',
+  gulp.series('sass', 'incrementalbuild', 'httptwo', 'javascripts',
+      gulp.parallel('fonts', 'downloads'))
 );
 
 // TASK: perform the full build, but do not optimize images
 gulp.task(
-  'fullbuild',
-  gulp.series('sass', 'httptwo', 'build', 'javascripts',
-      gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
+  'fulldeploy',
+  gulp.series('sass', 'build', 'httptwo', 'javascripts',
+      gulp.parallel('fonts', 'downloads', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
-  'optimizedbuild',
-  gulp.series('sass', 'httptwo', 'build', 'javascripts', 'imageoptimize', 'imagecompress', 'imagemogrify',
-      gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
+  'optimizeddeploy',
+  gulp.series('sass', 'build', 'httptwo', 'javascripts', 'imageoptimize', 'imagecompress', 'imagemogrify',
+      gulp.parallel('fonts', 'downloads', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
-// TASK: use rsync to deploy the web site to the server
-gulp.task('deploy', function() {
-  return gulp.src('_site/**')
-    .pipe(rsync({
-      root: '_site',
-      hostname: 'cs.allegheny.edu',
-      destination: '/home/g/gkapfham/public_html/'
-    }));
-});
+// }}}
+
+// {{{ CHECKS ---> Check all HTML Files
 
 // TASK: use the "linkchecker" tool to check live site
 gulp.task('linkchecker', function(cb) {
@@ -272,9 +295,27 @@ gulp.task('blc', function(cb) {
   });
 });
 
+// Maintenance {{{
+
 // TASK: delete the generated site
 gulp.task('clean', function () {
   return del([
     '_site/**/*',
   ]);
 });
+
+// }}}
+
+// Deprecated {{{
+
+// TASK: use rsync to deploy the web site to the server
+gulp.task('deploy', function() {
+  return gulp.src('_site/**')
+    .pipe(rsync({
+      root: '_site',
+      hostname: 'cs.allegheny.edu',
+      destination: '/home/g/gkapfham/public_html/'
+    }));
+});
+
+// }}}
