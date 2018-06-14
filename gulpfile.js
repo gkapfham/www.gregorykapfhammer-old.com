@@ -252,21 +252,21 @@ gulp.task(
 gulp.task(
   'quickdeploy',
   gulp.series('sass', 'incrementalbuild', 'httptwo', 'javascripts',
-      gulp.parallel('fonts', 'downloads'))
+    gulp.parallel('fonts', 'downloads'))
 );
 
 // TASK: perform the full build, but do not optimize images
 gulp.task(
   'fulldeploy',
   gulp.series('sass', 'build', 'httptwo', 'javascripts',
-      gulp.parallel('fonts', 'downloads', 'cssminify', 'htmlminify', 'jsminify'))
+    gulp.parallel('fonts', 'downloads', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizeddeploy',
   gulp.series('sass', 'build', 'httptwo', 'javascripts', 'imageoptimize', 'imagecompress', 'imagemogrify',
-      gulp.parallel('fonts', 'downloads', 'cssminify', 'htmlminify', 'jsminify'))
+    gulp.parallel('fonts', 'downloads', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // }}}
