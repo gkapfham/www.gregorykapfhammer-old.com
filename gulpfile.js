@@ -3,6 +3,8 @@ var gulp = require('gulp');
 
 // declare variables for used packages
 var browserSync = require('browser-sync').create();
+var changed = require('gulp-changed');
+var changedInPlace = require('gulp-changed-in-place');
 var checkPages = require("check-pages");
 var concat = require('gulp-concat');
 var cp = require('child_process');
@@ -18,8 +20,6 @@ var rsync = require('gulp-rsync');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
-var changed = require('gulp-changed');
-var changedInPlace = require('gulp-changed-in-place');
 
 // define the directories for the fonts
 var FONT_SOURCE = "node_modules/font-awesome/fonts/**/*"
