@@ -71,6 +71,7 @@ GEM
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     rdiscount (2.2.0.1)
+    redcarpet (3.4.0)
     rouge (3.1.1)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
@@ -92,6 +93,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-sitemap
   rdiscount
+  redcarpet
   unicode
 
 BUNDLED WITH
