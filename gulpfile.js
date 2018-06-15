@@ -38,12 +38,21 @@ var JS_DEST    = "js/"
 var JS_SITE    = "_site/js/"
 var JS_COMBINE = "scripts.js"
 
-  // return gulp.src(['_site/**/*.html', '!_site/google00ff3c571b113c8c.html', '!_site/teaching/**/cs*.html'])
+// // TASK: minify all of the JavaScript files
+// gulp.task('jsminify', function (cb) {
+//   pump([
+//     gulp.src('_site/js/*.js'),
+//     uglify(),
+//     gulp.dest('_site/js/')
+//   ],
+//     cb
+//   );
+// });
 
 // define the directory for all of the HTML files
 var HTML_SOURCE = '_site/**/*.html';
 var DOWNLOAD_DEST = '_site/download/';
-var SITE = "_site"
+var DEPLOYSITE = "_site"
 
 // define the directory for all of the download files
 var DOWNLOAD_SOURCE = '_download/**/*';
@@ -228,22 +237,21 @@ gulp.task('cssminify', function () {
 // NOTE: ignore the slides for teaching and the Google marker
 gulp.task('htmlminify', function() {
   return gulp.src([HTML_SOURCE, '!_site/google00ff3c571b113c8c.html', '!_site/teaching/**/cs*.html'])
-    .pipe(newer(SITE))
     .pipe(htmlmin({collapseWhitespace: true,
-      minifyJS:                        true,
-      removeCommentsFromCDATA:         true,
-      collapseBooleanAttributes:       true,
-      removeEmptyAttributes:           true}))
-    .pipe(gulp.dest(SITE));
+      minifyJS: true,
+      removeCommentsFromCDATA: true,
+      collapseBooleanAttributes: true,
+      removeEmptyAttributes: true}))
+    .pipe(gulp.dest(DEPLOYSITE));
 });
 
 // TASK: minify all of the JavaScript files
 gulp.task('jsminify', function (cb) {
   pump([
-        gulp.src('_site/js/*.js'),
-        uglify(),
-        gulp.dest('_site/js/')
-    ],
+    gulp.src('_site/js/*.js'),
+    uglify(),
+    gulp.dest('_site/js/')
+  ],
     cb
   );
 });
