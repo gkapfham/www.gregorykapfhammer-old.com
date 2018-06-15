@@ -19,7 +19,6 @@ webmaster_verifications:
   google: GRspUqgstyF-rt4Ys0KO4FLleSvGLrhwhgXrhkeb4R4
 author:
   twitter: GregKapfhammer
-image: /favicon-256.png
 markdown: rdiscount
 permalink: pretty
 highlighter: none
