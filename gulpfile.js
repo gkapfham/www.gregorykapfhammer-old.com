@@ -43,9 +43,10 @@ var DOWNLOAD_SOURCE = '_download/**/*';
 var DOWNLOAD_DEST = '_site/download/';
 
 // define the directories for the images
-var IMAGES_SOURCE    = '_download/images/**/*.{png,jpeg,jpg,svg,gif}';
-var IMAGES_OPTIMIZED = '_site/download/images/**/*.{png,jpeg,jpg,svg,gif}';
-var IMAGES_DEST      = '_site/download/images';
+var IMAGES_SOURCE        = '_download/images/**/*.{png,jpeg,jpg,svg,gif}';
+var IMAGES_OPTIMIZED     = '_site/download/images/**/*.{png,jpeg,jpg,svg,gif}';
+var IMAGES_OPTIMIZED_JPG = '_site/download/images/*.jpg';
+var IMAGES_DEST          = '_site/download/images';
 
 // read the "--production" environment variable
 var PRODUCTION = Boolean(yargs.argv.production);
@@ -190,7 +191,7 @@ gulp.task('imagecompress', function () {
     .pipe(gulp.dest(IMAGES_DEST));
 });
 
-// TASK: mogrify the images to reduce size further
+// TASK: mogrify the images to reduce size significantly
 gulp.task('imagemogrify', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {stdio: 'inherit'};
@@ -199,7 +200,7 @@ gulp.task('imagemogrify', function(cb) {
     env.JEKYLL_ENV = 'production';
     options.env = env;
   }
-  var mogrify = spawn('mogrify', ['_site/download/images/*.jpg', '-sampling-factor', '4:2:0', '-strip', '-quality',  '45', '-interlace', 'JPEG', '-colorspace', 'sRGB', '_site/download/images/*.jpg'], options);
+  var mogrify = spawn('mogrify', [IMAGES_OPTIMIZED_JPG, '-sampling-factor', '4:2:0', '-strip', '-quality',  '45', '-interlace', 'JPEG', '-colorspace', 'sRGB', IMAGES_OPTIMIZED_JPG], options);
   mogrify.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: mogrify process exited with code: ' + code);
   });
