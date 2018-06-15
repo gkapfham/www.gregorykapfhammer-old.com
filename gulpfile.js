@@ -22,32 +22,22 @@ var newer = require('gulp-newer');
 
 // define the directories for the fonts
 var CSS_SOURCE = "css/*.css"
-var CSS_DEST   = "_site/css/"
+var CSS_DEST = "_site/css/"
 
 // define the directories for the fonts
 var FONT_SOURCE = "node_modules/font-awesome/fonts/**/*"
-var FONT_DEST   = "_site/fonts/"
+var FONT_DEST = "_site/fonts/"
 
 // define the source and destination for HTTP/2
 var HTTPTWO_SOURCE = "_headers"
-var HTTPTWO_DEST   = "_site/"
+var HTTPTWO_DEST = "_site/"
 
 // define the directory for the JavaScript
-var JS_SOURCE  = ['_js/jquery-3.3.1.min.js', '_js/popper.min.js', '_js/bootstrap.min.js', '_js/jquery.scrollTo.min.js']
-var JS_DEST    = "js/"
-var JS_SITE    = "_site/js/"
+var JS_SOURCE = ['_js/jquery-3.3.1.min.js', '_js/popper.min.js', '_js/bootstrap.min.js', '_js/jquery.scrollTo.min.js']
+var JS_DEST = "js/"
+var JS_SITE = "_site/js/"
+var JS_SITE_ALL = "_site/js/*.js"
 var JS_COMBINE = "scripts.js"
-
-// // TASK: minify all of the JavaScript files
-// gulp.task('jsminify', function (cb) {
-//   pump([
-//     gulp.src('_site/js/*.js'),
-//     uglify(),
-//     gulp.dest('_site/js/')
-//   ],
-//     cb
-//   );
-// });
 
 // define the directory for all of the HTML files
 var HTML_SOURCE = '_site/**/*.html';
@@ -59,10 +49,10 @@ var DOWNLOAD_SOURCE = '_download/**/*';
 var DOWNLOAD_DEST = '_site/download/';
 
 // define the directories for the images
-var IMAGES_SOURCE        = '_download/images/**/*.{png,jpeg,jpg,svg,gif}';
-var IMAGES_OPTIMIZED     = '_site/download/images/**/*.{png,jpeg,jpg,svg,gif}';
+var IMAGES_SOURCE = '_download/images/**/*.{png,jpeg,jpg,svg,gif}';
+var IMAGES_OPTIMIZED = '_site/download/images/**/*.{png,jpeg,jpg,svg,gif}';
 var IMAGES_OPTIMIZED_JPG = '_site/download/images/*.jpg';
-var IMAGES_DEST          = '_site/download/images';
+var IMAGES_DEST = '_site/download/images';
 
 // read the "--production" environment variable
 var PRODUCTION = Boolean(yargs.argv.production);
@@ -71,10 +61,10 @@ var PRODUCTION = Boolean(yargs.argv.production);
 var SITE = 'https://www.gregorykapfhammer.com';
 
 // exclude different fragments from blc checking
-var EXCLUDE_LINKEDIN  = '--exclude=linkedin';
+var EXCLUDE_LINKEDIN = '--exclude=linkedin';
 var EXCLUDE_SYNOPYSYS = '--exclude=synopsys';
-var EXCLUDE_FLICKR    = '--exclude=flickr';
-var RECURSIVE         = "-ro";
+var EXCLUDE_FLICKR = '--exclude=flickr';
+var RECURSIVE = "-ro";
 
 // {{{ PRE ---> Copy, Combine, Generate
 
@@ -86,20 +76,20 @@ gulp.task('sass', function() {
 });
 
 // TASK: Copy all of the changed font-awesome fonts to _site
-gulp.task('fonts', function () {
+gulp.task('fonts', function() {
   return gulp.src(FONT_SOURCE)
     .pipe(gulp.dest(FONT_DEST));
 });
 
 // TASK: Copy the changed download objects to _site
-gulp.task('downloads', function () {
+gulp.task('downloads', function() {
   return gulp.src(DOWNLOAD_SOURCE)
     .pipe(newer(DOWNLOAD_DEST))
     .pipe(gulp.dest(DOWNLOAD_DEST));
 });
 
 // TASK: Copy all the HTTP2 header to _site
-gulp.task('httptwo', function () {
+gulp.task('httptwo', function() {
   return gulp.src(HTTPTWO_SOURCE)
     .pipe(gulp.dest(HTTPTWO_DEST));
 });
@@ -119,7 +109,9 @@ gulp.task('javascripts', function() {
 // TASK: build the web site in full, no incremental
 gulp.task('build', function(cb) {
   var spawn = require('child_process').spawn;
-  var options = {stdio: 'inherit'};
+  var options = {
+    stdio: 'inherit'
+  };
   if (PRODUCTION) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'production';
@@ -134,7 +126,9 @@ gulp.task('build', function(cb) {
 // TASK: build the web site in full, includes incremental
 gulp.task('incrementalbuild', function(cb) {
   var spawn = require('child_process').spawn;
-  var options = {stdio: 'inherit'};
+  var options = {
+    stdio: 'inherit'
+  };
   if (PRODUCTION) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'production';
@@ -149,7 +143,9 @@ gulp.task('incrementalbuild', function(cb) {
 // TASK: serve the web site incrementally
 gulp.task('serve', function(cb) {
   var spawn = require('child_process').spawn;
-  var options = {stdio: 'inherit'};
+  var options = {
+    stdio: 'inherit'
+  };
   if (PRODUCTION) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'production';
@@ -164,7 +160,9 @@ gulp.task('serve', function(cb) {
 // TASK: serve the web site in full
 gulp.task('fullserve', function(cb) {
   var spawn = require('child_process').spawn;
-  var options = {stdio: 'inherit'};
+  var options = {
+    stdio: 'inherit'
+  };
   if (PRODUCTION) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'production';
@@ -177,9 +175,14 @@ gulp.task('fullserve', function(cb) {
 });
 
 // TASK: use browsersync to load the site for local synced testing
-gulp.task('browsersync', function () {
-    browserSync.init({server: {baseDir: '_site/'}, open: false});
-    gulp.watch(['_site/**/*.html', '_site/**/*.css', '_site/**/*.js']).on('change', browserSync.reload);
+gulp.task('browsersync', function() {
+  browserSync.init({
+    server: {
+      baseDir: '_site/'
+    },
+    open: false
+  });
+  gulp.watch(['_site/**/*.html', '_site/**/*.css', '_site/**/*.js']).on('change', browserSync.reload);
 });
 
 // }}}
@@ -190,19 +193,24 @@ gulp.task('browsersync', function () {
 gulp.task('imageoptimize', () =>
   gulp.src(IMAGES_SOURCE)
   .pipe(newer(IMAGES_DEST))
-  .pipe(imagemin([imagemin.jpegtran({progressive: true}),
-    imagemin.optipng({optimizationLevel: 7}),]))
+  .pipe(imagemin([imagemin.jpegtran({
+      progressive: true
+    }),
+    imagemin.optipng({
+      optimizationLevel: 7
+    }),
+  ]))
   .pipe(gulp.dest(IMAGES_DEST))
 );
 
 // TASK: optimize the images in a lossy fashion
-gulp.task('imagecompress', function () {
+gulp.task('imagecompress', function() {
   return gulp.src(IMAGES_OPTIMIZED)
     .pipe(imagemin([
       imagemin.optipng(),
       imagemin.jpegtran(),
-      imageminPngquant(speed=1),
-      imageminJpegRecompress(accurate=true, loops=10)
+      imageminPngquant(speed = 1),
+      imageminJpegRecompress(accurate = true, loops = 10)
     ]))
     .pipe(gulp.dest(IMAGES_DEST));
 });
@@ -210,48 +218,52 @@ gulp.task('imagecompress', function () {
 // TASK: mogrify the images to reduce size significantly
 gulp.task('imagemogrify', function(cb) {
   var spawn = require('child_process').spawn;
-  var options = {stdio: 'inherit'};
+  var options = {
+    stdio: 'inherit'
+  };
   if (PRODUCTION) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'production';
     options.env = env;
   }
-  var mogrify = spawn('mogrify', [IMAGES_OPTIMIZED_JPG, '-sampling-factor', '4:2:0', '-strip', '-quality',  '45', '-interlace', 'JPEG', '-colorspace', 'sRGB', IMAGES_OPTIMIZED_JPG], options);
+  var mogrify = spawn('mogrify', [IMAGES_OPTIMIZED_JPG, '-sampling-factor', '4:2:0', '-strip', '-quality', '45', '-interlace', 'JPEG', '-colorspace', 'sRGB', IMAGES_OPTIMIZED_JPG], options);
   mogrify.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: mogrify process exited with code: ' + code);
   });
 });
 
 // TASK: minify all of the CSS files
-gulp.task('cssminify', function () {
-    var plugins = [
-        cssnano()
-    ];
-    return gulp.src(CSS_SOURCE)
-        .pipe(newer(CSS_DEST))
-        .pipe(postcss())
-        .pipe(gulp.dest(CSS_DEST));
+gulp.task('cssminify', function() {
+  var plugins = [
+    cssnano()
+  ];
+  return gulp.src(CSS_SOURCE)
+    .pipe(newer(CSS_DEST))
+    .pipe(postcss())
+    .pipe(gulp.dest(CSS_DEST));
 });
 
 // TASK: minify all of the changed HTML files
 // NOTE: ignore the slides for teaching and the Google marker
 gulp.task('htmlminify', function() {
   return gulp.src([HTML_SOURCE, '!_site/google00ff3c571b113c8c.html', '!_site/teaching/**/cs*.html'])
-    .pipe(htmlmin({collapseWhitespace: true,
+    .pipe(htmlmin({
+      collapseWhitespace: true,
       minifyJS: true,
       removeCommentsFromCDATA: true,
       collapseBooleanAttributes: true,
-      removeEmptyAttributes: true}))
+      removeEmptyAttributes: true
+    }))
     .pipe(gulp.dest(DEPLOYSITE));
 });
 
 // TASK: minify all of the JavaScript files
-gulp.task('jsminify', function (cb) {
+gulp.task('jsminify', function(cb) {
   pump([
-    gulp.src('_site/js/*.js'),
-    uglify(),
-    gulp.dest('_site/js/')
-  ],
+      gulp.src(JS_SITE_ALL),
+      uglify(),
+      gulp.dest(JS_SITE)
+    ],
     cb
   );
 });
@@ -269,7 +281,7 @@ gulp.task(
 // TASK: perform the full build, but do not optimize images or minify
 gulp.task(
   'quickdeploy',
-  gulp.series('sass', 'incrementalbuild', 'javascripts', 'httptwo',  'downloads',
+  gulp.series('sass', 'incrementalbuild', 'javascripts', 'httptwo', 'downloads',
     gulp.parallel('fonts'))
 );
 
@@ -294,7 +306,9 @@ gulp.task(
 // TASK: use the "linkchecker" tool to check live site
 gulp.task('linkchecker', function(cb) {
   var spawn = require('child_process').spawn;
-  var options = {stdio: 'inherit'};
+  var options = {
+    stdio: 'inherit'
+  };
   // run the linkchecker on the main web site
   var linkchecker = spawn('linkchecker', [SITE], options);
   linkchecker.on('exit', function(code) {
@@ -306,7 +320,9 @@ gulp.task('linkchecker', function(cb) {
 // TASK: use the "blc" tool to check live site
 gulp.task('blc', function(cb) {
   var spawn = require('child_process').spawn;
-  var options = {stdio: 'inherit'};
+  var options = {
+    stdio: 'inherit'
+  };
   SITE = SITE;
   // run the linkchecker on the web site, don't follow LinkedIn or Synopsys links as they deny
   // note that excluding flickr will mask some broken links to images on slides
@@ -320,7 +336,7 @@ gulp.task('blc', function(cb) {
 // Maintenance {{{
 
 // TASK: delete the generated site
-gulp.task('clean', function () {
+gulp.task('clean', function() {
   return del([
     '_site/**/*',
   ]);
