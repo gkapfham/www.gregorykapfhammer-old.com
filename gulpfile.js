@@ -89,9 +89,9 @@ gulp.task('httptwo', function () {
 // TASK: Concatenate JavaScript in correct order
 gulp.task('javascripts', function() {
   return gulp.src(JS_SOURCE)
-    .pipe(newer(JS_DEST + JS_COMBINE))
+    .pipe(newer(JS_SITE + JS_COMBINE))
     .pipe(concat(JS_COMBINE))
-    .pipe(gulp.dest(JS_DEST));
+    .pipe(gulp.dest(JS_SITE));
 });
 
 // }}}
@@ -252,21 +252,21 @@ gulp.task(
 // TASK: perform the full build, but do not optimize images or minify
 gulp.task(
   'quickdeploy',
-  gulp.series('sass', 'javascripts', 'incrementalbuild', 'httptwo',  'downloads',
+  gulp.series('sass', 'incrementalbuild', 'javascripts', 'httptwo',  'downloads',
     gulp.parallel('fonts'))
 );
 
 // TASK: perform the full build, but do not optimize images
 gulp.task(
   'fulldeploy',
-  gulp.series('sass', 'javascripts', 'build', 'httptwo', 'downloads',
+  gulp.series('sass', 'build', 'javascripts', 'httptwo', 'downloads',
     gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizeddeploy',
-  gulp.series('sass', 'javascripts', 'build', 'httptwo', 'downloads', 'imageoptimize', 'imagecompress',
+  gulp.series('sass', 'build', 'javascripts', 'httptwo', 'downloads', 'imageoptimize', 'imagecompress',
     gulp.parallel('imagemogrify', 'fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
