@@ -77,6 +77,7 @@ gulp.task('fonts', function () {
 // TASK: Copy the changed download objects to _site
 gulp.task('downloads', function () {
   return gulp.src(DOWNLOAD_SOURCE)
+    .pipe(newer(DOWNLOAD_DEST))
     .pipe(gulp.dest(DOWNLOAD_DEST));
 });
 
