@@ -343,7 +343,7 @@
             op += '<p class="tweet">' + strip(tweets[n].innerHTML) + '</p>';
             if (printTime) {
               if (permalinks) {
-                op += '<p class="tighttweet"><a class="timePosted" href="' + permalinksURL[n] +
+                op += '<p class="tighttweet"><a class="timePosted" rel="noopener" href="' + permalinksURL[n] +
                    '">' + times[n].getAttribute('aria-label') + '</a></p>';
               } else {
                 op += '<p class="timePosted">' +
@@ -380,7 +380,7 @@
                 (targetBlank ? ' target="_blank" rel="noopener">' : '>') + 'Retweet</a>' +
                 '<a href="https://twitter.com/intent/favorite?tweet_id=' +
                 tids[n] + '" class="twitter_fav_icon"' +
-                (targetBlank ? ' target="_blank">' : '>') + 'Favorite</a></p>';
+                (targetBlank ? ' target="_blank" rel="noopener">' : '>') + 'Favorite</a></p>';
           }
           if (showImages && images[n] !== undefined && extractImageUrl(images[n]) !== undefined) {
             op += '<div class="media">' +
