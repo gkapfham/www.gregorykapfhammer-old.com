@@ -21,6 +21,10 @@ var yargs = require('yargs');
 var newer = require('gulp-newer');
 
 // define the directories for the fonts
+var CSS_SOURCE = "css/*.css"
+var CSS_DEST = "_site/css/"
+
+// define the directories for the fonts
 var FONT_SOURCE = "node_modules/font-awesome/fonts/**/*"
 var FONT_DEST = "_site/fonts/"
 
@@ -202,10 +206,10 @@ gulp.task('cssminify', function () {
     var plugins = [
         cssnano()
     ];
-    return gulp.src('css/*.css')
-        .pipe(newer('_site/css/'))
+    return gulp.src(CSS_SOURCE)
+        .pipe(newer(CSS_DEST))
         .pipe(postcss())
-        .pipe(gulp.dest('_site/css/'));
+        .pipe(gulp.dest(CSS_DEST));
 });
 
 // TASK: minify all of the HTML files
