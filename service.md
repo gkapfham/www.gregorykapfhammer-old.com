@@ -24,6 +24,11 @@ have collaborated with people at leading academic and government agencies. I
 look forward to having you [contact]({{site.baseurl}}contact/) me!
 {% enddescribe %}
 
-{% comment %} Include the generated files that were created by a run of the cvsee Python program {% endcomment %}
-{% include_relative cvsee_summary.md %}
-{% include_relative cvsee_details.md %}
+{% comment %} Include the generated files that were created by a run of the
+cvsee Python program {% endcomment %}
+
+{% comment %} Include the summary of recent service {% endcomment %}
+{% include _service/cvsee_summary.md %}
+
+{% comment %} Include the full details about recent service {% endcomment %}
+{% include _service/cvsee_details.md %}
