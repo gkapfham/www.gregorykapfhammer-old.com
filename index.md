@@ -38,10 +38,7 @@ page (must use a different template) {% endcomment %}
 
 {% bibliography --template bibliography_entry_forward --group_by none --max 1 %}
 
-## Recent Presentation
-
-{% comment %} Display the presentation that would display first on the talks
-page (must use a different template) {% endcomment %}
+## Recent Talk
 
 {% bibliography --template bibliography_entry_forward --query @misc[keywords!=supervised] --group_by none --max 1 %}
 
@@ -68,7 +65,7 @@ Updated May 2017
 {% endfor %}
 </ul>
 
-## Highlighted Course
+## Current Course
 
 {% comment %} Display the featured course site by iterating through the sites
 and finding the featured one {% endcomment %}
