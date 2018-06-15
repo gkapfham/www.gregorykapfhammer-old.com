@@ -344,6 +344,12 @@ gulp.task('clean', function() {
 
 // }}}
 
+// Default {{{
+
+gulp.task('default', gulp.series('quickdeploy'))
+
+// }}}
+
 // Deprecated {{{
 
 // TASK: use rsync to deploy the web site to the server
