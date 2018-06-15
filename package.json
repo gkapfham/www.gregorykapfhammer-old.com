@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "www",
   "main": "index.js",
-  "dependencies": {
-    "gulp-htmlmin": "^4.0.0"
-  },
   "devDependencies": {
     "bootstrap": "^4.1.1",
     "browser-sync": "^2.24.4",
