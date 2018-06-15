@@ -343,7 +343,7 @@
             op += '<p class="tweet">' + strip(tweets[n].innerHTML) + '</p>';
             if (printTime) {
               if (permalinks) {
-                op += '<p class="tighttweet"><a class="timePosted" rel="noopener" href="' + permalinksURL[n] +
+                op += '<p class="tighttweet"><a class="timePosted" target="_blank" rel="noopener" href="' + permalinksURL[n] +
                    '">' + times[n].getAttribute('aria-label') + '</a></p>';
               } else {
                 op += '<p class="timePosted">' +
