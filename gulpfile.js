@@ -3,8 +3,6 @@ var gulp = require('gulp');
 
 // declare variables for used packages
 var browserSync = require('browser-sync').create();
-var changed = require('gulp-changed');
-var changedInPlace = require('gulp-changed-in-place');
 var checkPages = require("check-pages");
 var concat = require('gulp-concat');
 var cp = require('child_process');
@@ -20,6 +18,7 @@ var rsync = require('gulp-rsync');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
+var newer = require('gulp-newer');
 
 // define the directories for the fonts
 var FONT_SOURCE = "node_modules/font-awesome/fonts/**/*"
@@ -61,35 +60,30 @@ var RECURSIVE         = "-ro";
 gulp.task('sass', function() {
   return gulp.src(['scss/*.scss'])
     .pipe(sass())
-    .pipe(changed("css/"))
     .pipe(gulp.dest("css/"));
 });
 
 // TASK: Copy all of the changed font-awesome fonts to _site
 gulp.task('fonts', function () {
   return gulp.src(FONT_SOURCE)
-    .pipe(changed(FONT_DEST))
     .pipe(gulp.dest(FONT_DEST));
 });
 
 // TASK: Copy the changed download objects to _site
 gulp.task('downloads', function () {
   return gulp.src(DOWNLOAD_SOURCE)
-    .pipe(changed(DOWNLOAD_DEST))
     .pipe(gulp.dest(DOWNLOAD_DEST));
 });
 
 // TASK: Copy all the HTTP2 header to _site
 gulp.task('httptwo', function () {
   return gulp.src(HTTPTWO_SOURCE)
-    .pipe(changed(HTTPTWO_DEST))
     .pipe(gulp.dest(HTTPTWO_DEST));
 });
 
 // TASK: Concatenate JavaScript in correct order
 gulp.task('javascripts', function() {
   return gulp.src(JS_SOURCE)
-    .pipe(changed(JS_DEST))
     .pipe(concat(JS_COMBINE))
     .pipe(gulp.dest(JS_DEST));
 });
@@ -208,8 +202,8 @@ gulp.task('cssminify', function () {
     var plugins = [
         cssnano()
     ];
-    return gulp.src('_site/css/*.css')
-        .pipe(changedInPlace('_site/css/*.css'))
+    return gulp.src('css/*.css')
+        .pipe(newer('_site/css/'))
         .pipe(postcss())
         .pipe(gulp.dest('_site/css/'));
 });
@@ -218,7 +212,6 @@ gulp.task('cssminify', function () {
 // NOTE: ignore the slides for courses and Google marker
 gulp.task('htmlminify', function() {
   return gulp.src(['_site/**/*.html', '!_site/google00ff3c571b113c8c.html', '!_site/teaching/**/cs*.html'])
-    .pipe(changedInPlace('_site/**/*.html'))
     .pipe(htmlmin({collapseWhitespace: true,
       minifyJS: true,
       removeCommentsFromCDATA: true,
@@ -231,7 +224,6 @@ gulp.task('htmlminify', function() {
 gulp.task('jsminify', function (cb) {
   pump([
         gulp.src('_site/js/*.js'),
-        changedInPlace('_site/js/*.js'),
         uglify(),
         gulp.dest('_site/js/')
     ],
