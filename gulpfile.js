@@ -22,19 +22,20 @@ var newer = require('gulp-newer');
 
 // define the directories for the fonts
 var CSS_SOURCE = "css/*.css"
-var CSS_DEST = "_site/css/"
+var CSS_DEST   = "_site/css/"
 
 // define the directories for the fonts
 var FONT_SOURCE = "node_modules/font-awesome/fonts/**/*"
-var FONT_DEST = "_site/fonts/"
+var FONT_DEST   = "_site/fonts/"
 
 // define the source and destination for HTTP/2
 var HTTPTWO_SOURCE = "_headers"
-var HTTPTWO_DEST = "_site/"
+var HTTPTWO_DEST   = "_site/"
 
 // define the directory for the JavaScript
-var JS_SOURCE = ['_js/jquery-3.3.1.min.js', '_js/popper.min.js', '_js/bootstrap.min.js', '_js/jquery.scrollTo.min.js']
-var JS_DEST = "_site/js/"
+var JS_SOURCE  = ['_js/jquery-3.3.1.min.js', '_js/popper.min.js', '_js/bootstrap.min.js', '_js/jquery.scrollTo.min.js']
+var JS_DEST    = "js/"
+var JS_SITE    = "_site/js/"
 var JS_COMBINE = "scripts.js"
 
 // define the directory for all of the download files
@@ -88,6 +89,7 @@ gulp.task('httptwo', function () {
 // TASK: Concatenate JavaScript in correct order
 gulp.task('javascripts', function() {
   return gulp.src(JS_SOURCE)
+    .pipe(newer(JS_DEST + JS_COMBINE))
     .pipe(concat(JS_COMBINE))
     .pipe(gulp.dest(JS_DEST));
 });
@@ -217,6 +219,7 @@ gulp.task('cssminify', function () {
 // NOTE: ignore the slides for courses and Google marker
 gulp.task('htmlminify', function() {
   return gulp.src(['_site/**/*.html', '!_site/google00ff3c571b113c8c.html', '!_site/teaching/**/cs*.html'])
+    .pipe(newer('_site'))
     .pipe(htmlmin({collapseWhitespace: true,
       minifyJS: true,
       removeCommentsFromCDATA: true,
@@ -249,21 +252,21 @@ gulp.task(
 // TASK: perform the full build, but do not optimize images or minify
 gulp.task(
   'quickdeploy',
-  gulp.series('sass', 'incrementalbuild', 'httptwo', 'javascripts', 'downloads',
+  gulp.series('sass', 'javascripts', 'incrementalbuild', 'httptwo',  'downloads',
     gulp.parallel('fonts'))
 );
 
 // TASK: perform the full build, but do not optimize images
 gulp.task(
   'fulldeploy',
-  gulp.series('sass', 'build', 'httptwo', 'javascripts','downloads',
+  gulp.series('sass', 'javascripts', 'build', 'httptwo', 'downloads',
     gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizeddeploy',
-  gulp.series('sass', 'build', 'httptwo', 'javascripts', 'downloads', 'imageoptimize', 'imagecompress',
+  gulp.series('sass', 'javascripts', 'build', 'httptwo', 'downloads', 'imageoptimize', 'imagecompress',
     gulp.parallel('imagemogrify', 'fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
