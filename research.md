@@ -1,6 +1,7 @@
 ---
 title: Research
 layout: defaults
+image: /download/images/7029911579_0ddd6e8352_z.jpg
 ---
 
 # {{page.title}}
