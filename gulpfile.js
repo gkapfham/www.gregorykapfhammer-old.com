@@ -266,7 +266,7 @@ gulp.task(
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizeddeploy',
-  gulp.series('sass', 'build', 'hwtptwo', 'javascripts', 'downloads', 'imageoptimize', 'imagecompress',
+  gulp.series('sass', 'build', 'httptwo', 'javascripts', 'downloads', 'imageoptimize', 'imagecompress',
     gulp.parallel('imagemogrify', 'fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
