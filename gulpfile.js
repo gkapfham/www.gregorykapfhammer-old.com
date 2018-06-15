@@ -168,22 +168,23 @@ gulp.task('browsersync', function () {
 
 // TASK: optimize the images in a lossless fashion
 gulp.task('imageoptimize', () =>
-    gulp.src('download/images/*')
-        .pipe(imagemin([imagemin.jpegtran({progressive: true}),
-                        imagemin.optipng({optimizationLevel: 7}),]))
-        .pipe(gulp.dest('_site/download/images/'))
+  gulp.src(IMAGES_SOURCE)
+  .pipe(newer(IMAGES_DEST))
+  .pipe(imagemin([imagemin.jpegtran({progressive: true}),
+    imagemin.optipng({optimizationLevel: 7}),]))
+  .pipe(gulp.dest(IMAGES_DEST))
 );
 
 // TASK: optimize the images in a lossy fashion
 gulp.task('imagecompress', function () {
-    return gulp.src(IMAGES_OPTIMIZED)
-        .pipe(imagemin([
-            imagemin.optipng(),
-            imagemin.jpegtran(),
-            imageminPngquant(speed=1),
-            imageminJpegRecompress(accurate=true, loops=10)
-        ]))
-        .pipe(gulp.dest(IMAGES_DEST));
+  return gulp.src(IMAGES_OPTIMIZED)
+    .pipe(imagemin([
+      imagemin.optipng(),
+      imagemin.jpegtran(),
+      imageminPngquant(speed=1),
+      imageminJpegRecompress(accurate=true, loops=10)
+    ]))
+    .pipe(gulp.dest(IMAGES_DEST));
 });
 
 // TASK: mogrify the images to reduce size further
