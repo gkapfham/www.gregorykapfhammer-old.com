@@ -333,7 +333,7 @@ gulp.task('blc', function(cb) {
   });
 });
 
-// Maintenance {{{
+// MAINTENANCE {{{
 
 // TASK: delete the generated site
 gulp.task('clean', function() {
@@ -344,13 +344,13 @@ gulp.task('clean', function() {
 
 // }}}
 
-// Default {{{
+// DEFAULT {{{
 
 gulp.task('default', gulp.series('quickdeploy'))
 
 // }}}
 
-// Deprecated {{{
+// DEPRECATED {{{
 
 // TASK: use rsync to deploy the web site to the server
 gulp.task('deploy', function() {
