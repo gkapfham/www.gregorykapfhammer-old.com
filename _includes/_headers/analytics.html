@@ -1,12 +1,19 @@
+<!-- IMPORTANT: This code is only included when the build is in production mode -->
+<!-- Login to the tracking using the async approach, giving site id -->
 <script>
 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 ga('create', 'UA-100353079-1', 'auto');
 ga('send', 'pageview');
 </script>
+<!-- Load the analytics.js script in an async fashion as it is non-critical -->
 <script async src='https://www.google-analytics.com/analytics.js'></script>
-{% seo title=false %}
+<!-- Generate all of the SEO tags for this page using a plugin -->
+{% seo %}
+<!-- Further generation of code for the Twitter cards -->
 {% if page.image %}
-<meta name="twitter:image:src" content="{{ page.image }}">
+<!-- Use the specified image on the Twitter card -->
+<meta name="twitter:image:src" content="{{page.image}}">
 {% else %}
-<meta name="twitter:image:src" content="https://www.gregorykapfhammer.com/infinity.png">
+<!-- There is no specified image, so use the favicon for this site -->
+<meta name="twitter:image:src" content="https://www.gregorykapfhammer.com/favicon-256.png">
 {% endif %}
