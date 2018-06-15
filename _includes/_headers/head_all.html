@@ -33,8 +33,8 @@
   <!-- Include the code that loads all of the required CSS and JavaScript -->
   {% include _headers/head_load.html name=page.title %}
 
-  <!-- Load in all of the Google analytics code if Jekyll runs in production mode -->
-  {% if jekyll.environment == 'production' %} {% include _headers/analytics.html %} {% endif %}
-
   <!-- Include the code that supports zooming to anchors while accounting for fixed header -->
   {% include _headers/head_zoom.html %}
+
+  <!-- Load in all of the Google analytics code and SEO code if Jekyll runs in production mode -->
+  {% if jekyll.environment == 'production' %} {% include _headers/analytics.html %} {% endif %}
