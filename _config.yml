@@ -1,9 +1,12 @@
+# Settings for the person
 me: "Gregory M. Kapfhammer"
 title: "Gregory M. Kapfhammer"
 author: "Gregory M. Kapfhammer"
 description: "Associate Professor of Computer Science"
+# Settings for the site
 url: "https://www.gregorykapfhammer.com"
 baseurl: "/"
+# Social media settings
 twitter:
   username: GregKapfhammer
 social:
@@ -14,28 +17,24 @@ social:
     - https://github.com/gkapfham
     - http://scholar.google.com/citations?user=g0eDPjYAAAAJ
     - https://www.instagram.com/gregkapfhammer/
-logo: "/infinity.png"
-webmaster_verifications:
-  google: GRspUqgstyF-rt4Ys0KO4FLleSvGLrhwhgXrhkeb4R4
 author:
   twitter: GregKapfhammer
+# Set the logo for the site
+logo: "/favicon-256.png"
+# Confirm verification with Google
+webmaster_verifications:
+  google: GRspUqgstyF-rt4Ys0KO4FLleSvGLrhwhgXrhkeb4R4
+# Configure the markdown parser (minifying HTML is sensitive)
 markdown: rdiscount
+# Do permalinks without mentioning file extensions
 permalink: pretty
+# The code should not have any highlighting
 highlighter: none
-category-list: [teaching, research]
+# Load the plugins
 plugins: ['jekyll/scholar', 'jekyll-sitemap', 'jekyll-seo-tag']
+# Exclude many files not needed in the site
 exclude: ['.htaccess', '.gitignore', '.gitmodules', 'Gemfile', 'Gemfile.lock', 'package.json', 'gulpfile.js', 'postcss.config.js', 'Gruntfile.js', 'node_modules', 'scss', 'tags', 'tags.temp', 'tags.lock', 'README.md', '*.tex', '*.sty', '*.aux', '*.dvi', '*.fls', '*.lof', '*.log', '*.lot', '*.out', '*.toc', '*.fdb_latexmk', '*.synctex.gz', '*.pdfsync', '*.ods', '**/**/**/exams', '**/**/**/logos', '**/**/**/figures', '**/**/**/code', '**/**/**/teams', '**/**/**/**/package.json', '**/**/**/**/Gruntfile.js', '**/**/**/**/README.md', '**/**/**/README.md']
-excerpt_separator: <!--more-->
-mapped: false
-header: false
-research: false
-paper: false
-presentation: false
-featured: false
-id: 0
-max_header: 10
-max_id: 45
-future: false
+# Configure Jekyll-Scholar plugin
 scholar:
   style: apa
   locale: en
@@ -56,3 +55,15 @@ scholar:
   details_dir: research/papers
   details_layout: bibliography_details.html
   details_link: ""
+# Extra settings, some probably not needed
+excerpt_separator: <!--more-->
+mapped: false
+header: false
+research: false
+paper: false
+presentation: false
+featured: false
+id: 0
+max_header: 10
+max_id: 45
+future: false
