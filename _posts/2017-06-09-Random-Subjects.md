@@ -7,10 +7,10 @@ date: 2017-06-09
 image: /download/images/2686497196_20d0e1b1c7_z.jpg
 ---
 
-{% include _headers/blog_header.html %}
+{% include_cached _headers/blog_header.html %}
 
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="2686497196_20d0e1b1c7_z.jpg" content="<a title='Pick your favorite!' href='https://flickr.com/photos/sellersfamily/2686497196'>flickr photo</a> by <a href='https://flickr.com/people/sellersfamily'>HnyBny1969 (Regina)</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
+<!-- include_cached header image -->
+{% include_cached _popovers/image_reference.html image="2686497196_20d0e1b1c7_z.jpg" content="<a title='Pick your favorite!' href='https://flickr.com/photos/sellersfamily/2686497196'>flickr photo</a> by <a href='https://flickr.com/people/sellersfamily'>HnyBny1969 (Regina)</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
 Many types of software engineering research require software subjects that a researcher can use during an experimental
@@ -39,7 +39,7 @@ to randomly select a web site for use in your experimental study. Just click a b
 In a recent paper that introduces a technique for testing mobile-ready web
 pages, my colleagues and I used <a href
 ="https://www.discuvver.com/">Discuvver</a> to randomly pick web sites for use
-in our experiments {% include _popovers/paper_reference.html cite="Walsh2017"
+in our experiments {% include_cached _popovers/paper_reference.html cite="Walsh2017"
 trailing="." %} The benefits associated with using randomly chosen subjects in
 our research is that now we can have more confidence in the results that
 demonstrate the efficiency and effectiveness of our approach.
@@ -49,4 +49,4 @@ If you are a software engineering researcher, I am interested in learning how yo
 experimentally evaluate your methods. I would also appreciate your feedback on the approach that we adopted in our work
 on testing mobile-ready web pages. So, please [contact]({{site.baseurl}}contact) me to share your insights!
 
-{% include _footers/blog_footer.html %}
+{% include_cached _footers/blog_footer.html %}

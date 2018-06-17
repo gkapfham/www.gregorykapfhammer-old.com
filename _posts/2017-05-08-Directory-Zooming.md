@@ -7,10 +7,10 @@ date: 2017-05-08
 image: /download/images/6608592473_64ef54ce4b_z.jpg
 ---
 
-{% include _headers/blog_header.html %}
+{% include_cached _headers/blog_header.html %}
 
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="6608592473_64ef54ce4b_z.jpg" content="<a title='Zooming Edmonton' href='https://flickr.com/photos/eberg/6608592473'>flick photo</a> by <a href='https://flickr.com/people/eberg'>ebergcanada</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
+<!-- include_cached header image -->
+{% include_cached _popovers/image_reference.html image="6608592473_64ef54ce4b_z.jpg" content="<a title='Zooming Edmonton' href='https://flickr.com/photos/eberg/6608592473'>flick photo</a> by <a href='https://flickr.com/people/eberg'>ebergcanada</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
 If you are working on many projects in many different directories of your
@@ -38,19 +38,19 @@ the following code segment, the `t()` function &mdash; that is short for "to"
 frequently visited and then passes that program's output to Fzf.
 
 ```
-{% include _code/directory_zooming.sh.code %}
+{% include_cached _code/directory_zooming.sh.code %}
 ```
 
 <p>
 Now, if I type `t paper` in my terminal window, I would see the following
 output. At this point it would be possible to type in partial matches of
 directory names (e.g., "avmf") and then immediately zoom to the directory that
-contains the source code for a paper, {% include _popovers/paper_reference.html
+contains the source code for a paper, {% include_cached _popovers/paper_reference.html
 cite="McMinn2016b" trailing="," %} that my colleague and I recently published.
 </p>
 
 ```
-{% include _output/directory_zooming.output %}
+{% include_cached _output/directory_zooming.output %}
 ```
 
 What are the ways in which you navigate your file system? If you are a
@@ -59,4 +59,4 @@ window, I would also appreciate your feedback on the approach that I suggested
 in this post. So, please [contact]({{site.baseurl}}contact) me to share your
 insights!
 
-{% include _footers/blog_footer.html %}
+{% include_cached _footers/blog_footer.html %}

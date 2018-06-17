@@ -7,10 +7,10 @@ last_modified_at: 2017-6-24
 image: /download/images/8083703457_5b2bb242b0_z.jpg
 ---
 
-{% include _headers/blog_header.html %}
+{% include_cached _headers/blog_header.html %}
 
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="8083703457_5b2bb242b0_z.jpg" content="<a title='20121004_untitled_0012' href='https://flickr.com/photos/rick_bergstrom/8083703457'>flickr photo</a> by <a href='https://flickr.com/people/rick_bergstrom'>BergsPix</a> shared under a <a href='https://creativecommons.org/licenses/by-nd/2.0/'>CC (BY-ND) license</a>" label="CC (BY-ND)" %}
+<!-- include_cached header image -->
+{% include_cached _popovers/image_reference.html image="8083703457_5b2bb242b0_z.jpg" content="<a title='20121004_untitled_0012' href='https://flickr.com/photos/rick_bergstrom/8083703457'>flickr photo</a> by <a href='https://flickr.com/people/rick_bergstrom'>BergsPix</a> shared under a <a href='https://creativecommons.org/licenses/by-nd/2.0/'>CC (BY-ND) license</a>" label="CC (BY-ND)" %}
 
 {% describe %}
 As evident by Arcuri and Briand's paper "A Hitchhiker's guide to statistical tests for assessing randomized algorithms
@@ -28,7 +28,7 @@ analysis code used for published papers.
 
 <p>
 To learn more about the benefits associated with using shared repositories of
-statistical code in SBSE, you can read the suggestions in {% include
+statistical code in SBSE, you can read the suggestions in {% include_cached
 _popovers/paper_reference.html cite="Kapfhammer2016" %}
 for improving the study of data arising from experiments with
 randomized algorithms. If you would like to examine the source code of that
@@ -41,7 +41,7 @@ apply statistical software? If so, then please
 
 <p>
 Interested in learning more about this topic? Since this blog post was written,
-my colleagues and students and I have published {% include
+my colleagues and students and I have published {% include_cached
 _popovers/paper_reference.html cite="McMinn2016a" %} and released a replication
 package for it as well. If you are interested in replicating the analyses in
 that paper, then I encourage you to visit <a
@@ -52,4 +52,4 @@ to create and release this replication package. So, please
 me to share your insights!
 </p>
 
-{% include _footers/blog_footer.html %}
+{% include_cached _footers/blog_footer.html %}
