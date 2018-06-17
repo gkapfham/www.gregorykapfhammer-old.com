@@ -1,6 +1,7 @@
 ---
 title: SEED&#58; Educational discussions with software engineers
 layout: defaults
+image: /download/images/8608133415_35de14d034_z.jpg
 ---
 
 # {{ page.title }}

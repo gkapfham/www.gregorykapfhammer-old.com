@@ -1,6 +1,7 @@
 ---
 title: Support
 layout: defaults
+image: /download/images/15373329032_668c8184e9_z.jpg
 ---
 
 # {{ page.title }}
@@ -56,7 +57,7 @@ and data science. Consider supporting my work in one or more of the following wa
 <li><i class="fa-li fa fa-lightbulb-o fa-lg"></i><a class="major" href="{{site.baseurl}}research/papers/">Papers</a>:
 Read my research papers, pick your favorite, and share it with a friend.</li> <p>
 
-<li><i class="fa-li fa fa-lightbulb-o fa-lg"></i><a class="major" href="{{site.baseurl}}research/presentations/">Presentations</a>:
+<li><i class="fa-li fa fa-lightbulb-o fa-lg"></i><a class="major" href="{{site.baseurl}}research/presentations/">Talks</a>:
 View my talks, select an engaging one, and reccomend it to someone.</li> <p>
 
 <li><i class="fa-li fa fa-lightbulb-o fa-lg"></i><a class="major" href="{{site.baseurl}}software/">Software</a>:

@@ -5,6 +5,7 @@ title: SEED Interview with Rebecca Dilla
 company_name: "Niche.com"
 title_name: "Product Analyst"
 web_site: "https://www.linkedin.com/in/rebecca-dilla-ab174974/"
+image: /download/images/15526756711_24ec251f65_z.jpg
 ---
 
 # {{page.title}}

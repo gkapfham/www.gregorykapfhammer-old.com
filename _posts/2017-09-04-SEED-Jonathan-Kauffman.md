@@ -5,6 +5,7 @@ title: SEED Interview with Jonathan Miller Kauffman
 company_name: "Coveros"
 title_name: "Consultant"
 web_site: "https://www.linkedin.com/in/jonathan-miller-kauffman-608b6318/"
+image: /download/images/2718111196_e903539c72_z.jpg
 ---
 
 # {{page.title}}

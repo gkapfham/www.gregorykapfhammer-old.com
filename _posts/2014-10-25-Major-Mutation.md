@@ -4,6 +4,7 @@ layout: blog_n
 categories: [testing, mutation, research]
 author: Gregory M. Kapfhammer
 last_modified_at: 2018-6-4
+image: /download/images/3707813723_6750e6bc8b_z.jpg
 ---
 
 {% include _headers/blog_header.html %}

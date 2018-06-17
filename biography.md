@@ -1,6 +1,7 @@
 ---
 title: Biography
 layout: defaults
+image: /download/images/gregory-kapfhammer-biography-small.jpg
 ---
 
 # {{ page.title }}

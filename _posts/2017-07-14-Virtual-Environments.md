@@ -4,6 +4,7 @@ layout: blog_n
 categories: [programming, research, idea]
 author: Gregory M. Kapfhammer
 date: 2017-07-14
+image: /download/images/23499382459_6b372b4c4d_z.jpg
 ---
 
 # {{ page.title }}

@@ -1,6 +1,7 @@
 ---
 title: Thank You!
 layout: defaults
+image: /download/images/15373329032_668c8184e9_z.jpg
 ---
 
 # {{page.title}}

@@ -5,6 +5,7 @@ title: SEED Interview with Brian Blose
 company_name: "Giant Eagle"
 title_name: "Software Developer"
 web_site: "https://www.linkedin.com/in/brian-blose-2545871a/"
+image: /download/images/7787947034_482bc3662e_z.jpg
 ---
 
 # {{page.title}}

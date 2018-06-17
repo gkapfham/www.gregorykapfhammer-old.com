@@ -5,6 +5,7 @@ title: SEED Interview with Kara King
 company_name: "FirstEnergy"
 title_name: "SAP developer"
 web_site: "https://www.linkedin.com/in/kara-king-b245a259"
+image: /download/images/21381609840_70acd0aa1c_z.jpg
 ---
 
 # {{page.title}}

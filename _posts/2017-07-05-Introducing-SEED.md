@@ -4,6 +4,7 @@ layout: blog_n
 categories: [seed, interview, software]
 author: Gregory M. Kapfhammer
 date: 2017-07-05
+image: /download/images/8608133415_35de14d034_z.jpg
 ---
 
 {% include _headers/blog_header.html %}

@@ -4,6 +4,7 @@ layout: blog_n
 categories: [testing, database, tool]
 author: Gregory M. Kapfhammer
 last_modified_at: 2017-6-23
+image: /download/images/1640201245_c43eea5270_z.jpg
 ---
 
 {% include _headers/blog_header.html %}
