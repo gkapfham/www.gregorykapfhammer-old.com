@@ -42,6 +42,8 @@ GEM
       jekyll
     jekyll-feed (0.9.3)
       jekyll (~> 3.3)
+    jekyll-include-cache (0.1.0)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-scholar (5.13.0)
@@ -88,6 +90,7 @@ DEPENDENCIES
   jekyll (~> 3.8.2)
   jekyll-auto-image
   jekyll-feed (~> 0.6)
+  jekyll-include-cache
   jekyll-scholar
   jekyll-seo-tag
   jekyll-sitemap
