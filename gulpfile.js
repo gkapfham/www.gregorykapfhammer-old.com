@@ -54,9 +54,6 @@ var IMAGES_OPTIMIZED = '_site/download/images/**/*.{png,jpeg,jpg,svg,gif}';
 var IMAGES_OPTIMIZED_JPG = '_site/download/images/*.jpg';
 var IMAGES_DEST = '_site/download/images';
 
-// read the "--production" environment variable
-var PRODUCTION = Boolean(yargs.argv.production);
-
 // define the URL of the live site to check
 var SITE = 'https://www.gregorykapfhammer.com';
 
@@ -65,6 +62,13 @@ var EXCLUDE_LINKEDIN = '--exclude=linkedin';
 var EXCLUDE_SYNOPYSYS = '--exclude=synopsys';
 var EXCLUDE_FLICKR = '--exclude=flickr';
 var RECURSIVE = "-ro";
+
+// Environment variables {{{
+
+// read the "--production" environment variable
+var PRODUCTION = Boolean(yargs.argv.production);
+
+// }}}
 
 // {{{ PRE ---> Copy, Combine, Generate
 
