@@ -2,6 +2,7 @@
 title: Papers
 layout: defaults
 description: In addition to editing volumes of journals, my colleagues and students and I publish research papers in the fields of software engineering and software testing. Find your favorite article and start reading!
+image: /download/images/10600355815_18896130aa_z.jpg
 ---
 
 # {{ page.title }}
