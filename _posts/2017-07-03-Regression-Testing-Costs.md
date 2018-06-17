@@ -4,6 +4,7 @@ layout: blog_n
 categories: [testing, research, advice]
 author: Gregory M. Kapfhammer
 date: 2017-07-03
+image: /download/images/3119405564_e48979041b_z.jpg
 ---
 
 {% include _headers/blog_header.html %}

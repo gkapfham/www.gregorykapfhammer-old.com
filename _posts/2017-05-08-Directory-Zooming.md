@@ -4,6 +4,7 @@ layout: blog_n
 categories: [software, tool, productivity]
 author: Gregory M. Kapfhammer
 date: 2017-05-08
+image: /download/images/6608592473_64ef54ce4b_z.jpg
 ---
 
 {% include _headers/blog_header.html %}

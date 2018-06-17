@@ -5,6 +5,7 @@ title: SEED Interview with Suvarshi Bhadra
 company_name: "Facebook"
 title_name: "Software Engineer"
 web_site: "https://www.linkedin.com/in/sbhadra/"
+image: /download/images/2488888194_a837faa302_z.jpg
 ---
 
 # {{page.title}}

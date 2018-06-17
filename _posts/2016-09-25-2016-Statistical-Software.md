@@ -4,6 +4,7 @@ layout: blog_n
 categories: [research, software, idea]
 author: Gregory M. Kapfhammer
 last_modified_at: 2017-6-24
+image: /download/images/8083703457_5b2bb242b0_z.jpg
 ---
 
 {% include _headers/blog_header.html %}

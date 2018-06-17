@@ -5,6 +5,7 @@ title: SEED Interview with Timothy Tsai
 company_name: "Nvidia"
 title_name: "Senior Research Scientist"
 web_site: "https://www.linkedin.com/in/timothy-tsai-6501ba2/"
+image: /download/images/6117679215_cf28a0e6e2_z.jpg
 ---
 
 # {{page.title}}

@@ -4,6 +4,7 @@ layout: blog_n
 categories: [writing, research, advice]
 author: Gregory M. Kapfhammer
 date: 2017-06-24
+image: /download/images/4199642840_7f9bc7a73a_z.jpg
 ---
 
 {% include _headers/blog_header.html %}

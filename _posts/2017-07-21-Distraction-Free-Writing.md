@@ -4,6 +4,7 @@ layout: blog_n
 categories: [writing, productivity, idea]
 author: Gregory M. Kapfhammer
 date: 2017-07-21
+image: /download/images/20994094828_38e0fd6a4e_z.jpg
 ---
 
 # {{ page.title }}

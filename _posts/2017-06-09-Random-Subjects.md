@@ -4,6 +4,7 @@ layout: blog_n
 categories: [research, methodology, idea]
 author: Gregory M. Kapfhammer
 date: 2017-06-09
+image: /download/images/2686497196_20d0e1b1c7_z.jpg
 ---
 
 {% include _headers/blog_header.html %}

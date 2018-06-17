@@ -4,6 +4,7 @@ layout: blog_n
 categories: [writing, research, vim]
 author: Gregory M. Kapfhammer
 date: 2017-07-01
+image: /download/images/160181261_8694ae7eb5_z.jpg
 ---
 
 {% include _headers/blog_header.html %}

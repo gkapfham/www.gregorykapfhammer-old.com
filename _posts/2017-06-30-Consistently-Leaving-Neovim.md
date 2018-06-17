@@ -4,6 +4,7 @@ layout: blog_n
 categories: [writing, tool, vim]
 author: Gregory M. Kapfhammer
 date: 2017-06-30
+image: /download/images/7974636493_6304db854f_z.jpg
 ---
 
 {% include _headers/blog_header.html %}

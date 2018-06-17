@@ -4,6 +4,7 @@ layout: blog_n
 categories: [writing, programming, vim]
 author: Gregory M. Kapfhammer
 last_modified_at: 2016-10-12
+image: /download/images/8663830964_76117e9b4b_z.jpg
 ---
 
 {% include _headers/blog_header.html %}
