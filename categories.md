@@ -52,7 +52,7 @@ List all posts with a specific tag
   <i class="fa fa-tags" aria-hidden="true"></i>
   {% for tag in post.categories %}
   <a class="tag" href="{{site.baseurl}}categories/#{{ tag | slugify }}"> {{ tag }}</a>
-{% endfor %} 
+{% endfor %}
 <br>
 {% endif %}
 {% endfor %}
