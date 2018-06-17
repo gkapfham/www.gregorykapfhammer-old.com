@@ -2,6 +2,7 @@
 title: Software
 layout: defaults
 description: In addition to submitting defect reports and sharing replication packages for research papers, my colleagues and students and I develop and release a many different software tools to GitHub. Which of these systems is the most useful to you?
+image: /download/images/6145817075_2536dd7b4c_z.jpg
 ---
 
 # {{ page.title }}

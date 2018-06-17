@@ -1,6 +1,7 @@
 ---
 title: Schedule
 layout: defaults
+image: /download/images/10406520975_8a9ae685c4_z.jpg
 ---
 
 # {{ page.title }}

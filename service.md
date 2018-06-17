@@ -1,6 +1,7 @@
 ---
 title: Service
 layout: defaults
+image: /download/images/3944094295_833175fc98_z.jpg
 ---
 
 # {{ page.title }}

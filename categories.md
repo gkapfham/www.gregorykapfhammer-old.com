@@ -3,6 +3,7 @@ layout: defaults
 authors: Gregory M. Kapfhammer
 title: Categories
 description: Here are the topics that I most frequently write about! Find you favorite area and read one of my posts.
+image: /download/images/5700106776_857c0ded3b_z.jpg
 ---
 
 # {{ page.title }}

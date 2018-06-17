@@ -2,6 +2,7 @@
 title: Blog
 layout: defaults
 description: In addition to writing about technical writing and computer science research, I publish articles on many topics in the fields of software engineering, software testing, and data science. Find your favorite article and start reading!
+image: /download/images/4101567511_e88d64015c_z.jpg
 ---
 
 # {{ page.title }}
