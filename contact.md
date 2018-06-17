@@ -2,6 +2,7 @@
 title: Contact
 layout: defaults
 description: I appreciate feedback about my work in the fields of software engineering, software testing, and data science. Please contact me to ask questions or share new ideas!
+image: /download/images/40827242235_b4587375de_z.jpg
 ---
 
 # {{page.title}}
