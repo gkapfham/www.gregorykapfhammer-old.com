@@ -68,6 +68,9 @@ var RECURSIVE = "-ro";
 // read the "--production" environment variable
 var PRODUCTION = Boolean(yargs.argv.production);
 
+// read the "--posts" environment variable
+var POSTS = Boolean(yargs.argv.posts);
+
 // }}}
 
 // {{{ PRE ---> Copy, Combine, Generate
@@ -115,6 +118,11 @@ function detectEnvironment(options) {
   if (PRODUCTION) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'production';
+    options.env = env;
+  }
+  else if (POSTS) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'posts';
     options.env = env;
   }
 }
@@ -218,11 +226,6 @@ gulp.task('imagemogrify', function(cb) {
   var options = {
     stdio: 'inherit'
   };
-  if (PRODUCTION) {
-    var env = Object.create(process.env);
-    env.JEKYLL_ENV = 'production';
-    options.env = env;
-  }
   var mogrify = spawn('mogrify', [IMAGES_OPTIMIZED_JPG, '-sampling-factor', '4:2:0', '-strip', '-quality', '45', '-interlace', 'JPEG', '-colorspace', 'sRGB', IMAGES_OPTIMIZED_JPG], options);
   mogrify.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: mogrify process exited with code: ' + code);
