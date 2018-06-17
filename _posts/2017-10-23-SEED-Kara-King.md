@@ -8,8 +8,10 @@ web_site: "https://www.linkedin.com/in/kara-king-b245a259"
 image: /download/images/21381609840_70acd0aa1c_z.jpg
 ---
 
-# {{page.title}}
-## <em>{{ page.date | date_to_long_string }}</em>
+{% comment %} # {{page.title}} {% endcomment %}
+{% comment %} ## <em>{{ page.date | date_to_long_string }}</em> {% endcomment %}
+
+{% include _headers/blog_header.html %}
 
 <!-- Include header image -->
 {% include _popovers/image_reference.html image="21381609840_70acd0aa1c_z.jpg" content="<a title='#142 Westfriedhof - Munich Subway' href='https://flickr.com/photos/pamnani/21381609840'>flickr photo</a> by <a href='https://flickr.com/people/pamnani'>Rajesh_India</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}

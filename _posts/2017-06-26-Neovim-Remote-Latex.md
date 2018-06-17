@@ -7,7 +7,7 @@ date: 2017-06-26
 image: /download/images/6290429625_f6cf4b09b2_z.jpg
 ---
 
-{% include_cached _headers/blog_header.html %}
+{% include _headers/blog_header.html %}
 
 <!-- include_cached header image -->
 {% include_cached _popovers/image_reference.html image="6290429625_f6cf4b09b2_z.jpg" content="<a title='301/365' href='https://flickr.com/photos/tomwachtel/6290429625'>flickr photo</a> by <a href='https://flickr.com/people/tomwachtel'>Tom Wachtel</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}

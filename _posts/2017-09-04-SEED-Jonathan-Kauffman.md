@@ -8,8 +8,10 @@ web_site: "https://www.linkedin.com/in/jonathan-miller-kauffman-608b6318/"
 image: /download/images/2718111196_e903539c72_z.jpg
 ---
 
-# {{page.title}}
-## <em>{{ page.date | date_to_long_string }}</em>
+{% include _headers/blog_header.html %}
+
+{% comment %} # {{page.title}} {% endcomment %}
+{% comment %} ## <em>{{ page.date | date_to_long_string }}</em> {% endcomment %}
 
 <!-- Include header image -->
 {% include _popovers/image_reference.html image="2718111196_e903539c72_z.jpg" content="<a title='Munich Subway Tunnel' href='https://flickr.com/photos/jhietter/2718111196'>flickr photo</a> by <a href='https://flickr.com/people/jhietter'>j.hietter</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}

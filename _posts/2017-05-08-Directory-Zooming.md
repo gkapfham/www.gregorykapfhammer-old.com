@@ -7,7 +7,7 @@ date: 2017-05-08
 image: /download/images/6608592473_64ef54ce4b_z.jpg
 ---
 
-{% include_cached _headers/blog_header.html %}
+{% include _headers/blog_header.html %}
 
 <!-- include_cached header image -->
 {% include_cached _popovers/image_reference.html image="6608592473_64ef54ce4b_z.jpg" content="<a title='Zooming Edmonton' href='https://flickr.com/photos/eberg/6608592473'>flick photo</a> by <a href='https://flickr.com/people/eberg'>ebergcanada</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}

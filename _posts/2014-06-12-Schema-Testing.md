@@ -7,7 +7,7 @@ last_modified_at: 2017-6-23
 image: /download/images/1640201245_c43eea5270_z.jpg
 ---
 
-{% include_cached _headers/blog_header.html %}
+{% include _headers/blog_header.html %}
 
 <!-- include_cached header image -->
 {% include_cached _popovers/image_reference.html image="1640201245_c43eea5270_z.jpg" content="<a title='IMG_7849.JPG' href='https://flickr.com/photos/11048370@N05/1640201245'>flickr photo</a> by <a href='https://flickr.com/people/11048370@N05'>YAMASHITAS</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}

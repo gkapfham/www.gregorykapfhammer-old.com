@@ -7,7 +7,7 @@ date: 2017-07-03
 image: /download/images/3119405564_e48979041b_z.jpg
 ---
 
-{% include_cached _headers/blog_header.html %}
+{% include _headers/blog_header.html %}
 
 <!-- include_cached header image -->
 {% include_cached _popovers/image_reference.html image="3119405564_e48979041b_z.jpg" content="<a title='155/365 Infinite Regression (fractal)' href='https://flickr.com/photos/stuartpilbrow/3119405564'>flickr photo</a> by <a href='https://flickr.com/people/stuartpilbrow'>stuartpilbrow</a> shared under a <a href='https://creativecommons.org/licenses/by-sa/2.0/'>CC (BY-SA) license</a>" label="CC (BY-SA)" %}
