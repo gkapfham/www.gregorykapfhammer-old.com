@@ -7,7 +7,7 @@ last_modified_at: 2018-6-4
 image: /download/images/3707813723_6750e6bc8b_z.jpg
 ---
 
-{% include_cached _headers/blog_header.html %}
+{% include _headers/blog_header.html %}
 
 <!-- include_cached header image -->
 {% include_cached _popovers/image_reference.html image="3707813723_6750e6bc8b_z.jpg" content="<a title='Speed...' href='https://flickr.com/photos/rhk313/3707813723'>flickr photo</a> by <a href='https://flickr.com/people/rhk313'>Rami™</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-sa/2.0/'>Creative Commons (BY-NC-SA) license</a>" label="CC (BY-NC-SA)" %}
@@ -39,10 +39,10 @@ _popovers/paper_reference.html cite="Just2012b" trailing="." %}
 Starting to use the tool is as easy as changing the Java compiler that you use at build time, as demonstrated by the
 following line from Major's online documentation.
 
-{% highlight shell %}
+```
 $ javac -XMutator:ALL MyFile.java
 # Generated Mutants: 190 (96 ms)
-{% endhighlight %}
+```
 
 [Rene Just](https://people.cs.umass.edu/~rjust/), the creator of Major, has taken great care to ensure that it is fast,
 allowing mutation testing to be applied to large real-world programs. Major v1.1.8, for the Java 7 programming language,
