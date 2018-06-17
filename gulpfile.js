@@ -71,6 +71,18 @@ var PRODUCTION = Boolean(yargs.argv.production);
 // read the "--posts" environment variable
 var POSTS = Boolean(yargs.argv.posts);
 
+// read the "--papers" environment variable
+var PAPERS = Boolean(yargs.argv.papers);
+
+// read the "--talks" environment variable
+var TALKS = Boolean(yargs.argv.talks);
+
+// read the "--courses" environment variable
+var COURSES = Boolean(yargs.argv.courses);
+
+// read the "--crumbs" environment variable
+var CRUMBS = Boolean(yargs.argv.crumbs);
+
 // }}}
 
 // {{{ PRE ---> Copy, Combine, Generate
@@ -123,6 +135,21 @@ function detectEnvironment(options) {
   else if (POSTS) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'posts';
+    options.env = env;
+  }
+  else if (TALKS) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'talks';
+    options.env = env;
+  }
+  else if (COURSES) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'courses';
+    options.env = env;
+  }
+  else if (CRUMBS) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'crumbs';
     options.env = env;
   }
 }
