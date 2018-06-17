@@ -110,17 +110,22 @@ gulp.task('javascripts', function() {
 
 // {{{ BUILD and SERVE ---> Run Jekyll and Browsersync
 
+// FUNCTION: detect which environment variables are set
+function detectEnvironment(options) {
+  if (PRODUCTION) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'production';
+    options.env = env;
+  }
+}
+
 // TASK: build the web site in full, no incremental
 gulp.task('build', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {
     stdio: 'inherit'
   };
-  if (PRODUCTION) {
-    var env = Object.create(process.env);
-    env.JEKYLL_ENV = 'production';
-    options.env = env;
-  }
+  detectEnvironment(options)
   var jekyll = spawn('bundle', ['exec', 'jekyll', 'build'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
@@ -133,11 +138,7 @@ gulp.task('incrementalbuild', function(cb) {
   var options = {
     stdio: 'inherit'
   };
-  if (PRODUCTION) {
-    var env = Object.create(process.env);
-    env.JEKYLL_ENV = 'production';
-    options.env = env;
-  }
+  detectEnvironment(options)
   var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', '--incremental'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
@@ -150,11 +151,7 @@ gulp.task('serve', function(cb) {
   var options = {
     stdio: 'inherit'
   };
-  if (PRODUCTION) {
-    var env = Object.create(process.env);
-    env.JEKYLL_ENV = 'production';
-    options.env = env;
-  }
+  detectEnvironment(options)
   var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch', '--incremental'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
@@ -167,11 +164,7 @@ gulp.task('fullserve', function(cb) {
   var options = {
     stdio: 'inherit'
   };
-  if (PRODUCTION) {
-    var env = Object.create(process.env);
-    env.JEKYLL_ENV = 'production';
-    options.env = env;
-  }
+  detectEnvironment(options)
   var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
