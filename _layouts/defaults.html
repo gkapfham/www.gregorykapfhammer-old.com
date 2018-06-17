@@ -2,14 +2,14 @@
 <html lang="en">
 
 <head>
-  {% include _headers/head_all.html %}
+  {% include_cached _headers/head_all.html %}
 </head>
 
 <!-- Always call the load() function so that clicking on links to anchors handles the fixed navbar -->
 <body onload="load()">
 
   <!-- Define the navigation bar -->
-  {% include _headers/navbar.html %}
+  {% include_cached _headers/navbar.html %}
 
   <!-- Container for all of the content -->
   <div class="container">
@@ -28,13 +28,13 @@
       </div>
     </div>
 
-    <!-- Include the code creates the footer -->
-    {% include _footers/default_footer.html %}
+    <!-- Include the code that creates the footer -->
+    {% include_cached _footers/default_footer.html %}
 
   </div>
 
-  <!-- Include the code creates the footer -->
-  {% include _footers/default_javascript_footer.html %}
+  <!-- Include the code that creates the footer -->
+  {% include_cached _footers/default_javascript_footer.html %}
 
 </body>
 
