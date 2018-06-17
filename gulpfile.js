@@ -68,11 +68,11 @@ var RECURSIVE = "-ro";
 // read the "--production" environment variable
 var PRODUCTION = Boolean(yargs.argv.production);
 
-// read the "--posts" environment variable
-var POSTS = Boolean(yargs.argv.posts);
-
 // read the "--papers" environment variable
 var PAPERS = Boolean(yargs.argv.papers);
+
+// read the "--posts" environment variable
+var POSTS = Boolean(yargs.argv.posts);
 
 // read the "--talks" environment variable
 var TALKS = Boolean(yargs.argv.talks);
@@ -130,6 +130,11 @@ function detectEnvironment(options) {
   if (PRODUCTION) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'production';
+    options.env = env;
+  }
+  else if (PAPERS) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'papers';
     options.env = env;
   }
   else if (POSTS) {
