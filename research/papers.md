@@ -10,6 +10,9 @@ image: /download/images/10600355815_18896130aa_z.jpg
 <!-- Include header image -->
 {% include _popovers/image_reference.html image="10600355815_18896130aa_z.jpg" content="<a title='window detail bethlemi' href='https://flickr.com/photos/56938735@N03/10600355815'>flickr photo</a> by <a href='https://flickr.com/people/56938735@N03'>rost8668</a> shared under a <a href='https://creativecommons.org/licenses/by-sa/2.0/'>CC (BY-SA) license</a>" label="CC (BY-SA)" %}
 
+{% comment %} Only generate the list of papers when requested or for a production build {% endcomment %}
+{% if jekyll.environment == 'production' or jekyll.environment == 'papers' %}
+
 {% comment %} display all of the research papers that are not edited volumes and published conference or journal papers {% endcomment %}
 ## Research Papers
 {% bibliography --query @article[keywords!=edit] && @inproceedings && @incollection %}
@@ -21,3 +24,5 @@ image: /download/images/10600355815_18896130aa_z.jpg
 {% comment %} display all of the volumes that I have edited, matching on the keyword for the articles {% endcomment %}
 ## Volumes Edited
 {% bibliography --query @article[keywords=edit] %}
+
+{% endif %}
