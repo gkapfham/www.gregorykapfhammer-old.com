@@ -164,7 +164,7 @@ Analyzer and displayer of responses to the SEED survey</li>
 <ul class="fa-ul">
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
-target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-103-S2018">cs103F2017</a>: Course content for Computer Science 103 Spring 2018</li>
+target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-103-S2018">cs103S2018</a>: Course content for Computer Science 103 Spring 2018</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
 target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-112-S2018">cs112S2018</a>: Course content for Computer Science 112 Spring 2018</li>
