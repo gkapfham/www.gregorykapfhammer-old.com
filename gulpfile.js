@@ -20,6 +20,10 @@ var uglify = require('gulp-uglify');
 var yargs = require('yargs');
 var newer = require('gulp-newer');
 
+// configuration files for Jekyll
+var CONFIGURATION_FLAG = "--config"
+var CONFIGURATION_FILES = "_config.yml"
+
 // define the directories for the fonts
 var CSS_SOURCE = "css/*.css"
 var CSS_DEST = "_site/css/"
@@ -166,7 +170,7 @@ gulp.task('build', function(cb) {
     stdio: 'inherit'
   };
   detectEnvironment(options)
-  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build'], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', CONFIGURATION_FLAG, CONFIGURATION_FILES], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
