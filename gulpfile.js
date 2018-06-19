@@ -183,7 +183,7 @@ gulp.task('incrementalbuild', function(cb) {
     stdio: 'inherit'
   };
   detectEnvironment(options)
-  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', '--incremental'], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', '--incremental', CONFIGURATION_FLAG, CONFIGURATION_FILES], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
@@ -196,7 +196,7 @@ gulp.task('serve', function(cb) {
     stdio: 'inherit'
   };
   detectEnvironment(options)
-  var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch', '--incremental'], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch', '--incremental', CONFIGURATION_FLAG, CONFIGURATION_FILES], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
@@ -209,7 +209,7 @@ gulp.task('fullserve', function(cb) {
     stdio: 'inherit'
   };
   detectEnvironment(options)
-  var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch'], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch', CONFIGURATION_FLAG, CONFIGURATION_FILES], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
