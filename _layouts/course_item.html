@@ -9,7 +9,7 @@
 <body onload="load()">
 
   <!-- Define the navigation bar -->
-  {% include _headers/navbar.html %}
+  {% include_cached _headers/navbar.html %}
 
   <!-- Container for all of the content -->
   <div class="container">
@@ -20,9 +20,9 @@
       </div>
       <!-- Main content -->
       <div class="col-md-10">
-        <!-- Include the page content that comes from Markdown file -->
+        <!-- include_cached the page content that comes from Markdown file -->
         {{ content }}
-        <!-- Include the code creates the footer -->
+        <!-- include_cached the code creates the footer -->
         {% include _footers/course_item_return_footer.html %}
       </div>
       <!-- Padding on the right -->
@@ -30,13 +30,13 @@
       </div>
     </div>
 
-    <!-- Include the code that creates the footer -->
-    {% include _footers/default_footer.html %}
+    <!-- include_cached the code that creates the footer -->
+    {% include_cached _footers/default_footer.html %}
 
   </div>
 
-  <!-- Include the code creates the footer for JavaScript -->
-  {% include _footers/default_javascript_footer.html %}
+  <!-- include_cached the code creates the footer for JavaScript -->
+  {% include_cached _footers/default_javascript_footer.html %}
 
 </body>
 

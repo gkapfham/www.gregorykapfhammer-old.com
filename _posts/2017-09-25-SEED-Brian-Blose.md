@@ -8,8 +8,10 @@ web_site: "https://www.linkedin.com/in/brian-blose-2545871a/"
 image: /download/images/7787947034_482bc3662e_z.jpg
 ---
 
-# {{page.title}}
-## <em>{{ page.date | date_to_long_string }}</em>
+{% comment %} # {{page.title}} {% endcomment %}
+{% comment %} ## <em>{{ page.date | date_to_long_string }}</em> {% endcomment %}
+
+{% include _headers/blog_header.html %}
 
 <!-- Include header image -->
 {% include _popovers/image_reference.html image="7787947034_482bc3662e_z.jpg" content="<a title='Glass, Stained' href='https://flickr.com/photos/sammcox/7787947034'>flickr photo</a> by <a href='https://flickr.com/people/sammcox'>SammCox</a> shared under a <a href='https://creativecommons.org/licenses/by-nc/2.0/'>CC (BY-NC) license</a> </small>" label="CC (BY-NC)" %}

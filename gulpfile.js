@@ -54,9 +54,6 @@ var IMAGES_OPTIMIZED = '_site/download/images/**/*.{png,jpeg,jpg,svg,gif}';
 var IMAGES_OPTIMIZED_JPG = '_site/download/images/*.jpg';
 var IMAGES_DEST = '_site/download/images';
 
-// read the "--production" environment variable
-var PRODUCTION = Boolean(yargs.argv.production);
-
 // define the URL of the live site to check
 var SITE = 'https://www.gregorykapfhammer.com';
 
@@ -65,6 +62,28 @@ var EXCLUDE_LINKEDIN = '--exclude=linkedin';
 var EXCLUDE_SYNOPYSYS = '--exclude=synopsys';
 var EXCLUDE_FLICKR = '--exclude=flickr';
 var RECURSIVE = "-ro";
+
+// Environment variables {{{
+
+// read the "--production" environment variable
+var PRODUCTION = Boolean(yargs.argv.production);
+
+// read the "--papers" environment variable
+var PAPERS = Boolean(yargs.argv.papers);
+
+// read the "--posts" environment variable
+var POSTS = Boolean(yargs.argv.posts);
+
+// read the "--talks" environment variable
+var TALKS = Boolean(yargs.argv.talks);
+
+// read the "--courses" environment variable
+var COURSES = Boolean(yargs.argv.courses);
+
+// read the "--crumbs" environment variable
+var CRUMBS = Boolean(yargs.argv.crumbs);
+
+// }}}
 
 // {{{ PRE ---> Copy, Combine, Generate
 
@@ -106,17 +125,47 @@ gulp.task('javascripts', function() {
 
 // {{{ BUILD and SERVE ---> Run Jekyll and Browsersync
 
+// FUNCTION: detect which environment variables are set
+function detectEnvironment(options) {
+  if (PRODUCTION) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'production';
+    options.env = env;
+  }
+  else if (PAPERS) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'papers';
+    options.env = env;
+  }
+  else if (POSTS) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'posts';
+    options.env = env;
+  }
+  else if (TALKS) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'talks';
+    options.env = env;
+  }
+  else if (COURSES) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'courses';
+    options.env = env;
+  }
+  else if (CRUMBS) {
+    var env = Object.create(process.env);
+    env.JEKYLL_ENV = 'crumbs';
+    options.env = env;
+  }
+}
+
 // TASK: build the web site in full, no incremental
 gulp.task('build', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {
     stdio: 'inherit'
   };
-  if (PRODUCTION) {
-    var env = Object.create(process.env);
-    env.JEKYLL_ENV = 'production';
-    options.env = env;
-  }
+  detectEnvironment(options)
   var jekyll = spawn('bundle', ['exec', 'jekyll', 'build'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
@@ -129,11 +178,7 @@ gulp.task('incrementalbuild', function(cb) {
   var options = {
     stdio: 'inherit'
   };
-  if (PRODUCTION) {
-    var env = Object.create(process.env);
-    env.JEKYLL_ENV = 'production';
-    options.env = env;
-  }
+  detectEnvironment(options)
   var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', '--incremental'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
@@ -146,11 +191,7 @@ gulp.task('serve', function(cb) {
   var options = {
     stdio: 'inherit'
   };
-  if (PRODUCTION) {
-    var env = Object.create(process.env);
-    env.JEKYLL_ENV = 'production';
-    options.env = env;
-  }
+  detectEnvironment(options)
   var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch', '--incremental'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
@@ -163,11 +204,7 @@ gulp.task('fullserve', function(cb) {
   var options = {
     stdio: 'inherit'
   };
-  if (PRODUCTION) {
-    var env = Object.create(process.env);
-    env.JEKYLL_ENV = 'production';
-    options.env = env;
-  }
+  detectEnvironment(options)
   var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch'], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
@@ -221,11 +258,6 @@ gulp.task('imagemogrify', function(cb) {
   var options = {
     stdio: 'inherit'
   };
-  if (PRODUCTION) {
-    var env = Object.create(process.env);
-    env.JEKYLL_ENV = 'production';
-    options.env = env;
-  }
   var mogrify = spawn('mogrify', [IMAGES_OPTIMIZED_JPG, '-sampling-factor', '4:2:0', '-strip', '-quality', '45', '-interlace', 'JPEG', '-colorspace', 'sRGB', IMAGES_OPTIMIZED_JPG], options);
   mogrify.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: mogrify process exited with code: ' + code);

@@ -11,6 +11,8 @@ layout: null
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% comment %} Only generate the feed for a production build {% endcomment %}
+    {% if jekyll.environment == 'production' %}
     {% for post in site.posts limit:20 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
@@ -30,5 +32,6 @@ layout: null
         {% endfor %}
       </item>
     {% endfor %}
+    {% endif %}
   </channel>
 </rss>

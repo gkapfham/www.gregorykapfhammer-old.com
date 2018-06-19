@@ -1,3 +1,6 @@
+<!-- Only generate the list of posts when requested or for a production build -->
+{% if jekyll.environment == 'production' or jekyll.environment == 'crumbs' %}
+
 <!-- Compute the values for the specific courses -->
 {% assign max_id = -45 %} {% assign stop_id = 0 %} {% assign nextid = page.id | plus:1 %} {% assign previd = page.id | minus:1 %}
 
@@ -35,3 +38,5 @@
     {% endif %}
   </div>
 </div>
+
+{% endif %}

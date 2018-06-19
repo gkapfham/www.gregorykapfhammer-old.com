@@ -8,8 +8,10 @@ web_site: "https://www.linkedin.com/in/timothy-tsai-6501ba2/"
 image: /download/images/6117679215_cf28a0e6e2_z.jpg
 ---
 
-# {{page.title}}
-## <em>{{ page.date | date_to_long_string }}</em>
+{% comment %} # {{page.title}} {% endcomment %}
+{% comment %} ## <em>{{ page.date | date_to_long_string }}</em> {% endcomment %}
+
+{% include _headers/blog_header.html %}
 
 <!-- Include header image -->
 {% include _popovers/image_reference.html image="6117679215_cf28a0e6e2_z.jpg" content="<a title='Painted Glass' href='https://flickr.com/photos/stevensnodgrass/6117679215'>flickr photo</a> by <a href='https://flickr.com/people/stevensnodgrass'>Steve Snodgrass</a> shared under a <a href='https://creativecommons.org/licenses/by/2.0/'>CC (BY) license</a>" label="CC (BY)" %}

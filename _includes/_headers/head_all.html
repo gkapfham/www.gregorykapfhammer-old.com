@@ -30,11 +30,11 @@
   <meta name="description" content="{{site.description}}">
   {% endif %}
 
-  <!-- Include the code that loads all of the required CSS and JavaScript -->
-  {% include _headers/head_load.html name=page.title %}
+  <!-- include_cached the code that loads all of the required CSS and JavaScript -->
+  {% include_cached _headers/head_load.html name=page.title %}
 
-  <!-- Include the code that supports zooming to anchors while accounting for fixed header -->
-  {% include _headers/head_zoom.html %}
+  <!-- include_cached the code that supports zooming to anchors while accounting for fixed header -->
+  {% include_cached _headers/head_zoom.html %}
 
   <!-- Load in all of the Google analytics code and SEO code if Jekyll runs in production mode -->
-  {% if jekyll.environment == 'production' %} {% include _headers/analytics.html %} {% endif %}
+  {% if jekyll.environment == 'production' %} {% include_cached _headers/analytics.html %} {% endif %}

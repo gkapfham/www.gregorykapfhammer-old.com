@@ -10,6 +10,9 @@ image: /download/images/4101567511_e88d64015c_z.jpg
 <!-- Include header image -->
 {% include _popovers/image_reference.html image="4101567511_e88d64015c_z.jpg" content="<a title='Colored Pencils' href='https://flickr.com/photos/therefore/4101567511'>flickr photo</a> by <a href='https://flickr.com/people/therefore'>Dean Terry</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
+{% comment %} Only generate the list of posts when requested or for a production build {% endcomment %}
+{% if jekyll.environment == 'production' or jekyll.environment == 'posts' %}
+
 {% comment %} Iteratively display all of the blog posts {% endcomment %}
 <ul class="fa-ul">
 {% for page in site.posts %}
@@ -29,3 +32,5 @@ image: /download/images/4101567511_e88d64015c_z.jpg
   {% endif %}
 {% endfor %}
 </ul>
+
+{% endif %}

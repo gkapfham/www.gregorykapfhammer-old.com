@@ -164,7 +164,7 @@ Analyzer and displayer of responses to the SEED survey</li>
 <ul class="fa-ul">
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
-target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-103-S2018">cs103F2017</a>: Course content for Computer Science 103 Spring 2018</li>
+target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-103-S2018">cs103S2018</a>: Course content for Computer Science 103 Spring 2018</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
 target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-112-S2018">cs112S2018</a>: Course content for Computer Science 112 Spring 2018</li>
@@ -241,6 +241,8 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/tmuxinators">tm
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/lervag/vimtex/issues/903">lervag/vimtex Issue #903</a>: Restarting continuous compilation breaks PDF ...</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/ludovicchabant/vim-gutentags/issues/168">ludovicchabant/vim-gutentags Issue #168</a>: Error when deoplete installed</li>
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/ludovicchabant/vim-gutentags/issues/178">ludovicchabant/vim-gutentags Issue #178</a>: Halt on exit</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/neovim/neovim/issues/6204">neovim/neovim Issue #6204</a>: Using FZF turns off relativenumber</li>
 

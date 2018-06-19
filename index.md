@@ -36,11 +36,21 @@ your expertise with educators and students!</a></li> Released July 2017 </ul>
 {% comment %} Display the paper that would display first on the research papers
 page (must use a different template) {% endcomment %}
 
+{% comment %} Only generate the list of papers when requested or for a production build {% endcomment %}
+{% if jekyll.environment == 'production' or jekyll.environment == 'papers' %}
+
 {% bibliography --template bibliography_entry_forward --group_by none --max 1 %}
+
+{% endif %}
 
 ## Recent Talk
 
+{% comment %} Only generate the list of papers when requested or for a production build {% endcomment %}
+{% if jekyll.environment == 'production' or jekyll.environment == 'talks' %}
+
 {% bibliography --template bibliography_entry_forward --query @misc[keywords!=supervised] --group_by none --max 1 %}
+
+{% endif %}
 
 ## Novel Software
 
@@ -70,6 +80,9 @@ Updated May 2017
 {% comment %} Display the featured course site by iterating through the sites
 and finding the featured one {% endcomment %}
 
+{% comment %} Only generate the list of courses when requested or for a production build {% endcomment %}
+{% if jekyll.environment == 'production' or jekyll.environment == 'courses' %}
+
 <ul class="fa-ul">
 {% for page in site.pages %}
   {% if page.course == true and page.featured == true %}
@@ -78,6 +91,8 @@ and finding the featured one {% endcomment %}
   {% endif %}
 {% endfor %}
 </ul>
+
+{% endif %}
 
 ## Status Updates
 

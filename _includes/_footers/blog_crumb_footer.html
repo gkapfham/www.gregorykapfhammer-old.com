@@ -1,3 +1,6 @@
+<!-- Only generate the list of posts when requested or for a production build -->
+{% if jekyll.environment == 'production' or jekyll.environment == 'crumbs' %}
+
 <div class="row">
   <div class="col">
     <!-- If there is no previous link, then extra spacing is needed -->
@@ -25,3 +28,5 @@
     {% endif %}
   </div>
 </div>
+
+{% endif %}

@@ -6,8 +6,8 @@ image: /download/images/gregory-kapfhammer-biography-small.jpg
 
 # {{ page.title }}
 
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="gregory-kapfhammer-biography-small.jpg" content="Photo by <a href='https://www.facebook.com/tkpapinchak'>Tanya Greer</a> shared under a <a href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>CC (BY-NC-ND)</a>" label="CC (BY-NC-ND)" %}
+<!-- include_cached header image -->
+{% include_cached _popovers/image_reference.html image="gregory-kapfhammer-biography-small.jpg" content="Photo by <a href='https://www.facebook.com/tkpapinchak'>Tanya Greer</a> shared under a <a href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>CC (BY-NC-ND)</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
 [Gregory M. Kapfhammer]({{site.baseurl}}) is an Associate Professor in and Chair
@@ -47,17 +47,17 @@ open-source [software]({{site.baseurl}}software/), and valued
 [service]({{site.baseurl}}service/) to a variety of organizations.
 
 <p>
-The paper {% include _popovers/paper_reference.html
+The paper {% include_cached _popovers/paper_reference.html
 cite="Kapfhammer2003" %} was selected to receive the ACM SIGSOFT
 Distinguished Paper Award at the <a href="http://esecfse.cs.helsinki.fi/">2003
 ACM SIGSOFT Foundations of Software Engineering Conference (ESEC/FSE 2003)</a>.
-Gregory Kapfhammer's paper {% include _popovers/paper_reference.html
+Gregory Kapfhammer's paper {% include_cached _popovers/paper_reference.html
 cite="Conrad2010a" %} was also recognized as the best paper in the <a
 href="http://www.sigevo.org/gecco-2010/organizers-tracks.html#sbse">Search-Based
 Software Engineering Track</a> of the <a
 href="http://www.sigevo.org/gecco-2010/">2010 ACM SIGEVO Genetic and
 Evolutionary Computation Conference (GECCO 2010)</a>. Additionally, Kapfhammer's
-presentation for {% include _popovers/paper_reference.html
+presentation for {% include_cached _popovers/paper_reference.html
 cite="Kapfhammer2016" %} won the best presentation award at the <a
 href="https://cse.sc.edu/~ggay/sbst2016/">2016 International Workshop on
 Search-Based Software Testing</a>. He frequently serves the research community

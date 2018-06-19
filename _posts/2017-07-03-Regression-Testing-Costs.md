@@ -9,8 +9,8 @@ image: /download/images/3119405564_e48979041b_z.jpg
 
 {% include _headers/blog_header.html %}
 
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="3119405564_e48979041b_z.jpg" content="<a title='155/365 Infinite Regression (fractal)' href='https://flickr.com/photos/stuartpilbrow/3119405564'>flickr photo</a> by <a href='https://flickr.com/people/stuartpilbrow'>stuartpilbrow</a> shared under a <a href='https://creativecommons.org/licenses/by-sa/2.0/'>CC (BY-SA) license</a>" label="CC (BY-SA)" %}
+<!-- include_cached header image -->
+{% include_cached _popovers/image_reference.html image="3119405564_e48979041b_z.jpg" content="<a title='155/365 Infinite Regression (fractal)' href='https://flickr.com/photos/stuartpilbrow/3119405564'>flickr photo</a> by <a href='https://flickr.com/people/stuartpilbrow'>stuartpilbrow</a> shared under a <a href='https://creativecommons.org/licenses/by-sa/2.0/'>CC (BY-SA) license</a>" label="CC (BY-SA)" %}
 
 {% describe %}
 To establish a confidence in the correctness of their software, developers will
@@ -32,11 +32,11 @@ Prior work has developed many techniques to address the substantial
 computational cost associated with regression testing, with test suite reduction
 and prioritization emerging as two of the most promising. Test suite reduction
 aims to find a smaller test suite that covers the same requirements as does the
-full test suite {% include _popovers/paper_reference.html cite="Lin2014"
+full test suite {% include_cached _popovers/paper_reference.html cite="Lin2014"
 trailing="." %} Alternatively, test suite prioritization aims to find a test
 ordering such that faults in a program can be detected as early as is possible,
 thus enabling the processes of debugging and program repair to quickly start {%
-include _popovers/paper_reference.html cite="Lin2013" trailing="." %}
+include_cached _popovers/paper_reference.html cite="Lin2013" trailing="." %}
 </p>
 
 <p>
@@ -46,7 +46,7 @@ paper reports that test selection <a href =
 "https://www.microsoft.com/en-us/research/publication/the-art-of-testing-less-without-sacrificing-quality/">saves
 Microsoft</a> millions of dollars every year &mdash; all without compromising
 the quality of the program under test. So, interested in learning more about
-regression testing? If you are, then please read {% include
+regression testing? If you are, then please read {% include_cached
 _popovers/paper_reference.html cite="Kapfhammer2010" trailing="." %}
 </p>
 

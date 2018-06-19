@@ -10,6 +10,9 @@ image: /download/images/11484919766_33a2c4677f_z.jpg
 <!-- Include header image -->
 {% include _popovers/image_reference.html image="11484919766_33a2c4677f_z.jpg" content="<a title='Untitled' href='https://flickr.com/photos/foto_olio/11484919766'>flickr photo</a> by <a href='https://flickr.com/people/foto_olio'>Olio</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
+{% comment %} Only generate the list of courses when requested or for a production build {% endcomment %}
+{% if jekyll.environment == 'production' or jekyll.environment == 'courses' %}
+
 {% assign max_id = -34 %}
 {% assign stop_id = 0 %}
 {% assign year = "0" %}
@@ -31,6 +34,8 @@ image: /download/images/11484919766_33a2c4677f_z.jpg
 <p>
 {% endfor %}
 {% endfor %}
+
+{% endif %}
 
 ## Additional Courses
 

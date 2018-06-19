@@ -11,6 +11,9 @@ image: /download/images/5700106776_857c0ded3b_z.jpg
 <!-- Include header image -->
 {% include _popovers/image_reference.html image="5700106776_857c0ded3b_z.jpg" content="<a title='Blue tag' href='https://flickr.com/photos/tjololo_photo/5700106776'>flickr photo</a> by <a href='https://flickr.com/people/tjololo_photo'>Tjololo Photo</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
+{% comment %} Only generate the cross-index of blog posts for a production build or a blog {% endcomment %}
+{% if jekyll.environment == 'production' or jekyll.environment == 'posts' %}
+
 {% comment %}
 Extract and sort the tags
 {% endcomment %}
@@ -52,9 +55,11 @@ List all posts with a specific tag
   <i class="fa fa-tags" aria-hidden="true"></i>
   {% for tag in post.categories %}
   <a class="tag" href="{{site.baseurl}}categories/#{{ tag | slugify }}"> {{ tag }}</a>
-{% endfor %} 
+{% endfor %}
 <br>
 {% endif %}
 {% endfor %}
 </ul>
 {% endfor %}
+
+{% endif %}

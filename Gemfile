@@ -17,10 +17,11 @@ gem "jekyll", "~> 3.8.2"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
-  gem 'jekyll-scholar'
-  gem 'jekyll-sitemap'
   gem 'jekyll-auto-image'
+  gem 'jekyll-include-cache'
+  gem 'jekyll-scholar'
   gem 'jekyll-seo-tag'
-  gem 'unicode'
+  gem 'jekyll-sitemap'
   gem 'rdiscount'
+  gem 'unicode'
 end

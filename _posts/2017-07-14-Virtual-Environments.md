@@ -7,8 +7,10 @@ date: 2017-07-14
 image: /download/images/23499382459_6b372b4c4d_z.jpg
 ---
 
-# {{ page.title }}
-## <em>{{ page.date | date_to_long_string }}</em>
+{% include _headers/blog_header.html %}
+
+{% comment %} # {{ page.title }} {% endcomment %}
+{% comment %} ## <em>{{ page.date | date_to_long_string }}</em> {% endcomment %}
 
 <!-- Include header image -->
 {% include _popovers/image_reference.html image="23499382459_6b372b4c4d_z.jpg" content="<a title='Baby It\'s Cold Outside' href='https://flickr.com/photos/tommrazek/23499382459'>flickr photo</a> by <a href='https://flickr.com/people/tommrazek'>Tom Mrazek</a> shared under a <a href='https://creativecommons.org/licenses/by/2.0/'>CC (BY) license</a>" label="CC (BY)" %}
