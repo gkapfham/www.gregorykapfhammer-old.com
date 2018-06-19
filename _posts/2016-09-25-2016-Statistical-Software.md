@@ -52,4 +52,4 @@ to create and release this replication package. So, please
 me to share your insights!
 </p>
 
-{% include_cached _footers/blog_footer.html %}
+{% include _footers/blog_footer.html %}

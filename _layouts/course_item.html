@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  {% include_cached _headers/head_all.html %}
+  {% include _headers/head_all.html %}
 </head>
 
 <!-- Always call the load() function so that clicking on links to anchors handles the fixed navbar -->
@@ -23,7 +23,7 @@
         <!-- include_cached the page content that comes from Markdown file -->
         {{ content }}
         <!-- include_cached the code creates the footer -->
-        {% include_cached _footers/course_item_return_footer.html %}
+        {% include _footers/course_item_return_footer.html %}
       </div>
       <!-- Padding on the right -->
       <div class="col-md-1">

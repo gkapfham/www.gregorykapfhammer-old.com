@@ -47,4 +47,4 @@ share with others an "instruction manual" that explains, in a step-by-step
 fashion, exactly how to produce a document just like yours!
 </p>
 
-{% include_cached _footers/blog_footer.html %}
+{% include _footers/blog_footer.html %}

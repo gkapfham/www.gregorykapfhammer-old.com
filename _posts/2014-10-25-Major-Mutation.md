@@ -57,4 +57,4 @@ _popovers/paper_reference.html cite="McCurdy2016" trailing="" %} and {% include_
 cite="McMinn2018" trailing="." %}
 </p>
 
-{% include_cached _footers/blog_footer.html %}
+{% include _footers/blog_footer.html %}

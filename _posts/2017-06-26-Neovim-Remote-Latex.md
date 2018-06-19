@@ -45,4 +45,4 @@ ln -s ~/.vimrc ~/.nvim/init.vim
 Are you interested in learning more about how I configure Vim and Neovim? Please study the source code of my `.vimrc`
 that is available in the GitHub repository [gkapfham/dotfiles](https://github.com/gkapfham/dotfiles).
 
-{% include_cached _footers/blog_footer.html %}
+{% include _footers/blog_footer.html %}

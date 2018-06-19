@@ -56,4 +56,4 @@ ways to transition cutting-edge research into your practice of regressing
 testing? If you answered "yes" to any of these questions, I hope that you will
 soon [contact]({{site.baseurl}}contact/) me with your own ideas and experiences.
 
-{% include_cached _footers/blog_footer.html %}
+{% include _footers/blog_footer.html %}

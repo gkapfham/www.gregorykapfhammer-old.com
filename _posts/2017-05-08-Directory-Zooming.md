@@ -59,4 +59,4 @@ window, I would also appreciate your feedback on the approach that I suggested
 in this post. So, please [contact]({{site.baseurl}}contact) me to share your
 insights!
 
-{% include_cached _footers/blog_footer.html %}
+{% include _footers/blog_footer.html %}

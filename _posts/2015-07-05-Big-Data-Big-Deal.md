@@ -60,4 +60,4 @@ SchemaAnalyst to test your own database schema, then please download and use the
 GitHub site <a href="https://github.com/schemaanalyst/schemaanalyst">schemaanalyst/schemaanalyst</a>.
 </p>
 
-{% include_cached _footers/blog_footer.html %}
+{% include _footers/blog_footer.html %}

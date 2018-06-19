@@ -49,4 +49,4 @@ If you are a software engineering researcher, I am interested in learning how yo
 experimentally evaluate your methods. I would also appreciate your feedback on the approach that we adopted in our work
 on testing mobile-ready web pages. So, please [contact]({{site.baseurl}}contact) me to share your insights!
 
-{% include_cached _footers/blog_footer.html %}
+{% include _footers/blog_footer.html %}
