@@ -37,10 +37,10 @@ I will release a retrospective that reports on the key lessons shared by
 all of the interviewees and makes suggestions for ways in which educators can
 improve their teaching and research and students can improve their learning.
 
-Since many people in industry have already completed the survey, I am
-[publishing]({{site.baseurl}}categories/#seed) their interviews on my blog. Of
-course, you can [contact]({{site.baseurl}}contact/) me with any questions or
-comments that you have about this initiative.
+Since many people in industry have already completed the survey, I am publishing
+their interviews on my [blog]({{site.baseurl}}blog/). Of course, you can
+[contact]({{site.baseurl}}contact/) me with any questions or comments that you
+have about this initiative.
 
 <a name="seedsurvey"></a>
 
