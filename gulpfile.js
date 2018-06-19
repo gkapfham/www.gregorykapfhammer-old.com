@@ -20,6 +20,11 @@ var uglify = require('gulp-uglify');
 var yargs = require('yargs');
 var newer = require('gulp-newer');
 
+// configuration files for Jekyll
+var CONFIGURATION_FLAG = "--config"
+var CONFIGURATION_FILES = "_config.yml"
+var CONFIGURATION_FILE_SCHOLAR = ",_config.scholar.yml"
+
 // define the directories for the fonts
 var CSS_SOURCE = "css/*.css"
 var CSS_DEST = "_site/css/"
@@ -127,35 +132,46 @@ gulp.task('javascripts', function() {
 
 // FUNCTION: detect which environment variables are set
 function detectEnvironment(options) {
+  // render the entire site
   if (PRODUCTION) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'production';
     options.env = env;
   }
+  // render base site + papers
   else if (PAPERS) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'papers';
     options.env = env;
   }
+  // render base site + posts
   else if (POSTS) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'posts';
     options.env = env;
   }
+  // render base site + talks
   else if (TALKS) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'talks';
     options.env = env;
   }
+  // render base site + courses
   else if (COURSES) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'courses';
     options.env = env;
   }
+  // render base site + crumbs below courses and posts
   else if (CRUMBS) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'crumbs';
     options.env = env;
+  }
+  // load the Jekyll-Scholar configuration
+  // if a production or papers or talks build
+  if(PRODUCTION || PAPERS || TALKS) {
+    CONFIGURATION_FILES = CONFIGURATION_FILES + CONFIGURATION_FILE_SCHOLAR;
   }
 }
 
@@ -166,7 +182,7 @@ gulp.task('build', function(cb) {
     stdio: 'inherit'
   };
   detectEnvironment(options)
-  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build'], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', CONFIGURATION_FLAG, CONFIGURATION_FILES], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
@@ -179,7 +195,7 @@ gulp.task('incrementalbuild', function(cb) {
     stdio: 'inherit'
   };
   detectEnvironment(options)
-  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', '--incremental'], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', '--incremental', CONFIGURATION_FLAG, CONFIGURATION_FILES], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
@@ -192,7 +208,7 @@ gulp.task('serve', function(cb) {
     stdio: 'inherit'
   };
   detectEnvironment(options)
-  var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch', '--incremental'], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch', '--incremental', CONFIGURATION_FLAG, CONFIGURATION_FILES], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
@@ -205,7 +221,7 @@ gulp.task('fullserve', function(cb) {
     stdio: 'inherit'
   };
   detectEnvironment(options)
-  var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch'], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch', CONFIGURATION_FLAG, CONFIGURATION_FILES], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });

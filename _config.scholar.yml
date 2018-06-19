@@ -1,0 +1,33 @@
+# Configure Jekyll-Scholar plugin
+scholar:
+  style: apa
+  locale: en
+  sort_by: year,author
+  order: descending,ascending
+  group_by: year
+  group_order: descending
+  source: _bibliography/bibtex
+  bibliography: bibliography_kapfhammer.bib
+  bibliography_template: bibliography_entry
+  bibliography_list_tag: ul class="fa-ul"
+  replace_strings: true
+  join_strings: true
+  use_raw_bibtex_entry: false
+  bibtex_filters:
+  - superscript
+  - latex
+  details_dir: research/papers
+  details_layout: bibliography_details.html
+  details_link: ""
+# Extra settings, some probably not needed
+excerpt_separator: <!--more-->
+mapped: false
+header: false
+research: false
+paper: false
+presentation: false
+featured: false
+id: 0
+max_header: 10
+max_id: 45
+future: false
