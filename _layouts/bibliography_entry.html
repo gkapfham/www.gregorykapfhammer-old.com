@@ -10,16 +10,16 @@
     <a class="major" target="_blank" rel="noopener" href="/download/research/presentations/key/{{entry.key}}-presentation.pdf">{{entry.title}}</a></li>
     <!-- <ul class="fa-ul"> -->
     {% if entry.addendum %}
-      <i class="fa fa-caret-right" aria-hidden="true"></i> {{ entry.addendum }} <br>
+      <i class="fa fa-caret-right" aria-hidden="true"></i> {{entry.addendum}} <br>
     {% endif %}
     {% if entry.howpublished %}
       {% if entry.presentation %}
-        <i class="fa fa-caret-right" aria-hidden="true"></i> {{ entry.howpublished }} <br>
+        <i class="fa fa-caret-right" aria-hidden="true"></i> {{entry.howpublished}} <br>
         <!-- this presentation also has a presentation attribute which is a link to the Speaker Deck -->
         <i class="fa fa-caret-right" aria-hidden="true"></i> Preview on <a target="_blank" rel="noopener"
                                                                            href="{{entry.presentation}}">Speaker Deck</a> <br>
       {% else %}
-        <i class="fa fa-caret-right" aria-hidden="true"></i> {{ entry.howpublished }} <br>
+        <i class="fa fa-caret-right" aria-hidden="true"></i> {{entry.howpublished}} <br>
       {% endif %}
     {% endif %}
   <!-- Add space between this presentation entry and the next one -->
@@ -28,7 +28,7 @@
 <!-- this is a paper and thus we always display the title of the paper and link to the details page -->
 {% else %}
 <li><i class="fa-li fa fa-file-text-o fa-lg"></i>
-  <a class="major" href="{{entry.key}}">{{entry.title}}</a> </li>
+  <a class="major" href="{{entry.key}}/">{{entry.title}}</a> </li>
 <!-- always display the author(s) of the paper -->
 {{ entry.author }} <p></p>
 {% endif %}
