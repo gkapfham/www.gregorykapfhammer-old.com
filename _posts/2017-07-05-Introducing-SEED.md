@@ -21,8 +21,8 @@ then keep reading this post.
 
 I am an educator who frequently teaches courses in areas like software engineering and data management. While I am an
 active [researcher]({{site.baseurl}}research/) and I [teach]({{site.baseurl}}teaching/) courses in a wide variety of
-areas and contribute to numerous [software]({{site.baseurl}}software/) projects, I do not work full-time in the software
-industry.
+areas and contribute to numerous [software]({{site.baseurl}}software/) projects, I do not currently work full-time in
+the software industry.
 
 Although I do everything possible to ensure that my teaching and research are practically applicable, I would like to
 engage with professionals in the software field so that I can do an even better job. I want to improve how teachers
