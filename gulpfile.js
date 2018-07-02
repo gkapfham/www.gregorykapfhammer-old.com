@@ -60,7 +60,8 @@ var DOWNLOAD_SOURCE = '_download/**/*';
 var DOWNLOAD_DEST = '_site/download/';
 
 // define the directory for all of the download files
-// that will be used when building for production
+// that will be used when building for production,
+// ensuring that PDFs are in the sitemap file
 var DOWNLOAD_DEST_PRE = 'download/';
 
 // define the directories for the images
