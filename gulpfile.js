@@ -353,6 +353,7 @@ gulp.task(
 );
 
 // TASK: perform the full build, but do not optimize images
+// move the download directory over early to support sitemap creation
 gulp.task(
   'fulldeployseo',
   gulp.series('sass', 'downloadspre', 'build', 'javascripts', 'httptwo',
@@ -367,6 +368,7 @@ gulp.task(
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
+// move the download directory over early to support sitemap creation
 gulp.task(
   'optimizeddeployseo',
   gulp.series('sass', 'downloadspre', 'build', 'javascripts', 'httptwo', 'imageoptimize', 'imagecompress',
