@@ -1,6 +1,8 @@
 // use gulp to manage the web site
 var gulp = require('gulp');
 
+// Package loading {{{
+
 // declare variables for used packages
 var browserSync = require('browser-sync').create();
 var checkPages = require("check-pages");
@@ -19,6 +21,10 @@ var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
 var newer = require('gulp-newer');
+
+// }}}
+
+// Configuration variables {{{
 
 // configuration files for Jekyll
 var CONFIGURATION_FLAG = "--config"
@@ -54,7 +60,8 @@ var DOWNLOAD_SOURCE = '_download/**/*';
 var DOWNLOAD_DEST = '_site/download/';
 
 // define the directory for all of the download files
-// that will be used when building for production
+// that will be used when building for production,
+// ensuring that PDFs are in the sitemap file
 var DOWNLOAD_DEST_PRE = 'download/';
 
 // define the directories for the images
@@ -71,6 +78,8 @@ var EXCLUDE_LINKEDIN = '--exclude=linkedin';
 var EXCLUDE_SYNOPYSYS = '--exclude=synopsys';
 var EXCLUDE_FLICKR = '--exclude=flickr';
 var RECURSIVE = "-ro";
+
+// }}}
 
 // Environment variables {{{
 
@@ -94,7 +103,19 @@ var CRUMBS = Boolean(yargs.argv.crumbs);
 
 // }}}
 
+// Reminders {{{
+
+// Reminder of the Netlify build command:
+// gulp optimizeddeployseo --production
+
+// Reminder of the Netlify publish directory:
+// _site
+
+// }}}
+
 // {{{ PRE ---> Copy, Combine, Generate
+
+// }}}
 
 // TASK: Generate the CSS files from the Sassy CSS files
 gulp.task('sass', function() {
@@ -117,6 +138,8 @@ gulp.task('downloads', function() {
 });
 
 // TASK: Copy the changed download objects to root
+// note that this will create the destination
+// directory if it does not already exist
 gulp.task('downloadspre', function() {
   return gulp.src(DOWNLOAD_SOURCE)
     .pipe(gulp.dest(DOWNLOAD_DEST_PRE));
@@ -336,6 +359,15 @@ gulp.task(
 
 // {{{ DEPLOY ---> Build and all needed steps, customized
 
+// TASK: delete the download directory after building
+// note that this is safe because a deploy happens
+// from the "_site" directory and root is a source only
+gulp.task('cleandownloads', function() {
+  return del([
+    'download/**',
+  ]);
+});
+
 // TASK: perform the full build, but do not optimize images or minify
 gulp.task(
   'quickdeploy',
@@ -351,24 +383,26 @@ gulp.task(
 );
 
 // TASK: perform the full build, but do not optimize images
+// move the download directory over early to support sitemap creation
 gulp.task(
   'fulldeployseo',
   gulp.series('sass', 'downloadspre', 'build', 'javascripts', 'httptwo',
-    gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
+    gulp.parallel('cleandownloads', 'fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizeddeploy',
   gulp.series('sass', 'build', 'javascripts', 'httptwo', 'downloads', 'imageoptimize', 'imagecompress',
-    gulp.parallel('imagemogrify', 'fonts', 'cssminify', 'htmlminify', 'jsminify'))
+    gulp.parallel('fonts', 'imagemogrify', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
+// move the download directory over early to support sitemap creation
 gulp.task(
   'optimizeddeployseo',
   gulp.series('sass', 'downloadspre', 'build', 'javascripts', 'httptwo', 'imageoptimize', 'imagecompress',
-    gulp.parallel('imagemogrify', 'fonts', 'cssminify', 'htmlminify', 'jsminify'))
+    gulp.parallel('cleandownloads', 'fonts', 'imagemogrify', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // }}}
@@ -413,6 +447,7 @@ gulp.task('clean', function() {
     '_site/**/*',
   ]);
 });
+
 
 // }}}
 
