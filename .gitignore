@@ -120,6 +120,9 @@ build-iPhoneSimulator/
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
 
-
 # End of https://www.gitignore.io/api/node,ruby,jekyll
 
+# Adding extra project-specific ignores
+
+### Download directory ###
+download
