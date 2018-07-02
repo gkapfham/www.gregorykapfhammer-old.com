@@ -357,6 +357,8 @@ gulp.task(
 // {{{ DEPLOY ---> Build and all needed steps, customized
 
 // TASK: delete the download directory after building
+// note that this is safe because a deploy happens
+// from the "_site" directory and root is a source only
 gulp.task('cleandownloads', function() {
   return del([
     'download/**',
