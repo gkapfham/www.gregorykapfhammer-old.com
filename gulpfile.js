@@ -1,6 +1,8 @@
 // use gulp to manage the web site
 var gulp = require('gulp');
 
+// Package loading {{{
+
 // declare variables for used packages
 var browserSync = require('browser-sync').create();
 var checkPages = require("check-pages");
@@ -19,6 +21,10 @@ var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
 var newer = require('gulp-newer');
+
+// }}}
+
+// Configuration variables {{{
 
 // configuration files for Jekyll
 var CONFIGURATION_FLAG = "--config"
@@ -72,6 +78,8 @@ var EXCLUDE_SYNOPYSYS = '--exclude=synopsys';
 var EXCLUDE_FLICKR = '--exclude=flickr';
 var RECURSIVE = "-ro";
 
+// }}}
+
 // Environment variables {{{
 
 // read the "--production" environment variable
@@ -94,7 +102,17 @@ var CRUMBS = Boolean(yargs.argv.crumbs);
 
 // }}}
 
+// Reminders {{{
+
+// Reminder of the Netlify build command:
+// gulp optimizeddeployseo --production
+
+// Reminder of the Netlify publish directory:
+// _site
+
 // {{{ PRE ---> Copy, Combine, Generate
+
+// }}}
 
 // TASK: Generate the CSS files from the Sassy CSS files
 gulp.task('sass', function() {
@@ -338,6 +356,13 @@ gulp.task(
 
 // {{{ DEPLOY ---> Build and all needed steps, customized
 
+// TASK: delete the download directory after building
+gulp.task('cleandownloads', function() {
+  return del([
+    'download/**',
+  ]);
+});
+
 // TASK: perform the full build, but do not optimize images or minify
 gulp.task(
   'quickdeploy',
@@ -357,14 +382,14 @@ gulp.task(
 gulp.task(
   'fulldeployseo',
   gulp.series('sass', 'downloadspre', 'build', 'javascripts', 'httptwo',
-    gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
+    gulp.parallel('cleandownloads', 'fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizeddeploy',
   gulp.series('sass', 'build', 'javascripts', 'httptwo', 'downloads', 'imageoptimize', 'imagecompress',
-    gulp.parallel('imagemogrify', 'fonts', 'cssminify', 'htmlminify', 'jsminify'))
+    gulp.parallel('fonts', 'imagemogrify', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
@@ -372,7 +397,7 @@ gulp.task(
 gulp.task(
   'optimizeddeployseo',
   gulp.series('sass', 'downloadspre', 'build', 'javascripts', 'httptwo', 'imageoptimize', 'imagecompress',
-    gulp.parallel('imagemogrify', 'fonts', 'cssminify', 'htmlminify', 'jsminify'))
+    gulp.parallel('cleandownloads', 'fonts', 'imagemogrify', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // }}}
@@ -417,6 +442,7 @@ gulp.task('clean', function() {
     '_site/**/*',
   ]);
 });
+
 
 // }}}
 
