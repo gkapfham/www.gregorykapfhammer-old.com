@@ -117,6 +117,8 @@ gulp.task('downloads', function() {
 });
 
 // TASK: Copy the changed download objects to root
+// note that this will create the destination
+// directory if it does not already exist
 gulp.task('downloadspre', function() {
   return gulp.src(DOWNLOAD_SOURCE)
     .pipe(gulp.dest(DOWNLOAD_DEST_PRE));
