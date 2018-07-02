@@ -53,6 +53,10 @@ var DEPLOYSITE = "_site"
 var DOWNLOAD_SOURCE = '_download/**/*';
 var DOWNLOAD_DEST = '_site/download/';
 
+// define the directory for all of the download files
+// that will be used when building for production
+var DOWNLOAD_DEST_PRE = 'download/';
+
 // define the directories for the images
 var IMAGES_SOURCE = '_download/images/**/*.{png,jpeg,jpg,svg,gif}';
 var IMAGES_OPTIMIZED = '_site/download/images/**/*.{png,jpeg,jpg,svg,gif}';
@@ -110,6 +114,12 @@ gulp.task('downloads', function() {
   return gulp.src(DOWNLOAD_SOURCE)
     .pipe(newer(DOWNLOAD_DEST))
     .pipe(gulp.dest(DOWNLOAD_DEST));
+});
+
+// TASK: Copy the changed download objects to root
+gulp.task('downloadspre', function() {
+  return gulp.src(DOWNLOAD_SOURCE)
+    .pipe(gulp.dest(DOWNLOAD_DEST_PRE));
 });
 
 // TASK: Copy all the HTTP2 header to _site
@@ -340,10 +350,24 @@ gulp.task(
     gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
+// TASK: perform the full build, but do not optimize images
+gulp.task(
+  'fulldeployseo',
+  gulp.series('sass', 'downloadspre', 'build', 'javascripts', 'httptwo',
+    gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
+);
+
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizeddeploy',
   gulp.series('sass', 'build', 'javascripts', 'httptwo', 'downloads', 'imageoptimize', 'imagecompress',
+    gulp.parallel('imagemogrify', 'fonts', 'cssminify', 'htmlminify', 'jsminify'))
+);
+
+// TASK: first build and optimize/compress images and then run the minifiers in parallel
+gulp.task(
+  'optimizeddeployseo',
+  gulp.series('sass', 'downloadspre', 'build', 'javascripts', 'httptwo', 'imageoptimize', 'imagecompress',
     gulp.parallel('imagemogrify', 'fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
