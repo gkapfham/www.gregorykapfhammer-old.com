@@ -1,5 +1,9 @@
+// Gulp {{{
+
 // use gulp to manage the web site
 var gulp = require('gulp');
+
+// }}}
 
 // Package loading {{{
 
