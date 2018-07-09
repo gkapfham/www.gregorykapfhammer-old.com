@@ -2,7 +2,7 @@
 
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2018 International Workshop on Debugging and Repair </div>
-<br> Program Committee Member (Onetime)
+<br> Program Committee Member (One time)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2015 International Conference on Software Engineering and Knowledge Engineering </div>
 <br>  Session Chair (One time)
@@ -97,10 +97,10 @@ Conference </div>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2017 Transactions on Industrial Informatics </div>
 <br> Reviewer (One time)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2016 Software and Systems Modelling </div>
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2016 Software and Systems Modelling Journal </div>
 <br> Reviewer (One time)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2015 IEEE Software </div>
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2015 IEEE Software Journal </div>
 <br> Reviewer (One time)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2012 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 Empirical Software Engineering Journal </div>
