@@ -226,6 +226,8 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/tmuxinators">tm
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/junegunn/fzf/issues/712">junegunn/fzf Issue #712</a>: Setting foreground without background</li>
 
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/kshenoy/vim-signature/issues/164">kshenoy/vim-signature Issue #164</a>: Special characters for markers?</li>
+
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/lervag/vimtex/issues/176">lervag/vimtex Issue #176</a>: Latexmk crashes when loading second LaTeX file</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/lervag/vimtex/issues/177">lervag/vimtex Issue #177</a>: Many Zathura windows in a multi-file project</li>
