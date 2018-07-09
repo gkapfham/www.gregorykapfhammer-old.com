@@ -45,11 +45,10 @@ my colleagues and students and I have published {% include_cached
 _popovers/paper_reference.html cite="McMinn2016a" %} and released a replication
 package for it as well. If you are interested in replicating the analyses in
 that paper, then I encourage you to visit <a
-href="https://github.com/gkapfham/virtualmutationanalysis">gkapfham/virtualmutationanalysis</a>
+href="https://github.com/gkapfham/vmutation-replicate">gkapfham/vmutation-replicate</a>
 on GitHub. I would also appreciate your feedback on the approach that we took
-to create and release this replication package. So, please
-<a href="{{site.baseurl}}contact">contact</a>
-me to share your insights!
+to create and release this replication package. So, please <a
+href="{{site.baseurl}}contact">contact</a> me to share your insights!
 </p>
 
 {% include _footers/blog_footer.html %}
