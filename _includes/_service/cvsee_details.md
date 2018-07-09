@@ -85,10 +85,10 @@ Conference </div>
 ## Transactions and Journals
 
 <ul class="fa-ul">
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2018 Formal Aspects of Computing </div>
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2018 Formal Aspects of Computing Journal </div>
 <br> Reviewer (One time)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2018 IET Software </div>
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2018 IET Software Journal </div>
 <br> Reviewer (One time)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2017 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 Transactions on Services Computing </div>
