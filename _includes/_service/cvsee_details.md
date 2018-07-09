@@ -15,7 +15,7 @@
 <br> Program Committee Member (Five times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2012 International Asia-Pacific Software Engineering Conference </div>
-<br> Program Committee Member (Onetime)
+<br> Program Committee Member (One time)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2011 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 International Conference on Software Testing, Verification and Validation </div>
 <br>  Program Committee Member (Three times)
@@ -27,7 +27,7 @@
 <br>  Program Committee Member (Two times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2011 International Conference on Software Engineering and Data Engineering </div>
-<br> Session Chair (Onetime)
+<br> Session Chair (One time)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2011 International Workshop on Testing and Debugging </div>
 <br> Program Committee Member (One time)
@@ -57,7 +57,7 @@ Conference </div>
 <br>  Program Committee Member (Seven times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2008 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2016 International Workshop on Search-Based Software Testing </div>
-<br> Program Committee Member (Ninetimes)
+<br> Program Committee Member (Nine times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2007 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2015 Testing: Academic and Industrial Conference &mdash; Practice and Research Techniques </div>
 <br>  Program Co-Chair (Three times)
