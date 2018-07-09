@@ -1,6 +1,9 @@
 ## Conferences and Workshops
 
 <ul class="fa-ul">
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2018 International Workshop on Debugging and Repair </div>
+<br> Program Committee Member (Onetime)
+<p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2015 International Conference on Software Engineering and Knowledge Engineering </div>
 <br>  Session Chair (One time)
 <br>  Panel Member (One time)
@@ -82,6 +85,12 @@ Conference </div>
 ## Transactions and Journals
 
 <ul class="fa-ul">
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2018 Formal Aspects of Computing </div>
+<br> Reviewer (One time)
+<p>
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2018 IET Software </div>
+<br> Reviewer (One time)
+<p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2017 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 Transactions on Services Computing </div>
 <br> Reviewer (Two times)
 <p>
@@ -94,8 +103,8 @@ Conference </div>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2015 IEEE Software </div>
 <br> Reviewer (One time)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2012 Empirical Software Engineering Journal </div>
-<br> Reviewer (Two times)
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2012 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 Empirical Software Engineering Journal </div>
+<br> Reviewer (Three times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2011 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2013 Journal of Software: Evolution and Process </div>
 <br> Reviewer (Two times)
