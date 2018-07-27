@@ -88,9 +88,12 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/per2012-paper">
 
 </ul>
 
-## Research Presentations
+## Technical Presentations
 
 <ul class="fa-ul">
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+target="_blank" rel="noopener" href="https://github.com/gkapfham/pyohio2018-presentation">pyohio2018-presentation</a>: Slides for a presentation at the  PyOhio 2018 conference</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
 target="_blank" rel="noopener" href="https://github.com/mccurdyc/icsme2016-presentation">icsme2016-presentation</a>: Slides for the presentation of an
@@ -247,6 +250,8 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/tmuxinators">tm
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/ludovicchabant/vim-gutentags/issues/178">ludovicchabant/vim-gutentags Issue #178</a>: Halt on exit</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/neovim/neovim/issues/6204">neovim/neovim Issue #6204</a>: Using FZF turns off relativenumber</li>
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/neovim/neovim/issues/8775">neovim/neovim Issue #8775</a>: Version 0.3.2 interface deranged</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/Shougo/deoplete.nvim/issues/500">Shougo/deoplete.nvim #500</a>: nvim source deoplete/util.vim slow</li>
 
