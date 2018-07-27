@@ -248,6 +248,8 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/tmuxinators">tm
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/neovim/neovim/issues/6204">neovim/neovim Issue #6204</a>: Using FZF turns off relativenumber</li>
 
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/neovim/neovim/issues/8775">neovim/neovim Issue #8775</a>: Version 0.3.2 interface deranged</li>
+
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/Shougo/deoplete.nvim/issues/500">Shougo/deoplete.nvim #500</a>: nvim source deoplete/util.vim slow</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/Shougo/deoplete.nvim/issues/508">Shougo/deoplete.nvim #508</a>: Deoplete.nvim does not provide completions ...</li>
