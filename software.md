@@ -88,9 +88,12 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/per2012-paper">
 
 </ul>
 
-## Research Presentations
+## Technical Presentations
 
 <ul class="fa-ul">
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+target="_blank" rel="noopener" href="https://github.com/gkapfham/pyohio2018-presentation">pyohio2018-presentation</a>: Slides for a presentation at the  PyOhio 2018 conference</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
 target="_blank" rel="noopener" href="https://github.com/mccurdyc/icsme2016-presentation">icsme2016-presentation</a>: Slides for the presentation of an
