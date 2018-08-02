@@ -1,3 +1,4 @@
+/* eslint-disable block-scoped-var */
 // Gulp {{{
 
 // use gulp to manage the web site
@@ -49,7 +50,6 @@ var HTTPTWO_DEST = '_site/';
 
 // define the directory for the JavaScript
 var JS_SOURCE = ['_js/jquery-3.3.1.min.js', '_js/popper.min.js', '_js/bootstrap.min.js', '_js/jquery.scrollTo.min.js'];
-var JS_DEST = 'js/';
 var JS_SITE = '_site/js/';
 var JS_SITE_ALL = '_site/js/*.js';
 var JS_COMBINE = 'scripts.js';
@@ -167,39 +167,35 @@ gulp.task('javascripts', function() {
 // {{{ BUILD and SERVE ---> Run Jekyll and Browsersync
 
 // FUNCTION: detect which environment variables are set
+/* eslint-disable no-redeclare */
 function detectEnvironment(options) {
   // render the entire site
   if (PRODUCTION) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'production';
     options.env = env;
-  }
   // render base site + papers
-  else if (PAPERS) {
+  } else if (PAPERS) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'papers';
     options.env = env;
-  }
   // render base site + posts
-  else if (POSTS) {
+  } else if (POSTS) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'posts';
     options.env = env;
-  }
   // render base site + talks
-  else if (TALKS) {
+  } else if (TALKS) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'talks';
     options.env = env;
-  }
   // render base site + courses
-  else if (COURSES) {
+  } else if (COURSES) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'courses';
     options.env = env;
-  }
   // render base site + crumbs below courses and posts
-  else if (CRUMBS) {
+  } else if (CRUMBS) {
     var env = Object.create(process.env);
     env.JEKYLL_ENV = 'crumbs';
     options.env = env;
@@ -210,6 +206,7 @@ function detectEnvironment(options) {
     CONFIGURATION_FILES = CONFIGURATION_FILES + CONFIGURATION_FILE_SCHOLAR;
   }
 }
+/* eslint-enable no-redeclare */
 
 // TASK: build the web site in full, no incremental
 gulp.task('build', function(cb) {
@@ -307,6 +304,7 @@ gulp.task('imageoptimize', function() {
 });
 
 // TASK: optimize the images in a lossy fashion
+/* eslint-disable no-undef */
 gulp.task('imagecompress', function() {
   return gulp.src(IMAGES_OPTIMIZED)
     .pipe(imagemin([
@@ -317,6 +315,7 @@ gulp.task('imagecompress', function() {
     ]))
     .pipe(gulp.dest(IMAGES_DEST));
 });
+/* eslint-enable no-undef */
 
 // TASK: mogrify the images to reduce size significantly
 gulp.task('imagemogrify', function(cb) {
@@ -324,13 +323,15 @@ gulp.task('imagemogrify', function(cb) {
   var options = {
     stdio: 'inherit',
   };
-  var mogrify = spawn('mogrify', [IMAGES_OPTIMIZED_JPG, '-sampling-factor', '4:2:0', '-strip', '-quality', '45', '-interlace', 'JPEG', '-colorspace', 'sRGB', IMAGES_OPTIMIZED_JPG], options);
+  var mogrify = spawn('mogrify', [IMAGES_OPTIMIZED_JPG, '-sampling-factor',
+    '4:2:0', '-strip', '-quality', '45', '-interlace', 'JPEG', '-colorspace', 'sRGB', IMAGES_OPTIMIZED_JPG], options);
   mogrify.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: mogrify process exited with code: ' + code);
   });
 });
 
 // TASK: minify all of the CSS files
+/* eslint-disable no-unused-vars */
 gulp.task('cssminify', function() {
   var plugins = [
     cssnano(),
@@ -340,6 +341,7 @@ gulp.task('cssminify', function() {
     .pipe(postcss())
     .pipe(gulp.dest(CSS_DEST));
 });
+/* eslint-enable no-unused-vars */
 
 // TASK: minify all of the changed HTML files
 // NOTE: ignore the slides for teaching and the Google marker
