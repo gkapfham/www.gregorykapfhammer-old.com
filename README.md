@@ -12,6 +12,36 @@ star it and then acknowledge it in your own web development efforts?
 
 ## Installing and Building the Web Site
 
+If you want to clone the repository for the web site, you can type the following
+command in your terminal window:
+
+```shell
+git clone https://github.com/gkapfham/www.gregorykapfhammer.com.git
+```
+
+At this point, you can install all of the dependencies by typing:
+
+```shell
+npm install
+```
+
+Now, you can build the full version of the web site in "production" mode (i.e.,
+a mode that contains all possible features, including the site map, all of the
+optimized images and files, and all search engine optimizations) by typing the
+following command in your terminal window:
+
+```shell
+gulp optimizeddeployseo --production
+```
+
+If you want to run a web server to see the current version of the site, then you
+can type this command into your terminal window and then go to the suggested
+site location.
+
+```shell
+gulp browsersync
+```
+
 ## Problems or Praise
 
 If you find a mistake in my web site, then please raise an issue and I will
