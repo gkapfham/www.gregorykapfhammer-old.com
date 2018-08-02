@@ -9,9 +9,9 @@ var gulp = require('gulp');
 
 // declare variables for used packages
 var browserSync = require('browser-sync').create();
-var checkPages = require("check-pages");
+// var checkPages = require('check-pages');
 var concat = require('gulp-concat');
-var cp = require('child_process');
+// var cp = require('child_process');
 var cssnano = require('cssnano');
 var del = require('del');
 var htmlmin = require('gulp-htmlmin');
@@ -31,37 +31,36 @@ var newer = require('gulp-newer');
 // Configuration variables {{{
 
 // configuration files for Jekyll
-var CONFIGURATION_FLAG = "--config"
-var CONFIGURATION_FILES = "_config.yml"
-var CONFIGURATION_FILE_SCHOLAR = ",_config.scholar.yml"
+var CONFIGURATION_FLAG = '--config';
+var CONFIGURATION_FILES = '_config.yml';
+var CONFIGURATION_FILE_SCHOLAR = ',_config.scholar.yml';
 
 // define the directories for the fonts
-var CSS_SOURCE = "css/*.css"
-var CSS_DEST = "_site/css/"
+var CSS_SOURCE = 'css/*.css';
+var CSS_DEST = '_site/css/';
 
 // define the directories for the fonts
-var FONT_SOURCE = "node_modules/font-awesome/fonts/**/*"
-var FONT_DEST = "_site/fonts/"
+var FONT_SOURCE = 'node_modules/font-awesome/fonts/**/*';
+var FONT_DEST = '_site/fonts/';
 
 // define the source and destination for HTTP/2
-var HTTPTWO_SOURCE = "_headers"
-var HTTPTWO_DEST = "_site/"
+var HTTPTWO_SOURCE = '_headers';
+var HTTPTWO_DEST = '_site/';
 
 // define the directory for the JavaScript
-var JS_SOURCE = ['_js/jquery-3.3.1.min.js', '_js/popper.min.js', '_js/bootstrap.min.js', '_js/jquery.scrollTo.min.js']
-var JS_DEST = "js/"
-var JS_SITE = "_site/js/"
-var JS_SITE_ALL = "_site/js/*.js"
-var JS_COMBINE = "scripts.js"
+var JS_SOURCE = ['_js/jquery-3.3.1.min.js', '_js/popper.min.js', '_js/bootstrap.min.js', '_js/jquery.scrollTo.min.js'];
+var JS_DEST = 'js/';
+var JS_SITE = '_site/js/';
+var JS_SITE_ALL = '_site/js/*.js';
+var JS_COMBINE = 'scripts.js';
 
 // define the directory for all of the HTML files
 var HTML_SOURCE = '_site/**/*.html';
 var DOWNLOAD_DEST = '_site/download/';
-var DEPLOYSITE = "_site"
+var DEPLOYSITE = '_site';
 
 // define the directory for all of the download files
 var DOWNLOAD_SOURCE = '_download/**/*';
-var DOWNLOAD_DEST = '_site/download/';
 
 // define the directory for all of the download files
 // that will be used when building for production,
@@ -81,7 +80,7 @@ var SITE = 'https://www.gregorykapfhammer.com';
 var EXCLUDE_LINKEDIN = '--exclude=linkedin';
 var EXCLUDE_SYNOPYSYS = '--exclude=synopsys';
 var EXCLUDE_FLICKR = '--exclude=flickr';
-var RECURSIVE = "-ro";
+var RECURSIVE = '-ro';
 
 // }}}
 
@@ -125,7 +124,7 @@ var CRUMBS = Boolean(yargs.argv.crumbs);
 gulp.task('sass', function() {
   return gulp.src(['scss/*.scss'])
     .pipe(sass())
-    .pipe(gulp.dest("css/"));
+    .pipe(gulp.dest('css/'));
 });
 
 // TASK: Copy all of the changed font-awesome fonts to _site
@@ -207,7 +206,7 @@ function detectEnvironment(options) {
   }
   // load the Jekyll-Scholar configuration
   // if a production or papers or talks build
-  if(PRODUCTION || PAPERS || TALKS) {
+  if (PRODUCTION || PAPERS || TALKS) {
     CONFIGURATION_FILES = CONFIGURATION_FILES + CONFIGURATION_FILE_SCHOLAR;
   }
 }
@@ -216,9 +215,9 @@ function detectEnvironment(options) {
 gulp.task('build', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {
-    stdio: 'inherit'
+    stdio: 'inherit',
   };
-  detectEnvironment(options)
+  detectEnvironment(options);
   var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', CONFIGURATION_FLAG, CONFIGURATION_FILES], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
@@ -229,9 +228,9 @@ gulp.task('build', function(cb) {
 gulp.task('incrementalbuild', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {
-    stdio: 'inherit'
+    stdio: 'inherit',
   };
-  detectEnvironment(options)
+  detectEnvironment(options);
   var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', '--incremental', CONFIGURATION_FLAG, CONFIGURATION_FILES], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
@@ -242,9 +241,9 @@ gulp.task('incrementalbuild', function(cb) {
 gulp.task('serve', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {
-    stdio: 'inherit'
+    stdio: 'inherit',
   };
-  detectEnvironment(options)
+  detectEnvironment(options);
   var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch', '--incremental', CONFIGURATION_FLAG, CONFIGURATION_FILES], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
@@ -255,9 +254,9 @@ gulp.task('serve', function(cb) {
 gulp.task('fullserve', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {
-    stdio: 'inherit'
+    stdio: 'inherit',
   };
-  detectEnvironment(options)
+  detectEnvironment(options);
   var jekyll = spawn('bundle', ['exec', 'jekyll', 'serve', '--watch', CONFIGURATION_FLAG, CONFIGURATION_FILES], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
@@ -268,9 +267,9 @@ gulp.task('fullserve', function(cb) {
 gulp.task('browsersync', function() {
   browserSync.init({
     server: {
-      baseDir: '_site/'
+      baseDir: '_site/',
     },
-    open: false
+    open: false,
   });
   gulp.watch(['_site/**/*.html', '_site/**/*.css', '_site/**/*.js']).on('change', browserSync.reload);
 });
@@ -298,13 +297,13 @@ gulp.task('imageoptimize', function() {
   return gulp.src(IMAGES_SOURCE)
     .pipe(newer(IMAGES_DEST))
     .pipe(imagemin([imagemin.jpegtran({
-      progressive: true
+      progressive: true,
     }),
-      imagemin.optipng({
-        optimizationLevel: 7
-      }),
+    imagemin.optipng({
+      optimizationLevel: 7,
+    }),
     ]))
-    .pipe(gulp.dest(IMAGES_DEST))
+    .pipe(gulp.dest(IMAGES_DEST));
 });
 
 // TASK: optimize the images in a lossy fashion
@@ -314,7 +313,7 @@ gulp.task('imagecompress', function() {
       imagemin.optipng(),
       imagemin.jpegtran(),
       imageminPngquant(speed = 1),
-      imageminJpegRecompress(accurate = true, loops = 10)
+      imageminJpegRecompress(accurate = true, loops = 10),
     ]))
     .pipe(gulp.dest(IMAGES_DEST));
 });
@@ -323,7 +322,7 @@ gulp.task('imagecompress', function() {
 gulp.task('imagemogrify', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {
-    stdio: 'inherit'
+    stdio: 'inherit',
   };
   var mogrify = spawn('mogrify', [IMAGES_OPTIMIZED_JPG, '-sampling-factor', '4:2:0', '-strip', '-quality', '45', '-interlace', 'JPEG', '-colorspace', 'sRGB', IMAGES_OPTIMIZED_JPG], options);
   mogrify.on('exit', function(code) {
@@ -334,7 +333,7 @@ gulp.task('imagemogrify', function(cb) {
 // TASK: minify all of the CSS files
 gulp.task('cssminify', function() {
   var plugins = [
-    cssnano()
+    cssnano(),
   ];
   return gulp.src(CSS_SOURCE)
     .pipe(newer(CSS_DEST))
@@ -351,7 +350,7 @@ gulp.task('htmlminify', function() {
       minifyJS: true,
       removeCommentsFromCDATA: true,
       collapseBooleanAttributes: true,
-      removeEmptyAttributes: true
+      removeEmptyAttributes: true,
     }))
     .pipe(gulp.dest(DEPLOYSITE));
 });
@@ -359,11 +358,11 @@ gulp.task('htmlminify', function() {
 // TASK: minify all of the JavaScript files
 gulp.task('jsminify', function(cb) {
   pump([
-      gulp.src(JS_SITE_ALL),
-      uglify(),
-      gulp.dest(JS_SITE)
-    ],
-    cb
+    gulp.src(JS_SITE_ALL),
+    uglify(),
+    gulp.dest(JS_SITE),
+  ],
+  cb
   );
 });
 
@@ -431,7 +430,7 @@ gulp.task(
 gulp.task('linkchecker', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {
-    stdio: 'inherit'
+    stdio: 'inherit',
   };
   // run the linkchecker on the main web site
   var linkchecker = spawn('linkchecker', [SITE], options);
@@ -445,12 +444,12 @@ gulp.task('linkchecker', function(cb) {
 gulp.task('blc', function(cb) {
   var spawn = require('child_process').spawn;
   var options = {
-    stdio: 'inherit'
+    stdio: 'inherit',
   };
-  SITE = SITE;
+  // SITE = SITE;
   // run the linkchecker on the web site, don't follow LinkedIn or Synopsys links as they deny
   // note that excluding flickr will mask some broken links to images on slides
-  var blc = spawn('blc', [SITE, EXCLUDE_LINKEDIN, EXCLUDE_SYNOPYSYS, EXCLUDE_FLICK, RECURSIVE], options);
+  var blc = spawn('blc', [SITE, EXCLUDE_LINKEDIN, EXCLUDE_SYNOPYSYS, EXCLUDE_FLICKR, RECURSIVE], options);
   blc.on('exit', function(code) {
     // error indicates that a broken link was found
     cb(code === 0 ? null : 'Error: blc process exited with code: ' + code);
@@ -471,7 +470,7 @@ gulp.task('clean', function() {
 
 // DEFAULT {{{
 
-gulp.task('default', gulp.series('quickdeploy'))
+gulp.task('default', gulp.series('quickdeploy'));
 
 // }}}
 
@@ -483,7 +482,7 @@ gulp.task('deploy', function() {
     .pipe(rsync({
       root: '_site',
       hostname: 'cs.allegheny.edu',
-      destination: '/home/g/gkapfham/public_html/'
+      destination: '/home/g/gkapfham/public_html/',
     }));
 });
 
