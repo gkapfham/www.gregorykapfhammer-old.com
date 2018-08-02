@@ -28,5 +28,7 @@ notifications:
     on_failure: always
 
 # Lint the README file with mdl
+# Lint the gulpfile.js file with eslint
 script:
   - mdl README.md
+  - eslint gulpfile.js
