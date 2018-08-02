@@ -279,19 +279,33 @@ gulp.task('browsersync', function() {
 
 // {{{ OPTIMIZE and TRANSFORM ---> Images, CSS, JavaScript, HTML
 
+// // TASK: optimize the images in a lossless fashion
+// gulp.task('imageoptimize', () =>
+//   gulp.src(IMAGES_SOURCE)
+//   .pipe(newer(IMAGES_DEST))
+//   .pipe(imagemin([imagemin.jpegtran({
+//       progressive: true
+//     }),
+//     imagemin.optipng({
+//       optimizationLevel: 7
+//     }),
+//   ]))
+//   .pipe(gulp.dest(IMAGES_DEST))
+// );
+
 // TASK: optimize the images in a lossless fashion
-gulp.task('imageoptimize', () =>
-  gulp.src(IMAGES_SOURCE)
-  .pipe(newer(IMAGES_DEST))
-  .pipe(imagemin([imagemin.jpegtran({
+gulp.task('imageoptimize', function() {
+  return gulp.src(IMAGES_SOURCE)
+    .pipe(newer(IMAGES_DEST))
+    .pipe(imagemin([imagemin.jpegtran({
       progressive: true
     }),
-    imagemin.optipng({
-      optimizationLevel: 7
-    }),
-  ]))
-  .pipe(gulp.dest(IMAGES_DEST))
-);
+      imagemin.optipng({
+        optimizationLevel: 7
+      }),
+    ]))
+    .pipe(gulp.dest(IMAGES_DEST))
+});
 
 // TASK: optimize the images in a lossy fashion
 gulp.task('imagecompress', function() {
