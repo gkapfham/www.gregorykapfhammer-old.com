@@ -1,0 +1,34 @@
+# Use NodeJS
+language: node_js
+
+# Use the latest stable version of NodeJS
+node_js:
+  - "node"
+
+# Use container-based Travis infrastructure
+sudo: false
+
+# Only build on the master branch
+branches:
+  only:
+    - master
+
+# install mdl for checking Markdown
+before_install:
+  - gem install mdl
+
+# Make sure that npm is installed
+install:
+  - npm install
+
+# Send emails when there is a change or failure
+notifications:
+  email:
+    on_success: change
+    on_failure: always
+
+# Lint the README file with mdl
+# Lint the gulpfile.js file with eslint
+script:
+  - mdl README.md
+  - eslint gulpfile.js

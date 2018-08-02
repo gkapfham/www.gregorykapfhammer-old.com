@@ -9,6 +9,8 @@
     "check-pages": "^0.10.0",
     "cssnano": "^3.10.0",
     "del": "^3.0.0",
+    "eslint": "^5.2.0",
+    "eslint-config-gulp": "^3.0.1",
     "font-awesome": "^4.7.0",
     "gulp": "^4.0.0",
     "gulp-concat": "^2.6.1",

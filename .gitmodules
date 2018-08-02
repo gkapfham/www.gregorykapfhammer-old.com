@@ -63,19 +63,19 @@
 	url = https://github.com/gkapfham/cs60060120142015.git
 [submodule "teaching/cs111F2016/provide"]
 	path = teaching/cs111F2016/provide
-	url = git@github.com:gkapfham/cs111F2016.git
+	url = https://github.com/gkapfham/cs111F2016.git
 [submodule "teaching/cs112F2016/provide"]
 	path = teaching/cs112F2016/provide
-	url = git@github.com:gkapfham/cs112F2016.git
+	url = https://github.com/gkapfham/cs112F2016.git
 [submodule "teaching/cs600F2016/provide"]
 	path = teaching/cs600F2016/provide
-	url = git@github.com:gkapfham/cs60061020162017.git
+	url = https://github.com/gkapfham/cs60061020162017.git
 [submodule "teaching/cs111S2016/provide"]
 	path = teaching/cs111S2016/provide
-	url = git@github.com:gkapfham/cs111S2016.git
+	url = https://github.com/gkapfham/cs111S2016.git
 [submodule "teaching/cs441S2016/provide"]
 	path = teaching/cs441S2016/provide
-	url = git@github.com:gkapfham/cs441S2016.git
+	url = https://github.com/gkapfham/cs441S2016.git
 [submodule "teaching/cs610S2016/provide"]
 	path = teaching/cs610S2016/provide
 	url = https://github.com/gkapfham/cs60060120152016.git
@@ -87,13 +87,13 @@
 	url = https://github.com/Allegheny-Computer-Science-280-F2017/cs280-F2017-slides.git
 [submodule "teaching/fs102S2017/provide"]
 	path = teaching/fs102S2017/provide
-	url = git@github.com:gkapfham/fs102S2017.git
+	url = https://github.com/gkapfham/fs102S2017.git
 [submodule "teaching/cs111S2017/provide"]
 	path = teaching/cs111S2017/provide
-	url = git@github.com:gkapfham/cs111S2017.git
+	url = https://github.com/gkapfham/cs111S2017.git
 [submodule "teaching/cs610S2017/provide"]
 	path = teaching/cs610S2017/provide
-	url = git@github.com:gkapfham/cs60061020162017.git
+	url = https://github.com/gkapfham/cs60061020162017.git
 [submodule "teaching/cs103S2018/provide/slides"]
 	path = teaching/cs103S2018/provide/slides
 	url = https://github.com/Allegheny-Computer-Science-103-S2018/cs103-S2018-slides.git
