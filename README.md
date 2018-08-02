@@ -1,6 +1,6 @@
 # Web Site for Gregory M. Kapfhammer
 
-[![Build Status](https://api.travis-ci.org/gkapfham/www.gregorykapfhammer.com.svg?branch=master)](https://travis-ci.org/gkapfham/www.gregorykapfhammer.com) [![made-with-spectacle](https://img.shields.io/badge/Made%20with-Jekyll-orange.svg)](https://jekyllrb.com/)
+[![Build Status](https://api.travis-ci.org/gkapfham/www.gregorykapfhammer.com.svg?branch=master)](https://travis-ci.org/gkapfham/www.gregorykapfhammer.com) [![made-with-jekyll](https://img.shields.io/badge/Made%20with-Jekyll-orange.svg)](https://jekyllrb.com/) [![made-with-netlify](https://img.shields.io/badge/Made%20with-Netlify-orange.svg)](https://www.netlify.com/)
 
 This repository contains the Markdown and HTML source code for web site of
 [Gregory M. Kapfhammer](https://www.gregorykapfhammer.com).
