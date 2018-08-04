@@ -9,23 +9,23 @@ var gulp = require('gulp');
 // Package loading {{{
 
 // declare variables for used packages
-var browserSync = require('browser-sync').create();
 // var checkPages = require('check-pages');
-var concat = require('gulp-concat');
 // var cp = require('child_process');
+var browserSync = require('browser-sync').create();
+var concat = require('gulp-concat');
 var cssnano = require('cssnano');
 var del = require('del');
 var htmlmin = require('gulp-htmlmin');
 var imagemin = require('gulp-imagemin');
 var imageminJpegRecompress = require('imagemin-jpeg-recompress');
 var imageminPngquant = require('imagemin-pngquant');
+var newer = require('gulp-newer');
 var postcss = require('gulp-postcss');
 var pump = require('pump');
 var rsync = require('gulp-rsync');
 var sass = require('gulp-sass');
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
-var newer = require('gulp-newer');
 
 // }}}
 
