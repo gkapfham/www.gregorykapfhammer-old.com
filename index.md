@@ -29,7 +29,7 @@ engineers {% endcomment %}
 
 <ul class="fa-ul"> <li><i class="fa-li fa fa-users fa-lg"></i><a class="major"
 href="{{site.baseurl}}seed/">Are you working in the software industry? Share
-your expertise with educators and students!</a></li> Released July 2017 </ul>
+your expertise with educators and students!</a></li> Enhanced July 2018 </ul>
 
 ## Featured Paper
 
