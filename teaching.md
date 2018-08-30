@@ -13,7 +13,7 @@ image: /download/images/11484919766_33a2c4677f_z.jpg
 {% comment %} Only generate the list of courses when requested or for a production build {% endcomment %}
 {% if jekyll.environment == 'production' or jekyll.environment == 'courses' %}
 
-{% assign max_id = -34 %}
+{% assign max_id = -36 %}
 {% assign stop_id = 0 %}
 {% assign year = "0" %}
 {% for cid in (max_id..stop_id) %}
