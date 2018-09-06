@@ -8,3 +8,9 @@ layout: course_item
 ## {{page.subtitle}}
 
 {% comment %} Note: each laboratory assignment should have an objective and a reading assignment {% endcomment %}
+
+<ul>
+
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-1.0.1/cs101F2018_lab01.pdf">Laboratory Assignment One: Extending and Testing a Java Program</a> <p><b>Objective:</b> Learn more about GitHub, Gradle, JUnit, and the Java programming language<br><b>Reading Assignment:</b> Chapter 1, with a focus on Code Fragments 1.5, 1.6, and 1.7</p>
+
+</ul>
