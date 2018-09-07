@@ -9,7 +9,7 @@ layout: course_item
 
 <ul>
 
-<li><a href="https://github.com/allegheny-computer-science-112-s2018/cs112-s2018-sheets/releases/download/cs112s2018_all_sheets-12.0.1/cs112s2018_practical01.pdf">Practical Assignment One: Implementing and Testing a Swapping Program</a> <p><b>Objective:</b> Continue to explore GitHub, Gradle, JUnit, and the Java programming language<br><b>Reading Assignment:</b> Chapter 1, with a focus on Sections 1.1 through 1.3 and Section 1.8</p>
+<li><a href="https://github.com/allegheny-computer-science-112-s2018/cs112-s2018-sheets/releases/download/cs112s2018_all_sheets-12.0.1/cs112s2018_practical01.pdf">Practical Assignment One: Implementing and Testing a Swapping Program</a> <p><b>Objective:</b> Continue to explore GitHub, Gradle, JUnit, and the Java language<br><b>Reading Assignment:</b> Chapter 1, with a focus on Sections 1.1 through 1.3 and 1.8</p>
 
 <li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-12.0.1/cs112S2018_practical02.pdf">Practical Assignment Two: Implementing and Testing a Statistics Calculator</a> <p><b>Objective:</b> Practice using Java constructs, like loops, to perform calculations<br><b>Reading Assignment:</b> Chapters 1 through 3, with a focus on Sections 1.3 through 1.5 and Section 3.1</p>
 
