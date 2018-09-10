@@ -9,8 +9,6 @@ var gulp = require('gulp');
 // Package loading {{{
 
 // declare variables for used packages
-// var checkPages = require('check-pages');
-// var cp = require('child_process');
 var browserSync = require('browser-sync').create();
 var concat = require('gulp-concat');
 var cssnano = require('cssnano');
