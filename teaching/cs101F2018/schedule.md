@@ -28,3 +28,18 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter2.html">Chapter 2: Object-Oriented Design</a>
 
 </ul>
+
+### Module Two: Advanced Topics in Java Programming
+
+**Reading Assignments**
+
+- <em>Data Structures and Algorithms in Java</em>, Goodrich, Tamassia, and Goldwasser
+    - Section 1.9
+    - Section 3.1
+    - Sections 3.5 - 3.6 (Array-based content)
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter3.html">Chapter 3: Arrays</a>
+
+</ul>
