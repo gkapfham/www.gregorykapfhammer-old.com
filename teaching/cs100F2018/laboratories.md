@@ -15,4 +15,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-2.1.1/cs100F2018_lab02.pdf">Laboratory Assignment Two: Using Variables to Perform Computations</a> <p><b>Objective:</b> Practice using Java and learn about computing with variables<br><b>Reading Assignment:</b> Chapters 1 and 2, focusing on Sections 1.4 and 1.5 and 2.1 through 2.6</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-4.0.1/cs100F2018_lab03.pdf">Laboratory Assignment Three: Performing File Input with the Scanner</a> <p><b>Objective:</b> Learn how to store user input in variables and practice performing computations<br><b>Reading Assignment:</b> Chapters 1 and 2, with a focus on Sections 2.1 through 2.6</p>
+
 </ul>
