@@ -15,4 +15,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-3.0.0/cs101F2018_lab02.pdf">Laboratory Assignment Two: Developing and Testing a Sentence Reversal Program</a> <p><b>Objective:</b> Learn how to use arrays to perform sentence reversing in Java<br><b>Reading Assignment:</b> Chapter 1, with a focus on Sections 1.3 and 1.9</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-5.0.1/cs101F2018_lab03.pdf">Laboratory Assignment Three: Using Templates to Perform Generic Array Reversal</a> <p><b>Objective:</b> Learn how to use generic methods to reverse all Object arrays<br><b>Reading Assignment:</b> Chapter 2, with a focus on Section 2.5</p>
+
 </ul>
