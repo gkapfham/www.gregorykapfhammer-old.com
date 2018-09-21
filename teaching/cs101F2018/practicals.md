@@ -15,5 +15,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-4.0.0/cs101F2018_practical02.pdf">Practical Assignment Two: Implementing and Testing a Statistics Calculator</a> <p><b>Objective:</b> Practice using Java constructs, like loops, to perform calculations<br><b>Reading Assignment:</b> Chapters 1 and 2, with a focus on Sections 1.3 through 1.9</p>
 
-</ul>
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-6.0.0/cs101F2018_practical03.pdf">Practical Assignment Three: Repairing and Testing a Sorting Algorithm</a> <p><b>Objective:</b> Repair a Java program that uses loops to perform array sorting<br><b>Reading Assignment:</b> Chapter 3, with a focus on Section 3.1</p>
 
+</ul>
