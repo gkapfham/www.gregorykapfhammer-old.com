@@ -30,3 +30,18 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100F2018/provide/slides/cs100_chapter3.html">Chapter 3: Using Classes and Objects</a>
 
 </ul>
+
+### Module Two: Exploring Classes and Objects
+
+**Reading Assignments**
+
+- <em>Java Software Solutions</em>, Lewis and Loftus, Chapter 4
+- <em>Java Software Solutions</em>, Lewis and Loftus, Chapter 5
+
+**Discussion and Review Slides**
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100F2018/provide/slides/cs100_chapter4.html">Chapter 4: Writing Classes</a>
+
+</ul>
