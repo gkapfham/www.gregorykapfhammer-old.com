@@ -473,6 +473,7 @@
   });
 })([Element.prototype, Document.prototype, DocumentFragment.prototype]);
 
+// Use the screenName configuration since the ID approach is broken
 var config1 = {
   "profile": {"screenName": 'GregKapfhammer'},
   "domId": 'tw-gkapfham',
@@ -484,11 +485,7 @@ var config1 = {
 };
 twitterFetcher.fetch(config1);
 
-// For advanced example which allows you to customize how tweet time is
-// formatted you simply define a function which takes a JavaScript date as a
-// parameter and returns a string!
-// See http://www.w3schools.com/jsref/jsref_obj_date.asp for properties
-// of a Date object.
+// Customize the display of the dates using additional function
 function dateFormatter(date) {
   return "Tweeted " + date.toLocaleDateString();
 }
