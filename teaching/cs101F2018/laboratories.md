@@ -17,4 +17,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-5.0.1/cs101F2018_lab03.pdf">Laboratory Assignment Three: Using Templates to Perform Generic Array Reversal</a> <p><b>Objective:</b> Learn how to use generic methods to reverse all Object arrays<br><b>Reading Assignment:</b> Chapter 2, with a focus on Section 2.5</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-7.0.0/cs101F2018_lab04.pdf">Laboratory Assignment Four: Implementing and Testing a Sorting Algorithm</a> <p><b>Objective:</b> Learn how to create and rigorously test an insertion sort algorithm in Java<br><b>Reading Assignment:</b> Chapter 3, with a focus on Sections 3.1 and 3.6</p>
+
 </ul>
