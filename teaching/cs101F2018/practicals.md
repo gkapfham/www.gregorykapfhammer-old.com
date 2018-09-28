@@ -17,4 +17,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-6.0.0/cs101F2018_practical03.pdf">Practical Assignment Three: Repairing and Testing a Sorting Algorithm</a> <p><b>Objective:</b> Repair a Java program that uses loops to perform array sorting<br><b>Reading Assignment:</b> Chapter 3, with a focus on Section 3.1</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-8.0.0/cs101F2018_practical04.pdf">Practical Assignment Four: Implementing and Testing Encryption Algorithms</a> <p><b>Objective:</b> Create a Java program that uses loops to perform data encryption<br><b>Reading Assignment:</b> Chapter 3, with a focus on Code Fragment 3.8</p>
+
 </ul>
