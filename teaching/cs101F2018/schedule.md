@@ -43,3 +43,18 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter3.html">Chapter 3: Arrays</a>
 
 </ul>
+
+### Module Three: Analysis of Program Performance
+
+**Reading Assignments**
+
+- <em>Data Structures and Algorithms in Java</em>, Goodrich, Tamassia, and Goldwasser
+    - Section 1.9
+    - Sections 4.1 - 4.3
+    - Sections 5.1 - 5.5
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter4.html">Chapter 4: Algorithm Analysis</a>
+
+</ul>
