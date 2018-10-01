@@ -43,5 +43,6 @@ layout: course_item
 <ul>
 
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100F2018/provide/slides/cs100_chapter4.html">Chapter 4: Writing Classes</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100F2018/provide/slides/cs100_chapter5.html">Chapter 5: Conditionals and Loops</a>
 
 </ul>
