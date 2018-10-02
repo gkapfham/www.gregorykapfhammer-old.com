@@ -19,4 +19,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-6.0.1/cs100F2018_lab04.pdf">Laboratory Assignment Four: Creating Graphical Output in Java</a> <p><b>Objective:</b> Gain more experience with calling methods and learn how to create graphical artwork<br><b>Reading Assignment:</b> Chapters 1 through 3, with a focus on Sections 3.9 through 3.11</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-8.0.0/cs100F2018_lab05.pdf">Laboratory Assignment Five: Implementing and Evaluating a Steganography System</a> <p><b>Objective:</b> Learn how to use String methods while creating text-based output<br><b>Reading Assignment:</b> Chapters 2 and 3, with a focus on Sections 2.1 through 2.8 and 3.1 through 3.2</p>
+
 </ul>
