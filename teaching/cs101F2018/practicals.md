@@ -19,6 +19,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-8.0.0/cs101F2018_practical04.pdf">Practical Assignment Four: Implementing and Testing Encryption Algorithms</a> <p><b>Objective:</b> Create a Java program that uses loops to perform data encryption<br><b>Reading Assignment:</b> Chapter 3, with a focus on Code Fragment 3.8</p>
 
-<li><a href="">Practical Assignment Five: Experimentally Evaluating a Repeating Algorithm</a> <p><b>Objective:</b> Run an experiment to compare the performance of repeating methods<br><b>Reading Assignment:</b> Chapter 4, with a focus on Sections 4.1 through 4.3</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-11.0.0/cs101F2018_practical05.pdf">Practical Assignment Five: Experimentally Evaluating a Repeating Algorithm</a> <p><b>Objective:</b> Run an experiment to compare the performance of repeating methods<br><b>Reading Assignment:</b> Chapter 4, with a focus on Sections 4.1 through 4.3</p>
 
 </ul>
