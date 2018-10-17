@@ -252,6 +252,8 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/tmuxinators">tm
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/ludovicchabant/vim-gutentags/issues/178">ludovicchabant/vim-gutentags Issue #178</a>: Halt on exit</li>
 
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/ncm2/ncm2-jedi/issues/9">ncm2/ncm2-jedi Issue #9</a>: AttributeError: module 'jedi' has no attribute 'Script'</li>
+
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/neovim/neovim/issues/6204">neovim/neovim Issue #6204</a>: Using FZF turns off relativenumber</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/neovim/neovim/issues/8775">neovim/neovim Issue #8775</a>: Version 0.3.2 interface deranged</li>
