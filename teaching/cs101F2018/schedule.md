@@ -56,5 +56,6 @@ layout: course_item
 <ul>
 
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter4.html">Chapter 4: Algorithm Analysis</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter5.html">Chapter 5: Recursion</a>
 
 </ul>
