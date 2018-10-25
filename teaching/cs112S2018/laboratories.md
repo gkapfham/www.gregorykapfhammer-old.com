@@ -21,7 +21,7 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-12.0.1/cs112S2018_lab05.pdf">Laboratory Assignment Five: Experimentally Evaluating Sorting Algorithms</a> <p><b>Objective:</b> Use a doubling experiment to study the performance of sorting algorithms<br><b>Reading Assignment:</b> Chapter 4, with a focus on Section 4.1 and Code Fragment 4.1</p>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-12.0.1/cs112S2018_lab06.pdf">Laboratory Assignment Six: Using a Doubling Experiment to Study a Security Program</a> <p><b>Objective:</b> Create a benchmarking framework to study the performance of a password checker<br><b>Reading Assignment:</b> Chapter 4, with a focus on Sections 4.1 through 4.3</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-12.0.1/cs112S2018_lab06.pdf">Laboratory Assignment Six: Using a Doubling Experiment to Study a Security Program</a> <p><b>Objective:</b> Create a tool to study the performance of a password checker<br><b>Reading Assignment:</b> Chapter 4, with a focus on Sections 4.1 through 4.3</p>
 
 <li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-13.0.1/cs112S2018_lab07.pdf">Laboratory Assignment Seven: Studying the Performance of Iteration and Recursion</a> <p><b>Objective:</b> Create and use benchmarks to investigate two problem solving strategies<br><b>Reading Assignment:</b> Chapter 5, with a focus on Code Fragment 5.13</p>
 
