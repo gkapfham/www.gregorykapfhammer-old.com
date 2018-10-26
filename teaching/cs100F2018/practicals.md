@@ -17,4 +17,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-7.0.0/cs100F2018_practical03.pdf">Practical Assignment Three: Further Practice with Graphics and Expressions</a> <p><b>Objective:</b> Use expressions with variables to create graphical output in Java<br><b>Reading Assignment:</b> Chapter 3, with a focus on the graphics-related concepts</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-11.0.0/cs100F2018_practical04.pdf">Practical Assignment Four: Creatively Combining File Input and Variables</a> <p><b>Objective:</b> Use expressions with variables to create textual output in Java<br><b>Reading Assignment:</b> Chapters 1 through 3, with a focus on the concepts about files and variables</p>
+
 </ul>
