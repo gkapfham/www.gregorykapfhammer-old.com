@@ -19,6 +19,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-11.0.0/cs100F2018_practical04.pdf">Practical Assignment Four: Creatively Combining File Input and Variables</a> <p><b>Objective:</b> Use expressions with variables to create textual output in Java<br><b>Reading Assignment:</b> Chapters 1 through 3, with a focus on files and variables</p>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-12.0.0/cs100F2018_practical05.pdf">Practical Assignment Five: Creating and Using Java Objects</a> <p><b>Objective:</b> Use a Java class to produce randomized textual output in Java<br><b>Reading Assignment:</b> Sections 4.1 and 4.2, with a focus on the concepts about classes and objects</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-12.0.1/cs100F2018_practical05.pdf">Practical Assignment Five: Creating and Using Java Objects</a> <p><b>Objective:</b> Use a Java class to produce randomized textual output in Java<br><b>Reading Assignment:</b> Sections 4.1 and 4.2, with a focus on the concepts about classes and objects</p>
 
 </ul>
