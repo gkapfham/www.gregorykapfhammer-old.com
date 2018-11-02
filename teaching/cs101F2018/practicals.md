@@ -21,4 +21,10 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-14.0.0/cs101F2018_practical05.pdf">Practical Assignment Five: Experimentally Evaluating a Repeating Algorithm</a> <p><b>Objective:</b> Run an experiment to compare the performance of repeating methods<br><b>Reading Assignment:</b> Chapter 4, with a focus on Sections 4.1 through 4.3</p>
 
+{% comment %} Skipped this assignment {% endcomment %}
+
+{% comment %} <li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-12.0.1/cs112S2018_practical05.pdf">Practical Assignment Five: Investigating a Logarithmic Growth Rate for Sorting</a> <p><b>Objective:</b> Run an experiment to compare the performance of three sorting methods<br><b>Reading Assignment:</b> Chapter 4, with a focus on Sections 4.1 through 4.3 and Figure 4.4</p> {% endcomment %}
+
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-15.0.1/cs101F2018_practical05.pdf">Practical Assignment Six: Further Experimental Study of Iteration and Recursion</a> <p><b>Objective:</b> Experimentally compare the performance of two arithmetic computations<br><b>Reading Assignment:</b> Chapter 5, with a focus on Sections 5.1 through 5.5</p>
+
 </ul>
