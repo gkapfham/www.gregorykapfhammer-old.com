@@ -23,4 +23,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-10.0.0/cs100F2018_lab06.pdf">Laboratory Assignment Six: Implementing and Evaluating a Bioinformatics Program</a> <p><b>Objective:</b> Use String methods to create interdisciplinary text-based output<br><b>Reading Assignment:</b> Chapters 2 through 4, with a focus on Sections 3.1 through 3.5</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-13.0.0/cs100F2018_lab07.pdf">Laboratory Assignment Seven: Fixing and Extending Computations in Java Classes</a> <p><b>Objective:</b> Participate in a collaborative "bug hunt" to find and fix defects in a Java program<br><b>Reading Assignment:</b> Chapters 3 and 4, with a focus on Sections 3.5 through 3.8</p>
+
 </ul>
