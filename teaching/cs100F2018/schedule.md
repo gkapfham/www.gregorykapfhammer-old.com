@@ -45,6 +45,8 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100F2018/provide/slides/cs100_chapter4.html">Chapter 4: Writing Classes</a>
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100F2018/provide/slides/cs100_chapter5.html">Chapter 5: Conditionals and Loops</a>
 
+</ul>
+
 ### Module Three: Advanced Iteration and Arrays
 
 **Reading Assignments**
@@ -58,7 +60,5 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100F2018/provide/slides/cs100_chapter8.html">Chapter 8: Arrays</a>
 
   {% comment %} <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2017/provide/slides/cs111_advertise112.html">Enroll in CMPSC 112!</a> {% endcomment %}
-
-</ul>
 
 </ul>
