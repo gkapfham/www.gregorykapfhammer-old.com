@@ -25,4 +25,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-13.0.0/cs101F2018_lab07.pdf">Laboratory Assignment Seven: Studying the Performance of Iteration and Recursion</a> <p><b>Objective:</b> Create and use benchmarks to study two problem solving strategies<br><b>Reading Assignment:</b> Chapter 5, with a focus on Code Fragment 5.13</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-18.0.0/cs101F2018_lab08.pdf">Laboratory Assignment Eight: Implementing, Testing, and Studying a Singly Linked List</a> <p><b>Objective:</b> Create, test, and experimentally study a node-based list data structure<br><b>Reading Assignment:</b> Chapter 3, with a focus on Code Fragment 3.2</p>
+
 </ul>
