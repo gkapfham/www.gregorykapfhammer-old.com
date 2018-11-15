@@ -11,7 +11,7 @@ layout: course_item
 
 <ul>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-12.0.1/cs112S2018_lab01.pdf">Laboratory Assignment One: Extending and Testing a Java Program</a> <p><b>Objective:</b> Learn more about GitHub, Gradle, JUnit, and the Java programming language<br><b>Reading Assignment:</b> Chapter 1, with a focus on Code Fragments 1.5, 1.6, and 1.7</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-12.0.1/cs112S2018_lab01.pdf">Laboratory Assignment One: Extending and Testing a Java Program</a> <p><b>Objective:</b> Learn more about GitHub, Gradle, JUnit, and the Java language<br><b>Reading Assignment:</b> Chapter 1, with a focus on Code Fragments 1.5, 1.6, and 1.7</p>
 
 <li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-12.0.1/cs112S2018_lab02.pdf">Laboratory Assignment Two: Developing and Testing a Sentence Reversal Program</a> <p><b>Objective:</b> Learn how to use arrays to perform sentence reversing in Java<br><b>Reading Assignment:</b> Chapter 1, with a focus on Sections 1.3 and 1.9</p>
 
@@ -25,7 +25,7 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-13.0.1/cs112S2018_lab07.pdf">Laboratory Assignment Seven: Studying the Performance of Iteration and Recursion</a> <p><b>Objective:</b> Create and use benchmarks to investigate two problem solving strategies<br><b>Reading Assignment:</b> Chapter 5, with a focus on Code Fragment 5.13</p>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-16.0.1/cs112S2018_lab08.pdf">Laboratory Assignment Eight: Implementing, Testing, and Studying a Singly Linked List</a> <p><b>Objective:</b> Create, test, and experimentally study a node-based list data structure<br><b>Reading Assignment:</b> Chapter 3, with a focus on Code Fragment 3.2</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-16.0.1/cs112S2018_lab08.pdf">Laboratory Assignment Eight: Creating, Testing, and Studying a Singly Linked List</a> <p><b>Objective:</b> Create, test, and experimentally study a node-based list data structure<br><b>Reading Assignment:</b> Chapter 3, with a focus on Code Fragment 3.2</p>
 
 <li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-19.0.2/cs112S2018_lab09.pdf">Laboratory Assignment Nine: Creating and Testing a Full-Featured ArrayList</a> <p><b>Objective:</b> Create, test, and fully understand an array-based list data structure<br><b>Reading Assignment:</b> Chapter 7, with a focus on Sections 7.1 and 7.2</p>
 
