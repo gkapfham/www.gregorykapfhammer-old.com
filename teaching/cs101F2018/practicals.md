@@ -25,6 +25,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-17.0.0/cs101F2018_practical07.pdf">Practical Assignment Seven: Investigating a Logarithmic Growth Rate for Sorting</a> <p><b>Objective:</b> Run an experiment to compare the performance of three sorting methods<br><b>Reading Assignment:</b> Chapter 4, focusing on Sections 4.1 through 4.3 and Figure 4.4</p>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-19.0.0/cs101F2018_practical08.pdf">Practical Assignment Eight: Implementing and Testing a Doubly Linked List</a> <p><b>Objective:</b> Design, implement, and test a flexible node-based data structure<br><b>Reading Assignment:</b> Chapter 3, with a focus on Sections 3.2 through 3.5</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-19.0.1/cs101F2018_practical08.pdf">Practical Assignment Eight: Implementing and Testing a Doubly Linked List</a> <p><b>Objective:</b> Design, implement, and test a flexible node-based data structure<br><b>Reading Assignment:</b> Chapter 3, with a focus on Sections 3.2 through 3.5</p>
 
 </ul>
