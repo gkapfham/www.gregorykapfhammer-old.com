@@ -29,4 +29,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-17.0.0/cs100F2018_lab09.pdf">Laboratory Assignment Nine: Developing and Using a Todo List Manager</a> <p><b>Objective:</b> Create, test, and use a task management system<br><b>Reading Assignment:</b> Chapters 4 and 5, with a focus on Sections 5.1 through 5.6</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-18.0.0/cs100F2018_lab10.pdf">Final Project Assignment: Real-World Applications of Computer Science</a> <p><b>Objective:</b> Propose, conduct, and report on your own software development project<br><b>Reading Assignment:</b> All of the assigned chapters in the course textbook</p>
+
 </ul>
