@@ -15,6 +15,9 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-16.0.4/cs101F2018_studyguide_exam01.pdf">Study Guide Two: Algorithm Analysis and Basic Data Structures
 (Exam)</a> <p>Review the implementation and analysis strategies in Computer Science
-112.</p>
+101.</p>
+
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-20.0.1/cs101F2018_studyguide_quiz02.pdf">Study Guide Three: Implementation and Analysis of List Structures
+(Quiz)</a> <p>Review array-based and list-based data structures in Computer Science 101.</p>
 
 </ul>
