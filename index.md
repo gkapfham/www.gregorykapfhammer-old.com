@@ -8,8 +8,8 @@ categories: [main]
 
 {% describe %}
 Welcome! My name is Gregory M. Kapfhammer. Innovating in technical areas such as
-software engineering, software testing, and data science, I
-[teach]({{site.baseurl}}teaching/) courses, conduct
+software engineering, software testing, and data science, I teach
+[courses]({{site.baseurl}}teaching/), conduct
 [research]({{site.baseurl}}research/), write
 [papers]({{site.baseurl}}research/papers/) and a [blog]({{site.baseurl}}blog/),
 give [presentations]({{site.baseurl}}research/presentations/), create
@@ -18,8 +18,8 @@ organizations. I am an Associate Professor in and Chair of the [Department of
 Computer Science](http://www.cs.allegheny.edu) at [Allegheny
 College](http://www.allegheny.edu). You can learn more about me by reading my
 [biography]({{site.baseurl}}biography/). If you
-[subscribe]({{site.baseurl}}support/) to my mailing list I will send you
-status updates about my current projects.
+[subscribe]({{site.baseurl}}support/) to my mailing list I will send you status
+updates about my current projects.
 {% enddescribe %}
 
 ## SEED Survey
