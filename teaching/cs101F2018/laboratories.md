@@ -27,4 +27,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-18.0.0/cs101F2018_lab08.pdf">Laboratory Assignment Eight: Creating, Testing, and Studying a Singly Linked List</a> <p><b>Objective:</b> Create, test, and experimentally study a node-based list data structure<br><b>Reading Assignment:</b> Chapter 3, with a focus on Code Fragment 3.2</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-sheets/releases/download/cs101F2018_sheets-21.0.0/cs101F2018_lab10.pdf">Final Project Assignment: Real-World Applications of Computer Science</a> <p><b>Objective:</b> Propose, conduct, and report on your own software development project<br><b>Reading Assignment:</b> All of the assigned chapters in the course textbook</p>
+
 </ul>
