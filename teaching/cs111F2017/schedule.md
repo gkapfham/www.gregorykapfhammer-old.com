@@ -63,8 +63,7 @@ layout: course_item
 **Reading Assignments**
 
 - <em>Java Software Solutions</em>, Lewis and Loftus, Chapter 11
-
-{% comment %} - <em>Java Software Solutions</em>, Lewis and Loftus, Chapter 12 {% endcomment %}
+- <em>Java Software Solutions</em>, Lewis and Loftus, Chapter 12
 
 <ul>
 
