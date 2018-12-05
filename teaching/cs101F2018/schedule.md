@@ -19,7 +19,7 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_whystudycomputerscience.html">Why Study Computer Science?</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_whystudycomputerscience.html">Why Study Computer Science?</a>
 
 <li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter1.html">Chapter 1: Review of Computational Constructs</a>
 
