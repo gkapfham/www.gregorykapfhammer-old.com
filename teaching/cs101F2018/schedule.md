@@ -19,13 +19,13 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_whystudycomputerscience.html">Why Study Computer Science?</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_whystudycomputerscience.html">Why Study Computer Science?</a>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter1.html">Chapter 1: Review of Computational Constructs</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter1.html">Chapter 1: Review of Computational Constructs</a>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter1_sd.html">Chapter 1: Software Engineering Strategies</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter1_sd.html">Chapter 1: Software Engineering Strategies</a>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter2.html">Chapter 2: Object-Oriented Design</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter2.html">Chapter 2: Object-Oriented Design</a>
 
 </ul>
 
@@ -40,7 +40,7 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter3.html">Chapter 3: Arrays</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter3.html">Chapter 3: Arrays</a>
 
 </ul>
 
@@ -55,8 +55,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter4.html">Chapter 4: Algorithm Analysis</a>
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter5.html">Chapter 5: Recursion</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter4.html">Chapter 4: Algorithm Analysis</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter5.html">Chapter 5: Recursion</a>
 
 </ul>
 
@@ -70,7 +70,24 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter3_ll.html">Chapter 3: Linked Lists</a>
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter7.html">Chapter 7: Lists and Iterators</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter3_ll.html">Chapter 3: Linked Lists</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter7.html">Chapter 7: Lists and Iterators</a>
+
+</ul>
+
+### Module Five: Trees and HashMaps
+
+**Reading Assignments**
+
+- <em>Data Structures and Algorithms in Java</em>, Goodrich, Tamassia, and Goldwasser
+    - Sections 8.1 - 8.4
+    - Sections 10.1 - 10.2
+
+**Discussion and Review Slides**
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter8.html">Chapter 8: Trees</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter10.html">Chapter 10: HashMaps</a>
 
 </ul>
