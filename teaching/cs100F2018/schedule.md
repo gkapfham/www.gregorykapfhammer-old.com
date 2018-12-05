@@ -59,6 +59,18 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100F2018/provide/slides/cs100_chapter6.html">Chapter 6: More Conditionals and Loops</a>
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100F2018/provide/slides/cs100_chapter8.html">Chapter 8: Arrays</a>
 
-  {% comment %} <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs111F2017/provide/slides/cs111_advertise112.html">Enroll in CMPSC 112!</a> {% endcomment %}
+</ul>
+
+### Module Four: Advanced Topics in Programming
+
+**Reading Assignments**
+
+- <em>Java Software Solutions</em>, Lewis and Loftus, Chapter 11
+
+{% comment %} - <em>Java Software Solutions</em>, Lewis and Loftus, Chapter 12 {% endcomment %}
+
+<ul>
+
+  <li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs100F2018/provide/slides/cs100_chapter11.html">Chapter 11: Exceptions</a>
 
 </ul>
