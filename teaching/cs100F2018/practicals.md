@@ -25,4 +25,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs101F2018_sheets-20.0.0/cs100F2018_practical07.pdf">Practical Assignment Seven: Implementing and Evaluating a Password Checker</a> <p><b>Objective:</b> Implement a program that uses conditional logic and iteration<br><b>Reading Assignment:</b> Sections 5.1 and 5.8, with a focus on while loops and conditional logic</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-20.0.0/cs100F2018_practical08.pdf">Practical Assignment Eight: Displaying Symbols in Geometric Shapes</a> <p><b>Objective:</b> Implement a Java program that uses iteration to display shapes<br><b>Reading Assignment:</b> Sections 6.1 and 6.4, with a focus on for loops and iteration</p>
+
 </ul>
