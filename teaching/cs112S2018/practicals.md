@@ -23,6 +23,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-17.0.3/cs112S2018_practical07.pdf">Practical Assignment Seven: Implementing and Testing a Doubly Linked List</a> <p><b>Objective:</b> Design, implement, and test a flexible node-based data structure<br><b>Reading Assignment:</b> Chapter 3, with a focus on Sections 3.2 through 3.5</p>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-21.0.0/cs112S2018_practical08.pdf">Practical Assignment Eight: Combining the Tree and HashMap Data Structures</a> <p><b>Objective:</b> Execute, study, understand, and enhance a word counting program<br><b>Reading Assignment:</b> Chapters 8 and 10, with a focus on Sections 10.1</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-112-S2018/cs112-S2018-sheets/releases/download/cs112S2018_all_sheets-21.0.0/cs112S2018_practical08.pdf">Practical Assignment Eight: Combining the Tree and HashMap Data Structures</a> <p><b>Objective:</b> Execute, study, understand, and enhance a word counting program<br><b>Reading Assignment:</b> Chapters 8 and 10, with a focus on Section 10.1</p>
 
 </ul>
