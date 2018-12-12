@@ -20,4 +20,8 @@ the first examination in Computer Science 100.</p>
 Three: Iteration Constructs and Arrays (Quiz)</a> <p>Review the content about iteration and arrays
 for the second quiz in Computer Science 100.</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-21.2.0/cs100F2018_studyguide_exam02.pdf">Study Guide
+Four: Problem Solving with the Java Programming Language (Examination)</a> <p>Review all course content for
+the final examination in Computer Science 100.</p>
+
 </ul>
