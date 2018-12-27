@@ -78,15 +78,15 @@ your own professional development.
 to commit themselves to uncompromising excellence in all aspects of personal and
 professional development.
 
-**Principle 3 (Relentless Effort)**: Unless the opportunity cost of further
+<b>Principle 3 (Relentless Effort)></b>: Unless the opportunity cost of further
 effort is prohibitively high, work hard towards the accomplishment of the goals
 you set &mdash; and help others to do the same.
 
-**Principle 4 (Realistic Expectations)**: Recognize that all people, including
-yourself, have fundamental strengths and weaknesses.  Identify the strengths in
-your own life and the lives of others and plan activities so as to maximize the
-positive impact on the community.
+<b>Principle 4 (Realistic Expectations)</b>: Recognize that all people,
+including yourself, have fundamental strengths and weaknesses. Identify the
+strengths in your own life and the lives of others and plan activities so as to
+maximize the positive impact on the community.
 
-**Principle 5 (Contagious Joy)**: Pursue everything with passion and enthusiasm.
-Take advantage of every opportunity to encourage your students and colleagues.
-Always end a conversation or a meeting with a positive remark.
+<b>Principle 5 (Contagious Joy)</b>: Pursue everything with passion and
+enthusiasm. Take advantage of every opportunity to encourage your students and
+colleagues. Always end a conversation or a meeting with a positive remark.
