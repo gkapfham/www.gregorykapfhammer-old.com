@@ -47,12 +47,12 @@ open-source [software]({{site.baseurl}}software/), and valued
 [service]({{site.baseurl}}service/) to a variety of organizations.
 
 <p>
-The paper {% include_cached _popovers/paper_reference.html
-cite="Kapfhammer2003" %} was selected to receive the ACM SIGSOFT Distinguished
-Paper Award at the <a href="http://esecfse.cs.helsinki.fi/">2003 ACM SIGSOFT
-Foundations of Software Engineering Conference (ESEC/FSE 2003)</a>. Gregory
-Kapfhammer's paper {% include_cached _popovers/paper_reference.html
-cite="Conrad2010a" %} was also recognized as the best paper in the <a
+The paper {% include_cached _popovers/paper_reference.html cite="Kapfhammer2003"
+%} was selected to receive the ACM SIGSOFT Distinguished Paper Award at the <a
+href="http://esecfse.cs.helsinki.fi/">2003 ACM SIGSOFT Foundations of Software
+Engineering Conference (ESEC/FSE 2003)</a>. Gregory Kapfhammer's paper {%
+include_cached _popovers/paper_reference.html cite="Conrad2010a" %} was also
+recognized as the best paper in the <a
 href="http://www.sigevo.org/gecco-2010/organizers-tracks.html#sbse">Search-Based
 Software Engineering Track</a> of the <a
 href="http://www.sigevo.org/gecco-2010/">2010 ACM SIGEVO Genetic and
@@ -62,13 +62,13 @@ cite="Kapfhammer2016" %} won the best presentation award at the <a
 href="https://cse.sc.edu/~ggay/sbst2016/">2016 International Workshop on
 Search-Based Software Testing</a>. Kapfhammer publishes papers, such as {%
 include_cached _popovers/paper_reference.html cite="Alsharif2018" %} and {%
-include_cached _popovers/paper_reference.html cite="McMinn2018" %}, at venues
-such as the International Conference on Software Testing, Verification and
-Validation and Transactions on Software Engineering. He frequently serves the
-research community as a reviewer for conferences and journals, technical program
-committee member, program co-chair for workshops and conferences, workshop
-co-chair and program co-chair, and review panelist at the U.S. National Science
-Foundation.
+include_cached _popovers/paper_reference.html cite="McMinn2018" trailing="," %}
+at venues such as the International Conference on Software Testing, Verification
+and Validation and Transactions on Software Engineering. He frequently serves
+the research community as a reviewer for conferences and journals, technical
+program committee member, program co-chair for workshops and conferences,
+workshop co-chair and program co-chair, and review panelist at the U.S. National
+Science Foundation.
 </p>
 
 As an outworking of his Christian faith, Gregory Kapfhammer's endeavors are
@@ -83,7 +83,7 @@ your own professional development.
 to commit themselves to uncompromising excellence in all aspects of personal and
 professional development.
 
-<b>Principle 3 (Relentless Effort)></b>: Unless the opportunity cost of further
+<b>Principle 3 (Relentless Effort)</b>: Unless the opportunity cost of further
 effort is prohibitively high, work hard towards the accomplishment of the goals
 you set &mdash; and help others to do the same.
 
