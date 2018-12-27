@@ -89,7 +89,7 @@ Conference </div>
 <br> Reviewer (One time)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2018 IET Software Journal </div>
-<br> Reviewer (One time)
+<br> Reviewer (Two times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2017 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 Transactions on Services Computing </div>
 <br> Reviewer (Two times)
@@ -121,8 +121,8 @@ Conference </div>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2015 Journal of Systems and Software </div>
 <br> Reviewer (Ten times)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2017 Software Quality Journal </div>
-<br> Reviewer (Thirteen times)
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 Software Quality Journal </div>
+<br> Reviewer (Fourteen times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2017 Information and Software Technology Journal </div>
 <br> Reviewer (Nine times)
@@ -140,7 +140,7 @@ Conference </div>
 <br> Reviewer (One time)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2006 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 Transactions on Software Engineering </div>
-<br> Reviewer (Thirty-one times)
+<br> Reviewer (Thirty-two times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2004 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2015 Transactions on Software Engineering and Methodology </div>
 <br> Reviewer (Six times)
