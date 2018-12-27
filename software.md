@@ -230,6 +230,8 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/tmuxinators">tm
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/education/classroom/issues/1117">education/classroom  #1117</a>: Internal Server Error 500 When Accessing ...</li>
 
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/education/classroom/issues/1543">education/classroom  #1543</a>: Students suddenly cannot import repo ...</li>
+
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/junegunn/fzf/issues/712">junegunn/fzf Issue #712</a>: Setting foreground without background</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/kshenoy/vim-signature/issues/164">kshenoy/vim-signature Issue #164</a>: Special characters for markers?</li>
@@ -257,6 +259,8 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/tmuxinators">tm
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/neovim/neovim/issues/6204">neovim/neovim Issue #6204</a>: Using FZF turns off relativenumber</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/neovim/neovim/issues/8775">neovim/neovim Issue #8775</a>: Version 0.3.2 interface deranged</li>
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/pypa/pipenv/issues/3247">pypa/pipenv Issue #3247</a>: pipenv --three fails</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/Shougo/deoplete.nvim/issues/500">Shougo/deoplete.nvim #500</a>: nvim source deoplete/util.vim slow</li>
 
