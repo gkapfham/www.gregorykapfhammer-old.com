@@ -1,3 +1,18 @@
+GIT
+  remote: git://github.com/Shopify/liquid-c.git
+  revision: 0a7afdc5d192666ad855dbc35efc58482806adc6
+  branch: master
+  specs:
+    liquid-c (4.0.0)
+      liquid (>= 3.0.0)
+
+GIT
+  remote: git://github.com/Shopify/liquid.git
+  revision: 2b3c81cfd05ef23869d88cde03faafa1d393ac5b
+  branch: master
+  specs:
+    liquid (4.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -59,7 +74,6 @@ GEM
       listen (~> 3.0)
     kramdown (1.17.0)
     latex-decode (0.3.1)
-    liquid (4.0.1)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -95,6 +109,8 @@ DEPENDENCIES
   jekyll-scholar
   jekyll-seo-tag
   jekyll-sitemap
+  liquid!
+  liquid-c!
   rdiscount
   unicode
 
