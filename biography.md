@@ -33,8 +33,8 @@ As an educator, Gregory Kapfhammer develops and teaches
 software testing, web development, data management, mobile app design, operating
 systems, and distributed systems. He is also a research adviser for
 undergraduate and graduate theses. Kapfhammer's expertise in teaching was
-recently recognized when Allegheny College presented him with the [Thoburn Award
-for Excellence in
+recognized when Allegheny College presented him with the [Thoburn Award for
+Excellence in
 Teaching](https://sites.allegheny.edu/alumni/award-recipients/#thoburn). As an
 experimental computer scientist, Gregory Kapfhammer conducts
 [research]({{site.baseurl}}research/) in the areas of software engineering,
