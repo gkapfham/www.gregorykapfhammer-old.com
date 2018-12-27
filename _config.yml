@@ -31,6 +31,6 @@ permalink: pretty
 # The code should not have any highlighting
 highlighter: none
 # Load the plugins
-plugins: ['jekyll/scholar', 'jekyll-sitemap', 'jekyll-seo-tag']
+plugins: ['jekyll/scholar', 'jekyll-sitemap', 'jekyll-seo-tag', 'liquid/c']
 # Exclude many files not needed in the site
 exclude: ['.htaccess', '.gitignore', '.gitmodules', 'Gemfile', 'Gemfile.lock', 'package.json', 'gulpfile.js', 'postcss.config.js', 'Gruntfile.js', 'node_modules', 'scss', 'tags', 'tags.temp', 'tags.lock', 'README.md', '*.tex', '*.sty', '*.aux', '*.dvi', '*.fls', '*.lof', '*.log', '*.lot', '*.out', '*.toc', '*.fdb_latexmk', '*.synctex.gz', '*.pdfsync', '*.ods', '**/**/**/exams', '**/**/**/logos', '**/**/**/figures', '**/**/**/code', '**/**/**/teams', '**/**/**/**/package.json', '**/**/**/**/Gruntfile.js', '**/**/**/**/README.md', '**/**/**/README.md']
