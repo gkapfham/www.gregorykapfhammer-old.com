@@ -21,8 +21,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs203S2019/provide/slides/cs280_introduction.html">Introduction to Software Engineering</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2019/provide/slides/cs203_introduction.html">Introduction to Software Engineering</a>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs203S2019/provide/slides/cs280_lessons_from_google.html">Lessons from Google &mdash; And Each Other!</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2019/provide/slides/cs203_lessons_from_google.html">Lessons from Google &mdash; And Each Other!</a>
 
 </ul>
