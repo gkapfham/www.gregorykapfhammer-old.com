@@ -106,3 +106,6 @@
 [submodule "teaching/cs101F2018/provide/slides"]
 	path = teaching/cs101F2018/provide/slides
 	url = https://github.com/Allegheny-Computer-Science-101-F2018/cs101-F2018-slides.git
+[submodule "teaching/cs302S2019/provide/slides"]
+	path = teaching/cs302S2019/provide/slides
+	url = https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-slides.git
