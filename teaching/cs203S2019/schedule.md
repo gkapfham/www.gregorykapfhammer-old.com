@@ -13,7 +13,7 @@ layout: course_item
 
 - <em>Cooperative Software Design</em>, Chapters 1 - 3
 - <em>Philosophy of Software Design</em>, Chapters 1 - 3
-- <em>Think Python</em>, Chapters 1 - 3
+- <em>Think Python</em>, Chapters 1 - 2
 - <em>Exercises in Programming Style</em>, Prologue, Preface, Chapters 1 - 4
 - <em>Python Testing with Pytest</em>, Preface, Chapters 1 - 2
 
