@@ -23,4 +23,4 @@ layout: course_item
 * Git Commit Messages
     * [The Art of the Commit](https://alistapart.com/article/the-art-of-the-commit), David Demaree
     * [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/), Chris Beams
-    * [Useful Tips for writing better Git commit messages](https://www.giftegwuenu.com/useful-tips-for-writing-better-git-commit-messages/), Gift Egwuenu
+    * [Useful Tips for Writing Better Git Commit Messages](https://www.giftegwuenu.com/useful-tips-for-writing-better-git-commit-messages/), Gift Egwuenu
