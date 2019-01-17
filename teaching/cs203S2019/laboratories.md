@@ -1,5 +1,5 @@
 ---
-title: Laboratory Assignments
+title: Software Projects
 subtitle: Computer Science 203, Spring 2019
 layout: course_item
 ---
