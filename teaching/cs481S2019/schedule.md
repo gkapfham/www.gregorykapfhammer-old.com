@@ -11,9 +11,19 @@ layout: course_item
 
 **Reading Assignments**
 
-- [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html), Scott Chacon
+- GitHub Flow
 
-- [Understanding GitHub Flow](https://guides.github.com/introduction/flow/), GitHub
+* [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html), Scott Chacon
 
-- [How to Boost Productivity by Using GitHub for Project
+* [Understanding GitHub Flow](https://guides.github.com/introduction/flow/), GitHub
+
+* [How to Boost Productivity by Using GitHub for Project
 Management](https://everhour.com/blog/project-management-using-github/), Evenhour
+
+- Git Commit Messages
+
+* [The Art of the Commit](https://alistapart.com/article/the-art-of-the-commit), David Demaree
+
+* [A Note About Git Commit Messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html), Tim Pope
+
+* [How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/), Chris Beams
