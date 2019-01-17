@@ -18,6 +18,8 @@ layout: course_item
     Management](https://everhour.com/blog/project-management-using-github/),
     Evenhour
 
+<br>
+
 * Git Commit Messages
     * [The Art of the Commit](https://alistapart.com/article/the-art-of-the-commit), David Demaree
     * [A Note About Git Commit Messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html), Tim Pope
