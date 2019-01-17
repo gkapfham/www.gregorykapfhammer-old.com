@@ -7,8 +7,13 @@ layout: course_item
 # {{page.title}}
 ## {{page.subtitle}}
 
-### Module One: Team-Based Software Development
+### Module One: Team-Based Software Development with GitHub
 
 **Reading Assignments**
 
-**Discussion and Review Slides**
+- [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html), Scott Chacon
+
+- [Understanding GitHub Flow](https://guides.github.com/introduction/flow/), GitHub
+
+- [How to Boost Productivity by Using GitHub for Project
+Management](https://everhour.com/blog/project-management-using-github/), Evenhour
