@@ -1,6 +1,6 @@
 ---
-title: Laboratory Assignments
-subtitle: Computer Science 481, Spring 2018
+title: Software Projects
+subtitle: Computer Science 481, Spring 2019
 layout: course_item
 ---
 
