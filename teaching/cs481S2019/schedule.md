@@ -18,7 +18,7 @@ layout: course_item
     Management](https://everhour.com/blog/project-management-using-github/),
     Evenhour
 
-<br>
+<p>
 
 * Git Commit Messages
     * [The Art of the Commit](https://alistapart.com/article/the-art-of-the-commit), David Demaree
