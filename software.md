@@ -20,6 +20,9 @@ Extensible framework for the search-based alternating variable method</li>
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/kinneerc/ExpOse/">expose</a>:
 Doubling experiments to infer actual-worst-case time complexity</li>
 
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/kanonizo/kanonizo">kanonizo</a>:
+Automated test suite prioritization for JUnit</li>
+
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="http://www.mutation-testing.org/">major</a>: Easy and
 scalable mutation testing for the Java programming language</li>
 
@@ -27,10 +30,13 @@ scalable mutation testing for the Java programming language</li>
 Retrospectively study mutation testing techniques</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener"
-href="https://github.com/redecheck/redecheck-tool">redecheck</a>: Automated checking of responsively designed web sites</li>
+href="https://github.com/redecheck/redecheck-tool">redecheck</a>: Automated checking of responsively designed web pages</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener"
 href="https://github.com/schemaanalyst-team/schemaanalyst">schemaanalyst</a>: Data generation and mutation analysis for database schemas</li>
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener"
+href="https://github.com/redecheck/viser">viser</a>: Automated verification of responsive layout failure reports</li>
 
 </ul>
 
