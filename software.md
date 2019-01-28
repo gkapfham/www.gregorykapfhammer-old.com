@@ -232,6 +232,8 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/tmuxinators">tm
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/education/classroom/issues/1543">education/classroom  #1543</a>: Students suddenly cannot import repo ...</li>
 
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/git-lfs/git-lfs/issues/3474">git-lfs/git-lfs #3474</a>: Installation in ubuntu is not working</li>
+
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/junegunn/fzf/issues/712">junegunn/fzf Issue #712</a>: Setting foreground without background</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/kshenoy/vim-signature/issues/164">kshenoy/vim-signature Issue #164</a>: Special characters for markers?</li>
