@@ -21,13 +21,13 @@ Extensible framework for the search-based alternating variable method</li>
 Doubling experiments to infer actual-worst-case time complexity</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/kanonizo/kanonizo">kanonizo</a>:
-Automated test suite prioritization for JUnit</li>
+Effective automated regression test suite prioritization for JUnit</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="http://www.mutation-testing.org/">major</a>: Easy and
 scalable mutation testing for the Java programming language</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/mccurdyc/mrstudyr">mrstudyr</a>:
-Retrospectively study mutation testing techniques</li>
+Retrospectively study effectiveness of mutation testing techniques</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener"
 href="https://github.com/redecheck/redecheck-tool">redecheck</a>: Automated checking of responsively designed web pages</li>
