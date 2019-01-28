@@ -36,7 +36,7 @@ href="https://github.com/redecheck/redecheck-tool">redecheck</a>: Automated chec
 href="https://github.com/schemaanalyst-team/schemaanalyst">schemaanalyst</a>: Data generation and mutation analysis for database schemas</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener"
-href="https://github.com/redecheck/viser">viser</a>: Automated verification of responsive layout failure reports</li>
+href="https://github.com/redecheck/viser">viser</a>: Automated visual verification of responsive layout failure reports</li>
 
 </ul>
 
