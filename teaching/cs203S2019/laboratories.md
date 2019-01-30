@@ -8,3 +8,9 @@ layout: course_item
 ## {{page.subtitle}}
 
 {% comment %} Note: each laboratory assignment should have an objective and a reading assignment {% endcomment %}
+
+<ul>
+
+<li><a href="https://github.com/Allegheny-Computer-Science-203-S2019/cs203-S2019-sheets/releases/download/cs203S2019_sheets-2.0.0/cs203S2019_lab01.pdf">Assignment One: Creating Guidelines for Cooperative Software Engineering</a> <p><b>Objective:</b> Cooperatively develop guidelines for team-based software engineering with Python<br><b>Reading Assignment:</b> Chapters 1 through 3 of CSD and PSD.</p>
+
+</ul>
