@@ -40,10 +40,10 @@ layout: course_item
 
 <ul>
 
-<li> <a target="blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter3.html">Introduction to HTML</a>
+<li> <a target="blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter3.html">Introduction to HTML</a>
 
-<li> <a target="blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter4.html">Introduction to CSS</a>
+<li> <a target="blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter4.html">Introduction to CSS</a>
 
-<li> <a target="blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter5.html">HTML Tables and Forms</a>
+<li> <a target="blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter5.html">HTML Tables and Forms</a>
 
 </ul>
