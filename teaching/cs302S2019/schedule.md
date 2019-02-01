@@ -27,3 +27,23 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter2.html">How the Web Works</a>
 
 </ul>
+
+### Module Two: HTML and CSS
+
+**Reading Assignments**
+
+- Chapter 3: Introduction to HTML
+- Chapter 4: Introduction to CSS
+- Chapter 5: HTML Tables and Forms
+
+**Discussion and Review Slides**
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter3.html">Introduction to HTML</a>
+
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter4.html">Introduction to CSS</a>
+
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter5.html">HTML Tables and Forms</a>
+
+</ul>
