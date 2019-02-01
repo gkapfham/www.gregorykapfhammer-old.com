@@ -18,13 +18,13 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_whystudycomputerscience.html">Why Study Computer Science?</a>
+<li> <a target="blank" rel="noopener" href = "{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_whystudycomputerscience.html">Why Study Computer Science?</a>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_introduction.html">Introduction to the Course</a>
+<li> <a target="blank" rel="noopener" href = "{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_introduction.html">Introduction to the Course</a>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter1.html">Introduction to Web Development</a>
+<li> <a target="blank" rel="noopener" href = "{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter1.html">Introduction to Web Development</a>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter2.html">How the Web Works</a>
+<li> <a target="blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter2.html">How the Web Works</a>
 
 </ul>
 
@@ -40,10 +40,10 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter3.html">Introduction to HTML</a>
+<li> <a target="blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter3.html">Introduction to HTML</a>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter4.html">Introduction to CSS</a>
+<li> <a target="blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter4.html">Introduction to CSS</a>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter5.html">HTML Tables and Forms</a>
+<li> <a target="blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter5.html">HTML Tables and Forms</a>
 
 </ul>
