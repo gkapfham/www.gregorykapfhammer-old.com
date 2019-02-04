@@ -13,4 +13,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs302S2019_sheets-2.0.0/cs302S2019_lab01.pdf">Laboratory Assignment One: Developing and Styling a Static Web Site</a> <p><b>Objective:</b> Use Markdown and cascading style sheets to create a web site<br><b>Reading Assignment:</b> Chapters 1 and 2, with a focus on Sections 2.3 through 2.6</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs203S2019_sheets-3.0.1/cs302S2019_lab02.pdf">Laboratory Assignment Two: Implementing and Checking a Static Web Site</a> <p><b>Objective:</b> Use HTML tags and a linting tool to create and check a web site<br><b>Reading Assignment:</b> Chapter 3, with a focus on Section 3.5 and Figure 3.9</p>
+
 </ul>
