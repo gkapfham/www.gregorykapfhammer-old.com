@@ -15,6 +15,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs203S2019_sheets-3.0.1/cs302S2019_lab02.pdf">Laboratory Assignment Two: Implementing and Checking a Static Web Site</a> <p><b>Objective:</b> Use HTML tags and a linting tool to create and check a web site<br><b>Reading Assignment:</b> Chapter 3, with a focus on Section 3.5 and Figure 3.9</p>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs302S2019_sheets-5.0.0/cs302S2019_lab03.pdf">Laboratory Assignment Four: Implementing a Web Site with Local Resources</a> <p><b>Objective:</b> Use HTML tags, CSS files, and an image to create a web site<br><b>Reading Assignment:</b> Chapter 3, with a focus on Section 3.5 and Figure 3.16</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs302S2019_sheets-5.0.0/cs302S2019_lab03.pdf">Laboratory Assignment Three: Implementing a Web Site with Local Resources</a> <p><b>Objective:</b> Use HTML tags, CSS files, and an image to create a web site<br><b>Reading Assignment:</b> Chapter 3, with a focus on Section 3.5 and Figure 3.16</p>
 
 </ul>
