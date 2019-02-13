@@ -145,7 +145,7 @@ ICST 2018 paper</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
 target="_blank" rel="noopener" href="https://github.com/schemaanalyst/imdetect-replicate">imdetect-replicate</a>: Data and analysis code for the
-TSE 2018 paper</li>
+TSE 2019 paper</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
 target="_blank" rel="noopener" href="https://github.com/gkapfham/vmutation-replicate">vmutation-replicate</a>: Data and analysis code for the
