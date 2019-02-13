@@ -29,14 +29,11 @@ scalable mutation testing for the Java programming language</li>
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/mccurdyc/mrstudyr">mrstudyr</a>:
 Retrospectively study effectiveness of mutation testing techniques</li>
 
-<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener"
-href="https://github.com/redecheck/redecheck-tool">redecheck</a>: Automated checking of responsively designed web pages</li>
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/redecheck/redecheck-tool">redecheck</a>: Automated checking of responsively designed web pages</li>
 
-<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener"
-href="https://github.com/schemaanalyst-team/schemaanalyst">schemaanalyst</a>: Data generation and mutation analysis for database schemas</li>
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/schemaanalyst-team/schemaanalyst">schemaanalyst</a>: Data generation and mutation analysis for database schemas</li>
 
-<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener"
-href="https://github.com/redecheck/viser">viser</a>: Automated visual verification of responsive layout failure reports</li>
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/redecheck/viser">viser</a>: Automated visual verification of responsive layout failure reports</li>
 
 </ul>
 
@@ -160,14 +157,13 @@ AST 2016 paper</li>
 
 <ul class="fa-ul">
 
-<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/gkapfham/gatorgrader">gatorgrader</a>:
-Automated grading for source code and writing</li>
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgrader">gatorgrader</a>: Automated grading for source code and writing</li>
 
-<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorGrouper/gatorgrouper">gatorgrouper</a>:
-Group formation tool for team-based courses</li>
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgrouper">gatorgrouper</a>: Group formation tool for team-based courses</li>
 
-<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/gkapfham/seed">seed</a>:
-Analyzer and displayer of responses to the SEED survey</li>
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgradle">gatorgradle</a>: Gradle plugin for the GatorGrader tool</li>
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/gkapfham/seed">seed</a>: Analyzer and displayer of responses to the SEED survey</li>
 
 </ul>
 
