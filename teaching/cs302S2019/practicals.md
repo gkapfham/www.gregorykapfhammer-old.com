@@ -15,4 +15,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs302S2019_sheets-4.0.1/cs302S2019_practical03.pdf">Practical Assignment Three: Creating a Web Site with Links and Lists</a> <p><b>Objective:</b> Practice creating a web site that contains several lists of links<br><b>Reading Assignment:</b> Chapter 3, with a focus on Section 3.5 and Listing 3.2</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs302S2019_sheets-6.0.0/cs302S2019_practical04.pdf">Practical Assignment Four: Using HTML and CSS to Create a Biography Site</a> <p><b>Objective:</b> Practice using HTML and CSS to create a site with styled content<br><b>Reading Assignment:</b> Chapter 4, with a focus on Sections 4.1 through 4.7</p>
+
 </ul>
