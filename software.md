@@ -157,7 +157,7 @@ AST 2016 paper</li>
 
 <ul class="fa-ul">
 
-<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgrader">gatorgrader</a>: Automated grading for source code and writing</li>
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgrader">gatorgrader</a>: Automated assessment for source code and writing</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgrouper">gatorgrouper</a>: Group formation tool for team-based courses</li>
 
