@@ -63,13 +63,14 @@ update or release {% endcomment %}
 
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
-href="https://github.com/redecheck/redecheck-tool">ReDeCheck: Automated checking of responsively designed web sites</a></li>
-Updated May 2017
+href="https://github.com/GatorEducator/gatorgrader">Gatorgrader: Automated assessment for source code and writing</a></li>
+Updated February 2019
 </ul>
 
 ## Latest Post
 
-{% comment %} Find the most recent blog post and provide a link to it, giving the date on which it was written {% endcomment %}
+{% comment %} Find the most recent blog post and provide a link to it, giving
+the date on which it was written {% endcomment %}
 
 <ul class="fa-ul">
 {% for post in site.posts limit:1 %}
@@ -84,7 +85,9 @@ Updated May 2017
 {% comment %} Display the featured course site by iterating through the sites
 and finding the featured one {% endcomment %}
 
-{% comment %} Only generate the list of courses when requested or for a production build {% endcomment %}
+{% comment %} Only generate the list of courses when requested or for a
+production build {% endcomment %}
+
 {% if jekyll.environment == 'production' or jekyll.environment == 'courses' %}
 
 <ul class="fa-ul">
