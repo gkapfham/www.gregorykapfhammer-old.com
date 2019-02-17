@@ -36,7 +36,9 @@ your expertise with educators and students!</a></li> Enhanced July 2018 </ul>
 {% comment %} Display the paper that would display first on the research papers
 page (must use a different template) {% endcomment %}
 
-{% comment %} Only generate the list of papers when requested or for a production build {% endcomment %}
+{% comment %} Only generate the list of papers when requested or for a
+production build {% endcomment %}
+
 {% if jekyll.environment == 'production' or jekyll.environment == 'papers' %}
 
 {% bibliography --template bibliography_entry_forward --group_by none --max 1 %}
@@ -45,7 +47,9 @@ page (must use a different template) {% endcomment %}
 
 ## Recent Talk
 
-{% comment %} Only generate the list of papers when requested or for a production build {% endcomment %}
+{% comment %} Only generate the list of papers when requested or for a
+production build {% endcomment %}
+
 {% if jekyll.environment == 'production' or jekyll.environment == 'talks' %}
 
 {% bibliography --template bibliography_entry_forward --query @misc[keywords!=supervised] --group_by none --max 1 %}
