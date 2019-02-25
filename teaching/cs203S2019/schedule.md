@@ -60,4 +60,6 @@ layout: course_item
 
 <li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2019/provide/slides/cs203_cooperative_ch4to7.html">Cooperative Software Design, Chapters 4 through 7</a>
 
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2019/provide/slides/cs203_philosophy_ch4to6.html">Philosophy of Software Design, Chapters 4 through 6</a>
+
 </ul>
