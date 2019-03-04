@@ -59,8 +59,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter6.html">Web Media</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter6.html">Web Media</a>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter7.html">Advanced CSS: Layout</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter7.html">Advanced CSS: Layout</a>
 
 </ul>
