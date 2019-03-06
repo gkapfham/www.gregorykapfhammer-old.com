@@ -42,6 +42,8 @@ layout: course_item
 
 <li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2019/provide/slides/cs203_programmingstyle_ch1to4.html">Exercises in Programming Style, Chapters 1 through 4</a>
 
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2019/provide/slides/cs203_pytest_ch1to2.html">Python Testing with Pytest, Chapters 1 through 2</a>
+
 </ul>
 
 ### Module Two: Requirements Engineering and Software Design
@@ -51,7 +53,7 @@ layout: course_item
 - <em>Cooperative Software Design</em>, Chapters 4 - 7
 - <em>Philosophy of Software Design</em>, Chapters 4 - 6
 - <em>Think Python</em>, Chapters 5 - 8
-- <em>Exercises in Programming Style</em>, Chapters 5, 7, 8, and 10 - 15
+- <em>Exercises in Programming Style</em>, Chapters 5, 7, 8, and 10 - 15 (focus on 5 and 10)
 - <em>Python Testing with Pytest</em>, Chapters 3 - 4
 
 **Discussion and Review Slides**
