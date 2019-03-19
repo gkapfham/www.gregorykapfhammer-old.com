@@ -73,7 +73,7 @@ assessment through mutation analysis. Considering both programs and relational
 database schemas, some examples of papers {% include
 _popovers/paper_reference.html cite="Just2012b" trailing="," %} {% include_cached
 _popovers/paper_reference.html cite="Wright2014" trailing="," %} and {% include_cached
-_popovers/paper_reference.html cite="McMinn2018" trailing="." %}
+_popovers/paper_reference.html cite="McMinn2019" trailing="." %}
 </li>
 <p>
 

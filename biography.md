@@ -62,7 +62,7 @@ cite="Kapfhammer2016" %} won the best presentation award at the <a
 href="https://cse.sc.edu/~ggay/sbst2016/">2016 International Workshop on
 Search-Based Software Testing</a>. Kapfhammer publishes papers, such as {%
 include_cached _popovers/paper_reference.html cite="Alsharif2018" %} and {%
-include_cached _popovers/paper_reference.html cite="McMinn2018" trailing="," %}
+include_cached _popovers/paper_reference.html cite="McMinn2019" trailing="," %}
 at venues such as the International Conference on Software Testing, Verification
 and Validation and Transactions on Software Engineering. He frequently serves
 the research community as a reviewer for conferences and journals, technical

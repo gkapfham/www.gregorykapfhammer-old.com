@@ -54,7 +54,7 @@ analysis for your JUnit test suites! If you are interested in Major, then you ma
 Interested in learning more about this topic? Since this blog post was first written, my colleagues and students and I
 have published additional papers about mutation testing, with two of the most noteworthy being {% include_cached
 _popovers/paper_reference.html cite="McCurdy2016" trailing="" %} and {% include_cached _popovers/paper_reference.html
-cite="McMinn2018" trailing="." %}
+cite="McMinn2019" trailing="." %}
 </p>
 
 {% include _footers/blog_footer.html %}
