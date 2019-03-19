@@ -41,10 +41,10 @@
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2010 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2015 International Conference on Tests and Proofs </div>
 <br> Program Committee Member (Six times)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2010 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 International Workshop on the Automation of Software Test </div>
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2010 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2019 International Workshop on the Automation of Software Test </div>
 <br>  Session Chair (One time)
 <br>  Workshop Co-Chair (One time)
-<br>  Program Committee Member (Six times)
+<br>  Program Committee Member (Seven times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2010 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2011 Midstates Conference for Undergraduate Research in Computer Science and
 Mathematics </div>
