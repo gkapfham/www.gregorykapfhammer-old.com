@@ -152,10 +152,17 @@ $navbar-padding-x: ($spacer/2);
   background-size: 100% 100%;
 }
 
-// Make the Navbar more bold (default is 500)
+// Re-define two aspects of the Navbar
 .navbar-dark {
+  // 1. Make the Navbar more bold (default is 500)
   .nav-link {
     font-weight: $font-weight-demi-bold;
+  }
+  // 2a. Make the Navbar a box with no rounded corners
+  // 2b. Increase Navbar border thickness
+  .navbar-toggler {
+    border-radius: 0rem;
+    border-width: 2px;
   }
 }
 
