@@ -1,6 +1,9 @@
 ## Conferences and Workshops
 
 <ul class="fa-ul">
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2019 International Conference on the Quality of Information and Communications Technology </div>
+<br> Program Committee Member (One time)
+<p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2018 International Workshop on Debugging and Repair </div>
 <br> Program Committee Member (One time)
 <p>
@@ -106,8 +109,8 @@ Conference </div>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2012 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 Empirical Software Engineering Journal </div>
 <br> Reviewer (Three times)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2011 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2013 Journal of Software: Evolution and Process </div>
-<br> Reviewer (Two times)
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2011 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2019 Journal of Software: Evolution and Process </div>
+<br> Reviewer (Three times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2010 Advances in Software Engineering Journal </div>
 <br> Reviewer (One time)
