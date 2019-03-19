@@ -23,40 +23,40 @@
       <!-- Main content -->
       <div class="col-md-10">
 
-          <!-- always display the title of the paper or presentation and the author(s) of the presentation -->
+          <!-- Always display the title of the paper or presentation and the author(s) of the presentation -->
           <h1>{{ page.entry.title }}</h1>
           <h3>{{ page.entry.author }}</h3>
 
-          <!-- if there is a "booktitle" (i.e., proceedings) and a year, then display this as well -->
+          <!-- If there is a "booktitle" (i.e., proceedings) and a year, then display this as well -->
           {% if page.entry.booktitle and page.entry.year %}
           <em><h3>{{ page.entry.booktitle }}, {{ page.entry.year }}</h3></em>
           {% endif %}
 
-          <!-- if there is a "journal" (i.e., it is a journal) and the other parts of a journal and a year, then display them -->
+          <!-- If there is a "journal" (i.e., it is a journal) and the other parts of a journal and a year, then display them -->
           {% if page.entry.journal and page.entry.volume != nil and page.entry.number != nil and page.entry.year %}
           <em><h3>{{ page.entry.journal }} {{ page.entry.volume }}:{{ page.entry.number }}, {{ page.entry.year }}</h3></em>
           {% endif %}
 
-          <!-- if there is a "journal" (i.e., it is a journal) and the other parts of a journal and a year, then display them -->
+          <!-- If there is a "journal" (i.e., it is a journal) and the other parts of a journal and a year, then display them -->
           {% if page.entry.journal and page.entry.volume == nil and page.entry.number == nil and page.entry.year %}
           <em><h3>{{ page.entry.journal}}, {{ page.entry.year }}</h3></em>
           {% endif %}
 
-          <!-- if there is an "institution" (i.e., it is a technical report) and the year, then display them -->
+          <!-- If there is an "institution" (i.e., it is a technical report) and the year, then display them -->
           {% if page.entry.institution and page.entry.number and page.entry.year %}
           <em><h3>Technical Report {{ page.entry.number }}, {{ page.entry.year }}</h3></em>
           {% endif %}
 
-          <!-- one of the above two options will have been true and now we need space for the next data points for this entry -->
+          <!-- One of the above two options will have been true and now we need space for the next data points for this entry -->
           <p></p>
 
-          <!-- display the abstract of the conference or journal paper -->
+          <!-- Display the abstract of the conference or journal paper -->
           {% if page.entry.abstract %}
           <h3>Abstract</h3>
           <p>{{ page.entry.abstract }}</p>
           {% endif %}
 
-          <!-- display the label for the resources since at least one resource exists -->
+          <!-- Display the label for the resources since at least one resource exists -->
           {% if page.entry.nodownload != 'true' or
                 page.entry.presentation or
                 page.entry.presented or
@@ -112,24 +112,24 @@
           </div>
           {% endif %}
 
-          <!-- again display extra spacing between the previous entries and the final bibtex -->
+          <!-- Again display extra spacing between the previous entries and the final bibtex -->
           <p></p>
 
-          <!-- display the complete paper reference if a BiBTeX is available -->
+          <!-- Display the complete paper reference if a BiBTeX is available -->
           {% if page.entry.bibtex %}
           <h3>Reference</h3>
-          <!-- give the paper reference -->
+          <!-- Give the paper reference -->
           <p>
           {% reference page.entry.key %}
           </p>
-          <!-- link to the GitHub repository for the BiBTeX reference -->
+          <!-- Link to the GitHub repository for the BiBTeX reference -->
           <p>
           <h3>Citing</h3>
           <p>
           Want to cite this paper? Look in the BiBTeX file of <a target="_blank" rel="noopener" href="https://github.com/gkapfham/research-bibliography">gkapfham/research-bibliography</a> for the key "{{page.entry.key}}".
           {% endif %}
           </p>
-          <!--provide a link for returning to the main list of the papers -->
+          <!-- Provide a link for returning to the main list of the papers -->
           <p>
           <i class="fa fa-angle-double-up"></i><a href="{{site.baseurl}}research/papers/"> Return to the List of Papers</a>
           </p>
