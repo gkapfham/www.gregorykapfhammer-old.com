@@ -16,9 +16,9 @@ An outstanding and award-winning [teacher]({{site.baseurl}}teaching/),
 [presenter]({{site.baseurl}}research/presentations), I have expertise in the
 areas of software engineering, software testing, and data science. I am an
 academic editor for the [PeerJ Computer
-Science](https://peerj.com/computer-science/) journal, program committee member
-for the conferences like the [International Conference on Software Testing,
-Verification and Validation](https://cs.gmu.edu/icst/index.html), and reviewer
+Science](https://peerj.com/computer-science/) journal, a program committee member
+for conferences like the [International Conference on Software Testing,
+Verification and Validation](https://cs.gmu.edu/icst/index.html), and a reviewer
 for journals such as [Transactions on Software
 Engineering](https://www.computer.org/csdl/journal/ts). Along with contributing
 to open-source [software]({{site.baseurl}}software/), I collaborate with people
