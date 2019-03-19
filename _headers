@@ -1,3 +1,5 @@
 /server-push-path
   Link: </js/scripts.js>; rel=preload; as=script
   Link: </css/custom.css>; rel=preload; as=style
+
+/* AddOutputFilterByType DEFLATE image/x-icon
