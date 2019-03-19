@@ -10,19 +10,20 @@ image: /download/images/3944094295_833175fc98_z.jpg
 {% include _popovers/image_reference.html image="3944094295_833175fc98_z.jpg" content="<a title='Forward, Deck 6' href='https://flickr.com/photos/jeremybrooks/3944094295'>flickr photo</a> by <a href='https://flickr.com/people/jeremybrooks'>Jeremy Brooks</a> shared under a <a href='https://creativecommons.org/licenses/by-nc/2.0/'>Creative Commons (BY-NC) license</a>" label="CC (BY-NC)" %}
 
 {% describe %}
-Need help with your project? I am available to assist your organization as an
-instructor, consultant, or expert witness. I can also give a keynote at your
-conference or serve as a member of its program committee. Additionally, I can
-help your journal by reviewing papers or serving on its editorial board. An
-outstanding and award-winning [teacher]({{site.baseurl}}teaching/),
+An outstanding and award-winning [teacher]({{site.baseurl}}teaching/),
 [researcher]({{site.baseurl}}research/),
 [writer]({{site.baseurl}}research/papers/), and
-[presenter]({{site.baseurl}}research/presentations), I can leverage my proven
-expertise in the areas of software engineering, software testing, and data
-science to tackle the challenges that your organization faces. Along with
-regularly contributing to open-source [software]({{site.baseurl}}software/), I
-have collaborated with people at leading academic and government agencies. I
-look forward to having you [contact]({{site.baseurl}}contact/) me!
+[presenter]({{site.baseurl}}research/presentations), I have expertise in the
+areas of software engineering, software testing, and data science. I am an
+academic editor for the [PeerJ Computer
+Science](https://peerj.com/computer-science/) journal, program committee member
+for the conferences like the [International Conference on Software Testing,
+Verification and Validation](https://cs.gmu.edu/icst/index.html), and reviewer
+for journals such as [Transactions on Software
+Engineering](https://www.computer.org/csdl/journal/ts). Along with contributing
+to open-source [software]({{site.baseurl}}software/), I collaborate with people
+at leading academic institutions, government agencies, and technology
+companies.
 {% enddescribe %}
 
 {% comment %} Include the generated files that were created by a run of the
