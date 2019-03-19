@@ -3,13 +3,13 @@
 
 <!-- NOTE: The "reference" layout controls how the listing of papers that are referenced in a blog post or main page -->
 
-<!-- this is a presentation and we must display the title with a link to the download location (goes directly to a PDF) -->
+<!-- This is a presentation and we must display the title with a link to the download location (goes directly to a PDF) -->
 {% if entry.howpublished %}
 <li><i class="fa-li fa fa-file-image-o fa-lg"></i>
-  <!-- this is a presentation with a special download link, display it (will always be to Speaker Deck) -->
+  <!-- This is a presentation with a special download link, display it (will always be to Speaker Deck) -->
   {% if entry.presentation %}
   <a name="{{entry.key}}" target="_blank" class="major" href="{{entry.presentation}}">{{entry.title}}</a></li>
-  <!-- this presentation does not have a special download link and thus we give a link to a PDF named after the key -->
+  <!-- This presentation does not have a special download link and thus we give a link to a PDF named after the key -->
   {% else %}
   <a name="{{entry.key}}" target="_blank" class="major" href="/download/research/presentations/key/{{entry.key}}-presentation.pdf">{{entry.title}}</a></li>
   {% endif %}
@@ -29,9 +29,9 @@
 
   <div class="major">{{authors_words_final | join: " "}}, {{entry.year}}<a href="#{{entry.key}}-return"> <i class="fa
   fa-angle-double-up"></i> return</a></div>
-  <!-- always display the author(s) of the presentation -->
+  <!-- Always display the author(s) of the presentation -->
   <p>
-<!-- this is a paper and thus we always display the title of the paper and link to the details page -->
+<!-- This is a paper and thus we always display the title of the paper and link to the details page -->
 {% else %}
 <li><i class="fa-li fa fa-file-text-o fa-lg"></i>
   <a name="{{entry.key}}" class="major" href="/research/papers/{{entry.key}}">{{entry.title}}</a> </li>
@@ -51,6 +51,6 @@
 
   <div class="major">{{authors_words_final | join: " "}}, {{entry.year}}<a href="#{{entry.key}}-return"> <i class="fa
   fa-angle-double-up"></i> return</a></div>
-<!-- always display the author(s) of the paper -->
+<!-- Always display the author(s) of the paper -->
 <p>
 {% endif %}
