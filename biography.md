@@ -10,8 +10,8 @@ image: /download/images/gregory-kapfhammer-biography-small.jpg
 {% include_cached _popovers/image_reference.html image="gregory-kapfhammer-biography-small.jpg" content="Photo by <a href='https://www.facebook.com/tkpapinchak'>Tanya Greer</a> shared under a <a href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>CC (BY-NC-ND)</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
-[Gregory M. Kapfhammer]({{site.baseurl}}) is an Associate Professor in and Chair
-of the [Department of Computer Science](http://www.cs.allegheny.edu) at
+[Gregory M. Kapfhammer]({{site.baseurl}}) is an Associate Professor in and
+Chair of the [Department of Computer Science](http://www.cs.allegheny.edu) at
 [Allegheny College](http://www.allegheny.edu). He earned his PhD from the
 [Department of Computer Science](https://cs.pitt.edu) at the [University of
 Pittsburgh](http://www.pitt.edu); his PhD dissertation research was supervised
@@ -19,13 +19,13 @@ by [Mary Lou Soffa](http://www.cs.virginia.edu/~soffa/). Kapfhammer also earned
 a BSc in Computer Science from Allegheny College and a MSc in Computer Science
 from the University of Pittsburgh. Kapfhammer was previously a short-term
 visitor in the [Department of Computer Science](http://www.cs.virginia.edu) at
-the [University of Virginia](http://www.virginia.edu), the [Institute of Applied
-Information Processing](http://iai.mathematik.uni-ulm.de/en/index.html) at the
-[University of Ulm](http://www.uni-ulm.de/en), and the [Department of Computer
-Science](https://www.sheffield.ac.uk/dcs) at the [University of
-Sheffield](http://www.sheffield.ac.uk/). In the past, Gregory Kapfhammer was a
-research associate at Cigital, a software company that was acquired by
-[Synopsys](https://www.synopsys.com/).
+the [University of Virginia](http://www.virginia.edu), the [Institute of
+Applied Information Processing](http://iai.mathematik.uni-ulm.de/en/index.html)
+at the [University of Ulm](http://www.uni-ulm.de/en), and the [Department of
+Computer Science](https://www.sheffield.ac.uk/dcs) at the [University of
+Sheffield](http://www.sheffield.ac.uk/). In a prior position, Gregory
+Kapfhammer was a research associate at Cigital, a software company that was
+acquired by [Synopsys](https://www.synopsys.com/).
 {% enddescribe %}
 
 As an educator, Gregory Kapfhammer develops and teaches
