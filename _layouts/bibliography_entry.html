@@ -3,7 +3,7 @@
 
 <!-- NOTE: The "entry" layout controls how the full listing of papers or presentations will display -->
 
-<!-- this is a presentation and we must display the title with a link to the download location (goes directly to a PDF) -->
+<!-- This is a presentation and we must display the title with a link to the download location (goes directly to a PDF) -->
 {% if entry.howpublished %}
   {% if entry.nodownload != 'true' %}
     <li><i class="fa-li fa fa-file-image-o fa-lg"></i>
@@ -25,10 +25,22 @@
   <!-- Add space between this presentation entry and the next one -->
   <p></p>
 {% endif %}
-<!-- this is a paper and thus we always display the title of the paper and link to the details page -->
+<!-- This is a paper and thus we always display the title of the paper and link to the details page -->
+<!-- Also display the publication venue, which will be either the name of the conference or the journal name -->
 {% else %}
 <li><i class="fa-li fa fa-file-text-o fa-lg"></i>
-  <a class="major" href="{{entry.key}}/">{{entry.title}}</a> </li>
-<!-- always display the author(s) of the paper -->
+  <a class="major" href="{{entry.key}}/">{{entry.title}}</a>
+  <!-- Add a line break between the title of the paper and the publication venue -->
+  <br>
+  <!-- If there is a "booktitle" (i.e., proceedings), then display its name -->
+  {% if entry.booktitle %}
+  <em>{{ entry.booktitle }}</em>
+  {% endif %}
+  <!-- If there is a "journal" (i.e., it is a journal), then display its name -->
+  {% if entry.journal %}
+  <em>{{ entry.journal}}</em>
+  {% endif %}
+</li>
+<!-- Always display the author(s) of the paper -->
 {{ entry.author }} <p></p>
 {% endif %}
