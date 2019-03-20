@@ -42,6 +42,10 @@ var CSS_DEST = '_site/css/';
 var FONT_SOURCE = 'node_modules/font-awesome/fonts/**/*';
 var FONT_DEST = '_site/fonts/';
 
+// define the directories for the quicklink
+var QUICKLINK_SOURCE = 'node_modules/quicklink/dist/quicklink.umd.js';
+var QUICKLINK_DEST = 'js';
+
 // define the source and destination for HTTP/2
 var HTTPTWO_SOURCE = '_headers';
 var HTTPTWO_DEST = '_site/';
@@ -129,6 +133,12 @@ gulp.task('sass', function() {
 gulp.task('fonts', function() {
   return gulp.src(FONT_SOURCE)
     .pipe(gulp.dest(FONT_DEST));
+});
+
+// TASK: Copy the quicklink JavaScript to the js/ directory
+gulp.task('quicklink', function() {
+  return gulp.src(QUICKLINK_SOURCE)
+    .pipe(gulp.dest(QUICKLINK_DEST));
 });
 
 // TASK: Copy the changed download objects to _site
@@ -381,7 +391,7 @@ gulp.task(
 // TASK: perform the full build, but do not optimize images
 gulp.task(
   'fulldeploy',
-  gulp.series('sass', 'build', 'javascripts', 'httptwo', 'downloads',
+  gulp.series('sass', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads',
     gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
@@ -389,14 +399,14 @@ gulp.task(
 // move the download directory over early to support sitemap creation
 gulp.task(
   'fulldeployseo',
-  gulp.series('sass', 'downloadspre', 'build', 'javascripts', 'httptwo',
+  gulp.series('sass', 'downloadspre', 'quicklink', 'build', 'javascripts', 'httptwo',
     gulp.parallel('cleandownloads', 'fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizeddeploy',
-  gulp.series('sass', 'build', 'javascripts', 'httptwo', 'downloads', 'imageoptimize', 'imagecompress',
+  gulp.series('sass', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads', 'imageoptimize', 'imagecompress',
     gulp.parallel('fonts', 'imagemogrify', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
@@ -404,7 +414,7 @@ gulp.task(
 // move the download directory over early to support sitemap creation
 gulp.task(
   'optimizeddeployseo',
-  gulp.series('sass', 'downloadspre', 'build', 'javascripts', 'httptwo', 'imageoptimize', 'imagecompress',
+  gulp.series('sass', 'downloadspre', 'quicklink', 'build', 'javascripts', 'httptwo', 'imageoptimize', 'imagecompress',
     gulp.parallel('cleandownloads', 'fonts', 'imagemogrify', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
