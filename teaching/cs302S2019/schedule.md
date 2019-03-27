@@ -64,3 +64,20 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter7.html">Advanced CSS: Layout</a>
 
 </ul>
+
+### Module Four: Programming in JavaScript
+
+**Reading Assignments**
+
+- Chapter 8: JavaScript Language Fundamentals (No "Dive Deeper")
+- Chapter 9: Using JavaScript (Selected Topics)
+
+**Discussion and Review Slides**
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter8.html">JavaScript Fundamentals</a>
+
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter9.html">Using JavaScript</a>
+
+</ul>
