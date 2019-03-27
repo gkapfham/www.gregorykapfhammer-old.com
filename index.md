@@ -17,15 +17,12 @@ give [presentations]({{site.baseurl}}research/presentations/), create
 organizations. An Associate Professor in the [Department of Computer
 Science](http://www.cs.allegheny.edu) at [Allegheny
 College](http://www.allegheny.edu), I serve as an academic editor for the
-[PeerJ Computer Science](https://peerj.com/computer-science/) journal, a program
-committee member for conferences like the [International Conference on
+[PeerJ Computer Science](https://peerj.com/computer-science/) journal and a
+program committee member for conferences like the [International Conference on
 Software Testing, Verification and
-Validation](https://cs.gmu.edu/icst/index.html), and a reviewer for journals such
-as [Transactions on Software
-Engineering](https://www.computer.org/csdl/journal/ts). You can learn more
-about me by reading my [biography]({{site.baseurl}}biography/) and stay
-up-to-date with my work by [subscribing]({{site.baseurl}}support/) to my
-mailing list.
+Validation](https://cs.gmu.edu/icst/index.html). You can learn more about me by
+reading my [biography]({{site.baseurl}}biography/) and stay up-to-date with my
+work by [subscribing]({{site.baseurl}}support/) to my mailing list.
 {% enddescribe %}
 
 ## SEED Survey
