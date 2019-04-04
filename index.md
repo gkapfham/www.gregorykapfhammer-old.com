@@ -59,7 +59,7 @@ production build {% endcomment %}
 
 {% endif %}
 
-## Exciting Software
+## Useful Software
 
 {% comment %} Reference one of the software tools and give a date for a recent
 update or release {% endcomment %}
