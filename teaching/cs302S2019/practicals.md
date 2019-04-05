@@ -21,4 +21,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs302S2019_sheets-12.0.0/cs302S2019_practical06.pdf">Practical Assignment Six: Creating a Bespoke Form Using HTML and CSS</a> <p><b>Objective:</b> Practice using HTML and CSS to create your own interactive survey<br><b>Reading Assignment:</b> Chapter 5, with a focus on Sections 5.3 through 5.5</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs302S2019_sheets-16.0.0/cs302S2019_practical07.pdf">Practical Assignment Seven: Using CSS Gradients to Create Media Containers</a> <p><b>Objective:</b> Practice using CSS gradients to create styled boxes for image display<br><b>Reading Assignment:</b> Chapter 6, with a focus on Sections 6.1 through 6.4</p>
+
 </ul>
