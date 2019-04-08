@@ -88,4 +88,4 @@ layout: course_item
 
 <li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2019/provide/slides/cs203_cooperative_ch9to12.html">Cooperative Software Design, Chapters 9 through 12</a>
 
-<ul>
+</ul>
