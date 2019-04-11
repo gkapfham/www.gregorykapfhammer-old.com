@@ -47,7 +47,7 @@ frequently cited research [papers]({{site.baseurl}}research/papers/),
 oft-complimented [presentations]({{site.baseurl}}research/presentations/),
 useful free and open-source [software]({{site.baseurl}}software/), and valued
 [service]({{site.baseurl}}service/) to a variety of organizations. He is an
-associate editor for [Journal of Software: Evolution and
+associate editor for the [Journal of Software: Evolution and
 Process](https://onlinelibrary.wiley.com/journal/20477481), an academic editor
 for the [PeerJ Computer Science](https://peerj.com/computer-science/) journal, a
 program committee member for conferences like the [International Conference on
