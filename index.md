@@ -7,8 +7,8 @@ categories: [main]
 # Gregory M. Kapfhammer
 
 {% describe %}
-Welcome! My name is Gregory M. Kapfhammer. Innovating in technical areas such
-as software engineering, software testing, and data science, I teach
+Welcome! My name is Gregory M. Kapfhammer. Innovating in technical areas such as
+software engineering, software testing, and data science, I teach
 [courses]({{site.baseurl}}teaching/), conduct
 [research]({{site.baseurl}}research/), write
 [papers]({{site.baseurl}}research/papers/) and a [blog]({{site.baseurl}}blog/),
@@ -16,10 +16,12 @@ give [presentations]({{site.baseurl}}research/presentations/), create
 [software]({{site.baseurl}}software/), and [serve]({{site.baseurl}}service/)
 organizations. An Associate Professor in the [Department of Computer
 Science](http://www.cs.allegheny.edu) at [Allegheny
-College](http://www.allegheny.edu), I serve as an academic editor for the
-[PeerJ Computer Science](https://peerj.com/computer-science/) journal and a
-program committee member for conferences like the [International Conference on
-Software Testing, Verification and
+College](http://www.allegheny.edu), I serve as an associate editor for [Journal
+of Software: Evolution and
+Process](https://onlinelibrary.wiley.com/journal/20477481), an academic editor
+for the [PeerJ Computer Science](https://peerj.com/computer-science/) journal,
+and a program committee member for conferences like the [International
+Conference on Software Testing, Verification and
 Validation](https://cs.gmu.edu/icst/index.html). You can learn more about me by
 reading my [biography]({{site.baseurl}}biography/) and stay up-to-date with my
 work by [subscribing]({{site.baseurl}}support/) to my mailing list.
@@ -44,7 +46,7 @@ production build {% endcomment %}
 
 {% if jekyll.environment == 'production' or jekyll.environment == 'papers' %}
 
-{% bibliography --template bibliography_entry_forward --group_by none --max 1 %}
+{% bibliography --template bibliography__forward --group_by none --max 1 %}
 
 {% endif %}
 
@@ -67,7 +69,7 @@ update or release {% endcomment %}
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
 href="https://github.com/GatorEducator/gatorgrader">GatorGrader: Automated assessment tool for source code and technical writing</a></li>
-Updated February 2019
+Updated April 2019
 </ul>
 
 ## Latest Post
