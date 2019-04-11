@@ -54,7 +54,7 @@ program committee member for conferences like the [International Conference on
 Software Testing, Verification and
 Validation](https://cs.gmu.edu/icst/index.html), and a reviewer for journals
 such as [Transactions on Software
-Engineering](https://www.computer.org/csdl/journal/ts)
+Engineering](https://www.computer.org/csdl/journal/ts).
 
 <p>
 Kapfhammer's paper {% include_cached _popovers/paper_reference.html
