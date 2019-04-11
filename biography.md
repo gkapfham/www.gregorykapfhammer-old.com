@@ -35,8 +35,8 @@ distributed systems. He is also a research adviser for undergraduate and
 graduate theses. Kapfhammer's expertise in teaching was recognized when
 Allegheny College presented him with the [Thoburn Award for Excellence in
 Teaching](https://sites.allegheny.edu/alumni/award-recipients/#thoburn). As a
-leader of a large team of software engineers, Kapfhammer creates useful
-educational [software]({{site.baseurl}}software/) that effectively supports
+leader of several software engineering teams, Kapfhammer creates useful
+educational [software]({{site.baseurl}}software/) tools that effectively support
 tasks such as project assessment and team formation.
 
 As an experimental computer scientist, Gregory Kapfhammer conducts
