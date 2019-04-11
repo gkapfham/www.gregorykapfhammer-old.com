@@ -39,7 +39,7 @@ leader of several software engineering teams, Kapfhammer creates useful
 educational [software]({{site.baseurl}}software/) tools that effectively support
 tasks such as project assessment and team formation.
 
-As an experimental computer scientist, Gregory Kapfhammer conducts
+Working as an experimental computer scientist, Gregory Kapfhammer conducts
 [research]({{site.baseurl}}research/) in areas such as software engineering and
 software testing. In collaboration with a diverse and skilled group of students
 and colleagues, Kapfhammer pursues research that results in award-winning and
