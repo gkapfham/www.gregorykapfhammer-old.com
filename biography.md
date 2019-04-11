@@ -29,25 +29,36 @@ acquired by [Synopsys](https://www.synopsys.com/).
 {% enddescribe %}
 
 As an educator, Gregory Kapfhammer develops and teaches
-[courses]({{site.baseurl}}teaching) in the areas of software engineering,
+[courses]({{site.baseurl}}teaching/) in the areas of software engineering,
 software testing, web development, data management, mobile app design, operating
 systems, and distributed systems. He is also a research adviser for
 undergraduate and graduate theses. Kapfhammer's expertise in teaching was
 recognized when Allegheny College presented him with the [Thoburn Award for
 Excellence in
-Teaching](https://sites.allegheny.edu/alumni/award-recipients/#thoburn). As an
-experimental computer scientist, Gregory Kapfhammer conducts
-[research]({{site.baseurl}}research/) in the areas of software engineering,
-software testing and analysis, and computer software systems. In collaboration
-with a diverse and highly skilled group of students and colleagues, Kapfhammer
-pursues research that results in award-winning and frequently cited research
-[papers]({{site.baseurl}}research/papers/), oft-complimented
-[presentations]({{site.baseurl}}research/presentations/), useful free and
-open-source [software]({{site.baseurl}}software/), and valued
-[service]({{site.baseurl}}service/) to a variety of organizations.
+Teaching](https://sites.allegheny.edu/alumni/award-recipients/#thoburn). As a
+leader of a large team of software engineers, Kapfhammer creates useful
+educational [software]({{site.baseurl}}software/) that effectively supports
+tasks such as project assessment and team formation.
+
+As an experimental computer scientist, Gregory Kapfhammer conducts
+[research]({{site.baseurl}}research/) in areas such as software engineering and
+software testing. In collaboration with a diverse and skilled group of students
+and colleagues, Kapfhammer pursues research that results in award-winning and
+frequently cited research [papers]({{site.baseurl}}research/papers/),
+oft-complimented [presentations]({{site.baseurl}}research/presentations/),
+useful free and open-source [software]({{site.baseurl}}software/), and valued
+[service]({{site.baseurl}}service/) to a variety of organizations. He is an
+associate editor for [Journal of Software: Evolution and
+Process](https://onlinelibrary.wiley.com/journal/20477481), an academic editor
+for the [PeerJ Computer Science](https://peerj.com/computer-science/) journal, a
+program committee member for conferences like the [International Conference on
+Software Testing, Verification and
+Validation](https://cs.gmu.edu/icst/index.html), and a reviewer for journals
+such as [Transactions on Software
+Engineering](https://www.computer.org/csdl/journal/ts)
 
 <p>
-The paper {% include_cached _popovers/paper_reference.html
+Kapfhammer's paper {% include_cached _popovers/paper_reference.html
 cite="Kapfhammer2003" %} was selected to receive the ACM SIGSOFT Distinguished
 Paper Award at the <a href="http://esecfse.cs.helsinki.fi/">2003 ACM SIGSOFT
 Foundations of Software Engineering Conference (ESEC/FSE 2003)</a>. Gregory
