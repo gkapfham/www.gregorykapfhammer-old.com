@@ -16,7 +16,7 @@ give [presentations]({{site.baseurl}}research/presentations/), create
 [software]({{site.baseurl}}software/), and [serve]({{site.baseurl}}service/)
 organizations. An Associate Professor in the [Department of Computer
 Science](http://www.cs.allegheny.edu) at [Allegheny
-College](http://www.allegheny.edu), I serve as an associate editor for [Journal
+College](http://www.allegheny.edu), I serve as an associate editor for the [Journal
 of Software: Evolution and
 Process](https://onlinelibrary.wiley.com/journal/20477481), an academic editor
 for the [PeerJ Computer Science](https://peerj.com/computer-science/) journal,
