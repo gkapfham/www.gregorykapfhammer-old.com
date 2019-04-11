@@ -46,7 +46,7 @@ production build {% endcomment %}
 
 {% if jekyll.environment == 'production' or jekyll.environment == 'papers' %}
 
-{% bibliography --template bibliography__forward --group_by none --max 1 %}
+{% bibliography --template bibliography_entry_forward --group_by none --max 1 %}
 
 {% endif %}
 
