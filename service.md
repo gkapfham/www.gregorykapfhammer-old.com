@@ -15,7 +15,7 @@ An outstanding and award-winning [teacher]({{site.baseurl}}teaching/),
 [writer]({{site.baseurl}}research/papers/), and
 [presenter]({{site.baseurl}}research/presentations/), I have expertise in the
 areas of software engineering, software testing, and data science. I am an
-associate editor for [Journal of Software: Evolution and
+associate editor for the [Journal of Software: Evolution and
 Process](https://onlinelibrary.wiley.com/journal/20477481), an academic editor
 for the [PeerJ Computer Science](https://peerj.com/computer-science/) journal, a
 program committee member for conferences like the [International Conference on
