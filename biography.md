@@ -30,11 +30,10 @@ acquired by [Synopsys](https://www.synopsys.com/).
 
 As an educator, Gregory Kapfhammer develops and teaches
 [courses]({{site.baseurl}}teaching/) in the areas of software engineering,
-software testing, web development, data management, mobile app design, operating
-systems, and distributed systems. He is also a research adviser for
-undergraduate and graduate theses. Kapfhammer's expertise in teaching was
-recognized when Allegheny College presented him with the [Thoburn Award for
-Excellence in
+software testing, web development, data management, operating systems, and
+distributed systems. He is also a research adviser for undergraduate and
+graduate theses. Kapfhammer's expertise in teaching was recognized when
+Allegheny College presented him with the [Thoburn Award for Excellence in
 Teaching](https://sites.allegheny.edu/alumni/award-recipients/#thoburn). As a
 leader of a large team of software engineers, Kapfhammer creates useful
 educational [software]({{site.baseurl}}software/) that effectively supports
