@@ -79,7 +79,7 @@ layout: course_item
 - <em>Cooperative Software Design</em>, Chapters 9 - 12
 - <em>Philosophy of Software Design</em>, Chapters 12 - 15
 - <em>Think Python</em>, All appropriate chapters
-- <em>Exercises in Programming Style</em>, Chapters 20 - 24
+- <em>Exercises in Programming Style</em>, Chapters 16 - 19
 - <em>Python Testing with Pytest</em>, Chapter 5
 
 **Discussion and Review Slides**
