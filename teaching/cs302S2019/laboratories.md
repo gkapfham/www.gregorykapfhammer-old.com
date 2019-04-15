@@ -27,6 +27,8 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs302S2019_sheets-15.0.0/cs302S2019_lab08.pdf">Laboratory Assignment Eight: Designing and Checking a Mobile-Ready Web Site</a> <p><b>Objective:</b> Design, implement, and test a responsive web site<br><b>Reading Assignment:</b> Chapter 7, with a focus on Section 7.8</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs302S2019_sheets-18.0.0/cs302S2019_lab09.pdf">Laboratory Assignment Nine: Using JavaScript to Dynamically Generate HTML</a> <p><b>Objective:</b> Practice using JavaScript to create a web site with country information<br><b>Reading Assignment:</b> Chapter 8, with a focus on Sections 8.1 through 8.10</p>
+
 <li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs302S2019_sheets-8.0.1/cs302S2019_portfolio01.pdf">Web Design Portfolio: Create and Deploy a Mobile-Ready Web Site</a> <p><b>Objective:</b> Use GitHub and Netlify to create and deploy a full-featured web site<br><b>Reading Assignment:</b> All relevant book chapters and online resources</p>
 
 </ul>
