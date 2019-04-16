@@ -100,6 +100,8 @@ the Distinguished Paper Award from the <a href = "http://www.cs-tcse.org/">IEEE
 Technical Council on Software Engineering</a>.
 </p>
 
+{% comment %} Summarize professional principles {% endcomment %}
+
 As an outworking of his Christian faith, Gregory Kapfhammer's endeavors are
 guided by the following professional principles:
 
@@ -124,3 +126,9 @@ maximize the positive impact on the community.
 <b>Principle 5 (Contagious Joy)</b>: Pursue everything with passion and
 enthusiasm. Take advantage of every opportunity to encourage your students and
 colleagues. Always end a conversation or a meeting with a positive remark.
+
+{% comment %} Give a call for collaboration {% endcomment %}
+
+Do you teach or conduct research in one of my areas of expertise? Are you
+interested in collaborating with me on a project? If so, then please
+[contact]({{site.baseurl}}contact/) me with your ideas.
