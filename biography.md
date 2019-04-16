@@ -69,7 +69,7 @@ program chair and general chair for international workshops and conferences.
 {% comment %} Describe published papers and research awards {% endcomment %}
 
 <p>
-Kapfhammer collaboratively publishes papers, such as {% include_cached
+Gregory Kapfhammer collaboratively publishes papers, such as {% include_cached
 _popovers/paper_reference.html cite="Walsh2017" trailing="," %} {%
 include_cached _popovers/paper_reference.html cite="Alsharif2018" trailing=","
 %} and {% include_cached _popovers/paper_reference.html cite="McMinn2019"
