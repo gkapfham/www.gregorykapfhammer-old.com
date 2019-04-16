@@ -47,13 +47,13 @@ tasks such as project assessment and team formation.
 
 {% comment %} Summarize research service {% endcomment %}
 
-Working as an experimental computer scientist, Gregory Kapfhammer conducts
-[research]({{site.baseurl}}research/) in areas such as software engineering and
-software testing. Collaborating with a diverse and skilled group of students and
-colleagues, Kapfhammer completes research that results in award-winning and
-frequently cited research [papers]({{site.baseurl}}research/papers/),
-oft-complimented [presentations]({{site.baseurl}}research/presentations/),
-useful free and open-source [software]({{site.baseurl}}software/), and valued
+Gregory Kapfhammer conducts [research]({{site.baseurl}}research/) in areas such
+as software engineering and software testing. Collaborating with a diverse and
+skilled group of students and colleagues, Kapfhammer completes research that
+results in award-winning and frequently cited research
+[papers]({{site.baseurl}}research/papers/), oft-complimented
+[presentations]({{site.baseurl}}research/presentations/), useful free and
+open-source [software]({{site.baseurl}}software/), and valued
 [service]({{site.baseurl}}service/) to a variety of organizations. He is an
 associate editor for the [Journal of Software: Evolution and
 Process](https://onlinelibrary.wiley.com/journal/20477481), an academic editor
