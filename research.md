@@ -85,7 +85,7 @@ effectively run test suites for complex programs. Some examples of papers that
 present and evaluate regression testing techniques {% include
 _popovers/paper_reference.html cite="Walcott2006" trailing="," %} {% include_cached
 _popovers/paper_reference.html cite="Lin2014" trailing="," %} and {% include_cached
-_popovers/paper_reference.html cite="Lin2017" trailing="."%}
+_popovers/paper_reference.html cite="Lin2017" trailing="." %}
 </li>
 <p>
 
