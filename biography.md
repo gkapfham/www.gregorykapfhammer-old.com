@@ -12,24 +12,28 @@ image: /download/images/gregory-kapfhammer-biography-small.jpg
 {% comment %} State current appointment and prior appointments {% endcomment %}
 
 {% describe %}
-[Gregory M. Kapfhammer]({{site.baseurl}}) is an Associate Professor in the
-[Department of Computer Science](http://www.cs.allegheny.edu) at [Allegheny
-College](http://www.allegheny.edu). He earned his PhD from the [Department of
-Computer Science](https://cs.pitt.edu) at the [University of
-Pittsburgh](http://www.pitt.edu), writing a PhD dissertation, supervised by
-[Mary Lou Soffa](http://www.cs.virginia.edu/~soffa/), that was published as {%
+<p>
+Gregory M. Kapfhammer is an Associate Professor in the <a
+href="http://www.cs.allegheny.edu">Department of Computer Science</a> at <a
+href="http://www.allegheny.edu">Allegheny College</a>. He earned his PhD from
+the <a href="https://cs.pitt.edu">Department of Computer Science</a> at the <a
+href="http://www.pitt.edu">University of Pittsburgh</a>, writing a PhD
+dissertation that was supervised by <a
+href="http://www.cs.virginia.edu/~soffa/">Mary Lou Soffa</a> and published as {%
 include_cached _popovers/paper_reference.html cite="Kapfhammer2007d"
 trailing="." %} Kapfhammer also earned a BSc in Computer Science from Allegheny
 College and a MSc in Computer Science from the University of Pittsburgh.
-Kapfhammer was previously a short-term visitor in the [Department of Computer
-Science](http://www.cs.virginia.edu) at the [University of
-Virginia](http://www.virginia.edu), the [Institute of Applied Information
-Processing](http://iai.mathematik.uni-ulm.de/en/index.html) at the [University
-of Ulm](http://www.uni-ulm.de/en), and the [Department of Computer
-Science](https://www.sheffield.ac.uk/dcs) at the [University of
-Sheffield](http://www.sheffield.ac.uk/). In a prior position, Gregory Kapfhammer
-was a research associate at Cigital, a software company that was acquired by
-[Synopsys](https://www.synopsys.com/).
+Kapfhammer was previously a short-term visitor in the <a
+href="http://www.cs.virginia.edu">Department of Computer Science</a> at the <a
+href="http://www.virginia.edu">University of Virginia</a>, the <a
+href="http://iai.mathematik.uni-ulm.de/en/index.html">Institute of Applied
+Information Processing</a> at the <a href="http://www.uni-ulm.de/en">University
+of Ulm</a>, and the <a href="https://www.sheffield.ac.uk/dcs">Department of
+Computer Science</a> at the <a href="http://www.sheffield.ac.uk/">University of
+Sheffield</a>. In a prior position, Gregory Kapfhammer was a research associate
+at Cigital, a software company that was acquired by <a
+href="https://www.synopsys.com/">Synopsys</a>.
+</p>
 {% enddescribe %}
 
 {% comment %} Explain teaching areas and educational software {% endcomment %}
