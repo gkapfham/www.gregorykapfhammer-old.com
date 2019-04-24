@@ -78,7 +78,7 @@ layout: course_item
 
 - <em>Cooperative Software Design</em>, Chapters 9 - 12
 - <em>Philosophy of Software Design</em>, Chapters 12 - 15
-- <em>Think Python</em>, All appropriate chapters
+- <em>Think Python</em>, All relevant chapters
 - <em>Exercises in Programming Style</em>, Chapters 16 - 19
 - <em>Python Testing with Pytest</em>, Chapter 5
 
@@ -91,3 +91,15 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2019/provide/slides/cs203_philosophy_ch12to15.html">Philosophy of Software Design, Chapters 12 through 15</a>
 
 </ul>
+
+### Module Four: Software Evolution and Debugging
+
+**Reading Assignments**
+
+- <em>Cooperative Software Design</em>, Chapters 13 - 14
+- <em>Philosophy of Software Design</em>, Chapters 16 - 18
+- <em>Think Python</em>, All relevant chapters
+- <em>Exercises in Programming Style</em>, All relevant chapters
+- <em>Python Testing with Pytest</em>, Chapter 7
+
+**Discussion and Review Slides**
