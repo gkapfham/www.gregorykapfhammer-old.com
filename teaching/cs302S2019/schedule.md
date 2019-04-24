@@ -81,3 +81,16 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter9.html">Using JavaScript</a>
 
 </ul>
+
+### Module Five: Advanced JavaScript Programming
+
+**Reading Assignments**
+
+- Chapter 10: Extending JavaScript with jQuery (Selected Topics)
+- Chapter 20: JavaScript Frameworks (Selected Topics)
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter10.html">JavaScript Frameworks</a>
+
+</ul>
