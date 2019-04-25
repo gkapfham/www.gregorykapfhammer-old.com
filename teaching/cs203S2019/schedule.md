@@ -99,7 +99,6 @@ layout: course_item
 **Reading Assignments**
 
 - <em>Cooperative Software Design</em>, Chapters 13 - 14
-- <em>Think Python</em>, All relevant chapters
 - <em>Philosophy of Software Design</em>, Chapters 16 - 18
 - <em>Python Testing with Pytest</em>, Chapter 7 (Optional)
 - <em>Think Python</em>, All relevant chapters
