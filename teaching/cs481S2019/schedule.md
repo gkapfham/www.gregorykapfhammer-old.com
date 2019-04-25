@@ -7,7 +7,7 @@ layout: course_item
 # {{page.title}}
 ## {{page.subtitle}}
 
-### Module One: Team-Based Software Development with GitHub
+### Course Readings on Team-Based Software Development with GitHub
 
 **Reading Assignments**
 
