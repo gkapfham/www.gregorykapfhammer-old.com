@@ -23,4 +23,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs302S2019_sheets-16.0.0/cs302S2019_practical07.pdf">Practical Assignment Seven: Using CSS Gradients to Create Media Containers</a> <p><b>Objective:</b> Practice using CSS gradients to create styled boxes for image display<br><b>Reading Assignment:</b> Chapter 6, with a focus on Sections 6.1 through 6.4</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs302S2019_sheets-20.0.0/cs302S2019_practical08.pdf">Practical Assignment Eight: Using JavaScript for Dynamic Font Loading</a> <p><b>Objective:</b> Practice using JavaScript to create a web page that dynamically loads fonts<br><b>Reading Assignment:</b> Chapters 9 and 10, with a focus on Sections 9.3 and 9.4</p>
+
 </ul>
