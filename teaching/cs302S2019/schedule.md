@@ -93,6 +93,6 @@ layout: course_item
 
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter10.html">JavaScript with jQuery</a>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2018/provide/slides/cs302_chapter20.html">JavaScript Frameworks</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter20.html">JavaScript Frameworks</a>
 
 </ul>
