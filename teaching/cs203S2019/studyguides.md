@@ -13,4 +13,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-203-S2019/cs203-S2019-sheets/releases/download/cs203S2019_sheets-11.0.0/cs203S2019_studyguide_exam02.pdf">Study Guide Two: Software Engineering Practices</a> <p>Review the key practices in software engineering.</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-203-S2019/cs203-S2019-sheets/releases/download/cs203S2019_sheets-13.0.0/cs203S2019_studyguide_exam03.pdf">Study Guide Three: Theory and Practice of Software Engineering</a> <p>Review the theory and practice of software engineering.</p>
+
 </ul>
