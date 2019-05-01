@@ -21,7 +21,7 @@ layout: course_item
 (Quiz)</a> <p>Review prior content about HTML, CSS, and JavaScript for Computer Science
 302.</p>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs302S2019_sheets-21.0.0/cs302S2019_studyguide_exam02.pdf">Study Guide Four: Advanced Web Development with HTML, CSS, and JavaScript
+<li><a href="https://github.com/Allegheny-Computer-Science-302-S2019/cs302-S2019-sheets/releases/download/cs302S2019_sheets-21.0.0/cs302S2019_studyguide_exam02.pdf">Study Guide Four: Web Development with HTML, CSS, and JavaScript
 (Exam)</a> <p>Review all content about HTML, CSS, and JavaScript for Computer Science
 302.</p>
 
