@@ -105,3 +105,11 @@ layout: course_item
 - <em>Exercises in Programming Style</em>, All relevant chapters
 
 **Discussion and Review Slides**
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2019/provide/slides/cs203_cooperative_ch13to14.html">Cooperative Software Design, Chapters 13 through 14</a>
+
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2019/provide/slides/cs203_philosophy_ch16to18.html">Philosophy of Software Design, Chapters 16 through 18</a>
+
+</ul>
