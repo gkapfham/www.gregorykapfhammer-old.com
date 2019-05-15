@@ -21,12 +21,13 @@
 
 <!-- Display all of the tags for this post -->
 
-### Categories
+<!-- ### Categories -->
 
 <ul class="fa-ul">
+<li><i class="fa-li fa fa-tags"></i>
 {% for category in page.categories %}
-<li><i class="fa-li fa fa-tag"></i>
-<a class="tagreference" href="/categories/#{{ category | slugify }}"> {{ category }}</a>
-</li>
+{% comment %} Display the post's tags in a link that is an extra-small sized button {% endcomment %}
+<a class="btn btn-info btn-xs active" href="/categories/#{{ category | slugify }}"> {{ category }}</a>
 {% endfor %}
+</li>
 </ul>
