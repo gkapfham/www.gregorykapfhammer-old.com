@@ -54,7 +54,8 @@ List all posts with a specific tag
 
   <i class="fa fa-tags" aria-hidden="true"></i>
   {% for tag in post.categories %}
-  <a class="tag" href="{{site.baseurl}}categories/#{{ tag | slugify }}"> {{ tag }}</a>
+  {% comment %} Display the post's tags in a link that is an extra-small sized button {% endcomment %}
+  <a class="btn btn-info btn-xs active" href="{{site.baseurl}}categories/#{{ tag | slugify }}"> {{ tag }}</a>
 {% endfor %}
 <br>
 {% endif %}
