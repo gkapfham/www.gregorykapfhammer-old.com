@@ -336,6 +336,14 @@ body {
   .show > .btn-info.dropdown-toggle:focus {
     box-shadow: 0 0 0 0rem;
   }
+
+  // Define an xs button style since it was deprecated in Bootstrap 4
+  .btn-group-xs > .btn, .btn-xs {
+    padding: .25rem .4rem;
+    font-size: .875rem;
+    line-height: .5;
+    border-radius: .2rem;
+  }
 }
 
 // }}}
