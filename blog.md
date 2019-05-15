@@ -19,7 +19,8 @@ image: /download/images/4101567511_e88d64015c_z.jpg
   <li><i class="fa-li fa fa-edit fa-lg"></i><a class="major" href="/{{ page.url | remove_first:'/'}}">{{ page.title }}</a></li>
   <i class="fa fa-tags" aria-hidden="true"></i>
   {% for category in page.categories %}
-  <a class="tag" href="/categories/#{{ category | slugify }}"> {{ category }}</a>
+  {% comment %} Display the post's tags in a link that is an extra-small sized button {% endcomment %}
+  <a class="btn btn-info btn-xs active" href="/categories/#{{ category | slugify }}"> {{ category }}</a>
   {% endfor %}
   <p>
   <i class="fa fa-calendar-o" aria-hidden="true"></i>
