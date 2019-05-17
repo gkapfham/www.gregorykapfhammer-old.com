@@ -23,12 +23,11 @@
 
 <!-- Use a button toolbar because this groups the buttons together -->
 <!-- Note that a button toolbar is supposed to add spacing, which I did not notice -->
-<div class="btn-toolbar">
+<div class="btn-toolbar mb-4">
 <i class="fa fa-tags"></i>
 {% for category in page.categories %}
-{% comment %} Display the post's tags in a link that is an extra-small sized button {% endcomment %}
+<!-- Display the post's tags in a link that is an extra-small sized button -->
 <!-- Represent the tags as buttons that have extra vertical spacing between then -->
 <a class="btn btn-info btn-xs active mx-1" href="/categories/#{{ category | slugify }}"> {{ category }}</a>
 {% endfor %}
 </div>
-<br>
