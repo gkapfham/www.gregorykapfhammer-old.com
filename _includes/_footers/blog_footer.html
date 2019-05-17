@@ -21,9 +21,6 @@
 
 <!-- Display all of the tags for this post -->
 
-<!-- ### Categories -->
-
-<!-- <ul class="fa-ul"> -->
 <div class="btn-toolbar">
 <i class="fa fa-tags"></i>
 {% for category in page.categories %}
@@ -31,5 +28,3 @@
 <a class="btn btn-info btn-xs active mx-2" href="/categories/#{{ category | slugify }}"> {{ category }}</a>
 {% endfor %}
 </div>
-<!-- </li> -->
-<!-- </ul> -->
