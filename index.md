@@ -69,7 +69,7 @@ update or release {% endcomment %}
 <ul class="fa-ul">
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
 href="https://github.com/GatorEducator/gatorgrader">GatorGrader: Automated assessment tool for source code and technical writing</a></li>
-Updated April 2019
+Updated May 2019
 </ul>
 
 ## Latest Post
