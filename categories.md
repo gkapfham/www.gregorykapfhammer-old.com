@@ -52,12 +52,24 @@ List all posts with a specific tag
 {% if post.categories contains tag %}
   <li><i class="fa-li fa fa-edit fa-lg"></i><a class="major" href="{{site.baseurl}}{{ post.url | remove_first:'/'}}">{{ post.title }}</a></li>
 
-  <i class="fa fa-tags" aria-hidden="true"></i>
-  {% for tag in post.categories %}
-  {% comment %} Display the post's tags in a link that is an extra-small sized button {% endcomment %}
-  <a class="btn btn-info btn-xs active" href="{{site.baseurl}}categories/#{{ tag | slugify }}"> {{ tag }}</a>
+  <!-- <i class="fa fa-tags" aria-hidden="true"></i> -->
+  <!-- {% for tag in post.categories %} -->
+  <!-- {% comment %} Display the post's tags in a link that is an extra-small sized button {% endcomment %} -->
+  <!-- <a class="btn btn-info btn-xs active mb-3" href="{{site.baseurl}}categories/#{{ tag | slugify }}"> {{ tag }}</a> -->
+  <!-- {% endfor %} -->
+
+<!-- Use a button toolbar because this groups the buttons together -->
+<!-- Note that a button toolbar is supposed to add spacing, which I did not notice -->
+<div class="btn-toolbar mt-1 mb-2">
+<i class="fa fa-tags"></i>
+{% for category in post.categories %}
+<!-- Display the post's tags in a link that is an extra-small sized button -->
+<!-- Represent the tags as buttons that have extra vertical spacing between then -->
+<a class="btn btn-info btn-xs active mx-1" href="/categories/#{{ category | slugify }}"> {{ category }}</a>
 {% endfor %}
-<br>
+</div>
+
+<!-- <br> -->
 {% endif %}
 {% endfor %}
 </ul>
