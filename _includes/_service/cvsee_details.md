@@ -20,8 +20,8 @@
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2012 International Asia-Pacific Software Engineering Conference </div>
 <br> Program Committee Member (One time)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2011 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 International Conference on Software Testing, Verification and Validation </div>
-<br>  Program Committee Member (Three times)
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2011 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2019 International Conference on Software Testing, Verification and Validation </div>
+<br>  Program Committee Member (Four times)
 <br>  PhD Symposium Panel Member (One time)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2011 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2014 International Workshop on Regression Testing </div>
@@ -124,8 +124,8 @@ Conference </div>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2015 Journal of Systems and Software </div>
 <br> Reviewer (Ten times)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 Software Quality Journal </div>
-<br> Reviewer (Fourteen times)
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2019 Software Quality Journal </div>
+<br> Reviewer (Fifteen times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2017 Information and Software Technology Journal </div>
 <br> Reviewer (Nine times)
