@@ -96,6 +96,12 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/per2012-paper">
 <ul class="fa-ul">
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+target="_blank" rel="noopener" href="https://github.com/gkapfham/pycon2019-functionfiasco-poster">pycon2019-functionfiasco-poster</a>: Slides for a poster at the PyCon 2019 conference</li>
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+target="_blank" rel="noopener" href="https://github.com/gkapfham/pycon2019-gatorgrouper-poster">pycon2019-gatorgrouper-poster</a>: Slides for a poster at the PyCon 2019 conference</li>
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
 target="_blank" rel="noopener" href="https://github.com/gkapfham/pygotham2018-presentation">pygotham2018-presentation</a>: Slides for a talk at the PyGotham 2018 conference</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
