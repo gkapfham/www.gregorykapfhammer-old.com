@@ -2,8 +2,8 @@
 scholar:
   style: apa
   locale: en
-  sort_by: year,author
-  order: descending,ascending
+  sort_by: year,author,title
+  order: descending,ascending,ascending
   group_by: year
   group_order: descending
   source: _bibliography/bibtex
