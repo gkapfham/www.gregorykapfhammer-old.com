@@ -27,15 +27,6 @@ reading my [biography]({{site.baseurl}}biography/) and stay up-to-date with my
 work by [subscribing]({{site.baseurl}}support/) to my mailing list.
 {% enddescribe %}
 
-## SEED Survey
-
-{% comment %} Reference the SEED Survey for "interviews" with software
-engineers {% endcomment %}
-
-<ul class="fa-ul"> <li><i class="fa-li fa fa-users fa-lg"></i><a class="major"
-href="{{site.baseurl}}seed/">Are you working in the software industry? Share
-your expertise with educators and students!</a></li> Enhanced July 2018 </ul>
-
 ## Featured Paper
 
 {% comment %} Display the paper that would display first on the research papers
@@ -105,6 +96,15 @@ production build {% endcomment %}
 </ul>
 
 {% endif %}
+
+## SEED Survey
+
+{% comment %} Reference the SEED Survey for "interviews" with software
+engineers {% endcomment %}
+
+<ul class="fa-ul"> <li><i class="fa-li fa fa-users fa-lg"></i><a class="major"
+href="{{site.baseurl}}seed/">Are you working in the software industry? Share
+your expertise!</a></li> Enhanced July 2018 </ul>
 
 ## Status Updates
 
