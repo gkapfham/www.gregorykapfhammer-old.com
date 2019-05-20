@@ -51,7 +51,6 @@ trailing="," %} {% include_cached _popovers/paper_reference.html
 cite="McMinn2015" trailing="," %} and {% include_cached
 _popovers/paper_reference.html cite="McMinn2019" %} being examples of papers.
 </li>
-
 <p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
@@ -64,7 +63,6 @@ _popovers/paper_reference.html cite="Walsh2017" trailing="," %} {%
 include_cached _popovers/paper_reference.html cite="Walsh2017a" trailing="," %}
 and {% include_cached _popovers/paper_reference.html cite="Althomali2019"
 trailing="." %} </li>
-
 <p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
