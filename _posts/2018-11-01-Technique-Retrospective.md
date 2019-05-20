@@ -19,7 +19,7 @@ that I use when I prepare my [courses]({{site.baseurl}}teaching/), conduct
 [papers]({{site.baseurl}}research/papers/), and implement
 [software]({{site.baseurl}}software/). Given the rapid pace of innovation in the
 field of software engineering, I thought that it would be a good idea to share a
-status update on my use of the software that I suggested in previous posts.
+status update on my use of some software that I suggested in previous posts.
 {% enddescribe %}
 
 {% comment %} Distraction Free Writing {% endcomment %}
@@ -41,6 +41,17 @@ virtual environments when implementing a Python 3 program. I no longer adopt
 this approach, instead using [Pipenv](https://github.com/pypa/pipenv) to support
 virtual environment and dependency management for programs like
 [GatorGrader](https://github.com/GatorEducator/gatorgrader).
+
+{% comment %} Speed Writing in Neovim {% endcomment %}
+
+- In the article [Easy steps towards speedy technical writing with Neovim]({%
+post_url 2017-07-01-Speedy-Writing-Neovim %}), I suggested the use of
+[deoplete.nvim](https://github.com/Shougo/deoplete.nvim) for text completion in
+Neovim and Vim. Even though I appreciate all of the time effort that developers
+have invested in this tool, I now use [ncm2](https://github.com/ncm2/ncm2) as I
+find it to be the fastest auto-completion engine I have tried so far. You can
+check my `.vimrc` file in my [dotfiles](https://github.com/gkapfham/dotfiles) to
+learn more about how I configured these tools.
 
 What software tools do you use when you implement software or write technical
 articles? I invite you to [contact]({{site.baseurl}}contact/) me with your own
