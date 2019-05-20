@@ -1,5 +1,5 @@
 ---
-title: A status update on suggested software and strategies
+title: A status update on suggested software
 layout: blog_n
 categories: [writing, software, productivity]
 author: Gregory M. Kapfhammer
@@ -53,6 +53,17 @@ find it to be the fastest auto-completion engine I have tried so far. You can
 check my `.vimrc` file in my [dotfiles](https://github.com/gkapfham/dotfiles) to
 learn more about how I configured these tools.
 
+{% comment %} Write Research Papers with Neovim {% endcomment %}
+
+- In the article [Three quick tips for writing LaTeX in Neovim]({% post_url
+2017-06-26-Neovim-Remote-Latex %}), I explained how I used
+[neovim-remote](https://github.com/mhinz/neovim-remote) to ensure that I could
+edit LaTeX documents with Neovim. Today, I'm still appreciatively using the
+[vimtex](https://github.com/lervag/vimtex) plugin in Neovim! You can review my
+`.vimrc` and `.zshrc` files in my
+[dotfiles](https://github.com/gkapfham/dotfiles) to learn how I configured these
+tools to support writing.
+
 {% comment %} Directory Zooming with FZF and FASD {% endcomment %}
 
 - In the article [Directory zooming with Fzf and Fasd]({% post_url
@@ -68,8 +79,6 @@ a list for Fzf, I now use a drop-in replacement, called
 Again, you can check my `.vimrc` and `.zshrc` files in my
 [dotfiles](https://github.com/gkapfham/dotfiles) to learn how I configured these
 tools.
-
-
 
 What software tools do you use when you implement software or write technical
 articles? I invite you to [contact]({{site.baseurl}}contact/) me with your own
