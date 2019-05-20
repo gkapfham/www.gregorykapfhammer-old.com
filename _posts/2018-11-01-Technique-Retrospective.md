@@ -53,6 +53,24 @@ find it to be the fastest auto-completion engine I have tried so far. You can
 check my `.vimrc` file in my [dotfiles](https://github.com/gkapfham/dotfiles) to
 learn more about how I configured these tools.
 
+{% comment %} Directory Zooming with FZF and FASD {% endcomment %}
+
+- In the article [Directory zooming with Fzf and Fasd]({% post_url
+2017-05-08-Directory-Zooming %}), I encouraged the use of
+[Fzf](https://github.com/junegunn/fzf) and [Fasd](https://github.com/clvv/fasd).
+When I edit source code in Neovim or navigate my terminal running `zsh` I still
+use both of these programs regularly. To date, I have made one major change in
+the way I use programs like Fzf, which performs fuzzy search on the output of an
+affiliated program that produces searchable text. Instead of using the [Silver
+Searcher](http://www.url.com) to find matching files or directories and produce
+a list for Fzf, I now use a drop-in replacement, called
+[Ripgrep](https://github.com/BurntSushi/ripgrep), with better performance.
+Again, you can check my `.vimrc` and `.zshrc` files in my
+[dotfiles](https://github.com/gkapfham/dotfiles) to learn how I configured these
+tools.
+
+
+
 What software tools do you use when you implement software or write technical
 articles? I invite you to [contact]({{site.baseurl}}contact/) me with your own
 suggestions for innovative software.
