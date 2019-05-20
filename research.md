@@ -109,18 +109,30 @@ challenges.
 
 <li><i class="fa-li fa fa-arrow-right"></i>
 
-<b>Research Methods:</b> My surveys of the research landscape in the field of
-software testing provide a starting point for individuals exploring this field,
-with {% include_cached _popovers/paper_reference.html cite="Kapfhammer2004" %}
-and {% include_cached _popovers/paper_reference.html cite="Kapfhammer2010" %}
-being examples of such articles. Papers like {% include_cached
-_popovers/paper_reference.html cite="Kapfhammer2016" %} and {% include_cached
-_popovers/paper_reference.html cite="McMinn2016" %} show how I have articulated
-a research agenda for the field of software engineering that stresses, for
-instance, the need for well-tested statistical methods. I have also written
-papers like {% include_cached _popovers/paper_reference.html
-cite="Alsharif2018a" %} and {% include_cached _popovers/paper_reference.html
-cite="Alsharif2018b" %} that explain how to replicate my research results.
+<b>Performance Evaluation:</b> Given the importance of equipping software
+engineers to create efficient software, my work has concentrated on developing
+and studying tools that automatically assess program performance. Papers in this
+area include {% include_cached _popovers/paper_reference.html cite="Jones2011"
+trailing="," %} {% include_cached _popovers/paper_reference.html
+cite="Burdette2012" trailing="," %} and {% include_cached
+_popovers/paper_reference.html cite="Kinneer2015" trailing="." %}
+</li>
+<p>
+
+<li><i class="fa-li fa fa-arrow-right"></i>
+
+<b>Research Methods:</b> My surveys of software testing techniques provide a
+starting point for people exploring this field, with {% include_cached
+_popovers/paper_reference.html cite="Kapfhammer2004" %} and {% include_cached
+_popovers/paper_reference.html cite="Kapfhammer2010" %} being examples of such
+articles. Papers like {% include_cached _popovers/paper_reference.html
+cite="Kapfhammer2016" %} and {% include_cached _popovers/paper_reference.html
+cite="McMinn2016" %} show how I have articulated a research agenda for the field
+of software engineering that stresses, for instance, the need for well-tested
+statistical methods. I have also written papers, such as {% include_cached
+_popovers/paper_reference.html cite="Alsharif2018a" %} and {% include_cached
+_popovers/paper_reference.html cite="Alsharif2018b" trailing="," %} that explain
+how to replicate my research results.
 </li>
 <p>
 
