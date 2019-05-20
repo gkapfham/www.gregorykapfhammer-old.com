@@ -8,9 +8,6 @@ web_site: "https://www.linkedin.com/in/brian-blose-2545871a/"
 image: /download/images/7787947034_482bc3662e_z.jpg
 ---
 
-{% comment %} # {{page.title}} {% endcomment %}
-{% comment %} ## <em>{{ page.date | date_to_long_string }}</em> {% endcomment %}
-
 {% include _headers/blog_header.html %}
 
 <!-- Include header image -->
