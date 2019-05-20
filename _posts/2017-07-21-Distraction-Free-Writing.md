@@ -9,9 +9,6 @@ image: /download/images/20994094828_38e0fd6a4e_z.jpg
 
 {% include _headers/blog_header.html %}
 
-{% comment %} # {{ page.title }} {% endcomment %}
-{% comment %} ## <em>{{ page.date | date_to_long_string }}</em> {% endcomment %}
-
 <!-- Include header image -->
 {% include _popovers/image_reference.html image="20994094828_38e0fd6a4e_z.jpg" content="<a title='Train of Hope, Frankfurt, Germany' href='https://flickr.com/photos/121184747@N06/20994094828'>flickr photo</a> by <a href='https://flickr.com/people/121184747@N06'>Franz Ferdinand Photography</a> shared under a <a href='https://creativecommons.org/licenses/by-nc/2.0/'>CC (BY-NC) license</a>" label="CC (BY-NC)" %}
 
