@@ -103,21 +103,24 @@ _popovers/paper_reference.html cite="McMinn2016b" %} being one paper. Papers
 such as {% include_cached _popovers/paper_reference.html cite="Conrad2010a" %}
 and {% include_cached _popovers/paper_reference.html cite="Kukunas2010a" %}
 describe and assess other search-based solutions to software engineering
-challenges. </li> <p>
+challenges.
+</li>
+<p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
 
 <b>Research Methods:</b> My surveys of the research landscape in the field of
 software testing provide a starting point for individuals exploring this field,
-with {% include_cached _popovers/paper_reference.html cite="Kapfhammer2004" %} and {%
-include_cached _popovers/paper_reference.html cite="Kapfhammer2010" %} being examples
-of papers. Moreover, papers like {% include_cached _popovers/paper_reference.html
-cite="Kapfhammer2016" %} and {% include_cached _popovers/paper_reference.html
-cite="McMinn2016" %} illustrate ways in which I have articulated a research
-agenda for the field of software engineering. Finally, I have written papers
-like {% include_cached _popovers/paper_reference.html cite="Alsharif2018a" %} and {%
-include_cached _popovers/paper_reference.html cite="Alsharif2018b" %} that explain how
-to replicate my research results.
+with {% include_cached _popovers/paper_reference.html cite="Kapfhammer2004" %}
+and {% include_cached _popovers/paper_reference.html cite="Kapfhammer2010" %}
+being examples of such articles. Papers like {% include_cached
+_popovers/paper_reference.html cite="Kapfhammer2016" %} and {% include_cached
+_popovers/paper_reference.html cite="McMinn2016" %} show how I have articulated
+a research agenda for the field of software engineering that stresses, for
+instance, the need for well-tested statistical methods. I have also written
+papers like {% include_cached _popovers/paper_reference.html
+cite="Alsharif2018a" %} and {% include_cached _popovers/paper_reference.html
+cite="Alsharif2018b" %} that explain how to replicate my research results.
 </li>
 <p>
 
