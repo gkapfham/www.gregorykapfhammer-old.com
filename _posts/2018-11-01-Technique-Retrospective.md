@@ -1,5 +1,5 @@
 ---
-title: A status update on suggested software
+title: A status update on my software suggestions
 layout: blog_n
 categories: [writing, software, productivity]
 author: Gregory M. Kapfhammer
@@ -13,7 +13,7 @@ image: /download/images/33263496771_334a5b0b93_z.jpg
 {% include _popovers/image_reference.html image="33263496771_334a5b0b93_z.jpg" content="<a title='It's Lantern City here!' href='https://flickr.com/photos/nevillewootton/33263496771'>It's Lantern City here!</a> flickr photo by <a href='https://flickr.com/people/nevillewootton'>Neville Wootton Photography</a> shared under a <a href='https://creativecommons.org/licenses/by/2.0/'>Creative Commons (BY) license</a>" label="CC (BY)" %}
 
 {% describe %}
-Many of the articles on my [blog]({{site.baseurl}}blog/), describe the tools
+Many of the articles on my [blog]({{site.baseurl}}blog/) describe the tools
 that I use when I prepare my [courses]({{site.baseurl}}teaching/), conduct
 [research]({{site.baseurl}}research/), write
 [papers]({{site.baseurl}}research/papers/), and implement
@@ -26,7 +26,7 @@ status update on my use of some software that I suggested in previous posts.
 
 - In the article [Distraction-free writing with a terminal timer and Ubuntu
 notifications]({% post_url 2017-07-21-Distraction-Free-Writing %}), I suggested
-that a distracted writing could use
+that a distracted writer or programmer could use
 [termdown](https://github.com/trehn/termdown) to set a countdown timer in their
 terminal window. Today I still use the same software tool! If you use a terminal
 window and you are comfortable with installing and using a Python program, then
