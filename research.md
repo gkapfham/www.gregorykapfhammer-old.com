@@ -32,8 +32,8 @@ and frequently cited research [papers]({{site.baseurl}}research/papers/),
 oft-complimented [presentations]({{site.baseurl}}research/presentations/), and
 useful free and open-source [software]({{site.baseurl}}software/).
 
-My research has concentrated on several important areas, examples of which are
-summarized in the following list that references key papers.
+My research has concentrated on several areas, examples of which are summarized
+in the following list that references key papers.
 
 <ul class="fa-ul">
 
@@ -45,10 +45,12 @@ _popovers/paper_reference.html cite="Kapfhammer2007d" %} presented an approach
 for testing database applications; a notable paper derived from my dissertation
 is {% include_cached _popovers/paper_reference.html cite="Kapfhammer2003"
 trailing="." %} My work has also focused on testing the schema of a relational
-database, with {% include_cached _popovers/paper_reference.html cite="McMinn2016a" %}
-and {% include_cached _popovers/paper_reference.html cite="McMinn2015" %} being
-examples of papers.
+database, with {% include_cached _popovers/paper_reference.html
+cite="McMinn2016a" %} and {% include_cached _popovers/paper_reference.html
+cite="McMinn2015" trailing="," %} and {% include_cached
+_popovers/paper_reference.html cite="McMinn2019" %} being examples of papers.
 </li>
+
 <p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
