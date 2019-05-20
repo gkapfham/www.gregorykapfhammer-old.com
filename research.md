@@ -82,10 +82,14 @@ trailing="." %} </li> <p>
 <b>Regression Testing:</b> Since software is often incrementally developed, my
 work on regression testing has created automated ways to efficiently and
 effectively run test suites for complex programs. Some examples of papers that
-present and evaluate regression testing techniques {% include
-_popovers/paper_reference.html cite="Walcott2006" trailing="," %} {% include_cached
-_popovers/paper_reference.html cite="Lin2014" trailing="," %} and {% include_cached
-_popovers/paper_reference.html cite="Lin2017" trailing="." %}
+present and evaluate regression testing techniques include {% include
+_popovers/paper_reference.html cite="Walcott2006" trailing="," %} {%
+include_cached _popovers/paper_reference.html cite="Lin2014" trailing="," %} and
+{% include_cached _popovers/paper_reference.html cite="Lin2017" trailing="." %}
+Leading the way in the realistic assessment of regression testing, recent papers
+such as {% include _popovers/paper_reference.html cite="Paterson2018" %} and {%
+include _popovers/paper_reference.html cite="Paterson2019" %} show how to
+conduct rigorous experiments with faults from real programs.
 </li>
 <p>
 
