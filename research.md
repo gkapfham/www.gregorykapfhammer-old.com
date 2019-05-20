@@ -69,15 +69,15 @@ trailing="." %} </li>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
 
-<b>Mutation Testing:</b> Given the challenges associated with evaluating the
-quality of a test suite, my research has designed efficient ways to perform test
-assessment through mutation analysis. Considering both programs and relational
-database schemas, some examples of papers {% include
-_popovers/paper_reference.html cite="Just2012b" trailing="," %} {% include_cached
-_popovers/paper_reference.html cite="Wright2014" trailing="," %} and {% include_cached
-_popovers/paper_reference.html cite="McMinn2019" trailing="." %}
-</li>
-<p>
+<b>Mutation Testing:</b> Given the challenges associated with judging the
+quality of a test suite, my research has designed efficient and useful ways to
+perform test assessment through mutation analysis. Presenting and evaluating
+automated techniques for both real-world Java programs and relational database
+schemas, some examples of papers include {% include
+_popovers/paper_reference.html cite="Just2012b" trailing="," %} {%
+include_cached _popovers/paper_reference.html cite="Wright2014" trailing="," %}
+and {% include_cached _popovers/paper_reference.html cite="McMinn2019"
+trailing="." %} </li> <p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
 
