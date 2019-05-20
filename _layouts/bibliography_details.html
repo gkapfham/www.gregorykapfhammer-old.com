@@ -37,7 +37,7 @@
           <em><h3>{{ page.entry.journal }} {{ page.entry.volume }}:{{ page.entry.number }}, {{ page.entry.year }}</h3></em>
           {% endif %}
 
-          <!-- If there is a "journal" (i.e., it is a journal) and the other parts of a journal and a year, then display them -->
+          <!-- If there is a "journal" (i.e., it is a journal) and not the other parts of a journal and a year, then display them -->
           {% if page.entry.journal and page.entry.volume == nil and page.entry.number == nil and page.entry.year %}
           <em><h3>{{ page.entry.journal}}, {{ page.entry.year }}</h3></em>
           {% endif %}
