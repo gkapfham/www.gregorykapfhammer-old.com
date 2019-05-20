@@ -89,22 +89,21 @@ include_cached _popovers/paper_reference.html cite="Lin2014" trailing="," %} and
 Leading the way in the realistic assessment of regression testing, recent papers
 such as {% include _popovers/paper_reference.html cite="Paterson2018" %} and {%
 include _popovers/paper_reference.html cite="Paterson2019" %} show how to
-conduct rigorous experiments with faults from real programs.
+conduct rigorous experiments with faults harvested from real programs.
 </li>
 <p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
 
 <b>Search-Based Testing:</b> Using a fitness function as a guide to a suitable
-solution, search-based methods have shown promise in a many domains. My work has
-focused on creating frameworks to support the development of search-based tools,
-with {% include_cached _popovers/paper_reference.html cite="McMinn2016b" %} being one
-paper. Papers such as {% include_cached _popovers/paper_reference.html
-cite="Conrad2010a" %} and {% include_cached _popovers/paper_reference.html
-cite="Kukunas2010a" %} describe and assess other search-based solutions to
-software engineering challenges.
-</li>
-<p>
+solution, search-based methods have shown promise in supporting many software
+engineering tasks. My work has focused on creating and maintaining frameworks
+that support the development of search-based tools, with {% include_cached
+_popovers/paper_reference.html cite="McMinn2016b" %} being one paper. Papers
+such as {% include_cached _popovers/paper_reference.html cite="Conrad2010a" %}
+and {% include_cached _popovers/paper_reference.html cite="Kukunas2010a" %}
+describe and assess other search-based solutions to software engineering
+challenges. </li> <p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
 
