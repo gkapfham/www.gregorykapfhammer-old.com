@@ -44,9 +44,10 @@ that must be verified, my PhD dissertation {% include_cached
 _popovers/paper_reference.html cite="Kapfhammer2007d" %} presented an approach
 for testing database applications; a notable paper derived from my dissertation
 is {% include_cached _popovers/paper_reference.html cite="Kapfhammer2003"
-trailing="." %} My work has also focused on testing the schema of a relational
-database, with {% include_cached _popovers/paper_reference.html
-cite="McMinn2016a" %} and {% include_cached _popovers/paper_reference.html
+trailing="." %} Since the schema protects the contents of a relational
+database, my research has also focused on testing this complex artifact, with
+{% include_cached _popovers/paper_reference.html cite="McMinn2016a"
+trailing="," %} {% include_cached _popovers/paper_reference.html
 cite="McMinn2015" trailing="," %} and {% include_cached
 _popovers/paper_reference.html cite="McMinn2019" %} being examples of papers.
 </li>
@@ -57,14 +58,13 @@ _popovers/paper_reference.html cite="McMinn2019" %} being examples of papers.
 
 <b>Web Testing:</b> In response to the prevalence and complexity of
 mobile-ready web sites, my research has developed automated techniques for
-checking these sites. Some examples of papers describing approaches that have
-found defects in live, production web sites {% include_cached
-_popovers/paper_reference.html cite="Walsh2015" trailing="," %} and {%
-include_cached _popovers/paper_reference.html cite="Walsh2017" trailing="," %}
-and {% include_cached _popovers/paper_reference.html cite="Walsh2017a"
-trailing="." %}
+checking the pages in these sites. Some examples of papers describing methods
+for finding defects in live web sites include {% include_cached
+_popovers/paper_reference.html cite="Walsh2017" trailing="," %} {%
+include_cached _popovers/paper_reference.html cite="Walsh2017a" trailing="," %}
+and {% include_cached _popovers/paper_reference.html cite="Althomali2019"
+trailing="." %} </li>
 
-</li>
 <p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
