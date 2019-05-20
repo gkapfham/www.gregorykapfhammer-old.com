@@ -30,7 +30,7 @@ that a distracted writing could use
 [termdown](https://github.com/trehn/termdown) to set a countdown timer in their
 terminal window. Today I still use the same software tool! If you use a terminal
 window and you are comfortable with installing and using a Python program, then
-I still recommend that you consider this approach.
+I still recommend that you consider this simple approach.
 
 {% comment %} Virtual Environments {% endcomment %}
 
