@@ -8,9 +8,6 @@ web_site: "https://www.linkedin.com/in/timothy-tsai-6501ba2/"
 image: /download/images/6117679215_cf28a0e6e2_z.jpg
 ---
 
-{% comment %} # {{page.title}} {% endcomment %}
-{% comment %} ## <em>{{ page.date | date_to_long_string }}</em> {% endcomment %}
-
 {% include _headers/blog_header.html %}
 
 <!-- Include header image -->
