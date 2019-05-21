@@ -8,9 +8,6 @@ web_site: "https://www.linkedin.com/in/sbhadra/"
 image: /download/images/2488888194_a837faa302_z.jpg
 ---
 
-{% comment %} # {{page.title}} {% endcomment %}
-{% comment %} ## <em>{{ page.date | date_to_long_string }}</em> {% endcomment %}
-
 {% include _headers/blog_header.html %}
 
 <!-- Include header image -->
