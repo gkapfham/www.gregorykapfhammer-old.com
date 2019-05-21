@@ -8,9 +8,6 @@ web_site: "https://www.linkedin.com/in/kara-king-b245a259"
 image: /download/images/21381609840_70acd0aa1c_z.jpg
 ---
 
-{% comment %} # {{page.title}} {% endcomment %}
-{% comment %} ## <em>{{ page.date | date_to_long_string }}</em> {% endcomment %}
-
 {% include _headers/blog_header.html %}
 
 <!-- Include header image -->
