@@ -8,9 +8,6 @@ web_site: "https://www.linkedin.com/in/rebecca-dilla-ab174974/"
 image: /download/images/15526756711_24ec251f65_z.jpg
 ---
 
-{% comment %} # {{page.title}} {% endcomment %}
-{% comment %} ## <em>{{ page.date | date_to_long_string }}</em> {% endcomment %}
-
 {% include _headers/blog_header.html %}
 
 <!-- Include header image -->
