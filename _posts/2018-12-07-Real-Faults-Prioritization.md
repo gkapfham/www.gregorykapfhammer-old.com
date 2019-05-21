@@ -16,12 +16,22 @@ image: /download/images/1432258649_7aac1d0287_z.jpg
 In a previous post, called [Regression testing of software is costly &mdash; but
 you can do something about it!]({% post_url 2017-07-03-Regression-Testing-Costs
 %}), I pointed out that software engineers often write test suites that they
-will re-run as they modify a program. This process, called regression testing,
-helps developers to ensure that they have not introduced new defects as they add
-new features or bug fixes.
+will re-run as they modify a program. This valuable (and often computationally
+expensive) process, called regression testing, helps developers to ensure that
+they have not introduced new defects as they add new features or bug fixes.
 {% enddescribe %}
 
-Instead of focuses on the practices of software engineers, in this post I
+{% comment %} Explain the purpose of the article {% endcomment %}
+
+<p>
+Instead of focuses on the practices of software engineers, this draws attention
+to the common practices that researchers follow when they are assessing the
+effectiveness of prioritization techniques that reorder a test suite. Many
+research papers, including some of my own like {% include_cached
+_popovers/paper_reference.html cite="Lin2017" trailing="," %} seed the program
+under test with synthetic faults called mutants and then see how quickly
+different test orderings detect those faults.
+</p>
 
 How do you perform regression testing of your software? How do you
 experimentally study regression testing techniques? I invite you to
