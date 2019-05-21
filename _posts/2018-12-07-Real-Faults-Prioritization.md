@@ -30,8 +30,22 @@ effectiveness of prioritization techniques that reorder a test suite. Many
 research papers, including some of my own like {% include_cached
 _popovers/paper_reference.html cite="Lin2017" trailing="," %} seed the program
 under test with synthetic faults called mutants and then see how quickly
-different test orderings detect those faults.
+different test orderings detect those faults. Since there are mutation testing
+tools for many popular programming languages, this approach is appealing to
+researchers who want to evaluate the effectiveness of a new test prioritizer.
 </p>
+
+{% comment %} Explain the problem with seeding mutants {% endcomment %}
+
+<p>
+
+One of my research collaborations lead to the recent publication of {%
+include_cached _popovers/paper_reference.html cite="Paterson2018" trailing=","
+%} a paper that calls into question the use of mutants during the experimental
+evaluation of test suite prioritization methods.
+
+</p>
+
 
 How do you perform regression testing of your software? How do you
 experimentally study regression testing techniques? I invite you to
