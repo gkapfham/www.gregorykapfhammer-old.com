@@ -56,6 +56,10 @@ deliverables</li>
 target="_blank" rel="noopener" href="https://github.com/schemaanalyst/schemaanalyst-bibliography">schemaanalyst-bibliography</a>: References on testing
 database applications</li>
 
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+target="_blank" rel="noopener" href="https://github.com/gkapfham/python-talk-abstracts">python-talk-abstracts</a>: Details about my Python-related
+presentations</li>
+
 </ul>
 
 ## Research Papers
