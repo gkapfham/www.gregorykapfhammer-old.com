@@ -235,6 +235,9 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/dotfiles">dotfi
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
 target="_blank" rel="noopener" href="https://github.com/gkapfham/tmuxinators">tmuxinators</a>: Configuration files for the terminal multiplexor</li>
 
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+target="_blank" rel="noopener" href="https://github.com/gkapfham/vim-vitamin-onec">vim-vitamin-onec</a>: Dark color scheme for Vim and Neovim</li>
+
 </ul>
 
 ## Defect Reports
