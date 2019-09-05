@@ -76,7 +76,7 @@ the date on which it was written {% endcomment %}
 {% endfor %}
 </ul>
 
-## Current Course
+## Highlighted Course
 
 {% comment %} Display the featured course site by iterating through the sites
 and finding the featured one {% endcomment %}
