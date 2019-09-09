@@ -15,12 +15,16 @@ layout: course_item
   - Sections 1.1 - 1.9
   - Sections 2.1 - 2.6
 
-  **Discussion and Review Slides**
+**Discussion and Review Slides**
 
 <ul>
 
 <li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2019/provide/slides/cs101_whystudycomputerscience.html">Why Study Computer Science?</a>
 
 <li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2019/provide/slides/cs101_chapter1.html">Chapter 1: Review of Computational Constructs</a>
+
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2019/provide/slides/cs101_chapter1_sd.html">Chapter 1: Software Engineering Strategies</a>
+
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2019/provide/slides/cs101_chapter2.html">Chapter 2: Object-Oriented Design</a>
 
 </ul>
