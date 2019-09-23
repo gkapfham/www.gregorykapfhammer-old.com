@@ -40,6 +40,6 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2018/provide/slides/cs101_chapter3.html">Chapter 3: Arrays</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2019/provide/slides/cs101_chapter3.html">Chapter 3: Arrays</a>
 
 </ul>
