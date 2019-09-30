@@ -43,3 +43,19 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2019/provide/slides/cs101_chapter3.html">Chapter 3: Arrays</a>
 
 </ul>
+
+### Module Three: Analysis of Program Performance
+
+**Reading Assignments**
+
+- <em>Data Structures and Algorithms in Java</em>, Goodrich, Tamassia, and Goldwasser
+    - Section 1.9 (Review content about testing)
+    - Sections 4.1 - 4.3 (Analysis of algorithms)
+    - Sections 5.1 - 5.5 (Reviewing recursion)
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2019/provide/slides/cs101_chapter4.html">Chapter 4: Algorithm Analysis</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2019/provide/slides/cs101_chapter5.html">Chapter 5: Recursion</a>
+
+</ul>
