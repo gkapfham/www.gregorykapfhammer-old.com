@@ -11,10 +11,12 @@ layout: course_item
 
 <ul>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-3.0.0/cs100F2019_lab01.pdf">Laboratory Assignment One: Exploring the Laboratory Tools Used by Computer Scientists</a> <p><b>Objective:</b> Learn more about Docker, GitHub, Gradle, and the Java language<br><b>Reading Assignment:</b> Chapters 1 and 2, with a focus on Sections 1.5 and 2.1</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-8.0.0/cs100F2019_lab01.pdf">Laboratory Assignment One: Exploring the Laboratory Tools Used by Computer Scientists</a> <p><b>Objective:</b> Learn more about Docker, GitHub, Gradle, and the Java language<br><b>Reading Assignment:</b> Chapters 1 and 2, with a focus on Sections 1.5 and 2.1</p>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-3.0.0/cs100F2019_lab02.pdf">Laboratory Assignment Two: Using Variables to Perform Computations</a> <p><b>Objective:</b> Practice using Java and learn about computing with variables<br><b>Reading Assignment:</b> Chapters 1 to 2, focused on Sections 1.4 and 1.5 and 2.1 through 2.6</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-8.0.0/cs100F2019_lab02.pdf">Laboratory Assignment Two: Using Variables to Perform Computations</a> <p><b>Objective:</b> Practice using Java and learn about computing with variables<br><b>Reading Assignment:</b> Chapters 1 to 2, focused on Sections 1.4 and 1.5 and 2.1 through 2.6</p>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-5.0.0/cs100F2019_lab03.pdf">Laboratory Assignment Three: Performing File Input with the Scanner</a> <p><b>Objective:</b> Learn how to store user input in variables and perform computations<br><b>Reading Assignment:</b> Chapters 1 and 2, with a focus on Sections 2.1 through 2.6</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-8.0.0/cs100F2019_lab03.pdf">Laboratory Assignment Three: Performing File Input with the Scanner</a> <p><b>Objective:</b> Learn how to store user input in variables and perform computations<br><b>Reading Assignment:</b> Chapters 1 and 2, with a focus on Sections 2.1 through 2.6</p>
+
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-8.0.0/cs100F2019_lab04.pdf">Laboratory Assignment Four: Performing Graphical Image Transformations</a> <p><b>Objective:</b> Import and use classes that transform images<br><b>Reading Assignment:</b> Chapter 3, with a focus on Sections 3.1, 3.3, and 3.11</p>
 
 </ul>
