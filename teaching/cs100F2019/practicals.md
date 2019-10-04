@@ -19,4 +19,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-7.0.0/cs100F2019_practical04.pdf">Practical Assignment Four: Creatively Combining File Input and Variables</a> <p><b>Objective:</b> Use expressions with variables to create textual output in Java<br><b>Reading Assignment:</b> Chapters 1 through 3, with a focus on files and variables</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-9.0.0/cs100F2019_practical05.pdf">Practical Assignment Five: Performing Text Redaction with String Manipulation</a> <p><b>Objective:</b> Use a replacement method to change the contents of an input file<br><b>Reading Assignment:</b> Chapters 1 through 3, with a focus on string manipulation</p>
+
 </ul>
