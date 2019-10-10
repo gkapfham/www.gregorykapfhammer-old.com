@@ -19,6 +19,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2019/cs101-F2019-sheets/releases/download/cs101F2019-sheets-7.0.0/cs101F2019_lab04.pdf">Laboratory Assignment Four: Implementing and Testing a Sorting Algorithm</a> <p><b>Objective:</b> Learn how to create and test an insertion sort algorithm in Java<br><b>Reading Assignment:</b> Chapter 3, with a focus on Sections 3.1 and 3.6</p>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-101-F2019/cs101-F2019-sheets/releases/download/cs101F2019-sheets-9.0.0/cs101F2019_lab05.pdf">Laboratory Assignment Five: Experimentally Evaluating Sorting Algorithms</a> <p><b>Objective:</b> Use a doubling experiment to study the performance of sorting algorithms<br><b>Reading Assignment:</b> Chapter 4, focusing on Section 4.1 and Code Fragment 4.1</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2019/cs101-F2019-sheets/releases/download/cs101F2019-sheets-9.0.0/cs101F2019_lab05.pdf">Laboratory Assignment Five: Experimentally Evaluating Sorting Algorithms</a> <p><b>Objective:</b> Use a doubling experiment to study sorting algorithm performance<br><b>Reading Assignment:</b> Chapter 4, focusing on Section 4.1 and Code Fragment 4.1</p>
 
 </ul>
