@@ -105,7 +105,7 @@ that support the development of search-based tools, with {% include_cached
 _popovers/paper_reference.html cite="McMinn2016b" %} being one example. Other
 papers such as {% include_cached _popovers/paper_reference.html
 cite="Conrad2010a" %} and {% include_cached _popovers/paper_reference.html
-cite="Kukunas2010a" %} describe search-based solutions to important software
+cite="Kukunas2010a" %} describe search-based solutions to key software
 engineering challenges. Recent papers like {% include_cached
 _popovers/paper_reference.html cite="Alsharif2019" %} present ways to involve
 human testers when studying the usefulness of tests that were automatically
