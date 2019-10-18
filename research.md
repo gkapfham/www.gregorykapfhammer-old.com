@@ -39,30 +39,30 @@ in the following list that references key papers.
 
 <li><i class="fa-li fa fa-arrow-right"></i>
 
-<b>Database Testing:</b> Since the database application is a complex artifact
-that must be verified, my PhD dissertation {% include_cached
+<b>Database Testing:</b> Given the importance of verifying the behavior of a
+database application, my PhD dissertation {% include_cached
 _popovers/paper_reference.html cite="Kapfhammer2007d" %} presented an approach
-for testing database applications; a notable paper derived from my dissertation
+for testing this type of software; a notable paper derived from my dissertation
 is {% include_cached _popovers/paper_reference.html cite="Kapfhammer2003"
-trailing="." %} Since the schema protects the contents of a relational
-database, my research has also focused on testing this complex artifact, with
-{% include_cached _popovers/paper_reference.html cite="McMinn2016a"
-trailing="," %} {% include_cached _popovers/paper_reference.html
-cite="McMinn2015" trailing="," %} and {% include_cached
-_popovers/paper_reference.html cite="McMinn2019" %} being examples of papers.
-</li>
+trailing="." %} Since the relational schema preserves the correctness of the
+data in the database, my research has also focused on testing this complex
+artifact, with {% include_cached _popovers/paper_reference.html
+cite="McMinn2016a" trailing="," %} {% include_cached
+_popovers/paper_reference.html cite="McMinn2015" trailing="," %} and {%
+include_cached _popovers/paper_reference.html cite="McMinn2019" %} being
+examples of papers. </li>
 <p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
 
-<b>Web Testing:</b> In response to the prevalence and complexity of
-mobile-ready web sites, my research has developed automated techniques for
-checking the pages in these sites. Some examples of papers describing methods
-for finding defects in live web sites include {% include_cached
-_popovers/paper_reference.html cite="Walsh2017" trailing="," %} {%
-include_cached _popovers/paper_reference.html cite="Walsh2017a" trailing="," %}
-and {% include_cached _popovers/paper_reference.html cite="Althomali2019"
-trailing="." %} </li>
+<b>Web Testing:</b> In response to the prevalence and complexity of mobile-ready
+web sites, my research has developed automated techniques for checking the pages
+in these sites. Some examples of papers describing methods for detecting defects
+in live web pages include {% include_cached _popovers/paper_reference.html
+cite="Walsh2017" trailing="," %} {% include_cached
+_popovers/paper_reference.html cite="Walsh2017a" trailing="," %} and {%
+include_cached _popovers/paper_reference.html cite="Althomali2019" trailing="."
+%} </li>
 <p>
 
 <li><i class="fa-li fa fa-arrow-right"></i>
@@ -111,11 +111,12 @@ challenges.
 
 <b>Performance Evaluation:</b> Given the importance of equipping software
 engineers to create efficient software, my work has concentrated on developing
-and studying tools that automatically assess program performance. Papers in this
-area include {% include_cached _popovers/paper_reference.html cite="Jones2011"
-trailing="," %} {% include_cached _popovers/paper_reference.html
-cite="Burdette2012" trailing="," %} and {% include_cached
-_popovers/paper_reference.html cite="Kinneer2015" trailing="." %}
+and studying tools that automatically assess program performance. Focusing on
+the empirical evaluation of real-world software components like databases,
+papers in this area include {% include_cached _popovers/paper_reference.html
+cite="Jones2011" trailing="," %} {% include_cached
+_popovers/paper_reference.html cite="Burdette2012" trailing="," %} and {%
+include_cached _popovers/paper_reference.html cite="Kinneer2015" trailing="." %}
 </li>
 <p>
 
