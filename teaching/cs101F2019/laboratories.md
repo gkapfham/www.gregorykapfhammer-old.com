@@ -21,6 +21,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2019/cs101-F2019-sheets/releases/download/cs101F2019-sheets-9.0.0/cs101F2019_lab05.pdf">Laboratory Assignment Five: Experimentally Evaluating Sorting Algorithms</a> <p><b>Objective:</b> Use a doubling experiment to study sorting algorithm performance<br><b>Reading Assignment:</b> Chapter 4, focusing on Section 4.1 and Code Fragment 4.1</p>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-101-F2019/cs101-F2019-sheets/releases/download/cs101F2019-sheets-12.0.0/cs101F2019_lab06.pdf">Laboratory Assignment Six: Using a Doubling Experiment to Study a Security Program</a> <p><b>Objective:</b> Create a tool to study the performance of a password checker<br><b>Reading Assignment:</b> Chapter 4, with a focus on Sections 4.1 through 4.3</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2019/cs101-F2019-sheets/releases/download/cs101F2019-sheets-12.0.0/cs101F2019_lab06.pdf">Laboratory Assignment Six: Experimentally Studying a Security Program</a> <p><b>Objective:</b> Create a tool to study the performance of a password checker<br><b>Reading Assignment:</b> Chapter 4, with a focus on Sections 4.1 through 4.3</p>
 
 </ul>
