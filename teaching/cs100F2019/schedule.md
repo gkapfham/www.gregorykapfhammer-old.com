@@ -46,3 +46,17 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100F2019/provide/slides/cs100_chapter5.html">Chapter 5: Conditionals and Loops</a>
 
 </ul>
+
+### Module Three: Advanced Iteration and Arrays
+
+**Reading Assignments**
+
+- <em>Java Software Solutions</em>, Lewis and Loftus, Chapter 6: More Conditionals and Loops
+- <em>Java Software Solutions</em>, Lewis and Loftus, Chapter 8: Arrays
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100F2019/provide/slides/cs100_chapter6.html">Chapter 6: More Conditionals and Loops</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100F2019/provide/slides/cs100_chapter8.html">Chapter 8: Arrays</a>
+
+</ul>
