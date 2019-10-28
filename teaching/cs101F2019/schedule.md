@@ -59,3 +59,18 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2019/provide/slides/cs101_chapter5.html">Chapter 5: Recursion</a>
 
 </ul>
+
+### Module Four: Linked Lists, Array Lists, and Iterators
+
+**Reading Assignments**
+
+- <em>Data Structures and Algorithms in Java</em>, Goodrich, Tamassia, and Goldwasser
+    - Sections 3.2 - 3.4
+    - Sections 7.1 - 7.5
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2019/provide/slides/cs101_chapter3_ll.html">Chapter 3: Linked Lists</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2019/provide/slides/cs101_chapter7.html">Chapter 7: Lists and Iterators</a>
+
+</ul>
