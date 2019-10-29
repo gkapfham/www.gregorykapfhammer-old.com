@@ -92,7 +92,7 @@ Conference </div>
 <br> Reviewer (One time)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2018 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2019 IET Software Journal </div>
-<br> Reviewer (Three times)
+<br> Reviewer (Four times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2017 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 Transactions on Services Computing </div>
 <br> Reviewer (Two times)
@@ -122,7 +122,7 @@ Conference </div>
 <br> Reviewer (Eleven times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2019 Journal of Systems and Software </div>
-<br> Reviewer (Eleven times)
+<br> Reviewer (Twelve times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2019 Software Quality Journal </div>
 <br> Reviewer (Fifteen times)
