@@ -23,4 +23,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2019/cs101-F2019-sheets/releases/download/cs101F2019-sheets-10.0.0/cs101F2019_practical06.pdf">Practical Assignment Five: Experimentally Evaluating a Repeating Algorithm</a> <p><b>Objective:</b> Run an experiment to compare the performance of repeating methods<br><b>Reading Assignment:</b> Chapter 4, with a focus on Sections 4.1 through 4.3</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2019/cs101-F2019-sheets/releases/download/cs101F2019-sheets-15.0.0/cs101F2019_practical07.pdf">Practical Assignment Six: Further Experimental Study of Iteration and Recursion</a> <p><b>Objective:</b> Experimentally compare the performance of two arithmetic computations<br><b>Reading Assignment:</b> Chapter 5, with a focus on Sections 5.1 through 5.5</p>
+
 </ul>
