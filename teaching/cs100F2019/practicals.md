@@ -23,4 +23,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-11.0.0/cs100F2019_practical06.pdf">Practical Assignment Six: Creating and Using Java Objects</a> <p><b>Objective:</b> Use a Java class to produce randomized textual output in Java<br><b>Reading Assignment:</b> Sections 4.1 and 4.2, with a focus on classes and objects</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-16.0.1/cs100F2019_practical07.pdf">Practical Assignment Seven: Practicing the Use of Conditional Logic</a> <p><b>Objective:</b> Create a Java program that determines when events occur<br><b>Reading Assignment:</b> Sections 5.1 and 5.3, with a focus on conditional logic</p>
+
 </ul>
