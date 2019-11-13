@@ -74,3 +74,20 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2019/provide/slides/cs101_chapter7.html">Chapter 7: Lists and Iterators</a>
 
 </ul>
+
+### Module Five: Trees and HashMaps
+
+**Reading Assignments**
+
+- <em>Data Structures and Algorithms in Java</em>, Goodrich, Tamassia, and Goldwasser
+    - Sections 8.1 - 8.4
+    - Sections 10.1 - 10.2
+
+**Discussion and Review Slides**
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2019/provide/slides/cs101_chapter8.html">Chapter 8: Trees</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs101F2019/provide/slides/cs101_chapter10.html">Chapter 10: HashMaps</a>
+
+</ul>
