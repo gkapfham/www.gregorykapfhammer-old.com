@@ -28,4 +28,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-17.0.0/cs100F2019_lab08.pdf">Laboratory Assignment Eight: Create a Numerical Computation Engine in Java</a> <p><b>Objective:</b> Develop and test an engine for numerical computations<br><b>Reading Assignment:</b> Chapters 4 and 5, with a focus on Sections 5.1 through 5.6</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-19.0.0/cs100F2019_lab09.pdf">Laboratory Assignment Nine: Developing and Using a Todo List Manager</a> <p><b>Objective:</b> Create, test, and use a task management system<br><b>Reading Assignment:</b> Chapters 4 and 5, with a focus on Sections 5.1 through 5.6</p>
+
 </ul>
