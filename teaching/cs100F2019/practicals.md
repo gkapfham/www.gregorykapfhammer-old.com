@@ -29,4 +29,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-20.0.0/cs100F2019_practical09.pdf">Practical Assignment Nine: Displaying Symbols in Geometric Shapes</a> <p><b>Objective:</b> Implement a Java program that uses iteration to display shapes<br><b>Reading Assignment:</b> Sections 6.1 and 6.4, with a focus on for loops and iteration</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-100-F2019/cs100-F2019-sheets/releases/download/cs100F2019-sheets-21.0.0/cs100F2019_practical_final.pdf">Practical Assignment Final: Exploring Open-Source Software</a> <p><b>Objective:</b> Download, install, and learn about open-source software on GitHub<br><b>Reading Assignment:</b> Entire Textbook and Online Resources</p>
+
 </ul>
