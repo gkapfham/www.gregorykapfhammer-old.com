@@ -29,4 +29,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2019/cs101-F2019-sheets/releases/download/cs101F2019-sheets-19.0.0/cs101F2019_practical09.pdf">Practical Assignment Eight: Implementing and Testing a Doubly Linked List</a> <p><b>Objective:</b> Design, implement, and test a flexible node-based data structure<br><b>Reading Assignment:</b> Chapter 3, with a focus on Sections 3.2 through 3.5</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2019/cs101-F2019-sheets/releases/download/cs101F2019-sheets-20.0.2/cs101F2019_practical_final.pdf">Practical Assignment Final: Exploring Open-Source Software</a> <p><b>Objective:</b> Download, install, and learn about open-source software on GitHub<br><b>Reading Assignment:</b> Entire Textbook and Online Resources</p>
+
 </ul>
