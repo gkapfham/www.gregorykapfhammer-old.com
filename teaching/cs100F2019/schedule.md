@@ -60,3 +60,17 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100F2019/provide/slides/cs100_chapter8.html">Chapter 8: Arrays</a>
 
 </ul>
+
+### Module Four: Advanced Topics in Programming
+
+**Reading Assignments**
+
+- <em>Java Software Solutions</em>, Lewis and Loftus, Chapter 11
+- <em>Java Software Solutions</em>, Lewis and Loftus, Chapter 12
+
+<ul>
+
+  <li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs100F2019/provide/slides/cs100_chapter11.html">Chapter 11: Exceptions</a>
+  <li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs100F2019/provide/slides/cs100_chapter12.html">Chapter 12: Recursion</a>
+
+</ul>
