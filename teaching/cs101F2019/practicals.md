@@ -31,4 +31,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2019/cs101-F2019-sheets/releases/download/cs101F2019-sheets-20.0.2/cs101F2019_practical_final.pdf">Practical Assignment Final: Exploring Open-Source Software</a> <p><b>Objective:</b> Download, install, and learn about open-source software on GitHub<br><b>Reading Assignment:</b> Entire Textbook and Online Resources</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2019/cs101-F2019-sheets/releases/download/cs101F2019-sheets-23.0.0/cs101F2019_practical10.pdf">Practical Assignment Nine: Combining the Tree and HashMap Data Structures</a> <p><b>Objective:</b> Execute, study, understand, and enhance a word counting program<br><b>Reading Assignment:</b> Chapters 8 and 10, with a focus on Section 10.1</p>
+
 </ul>
