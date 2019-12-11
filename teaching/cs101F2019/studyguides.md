@@ -18,4 +18,8 @@ layout: course_item
 <li><a href="https://github.com/Allegheny-Computer-Science-101-F2019/cs101-F2019-sheets/releases/download/cs101F2019-sheets-22.0.0/cs101F2019_studyguide_quiz02.pdf">Study Guide Three: Implementation and Analysis of List Structures
 (Quiz)</a> <p>Review array-based and list-based data structures in Computer Science 101.</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-101-F2019/cs101-F2019-sheets/releases/download/cs101F2019-sheets-25.0.0/cs101F2019_studyguide_exam02.pdf">Study Guide Four: Implementing, Testing, and Evaluating Data Structures
+(Exam)</a> <p>Review all the implementation and analysis strategies in Computer Science
+101.</p>
+
 </ul>
