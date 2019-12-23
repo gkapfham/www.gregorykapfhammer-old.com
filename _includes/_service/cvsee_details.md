@@ -1,6 +1,9 @@
 ## Conferences and Workshops
 
 <ul class="fa-ul">
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2020 International Conference on Automated Software Engineering </div>
+<br> Program Committee Member (One time)
+<p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2019 International Conference on the Quality of Information and Communications Technology </div>
 <br> Program Committee Member (One time)
 <p>
@@ -20,8 +23,9 @@
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2012 International Asia-Pacific Software Engineering Conference </div>
 <br> Program Committee Member (One time)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2011 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2019 International Conference on Software Testing, Verification and Validation </div>
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2011 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2020 International Conference on Software Testing, Verification and Validation </div>
 <br>  Program Committee Member (Four times)
+<br>  Testing Tools Track Program Committee Member (One time)
 <br>  PhD Symposium Panel Member (One time)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2011 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2014 International Workshop on Regression Testing </div>
