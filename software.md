@@ -185,6 +185,21 @@ AST 2016 paper</li>
 <ul class="fa-ul">
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-100-F2019">cs100F2019</a>: Course content for Computer Science 100 Fall 2019</li>
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-101-F2019">cs101F2019</a>: Course content for Computer Science 101 Fall 2019</li>
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-203-S2019">cs203S2019</a>: Course content for Computer Science 203 Spring 2019</li>
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-302-S2019">cs302S2019</a>: Course content for Computer Science 302 Spring 2019</li>
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-481-S2019">cs481S2019</a>: Course content for Computer Science 481 Spring 2019</li>
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
 target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-100-F2018">cs100F2018</a>: Course content for Computer Science 100 Fall 2018</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
