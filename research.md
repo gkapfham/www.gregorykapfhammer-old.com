@@ -16,7 +16,7 @@ creation of useful, dependable, and efficient software. My research addresses
 the challenges within the fields of software engineering, software testing, and
 computer systems. I conduct this research in collaboration with undergraduates
 at [Allegheny College](http://www.allegheny.edu), graduate students and
-professors at other universities, and colleagues in industry.
+professors at several universities, and colleagues in industry.
 {% enddescribe %}
 
 My research is empirical in nature because it involves the application of the
