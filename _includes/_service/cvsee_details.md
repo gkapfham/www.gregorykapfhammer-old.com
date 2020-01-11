@@ -4,8 +4,14 @@
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2020 International Conference on Automated Software Engineering </div>
 <br> Program Committee Member (One time)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2019 International Conference on the Quality of Information and Communications Technology </div>
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2020 International Conference on the Automation of Software Test </div>
 <br> Program Committee Member (One time)
+<p>
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2020 International Genetic and Evolutionary Computation Conference </div>
+<br> Program Committee Member (One time)
+<p>
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2019 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2020 International Conference on the Quality of Information and Communications Technology </div>
+<br> Program Committee Member (Two times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2018 International Workshop on Debugging and Repair </div>
 <br> Program Committee Member (One time)
@@ -58,13 +64,13 @@ Mathematics </div>
 Conference </div>
 <br> Session Chair (One time)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2019 International Symposium on Search Based Software Engineering </div>
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2020 International Symposium on Search-Based Software Engineering </div>
 <br>  Publicity Chair (One time)
 <br>  Doctoral Symposium Chair (One time)
-<br>  Program Committee Member (Seven times)
+<br>  Program Committee Member (Eight times)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2008 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2016 International Workshop on Search-Based Software Testing </div>
-<br> Program Committee Member (Nine times)
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2008 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2020 International Workshop on Search-Based Software Testing </div>
+<br> Program Committee Member (Ten times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2007 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2015 Testing: Academic and Industrial Conference &mdash; Practice and Research Techniques </div>
 <br>  Program Co-Chair (Three times)
@@ -131,8 +137,8 @@ Conference </div>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2019 Software Quality Journal </div>
 <br> Reviewer (Fifteen times)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2017 Information and Software Technology Journal </div>
-<br> Reviewer (Nine times)
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2020 Information and Software Technology Journal </div>
+<br> Reviewer (Ten times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2008 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2010 Automated Software Engineering Journal </div>
 <br> Reviewer (Two times)
@@ -146,8 +152,8 @@ Conference </div>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2007 Transactions on Computers </div>
 <br> Reviewer (One time)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2006 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 Transactions on Software Engineering </div>
-<br> Reviewer (Thirty-two times)
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2006 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2020 Transactions on Software Engineering </div>
+<br> Reviewer (Thirty-three times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2004 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2015 Transactions on Software Engineering and Methodology </div>
 <br> Reviewer (Six times)
