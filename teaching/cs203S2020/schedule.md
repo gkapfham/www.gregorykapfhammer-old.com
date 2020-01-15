@@ -34,4 +34,8 @@ layout: course_item
 
 <li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_lessons_from_google.html">Lessons from Google &mdash; And Each Other!</a>
 
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_cooperative_ch1to3.html">Cooperative Software Design, Chapters 1 through 3</a>
+
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_philosophy_ch1to3.html">Philosophy of Software Design, Chapters 1 through 3</a>
+
 </ul>
