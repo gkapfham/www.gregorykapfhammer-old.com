@@ -23,4 +23,6 @@ layout: course_item
 
 <li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_introduction.html">Introduction to Computational Expression</a>
 
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter1.html">Chapter 1: Introduction to Computation and Programming</a>
+
 </ul>
