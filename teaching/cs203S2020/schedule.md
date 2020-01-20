@@ -17,7 +17,7 @@ layout: course_item
 - <em>Exercises in Programming Style</em>, Prologue, Preface, Chapters 1 - 4
 - <em>Python Testing with Pytest</em>, Preface, Chapters 1 - 2
 
-**Extra Reading Assignments**
+**Insights from Industry**
 
 - GitHub Flow
     - [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html), Scott Chacon
