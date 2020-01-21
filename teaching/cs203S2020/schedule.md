@@ -1,6 +1,6 @@
 ---
 title: Course Schedule
-subtitle: Computer Science 203, Spring 2019
+subtitle: Computer Science 203, Spring 2020
 layout: course_item
 ---
 
