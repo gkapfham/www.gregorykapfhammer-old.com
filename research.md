@@ -123,6 +123,10 @@ papers in this area include {% include_cached _popovers/paper_reference.html
 cite="Jones2011" trailing="," %} {% include_cached
 _popovers/paper_reference.html cite="Burdette2012" trailing="," %} and {%
 include_cached _popovers/paper_reference.html cite="Kinneer2015" trailing="." %}
+Papers such as {% include_cached _popovers/paper_reference.html
+cite="Kotelyanskii2014a" %} highlight how my research has also experimentally
+characterized the influence that the parameters of a search-based algorithm have on
+its efficiency and effectiveness.
 </li>
 <p>
 
