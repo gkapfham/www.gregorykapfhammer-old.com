@@ -1,5 +1,13 @@
 # Web Site for Gregory M. Kapfhammer
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/gkapfham/www.gregorykapfhammer.com/master/.github/www-logo.jpeg" alt="www.gregorykapfhammer.com Logo"</img>
+<br>
+<b>
+A Spiffy Professional Web Site Created with Jekyll
+</b>
+</p>
+
 [![Build Status](https://api.travis-ci.org/gkapfham/www.gregorykapfhammer.com.svg?branch=master)](https://travis-ci.org/gkapfham/www.gregorykapfhammer.com) [![made-with-jekyll](https://img.shields.io/badge/Made%20with-Jekyll-orange.svg)](https://jekyllrb.com/) [![made-with-netlify](https://img.shields.io/badge/Made%20with-Netlify-orange.svg)](https://www.netlify.com/)
 
 This repository contains the Markdown and HTML source code for web site of
