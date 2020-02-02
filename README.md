@@ -4,7 +4,7 @@
 <img src="https://raw.githubusercontent.com/gkapfham/www.gregorykapfhammer.com/master/.github/www-logo.jpeg" alt="www.gregorykapfhammer.com Logo"</img>
 <br>
 <b>
-A Spiffy Professional Web Site Created with Jekyll
+A Professional Web Site Created with Jekyll
 </b>
 </p>
 
