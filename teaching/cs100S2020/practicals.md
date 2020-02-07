@@ -17,4 +17,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-S2020/cs100-S2020-sheets/releases/download/cs100S2020-sheets-5.0.0/cs100S2020_practical03.pdf">Practical Assignment Three: Finding and Fixing Defects in Programs</a> <p><b>Objective:</b> Practice the tasks associated with scientific program debugging<br><b>Reading Assignment:</b> Chapters 1 and 2, with a focus on concept mastery</p>
 
+<li><a href="https://github.com/Allegheny-Computer-Science-100-S2020/cs100-S2020-sheets/releases/download/cs100S2020-sheets-7.0.0/cs100S2020_practical04.pdf">Practical Assignment Four: Creatively Combining File Input and Variables</a> <p><b>Objective:</b> Use expressions with variables to create textual output in Java<br><b>Reading Assignment:</b> Chapters 1 through 3, with a focus on files and variables</p>
+
 </ul>
