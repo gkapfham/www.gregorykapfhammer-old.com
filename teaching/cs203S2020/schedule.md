@@ -20,7 +20,7 @@ layout: course_item
 **Insights from Industry**
 
 - GitHub Flow
-    - [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html), Scott Chacon
+    - [GitHub Flow](http://scottchacon.com/2011/08/31/github-flow.html), GitHub
     - [Understanding GitHub Flow](https://guides.github.com/introduction/flow/), GitHub
     - [How to Boost Productivity by Using GitHub for Project
     Management](https://everhour.com/blog/project-management-using-github/),
@@ -55,6 +55,16 @@ layout: course_item
 - <em>Think Python</em>, Chapters 5 - 8
 - <em>Exercises in Programming Style</em>, Chapters 5, 7, 8, and 10 - 15 (focus on 5 and 10)
 - <em>Python Testing with Pytest</em>, Chapters 3 - 4
+
+**Insights from Industry**
+
+- Requirements Engineering
+    - [Seven Tools to Gather Better Software Requirements](https://www.liquidplanner.com/blog/7-tools-to-gather-better-software-requirements/), LiquidPlanner
+    - [Analyzing and Defining Requirements](https://www.mitre.org/publications/systems-engineering-guide/se-lifecycle-building-blocks/requirements-engineering/analyzing-and-defining-requirements), Mitre
+
+- Software Design
+    - [Why is Software Design Important?](https://hackernoon.com/why-software-design-is-important-9ecbea883bbb), Elektrobit Automotive
+    - [My Five Favorite Software Design Principles](https://dev.to/pluralsight/my-5-favorite-software-design-principles-4ech), Pluralsight
 
 **Discussion and Review Slides**
 
