@@ -45,3 +45,23 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_thinkpython_ch1to3.html">Think Python, Chapters 1 through 3</a>
 
 </ul>
+
+### Module Two: Requirements Engineering and Software Design
+
+**Reading Assignments**
+
+- <em>Cooperative Software Design</em>, Chapters 4 - 7
+- <em>Philosophy of Software Design</em>, Chapters 4 - 6
+- <em>Think Python</em>, Chapters 5 - 8
+- <em>Exercises in Programming Style</em>, Chapters 5, 7, 8, and 10 - 15 (focus on 5 and 10)
+- <em>Python Testing with Pytest</em>, Chapters 3 - 4
+
+**Discussion and Review Slides**
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_cooperative_ch4to7.html">Cooperative Software Design, Chapters 4 through 7</a>
+
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_philosophy_ch4to6.html">Philosophy of Software Design, Chapters 4 through 6</a>
+
+</ul>
