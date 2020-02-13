@@ -59,12 +59,11 @@ layout: course_item
 **Insights from Industry**
 
 - Requirements Engineering
-    - [Seven Tools to Gather Better Software Requirements](https://www.liquidplanner.com/blog/7-tools-to-gather-better-software-requirements/), LiquidPlanner
-    - [Analyzing and Defining Requirements](https://www.mitre.org/publications/systems-engineering-guide/se-lifecycle-building-blocks/requirements-engineering/analyzing-and-defining-requirements), Mitre
-
+  - [Seven Tools to Gather Better Software Requirements](https://www.liquidplanner.com/blog/7-tools-to-gather-better-software-requirements/), LiquidPlanner
+  - [Analyzing and Defining Requirements](https://www.mitre.org/publications/systems-engineering-guide/se-lifecycle-building-blocks/requirements-engineering/analyzing-and-defining-requirements), Mitre
 - Software Design
-    - [Why is Software Design Important?](https://hackernoon.com/why-software-design-is-important-9ecbea883bbb), Elektrobit Automotive
-    - [My Five Favorite Software Design Principles](https://dev.to/pluralsight/my-5-favorite-software-design-principles-4ech), Pluralsight
+  - [Why is Software Design Important?](https://hackernoon.com/why-software-design-is-important-9ecbea883bbb), Elektrobit Automotive
+  - [My Five Favorite Software Design Principles](https://dev.to/pluralsight/my-5-favorite-software-design-principles-4ech), Pluralsight
 
 **Discussion and Review Slides**
 
