@@ -30,3 +30,19 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter3.html">Chapter 3: Using Classes and Objects</a>
 
 </ul>
+
+### Module Two: Exploring Classes and Objects
+
+**Reading Assignments**
+
+- <em>Java Software Solutions</em>, Lewis and Loftus, Chapter 4: Writing Classes
+- <em>Java Software Solutions</em>, Lewis and Loftus, Chapter 5: Using Conditionals
+
+**Discussion and Review Slides**
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter4.html">Chapter 4: Writing Classes</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter5.html">Chapter 5: Conditionals and Loops</a>
+
+</ul>
