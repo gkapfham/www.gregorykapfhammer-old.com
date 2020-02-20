@@ -20,6 +20,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-S2020/cs100-S2020-sheets/releases/download/cs100S2020-sheets-8.0.0/cs100S2020_lab04.pdf">Laboratory Assignment Four: Performing Graphical Image Transformations</a> <p><b>Objective:</b> Import and use methods that automatically transform images<br><b>Reading Assignment:</b> Chapter 3, with a focus on Sections 3.1, 3.3, and 3.11</p>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-100-S2020/cs100-S2020-sheets/releases/download/cs100S2020-sheets-10.0.0/cs100S2020_practical05.pdf">Laboratory Assignment Five: Implementing and Evaluating a Steganography System</a> <p><b>Objective:</b> Learn how to use String methods while creating text-based output<br><b>Reading Assignment:</b> Chapters 2 and 3, focusing on Sections 2.1 to 2.8 and 3.1 to 3.2</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-100-S2020/cs100-S2020-sheets/releases/download/cs100S2020-sheets-10.0.0/cs100S2020_lab05.pdf">Laboratory Assignment Five: Implementing and Evaluating a Steganography System</a> <p><b>Objective:</b> Learn how to use String methods while creating text-based output<br><b>Reading Assignment:</b> Chapters 2 and 3, focusing on Sections 2.1 to 2.8 and 3.1 to 3.2</p>
 
 </ul>
