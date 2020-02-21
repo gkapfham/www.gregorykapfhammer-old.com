@@ -4,10 +4,16 @@ layout: defaults
 categories: [main]
 ---
 
-# Gregory M. Kapfhammer
+<div class="jumbotron">
+<h1 class="display-tight">Hello, my name is</h1>
+<h1 class="display">Gregory M. Kapfhammer</h1>
+<p class="lead">I am an <a class="characteristic" href="software/">engineer</a> who <a class="characteristic" href="teaching/">educates</a>.</p>
+<p class="lead">I'm also a <a class="characteristic" href="papers/">scientist</a> who <a class="characteristic" href="service/">serves</a>.</p>
+<p class="lead">Importantly, I'm a <a class="characteristic" href="biography/">person</a> who <a class="characteristic" href="biography/#principles">cares</a>.</p>
+</div>
 
 {% describe %}
-Welcome! My name is Gregory M. Kapfhammer. Innovating in technical areas such as
+Innovating in technical areas such as
 software engineering, software testing, and data science, I teach
 [courses]({{site.baseurl}}teaching/), conduct
 [research]({{site.baseurl}}research/), write
