@@ -9,12 +9,34 @@ categories: [main]
 <h1 class="display">Gregory M. Kapfhammer</h1>
 <p class="lead">I am an <a class="characteristic" href="software/">engineer</a> who <a class="characteristic" href="teaching/">educates</a>.</p>
 <p class="lead">I'm also a <a class="characteristic" href="papers/">scientist</a> who <a class="characteristic" href="service/">serves</a>.</p>
-<p class="lead">Importantly, I'm a <a class="characteristic" href="biography/">person</a> who <a class="characteristic" href="biography/#principles">cares</a>.</p>
+<p class="lead">I'm also a <a class="characteristic" href="biography/">person</a> who <a class="characteristic" href="principles/">cares</a>.</p>
+<script type="text/javascript">
+<!--
+var lead = [
+  '<p class="lead">Oh, and I maintain the <a class="characteristic" href="https://github.com/AVMf/avmf">AVMf</a>.</p>',
+  '<p class="lead">Oh, and I compose a <a class="characteristic" href="https://github.com/gkapfham/research-bibliography">bibliography</a>.</p>',
+  '<p class="lead">Oh, and I craft a <a class="characteristic" href="https://github.com/gkapfham/vim-vitamin-onec">colorscheme</a>.</p>',
+  '<p class="lead">Oh, and I collect some <a class="characteristic" href="https://github.com/schemaanalyst/schemaanalyst-bibliography">references</a>.</p>',
+  '<p class="lead">Oh, and I curate some <a class="characteristic" href="https://github.com/gkapfham/dotfiles">dotfiles</a>.</p>',
+  '<p class="lead">Oh, and I maintain the <a class="characteristic" href="https://github.com/GatorEducator/gatorgrader">gatorgrader</a>.</p>',
+  '<p class="lead">Oh, and I study the <a class="characteristic" href="https://github.com/schemaanalyst/schemaanalyst">schemaanalyst</a>.</p>',
+  '<p class="lead">Oh, and I predict performance with <a class="characteristic" href="https://github.com/Tada-Project/tada">tada</a>.</p>',
+  '<p class="lead">Oh, and I tweak some <a class="characteristic" href="https://github.com/gkapfham/tmuxinators">tmuxinators</a>.</p>',
+];
+function randomLead() {
+   return lead[Math.floor(Math.random() * lead.length)];
+}
+document.write(randomLead());
+//-->
+</script>
+
 </div>
+
+## Introduction
 
 {% describe %}
 Innovating in technical areas such as
-software engineering, software testing, and data science, I teach
+software engineering and software testing, I teach
 [courses]({{site.baseurl}}teaching/), conduct
 [research]({{site.baseurl}}research/), write
 [papers]({{site.baseurl}}research/papers/) and a [blog]({{site.baseurl}}blog/),
@@ -22,7 +44,7 @@ give [presentations]({{site.baseurl}}research/presentations/), create
 [software]({{site.baseurl}}software/), and [serve]({{site.baseurl}}service/)
 organizations. An Associate Professor in the [Department of Computer
 Science](http://www.cs.allegheny.edu) at [Allegheny
-College](http://www.allegheny.edu), I serve as an associate editor for the [Journal
+College](http://www.allegheny.edu), I am an associate editor for the [Journal
 of Software: Evolution and
 Process](https://onlinelibrary.wiley.com/journal/20477481), an academic editor
 for the [PeerJ Computer Science](https://peerj.com/computer-science/) journal,
