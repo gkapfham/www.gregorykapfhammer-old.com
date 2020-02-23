@@ -77,6 +77,7 @@ $danger:    $red !default;
 $light:     $gray-200;
 $dark:      darken($secondary, 5%);
 
+
 // Create the map for the theme's colors
 $theme-colors: () !default;
 $theme-colors: map-merge((
@@ -103,6 +104,7 @@ $font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe
 // Assume the base font size is 16px and define the base font to be 18 px or 18 / 16 = 1.125rem
 $font-size-base: 1.275rem;
 $font-size-lg:   ($font-size-base * 1.275);
+$font-size-md:   ($font-size-base * 1.137);
 $font-size-sm:   ($font-size-base * .875);
 
 // Define the font weights for the Body text
@@ -415,6 +417,45 @@ $code-color: $gray-400;
 
 // }}}
 
+$jumbotron-secondary-bg: lighten($secondary, 2.5%);
+
+$jumbotron-padding: .25rem;
+$jumbotron-bg:      $jumbotron-secondary-bg;
+
+body {
+  .jumbotron {
+    margin-top: 1.25rem;
+    padding: .75rem;
+    margin-bottom: .75rem;
+  }
+}
+
+body {
+  .display-tight {
+    font-size: $h1-font-size;
+    font-weight: $headings-font-weight;
+    line-height: $headings-line-height;
+    margin-bottom: .5rem;
+  }
+}
+
+body {
+  .display {
+    font-size: $h1-font-size;
+    font-weight: $headings-font-weight;
+    line-height: $headings-line-height;
+  }
+}
+
+body {
+  .lead {
+    font-size: $font-size-lg;
+    font-weight: $headings-font-weight;
+    line-height: $headings-line-height;
+    margin-bottom: .75rem;
+  }
+}
+
 // Import the necessary parts of Bootstrap {{{
 
 @import "node_modules/bootstrap/scss/functions";
@@ -439,6 +480,7 @@ $code-color: $gray-400;
 @import "node_modules/bootstrap/scss/tooltip";
 @import "node_modules/bootstrap/scss/popover";
 @import "node_modules/bootstrap/scss/utilities";
+@import "node_modules/bootstrap/scss/jumbotron";
 
 // }}}
 
@@ -454,6 +496,16 @@ $code-color: $gray-400;
 @import "node_modules/font-awesome/scss/list";
 @import "node_modules/font-awesome/scss/icons";
 @import "node_modules/font-awesome/scss/screen-reader";
+
+// }}}
+
+// Other: Research Papers {{{
+
+// A research item needs extra space on the bottom
+.characteristic {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 
 // }}}
 

@@ -13,14 +13,15 @@ image: /download/images/gregory-kapfhammer-biography-small.jpg
 
 {% describe %}
 <p>
-Gregory M. Kapfhammer is an Associate Professor in the <a
+Guided by his <a href = "/principles/">professional principles</a>, Gregory M.
+Kapfhammer is an Associate Professor in the <a
 href="http://www.cs.allegheny.edu">Department of Computer Science</a> at <a
 href="http://www.allegheny.edu">Allegheny College</a>. He earned his PhD from
 the <a href="https://cs.pitt.edu">Department of Computer Science</a> at the <a
 href="http://www.pitt.edu">University of Pittsburgh</a>, writing a PhD
-dissertation that was supervised by <a
-href="http://www.cs.virginia.edu/~soffa/">Mary Lou Soffa</a> and published as {%
-include_cached _popovers/paper_reference.html cite="Kapfhammer2007d"
+dissertation on database application testing that was supervised by <a
+href="http://www.cs.virginia.edu/~soffa/">Mary Lou Soffa</a> and published as
+{% include_cached _popovers/paper_reference.html cite="Kapfhammer2007d"
 trailing="." %} Kapfhammer also earned a BSc in Computer Science from Allegheny
 College and a MSc in Computer Science from the University of Pittsburgh.
 Kapfhammer was previously a short-term visitor in the <a
@@ -30,8 +31,8 @@ href="http://iai.mathematik.uni-ulm.de/en/index.html">Institute of Applied
 Information Processing</a> at the <a href="http://www.uni-ulm.de/en">University
 of Ulm</a>, and the <a href="https://www.sheffield.ac.uk/dcs">Department of
 Computer Science</a> at the <a href="http://www.sheffield.ac.uk/">University of
-Sheffield</a>. In a prior position, Gregory Kapfhammer was a research associate
-at Cigital, a software company that was acquired by <a
+Sheffield</a>. In a prior industry position, Gregory Kapfhammer was a research
+associate at Cigital, a software company that was acquired by <a
 href="https://www.synopsys.com/">Synopsys</a>.
 </p>
 {% enddescribe %}
@@ -103,33 +104,6 @@ Conference on Software Testing, Verification and Validation (ICST 2019)</a>, won
 the Distinguished Paper Award from the <a href = "http://www.cs-tcse.org/">IEEE
 Technical Council on Software Engineering</a>.
 </p>
-
-{% comment %} Summarize professional principles {% endcomment %}
-
-As an outworking of his Christian faith, Gregory Kapfhammer's endeavors are
-guided by the following professional principles:
-
-<b>Principle 1 (Selfless Service)</b>: Focus on the needs of your students and
-colleagues before considering your own. Commit to respectfully serving others
-even when your actions are unlikely to be noticed, rewarded, or beneficial to
-your own professional development.
-
-<b>Principle 2 (Absolute Excellence)</b>: Devote yourself and encourage others
-to commit themselves to uncompromising excellence in all aspects of personal and
-professional development.
-
-<b>Principle 3 (Relentless Effort)</b>: Unless the opportunity cost of further
-effort is prohibitively high, work hard towards the accomplishment of the goals
-you set &mdash; and help others to do the same.
-
-<b>Principle 4 (Realistic Expectations)</b>: Recognize that all people,
-including yourself, have fundamental strengths and weaknesses. Identify the
-strengths in your own life and the lives of others and plan activities so as to
-maximize the positive impact on the community.
-
-<b>Principle 5 (Contagious Joy)</b>: Pursue everything with passion and
-enthusiasm. Take advantage of every opportunity to encourage your students and
-colleagues. Always end a conversation or a meeting with a positive remark.
 
 {% comment %} Give a call for collaboration {% endcomment %}
 

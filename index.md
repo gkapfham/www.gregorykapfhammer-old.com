@@ -4,11 +4,23 @@ layout: defaults
 categories: [main]
 ---
 
-# Gregory M. Kapfhammer
+<div class="jumbotron">
+<h1 class="display-tight">Hello, my name is</h1>
+<h1 class="display">Gregory M. Kapfhammer</h1>
+<p class="lead">I am an <a class="characteristic" href="/software/">engineer</a> who <a class="characteristic" href="/teaching/">educates</a>.</p>
+<p class="lead">I'm also a <a class="characteristic" href="/research/papers/">scientist</a> who <a class="characteristic" href="/service/">serves</a>.</p>
+<p class="lead">I'm also a <a class="characteristic" href="/biography/">person</a> who <a class="characteristic" href="/principles/">cares</a>.</p>
+<script>
+document.write(randomLead());
+</script>
+
+</div>
+
+## Introduction
 
 {% describe %}
-Welcome! My name is Gregory M. Kapfhammer. Innovating in technical areas such as
-software engineering, software testing, and data science, I teach
+Innovating in technical areas such as
+software engineering and software testing, I teach
 [courses]({{site.baseurl}}teaching/), conduct
 [research]({{site.baseurl}}research/), write
 [papers]({{site.baseurl}}research/papers/) and a [blog]({{site.baseurl}}blog/),
@@ -16,7 +28,7 @@ give [presentations]({{site.baseurl}}research/presentations/), create
 [software]({{site.baseurl}}software/), and [serve]({{site.baseurl}}service/)
 organizations. An Associate Professor in the [Department of Computer
 Science](http://www.cs.allegheny.edu) at [Allegheny
-College](http://www.allegheny.edu), I serve as an associate editor for the [Journal
+College](http://www.allegheny.edu), I am an associate editor for the [Journal
 of Software: Evolution and
 Process](https://onlinelibrary.wiley.com/journal/20477481), an academic editor
 for the [PeerJ Computer Science](https://peerj.com/computer-science/) journal,
