@@ -161,6 +161,10 @@ target="_blank" rel="noopener" href="https://github.com/schemaanalyst/imdetect-r
 TSE 2019 paper</li>
 
 <li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+target="_blank" rel="noopener" href="https://github.com/schemaanalyst/sticcer-replicate">sticcer-replicate</a>: Data and analysis code for the
+ICST 2020 paper</li>
+
+<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
 target="_blank" rel="noopener" href="https://github.com/gkapfham/vmutation-replicate">vmutation-replicate</a>: Data and analysis code for the
 AST 2016 paper</li>
 
