@@ -36,5 +36,8 @@
   <!-- include_cached the code that supports zooming to anchors while accounting for fixed header -->
   {% include_cached _headers/head_zoom.html %}
 
+  <!-- include_cached the code that supports random lead generation for the jumbotron in the index -->
+  {% include_cached _headers/head_lead.html %}
+
   <!-- Load in all of the Google analytics code and SEO code if Jekyll runs in production mode -->
   {% if jekyll.environment == 'production' %} {% include _headers/analytics.html %} {% endif %}
