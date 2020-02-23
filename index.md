@@ -10,24 +10,8 @@ categories: [main]
 <p class="lead">I am an <a class="characteristic" href="software/">engineer</a> who <a class="characteristic" href="teaching/">educates</a>.</p>
 <p class="lead">I'm also a <a class="characteristic" href="papers/">scientist</a> who <a class="characteristic" href="service/">serves</a>.</p>
 <p class="lead">I'm also a <a class="characteristic" href="biography/">person</a> who <a class="characteristic" href="principles/">cares</a>.</p>
-<script type="text/javascript">
-<!--
-var lead = [
-  '<p class="lead">Oh, and I maintain the <a class="characteristic" href="https://github.com/AVMf/avmf">AVMf</a>.</p>',
-  '<p class="lead">Oh, and I compose a <a class="characteristic" href="https://github.com/gkapfham/research-bibliography">bibliography</a>.</p>',
-  '<p class="lead">Oh, and I craft a <a class="characteristic" href="https://github.com/gkapfham/vim-vitamin-onec">colorscheme</a>.</p>',
-  '<p class="lead">Oh, and I collect some <a class="characteristic" href="https://github.com/schemaanalyst/schemaanalyst-bibliography">references</a>.</p>',
-  '<p class="lead">Oh, and I curate some <a class="characteristic" href="https://github.com/gkapfham/dotfiles">dotfiles</a>.</p>',
-  '<p class="lead">Oh, and I maintain the <a class="characteristic" href="https://github.com/GatorEducator/gatorgrader">gatorgrader</a>.</p>',
-  '<p class="lead">Oh, and I study the <a class="characteristic" href="https://github.com/schemaanalyst/schemaanalyst">schemaanalyst</a>.</p>',
-  '<p class="lead">Oh, and I predict performance with <a class="characteristic" href="https://github.com/Tada-Project/tada">tada</a>.</p>',
-  '<p class="lead">Oh, and I tweak some <a class="characteristic" href="https://github.com/gkapfham/tmuxinators">tmuxinators</a>.</p>',
-];
-function randomLead() {
-   return lead[Math.floor(Math.random() * lead.length)];
-}
+<script>
 document.write(randomLead());
-//-->
 </script>
 
 </div>
