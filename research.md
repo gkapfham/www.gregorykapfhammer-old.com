@@ -59,10 +59,10 @@ examples of papers. </li>
 web sites, my research has developed automated techniques for checking the pages
 in these sites. Some examples of papers describing methods for detecting defects
 in live web pages include {% include_cached _popovers/paper_reference.html
-cite="Walsh2017" trailing="," %} {% include_cached
-_popovers/paper_reference.html cite="Walsh2017a" trailing="," %} and {%
-include_cached _popovers/paper_reference.html cite="Althomali2019" trailing="."
-%}
+cite="Walsh2017" %} and {% include_cached _popovers/paper_reference.html
+cite="Walsh2017a" trailing="." %} The recent work in {% include_cached
+_popovers/paper_reference.html cite="Althomali2019" %} explains how
+to visually classify layout failures in a web page.
 </li>
 <p>
 
