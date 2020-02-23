@@ -89,10 +89,12 @@ present and evaluate regression testing techniques include {% include
 _popovers/paper_reference.html cite="Walcott2006" trailing="," %} {%
 include_cached _popovers/paper_reference.html cite="Lin2014" trailing="," %} and
 {% include_cached _popovers/paper_reference.html cite="Lin2017" trailing="." %}
-Leading the way in the realistic assessment of regression testing, recent papers
+Leading the way in the realistic assessment of regression testing, papers
 such as {% include _popovers/paper_reference.html cite="Paterson2018" %} and {%
 include _popovers/paper_reference.html cite="Paterson2019" %} show how to
-conduct rigorous experiments with faults harvested from real programs.
+conduct rigorous experiments with faults harvested from real programs. Recent
+papers like {% include _popovers/paper_reference.html cite="Alsharif2020" %}
+show how to perform efficient regression testing on a relational database schema.
 </li>
 <p>
 
