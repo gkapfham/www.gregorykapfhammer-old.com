@@ -9,7 +9,7 @@ categories: [main]
 <h1 class="display">Gregory M. Kapfhammer</h1>
 <p class="lead">I am an <a class="characteristic" href="/software/">engineer</a> who <a class="characteristic" href="/teaching/">educates</a>.</p>
 <p class="lead">I'm also a <a class="characteristic" href="/research/papers/">scientist</a> who <a class="characteristic" href="/service/">serves</a>.</p>
-<p class="lead">I'm also a <a class="characteristic" href="/biography/">person</a> who <a class="characteristic" href="/principles/">cares</a>.</p>
+<p class="lead">Mainly, I'm a <a class="characteristic" href="/biography/">person</a> who <a class="characteristic" href="/principles/">cares</a>.</p>
 <script>
 document.write(randomLead());
 </script>
