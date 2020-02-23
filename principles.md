@@ -36,4 +36,4 @@ maximize the positive impact on the community.
 
 <b>Principle 5 (Contagious Joy)</b>: Pursue everything with passion and
 enthusiasm. Take advantage of every opportunity to encourage your students and
-colleagues. Always end a conversation or j meeting with a positive remark.
+colleagues. Always end a conversation or a meeting with a positive remark.
