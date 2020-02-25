@@ -17,6 +17,6 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-203-S2020/cs203-S2020-sheets/releases/download/cs203S2020-sheets-7.0.0/cs203S2020_practical04.pdf">Practical Assignment Four: Discovering the Limitations of the Cookbook Style</a> <p><b>Objective:</b> Learn the limitations of a Python program in the cookbook style<br><b>Reading:</b> Chapter 4 of EPS, Chapters 1 and 2 of PT, and Chapters 1 through 3 of TP</p>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-203-S2020/cs203-S2020-sheets/releases/download/8.0.2/cs203S2020_practical05.pdf">Practical Assignment Five: Refactor and Test a Pipeline-Style Program</a> <p><b>Objective:</b> Practice refactoring and testing a Python program in the pipeline style<br><b>Reading:</b> Chapter 5 of EPS, Chapters 1 and 2 of PT, and Chapters 1 to 5 of TP</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-203-S2020/cs203-S2020-sheets/releases/download/cs203S2020-sheets-9.0.0/cs203S2020_practical05.pdf">Practical Assignment Five: Refactor and Test a Pipeline-Style Program</a> <p><b>Objective:</b> Practice refactoring and testing a Python program in the pipeline style<br><b>Reading:</b> Chapter 5 of EPS, Chapters 1 and 2 of PT, and Chapters 1 to 5 of TP</p>
 
 </ul>
