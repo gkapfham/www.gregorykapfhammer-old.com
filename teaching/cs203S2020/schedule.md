@@ -73,4 +73,10 @@ layout: course_item
 
 <li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_philosophy_ch4to6.html">Philosophy of Software Design, Chapters 4 through 6</a>
 
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_thinkpython_ch5to8.html">Think Python, Chapters 5 through 8</a>
+
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_programmingstyle_ch5to15.html">Exercises in Programming Style, Chapters 5 through 15</a>
+
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_pytest_ch3to4.html">Python Testing with Pytest, Chapters 3 through 4</a>
+
 </ul>
