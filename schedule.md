@@ -22,8 +22,8 @@ during any of <a href="http://www.allegheny.edu">Allegheny College</a>'s breaks
 that are documented in the <a href =
 "http://sites.allegheny.edu/dean/academic-calendar/">Academic Calendar</a>.
 Individuals seeking to schedule an appointment with me should also bear in mind
-that, as Chair of the [Department of Computer
-Science](http://www.cs.allegheny.edu) at Allegheny College, I have additional
-responsibilities that may prevent me from either holding office hours beyond
-those normally scheduled or agreeing to extra meetings outside of office hours.
+that I have previously scheduled teaching, mentoring, research, and
+administrative events that may prevent me from either holding office hours
+beyond those normally scheduled or agreeing to extra meetings outside of
+existing office hours.
 {% enddescribe %}
