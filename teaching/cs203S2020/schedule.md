@@ -80,3 +80,27 @@ layout: course_item
 <li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_thinkpython_ch5to8.html">Think Python, Chapters 5 through 8</a>
 
 </ul>
+
+### Module Three: Software Implementation and Testing
+
+**Reading Assignments**
+
+- <em>Cooperative Software Design</em>, Chapters 9 - 12
+- <em>Philosophy of Software Design</em>, Chapters 12 - 15
+- <em>Exercises in Programming Style</em>, Chapters 16 - 19
+- <em>Python Testing with Pytest</em>, Chapter 5
+- <em>Think Python</em>, All relevant chapters
+
+**Discussion and Review Slides**
+
+<ul>
+
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_cooperative_ch9to12.html">Cooperative Software Design, Chapters 9 through 12</a>
+
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_philosophy_ch12to15.html">Philosophy of Software Design, Chapters 12 through 15</a>
+
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_programmingstyle_ch16to19.html">Exercises in Programming Style, Chapters 16 through 19</a>
+
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_pytest_ch5.html">Python Testing with Pytest, Chapters 3 through 4</a>
+
+</ul>
