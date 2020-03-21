@@ -8,6 +8,11 @@
 <!-- Always call the load() function so that clicking on links to anchors handles the fixed navbar -->
 <body onload="load()">
 
+  <!-- Load the yall function for the lazy loading of images with a placeholder -->
+  <script>
+    document.addEventListener("DOMContentLoaded", yall);
+  </script>
+
   <!-- Define the navigation bar -->
   {% include_cached _headers/navbar.html %}
 

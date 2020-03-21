@@ -2,12 +2,13 @@
 title: Biography
 layout: defaults
 image: /download/images/gregory-kapfhammer-biography-small.jpg
+preview: /download/images/gregory-kapfhammer-biography-small-preview.jpg
 ---
 
 # {{ page.title }}
 
 <!-- include_cached header image -->
-{% include_cached _popovers/image_reference.html image="gregory-kapfhammer-biography-small.jpg" content="Photo by <a href='https://www.facebook.com/tkpapinchak'>Tanya Greer</a> shared under a <a href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>CC (BY-NC-ND)</a>" label="CC (BY-NC-ND)" %}
+{% include_cached _popovers/image_reference.html preview="gregory-kapfhammer-biography-small-preview.jpg" image="gregory-kapfhammer-biography-small" content="Photo by <a href='https://www.facebook.com/tkpapinchak'>Tanya Greer</a> shared under a <a href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>CC (BY-NC-ND)</a>" label="CC (BY-NC-ND)" %}
 
 {% comment %} State current appointment and prior appointments {% endcomment %}
 

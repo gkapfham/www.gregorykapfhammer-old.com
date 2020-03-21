@@ -1,5 +1,11 @@
 <!-- References: include.image -->
-<img class="img-fluid" src="/download/images/{{include.image}}"/>
+<!-- <img class="img-fluid" src="/download/images/{{include.image}}"/> -->
+
+<!-- <a href="/download/images/{{include.image}}" class="progressive replace"> -->
+<!--   <img src="/download/images/{{include.preview}}" class="preview" alt="image" /> -->
+<!-- </a> -->
+
+<img class="lazy img-fluid" src="/download/images/{{include.image}}-preview.jpg" data-src="/download/images/{{include.image}}.jpg" alt="Alternative text to describe image.">
 
 <!-- References: include.content -->
 <!-- References: include.label -->
