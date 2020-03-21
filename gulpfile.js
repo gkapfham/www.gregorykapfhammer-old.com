@@ -319,7 +319,7 @@ gulp.task('imagemogrify', function(cb) {
     stdio: 'inherit',
   };
   var mogrify = spawn('mogrify', [IMAGES_OPTIMIZED_JPG, '-sampling-factor',
-    '4:2:0', '-strip', '-quality', '45', '-interlace', 'Plane', '-colorspace', 'sRGB', IMAGES_OPTIMIZED_JPG], options);
+    '4:2:0', '-strip', '-quality', '45', '-interlace', 'plane', '-colorspace', 'sRGB', IMAGES_OPTIMIZED_JPG], options);
   mogrify.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: mogrify process exited with code: ' + code);
   });
