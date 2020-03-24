@@ -4,11 +4,13 @@
 <!-- Include quicklink -->
 <script src="/js/quicklink.umd.js"></script>
 <!-- Initialize quicklink -->
-<!-- Configure quicklink to pre-fetch for 6 seconds -->
+<!-- Configure quicklink to pre-fetch for 8 seconds -->
+<!-- Configure quicklink pre-fetch all pages in the drop-down menu -->
 <script>
 quicklink.listen({
-  timeout: 10000
+  timeout: 8000
 });
+quicklink.prefetch(['/teaching/', '/research/', '/research/papers/', '/research/presentations/', '/software/', '/service/', '/blog/', '/biography/', '/schedule/', '/contact/'], true);
 </script>
 
 <!-- Enable and configure the popovers (which require tooltips) -->
