@@ -289,7 +289,7 @@ gulp.task('imageoptimize', function() {
   return gulp.src(IMAGES_SOURCE)
     .pipe(newer(IMAGES_DEST))
     .pipe(imagemin([imagemin.jpegtran({
-      progressive: false,
+      progressive: true,
     }),
     imagemin.optipng({
       optimizationLevel: 7,
