@@ -50,6 +50,6 @@
   },
   "homepage": "https://github.com/gkapfham/www.gregorykapfhammer.com.git",
   "dependencies": {
-    "quicklink": "^1.0.1"
+    "quicklink": "^2.0.0-alpha"
   }
 }
