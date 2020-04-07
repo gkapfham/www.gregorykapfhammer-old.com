@@ -96,13 +96,13 @@ layout: course_item
 - Software Implementation and Testing
   - [Engineering Culture: Code Ownership](https://engineering.fb.com/culture/engineering-culture-code-ownership/), Facebook
   - [Where Do Our Flaky Tests Come From?](https://testing.googleblog.com/2017/04/where-do-our-flaky-tests-come-from.html), Google
-  - [test flakiness: Methods for Identifying and Dealing with Flaky Tests](https://labs.spotify.com/2019/11/18/test-flakiness-methods-for-identifying-and-dealing-with-flaky-tests/), Spotify
+  - [Test flakiness: Methods for Identifying and Dealing with Flaky Tests](https://labs.spotify.com/2019/11/18/test-flakiness-methods-for-identifying-and-dealing-with-flaky-tests/), Spotify
 
 **Discussion and Review Slides**
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203s2020/provide/slides/cs203_cooperative_ch9to12.html">Cooperative Software Design, chapters 9 through 12</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203s2020/provide/slides/cs203_cooperative_ch9to12.html">Cooperative Software Design, Chapters 9 through 12</a>
 
 <li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203s2020/provide/slides/cs203_philosophy_ch12to15.html">Philosophy of Software Design, Chapters 12 through 15</a>
 
