@@ -8,7 +8,6 @@ layout: course_item
 ## {{page.subtitle}}
 
 {% comment %} Note: each laboratory assignment should have an objective and a reading assignment {% endcomment %}
-{% comment %} Deploys are not working correctly on Netlify! {% endcomment %}
 
 <ul>
 
