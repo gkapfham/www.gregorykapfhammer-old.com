@@ -8,7 +8,6 @@ layout: course_item
 ## {{page.subtitle}}
 
 {% comment %} Note: each laboratory assignment should have an objective and a reading assignment {% endcomment %}
-{% comment %} Deploys are not working correctly on Netlify! {% endcomment %}
 
 <ul>
 
@@ -25,5 +24,7 @@ layout: course_item
 <li><a href="https://github.com/Allegheny-Computer-Science-100-S2020/cs100-S2020-sheets/releases/download/cs100S2020-sheets-16.0.1/cs100S2020_lab06.pdf">Laboratory Assignment Six: Implementing and Evaluating a Bioinformatics Program</a> <p><b>Objective:</b> Use String methods to create interdisciplinary text-based output<br><b>Reading Assignment:</b> Chapters 2 through 4, with a focus on Sections 3.1 through 3.5</p>
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-S2020/cs100-S2020-sheets/releases/download/cs100S2020-sheets-16.0.1/cs100S2020_lab07.pdf">Laboratory Assignment Seven: Fixing and Extending Computations in Java Classes</a> <p><b>Objective:</b> Participate in a "bug hunt" to find and fix defects in a Java program<br><b>Reading Assignment:</b> Chapters 3 and 4, with a focus on Sections 3.5 through 3.8</p>
+
+<li><a href="https://github.com/Allegheny-Computer-Science-100-S2020/cs100-S2020-sheets/releases/download/cs100S2020-sheets-17.0.1/cs100S2020_lab08.pdf">Laboratory Assignment Eight: Create a Numerical Computation Engine in Java</a> <p><b>Objective:</b> Develop and test an engine for numerical computations<br><b>Reading Assignment:</b> Chapters 4 and 5, with a focus on Sections 5.1 through 5.6</p>
 
 </ul>
