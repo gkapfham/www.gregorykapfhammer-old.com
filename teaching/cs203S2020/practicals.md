@@ -21,6 +21,8 @@ layout: course_item
 
 <li><a href="https://github.com/Allegheny-Computer-Science-203-S2020/cs203-S2020-sheets/releases/download/cs203S2020-sheets-13.0.1/cs203S2020_practical06.pdf">Practical Assignment Six: Property-Based Testing of a Pipeline-Style Program</a> <p><b>Objective:</b> Use Hypothesis to test a Python program in the pipeline style<br><b>Reading:</b> Chapter 5 of EPS, Chapters 1 and 2 of PT, and Chapters 1 to 5 of TP</p>
 
-<li><a href="https://github.com/Allegheny-Computer-Science-203-S2020/cs203-S2020-sheets/releases/download/cs203S2020-sheets-13.0.1/cs203S2020_practical07.pdf">Practical Assignment Seven: Explore Object-Oriented Programming and Testing</a> <p><b>Objective:</b> Practice implementing and testing an object-oriented Python program<br><b>Reading:</b> Chapter 10 of EPS, Chapters 1 through 4 of PT, and All Chapters of TP</p>
+<li><a href="https://github.com/Allegheny-Computer-Science-203-S2020/cs203-S2020-sheets/releases/download/cs203S2020-sheets-14.0.0/cs203S2020_practical07.pdf">Practical Assignment Seven: Explore Object-Oriented Programming and Testing</a> <p><b>Objective:</b> Practice implementing and testing an object-oriented Python program<br><b>Reading:</b> Chapter 10 of EPS, Chapters 1 through 4 of PT, and All Chapters of TP</p>
+
+<li><a href="https://github.com/Allegheny-Computer-Science-203-S2020/cs203-S2020-sheets/releases/download/cs203S2020-sheets-14.0.0/cs203S2020_practical08.pdf">Practical Assignment Eight: Profile and Test an Aspect-Oriented Program</a> <p><b>Objective:</b> Practice implementing and testing an object-oriented Python program<br><b>Reading:</b> Chapter 18 of EPS, Chapters 1 to 5 of PT, and All Relevant Chapters of TP</p>
 
 </ul>
