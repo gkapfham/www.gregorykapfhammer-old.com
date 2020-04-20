@@ -123,6 +123,9 @@ $h4-font-size: 1.25rem;
 $h5-font-size: 1rem;
 $h6-font-size: 0.75rem;
 
+// Define the font size of paper details
+$author-title-font-size: $h3-font-size;
+
 // Define the main font for all of the headings, with a system fallback
 $headings-font-family: 'IBM Plex Mono', monospace;
 $headings-font-weight: 500;
@@ -538,11 +541,25 @@ body {
 
 // }}}
 
-// If there is only a service item, then less negative vertical space
+// Other: Blog Post Footer {{{
+
+// Adjust the spacing for the date in the footer of a blog post
 .datefooter {
   margin-top: -20px;
   margin-bottom: 10px;
 }
+
+// }}}
+
+// Other: Details about a Research Paper {{{
+
+// Adjust font size and family for the author and paper details
+.paperdetails {
+  font-size: $author-title-font-size;
+  font-family: $font-family-sans-serif;
+}
+
+// }}}
 
 // Other: Twitter {{{
 
