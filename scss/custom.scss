@@ -76,7 +76,7 @@ $warning:   $yellow !default;
 $danger:    $red !default;
 $light:     $gray-200;
 $dark:      darken($secondary, 5%);
-
+$sparkle:   lighten($gray-600, 5%);
 
 // Create the map for the theme's colors
 $theme-colors: () !default;
@@ -96,22 +96,22 @@ $theme-colors: map-merge((
 // Typography {{{
 
 // Note that all site fonts are loaded in the HTML file:
-// Montserrat for body text and Roboto Slab for headers
+// IBM Plex Sans for body text and IBM Plex Mono for headers
 
 // Define fonts from Google, also using platform fallback fonts
-$font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-sans-serif: 'IBM Plex Sans', sans-serif;
 
-// Assume the base font size is 16px and define the base font to be 18 px or 18 / 16 = 1.125rem
+// Define the base font sizes and sizes above and below the base
 $font-size-base: 1.275rem;
 $font-size-lg:   ($font-size-base * 1.275);
 $font-size-md:   ($font-size-base * 1.137);
 $font-size-sm:   ($font-size-base * .875);
 
-// Define the font weights for the Body text
+// Define the font weights for the body text
 $font-weight-light:     300;
-$font-weight-normal:    500;
-$font-weight-demi-bold: 600;
-$font-weight-bold:      700;
+$font-weight-normal:    400;
+$font-weight-demi-bold: 500;
+$font-weight-bold:      600;
 $font-weight-base:      $font-weight-normal;
 $line-height-base:      1.5;
 
@@ -123,8 +123,11 @@ $h4-font-size: 1.25rem;
 $h5-font-size: 1rem;
 $h6-font-size: 0.75rem;
 
-// Define the main font for all of the headings
-$headings-font-family: "Roboto Slab";
+// Define the font size of paper details
+$author-title-font-size: $h3-font-size;
+
+// Define the main font for all of the headings, with a system fallback
+$headings-font-family: 'IBM Plex Mono', monospace;
 $headings-font-weight: 500;
 $headings-line-height: 1.1;
 
@@ -158,7 +161,7 @@ $navbar-padding-x: ($spacer/2);
 .navbar-dark {
   // 1. Make the Navbar more bold (default is 500)
   .nav-link {
-    font-weight: $font-weight-demi-bold;
+    font-weight: $font-weight-bold;
   }
   // 2a. Make the Navbar a box with no rounded corners
   // 2b. Increase Navbar border thickness
@@ -194,13 +197,14 @@ $dropdown-link-active-bg: $component-active-bg;
 // Headings {{{
 
 // Define the color for all of the headings
-$headings-color: $gray-600;
+$headings-color: $sparkle;
 
 // Give more spacing to the bottom of headings
 $spacer: 1rem;
 $headings-margin-bottom: 1.2 * $spacer;
 
 // Allow for hyphenation in the headings
+// Tighten spacing between words in the headings
 h1,
 h2,
 h3,
@@ -214,6 +218,7 @@ h6,
 .h5,
 .h6 {
   hyphens: auto;
+  word-spacing: -.25em;
 }
 
 // }}}
@@ -504,7 +509,7 @@ body {
 // A research item needs extra space on the bottom
 .characteristic {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: $font-weight-bold;
 }
 
 // }}}
@@ -532,6 +537,26 @@ body {
   text-decoration: none;
   font-weight: $font-weight-demi-bold;
   margin-bottom: -10px;
+}
+
+// }}}
+
+// Other: Blog Post Footer {{{
+
+// Adjust the spacing for the date in the footer of a blog post
+.datefooter {
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+// }}}
+
+// Other: Details about a Research Paper {{{
+
+// Adjust font size and family for the author and paper details
+.paperdetails {
+  font-size: $author-title-font-size;
+  font-family: $font-family-sans-serif;
 }
 
 // }}}
@@ -619,6 +644,24 @@ body {
 
 .tagreference:hover {
   color: material-color('blue', '500');
+}
+
+// }}}
+
+// Override the Bootstrap _reboot {{{
+
+b,
+strong,
+.b,
+.strong {
+  font-weight: $font-weight-bold;
+}
+
+code,
+pre,
+.code,
+.pre {
+   font-family: 'IBM Plex Mono', monospace;
 }
 
 // }}}

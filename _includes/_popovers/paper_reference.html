@@ -3,6 +3,6 @@
 <!-- Note that this code uses single quotes to surround the data-content -->
 <!-- Note that this code uses conditional logic to prevent paper reference rendering if not set -->
 <span style="white-space: nowrap;">
-  <a href = "/research/papers/{{include.cite}}/">({{include.cite}})</a> <button type="button" title="Paper Reference" class="btn btn-success btn-small active" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="right" data-content='{% if jekyll.environment == 'production' or jekyll.environment == 'papers' %}{% reference {{include.cite}} %}{% endif %} <b><a href="/research/papers/{{include.cite}}/">Read this paper!</a></b>'>
+  <a href = "/research/papers/{{include.cite}}/">({{include.cite}})</a> <button type="button" title="Reference" class="btn btn-success btn-small active" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="right" data-content='{% if jekyll.environment == 'production' or jekyll.environment == 'papers' %}{% reference {{include.cite}} %}{% endif %} <b><a href="/research/papers/{{include.cite}}/">Read this paper!</a></b>'>
 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
 </button>&#8239;{{ include.trailing | default: "" }}</span>

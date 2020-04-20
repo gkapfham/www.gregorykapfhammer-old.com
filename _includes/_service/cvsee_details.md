@@ -131,14 +131,14 @@ Conference </div>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2018 Journal of Software Testing, Verification and Reliability </div>
 <br> Reviewer (Eleven times)
 <p>
-<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2019 Journal of Systems and Software </div>
-<br> Reviewer (Twelve times)
+<li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2020 Journal of Systems and Software </div>
+<br> Reviewer (Fourteen times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2019 Software Quality Journal </div>
 <br> Reviewer (Fifteen times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2009 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2020 Information and Software Technology Journal </div>
-<br> Reviewer (Ten times)
+<br> Reviewer (Eleven times)
 <p>
 <li><i class="fa-li fa fa-superpowers fa-lg"></i><div class="serviceitem"> 2008 <i class="fa fa-long-arrow-right" aria-hidden="true"></i> 2010 Automated Software Engineering Journal </div>
 <br> Reviewer (Two times)

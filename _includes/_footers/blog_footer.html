@@ -31,3 +31,11 @@
 <a class="btn btn-info btn-xs active mx-1" href="/categories/#{{ category | slugify }}"> {{ category }}</a>
 {% endfor %}
 </div>
+<!-- Display the date of the post and the last modified date if it exists -->
+<div class="datefooter">
+<i class="fa fa-calendar-o" aria-hidden="true"></i>
+&nbsp; {{ page.date | date_to_long_string }}
+{% if page.last_modified_at %}
+(Updated: {{ page.last_modified_at | date_to_long_string }})
+{% endif %}
+</div>
