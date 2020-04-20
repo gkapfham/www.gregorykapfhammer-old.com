@@ -470,6 +470,26 @@ gulp.task('default', gulp.series('quickdeploy'));
 
 // }}}
 
+const log = require('fancy-log');
+const critical = require('critical').stream;
+
+// Generate & Inline Critical-path CSS
+gulp.task('critical', () => {
+  return gulp
+    .src('_site/*.html')
+    .pipe(critical({
+      base: 'dist/',
+      inline: true,
+      css: [
+        '_site/css/custom.css',
+      ]
+    }))
+    .on('error', err => {
+      log.error(err.message);
+    })
+    .pipe(gulp.dest('_critical'));
+});
+
 // DEPRECATED {{{
 
 // TASK: use rsync to deploy the web site to the server
