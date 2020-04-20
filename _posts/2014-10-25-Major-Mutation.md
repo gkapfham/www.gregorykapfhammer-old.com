@@ -44,7 +44,7 @@ $ javac -XMutator:ALL MyFile.java
 # Generated Mutants: 190 (96 ms)
 ```
 
-[Rene Just](https://people.cs.umass.edu/~rjust/), the creator of Major, has taken great care to ensure that it is fast,
+The creator of Major, [Rene Just](https://homes.cs.washington.edu/~rjust/), took great care to ensure that it is fast,
 allowing mutation testing to be applied to large real-world programs. Major v1.1.8, for the Java 7 programming language,
 is now available for download&mdash;check Major's site so that you can download the tool and get started with mutation
 analysis for your JUnit test suites! If you are interested in Major, then you may also want to investigate the use of
