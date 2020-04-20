@@ -538,6 +538,12 @@ body {
 
 // }}}
 
+// If there is only a service item, then less negative vertical space
+.datefooter {
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
 // Other: Twitter {{{
 
 // All of this styling is specialized for the twitterFetcher JavaScript
@@ -632,6 +638,13 @@ strong,
 .b,
 .strong {
   font-weight: $font-weight-bold;
+}
+
+code,
+pre,
+.code,
+.pre {
+   font-family: 'IBM Plex Mono', monospace;
 }
 
 // }}}
