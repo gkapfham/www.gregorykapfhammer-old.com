@@ -221,6 +221,13 @@ h6,
   word-spacing: -.25em;
 }
 
+//
+$sub-headings-highlight-color: $blue;
+
+$sub-headings-font-family: $headings-font-family;
+
+$sub-headings-font-style: italic;
+
 // }}}
 
 // Body {{{
@@ -501,6 +508,31 @@ body {
 @import "node_modules/font-awesome/scss/list";
 @import "node_modules/font-awesome/scss/icons";
 @import "node_modules/font-awesome/scss/screen-reader";
+
+// }}}
+
+// Other: Jumbotron-based Headers {{{
+
+// Make the jumbotron smaller in width
+.header {
+  width: 90%;
+  margin-bottom: 1.75rem !important;
+}
+
+// Define the subheading to be the same font
+// as headers (e.g., IBM Plex Mono), but
+// in italics and same size as second-level headers
+.subheading {
+  font-family: $sub-headings-font-family;
+  font-style: $sub-headings-font-style;
+  font-size: $h2-font-size;
+}
+
+// Highlight certain words in the jumbotron-based header
+.subheading-highlight {
+  @extend .subheading;
+  color: $sub-headings-highlight-color;
+}
 
 // }}}
 
