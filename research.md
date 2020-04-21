@@ -12,7 +12,7 @@ As an experimental computer scientist, the goal of my research is to design,
 implement, and rigorously evaluate techniques and tools that support the
 creation of useful, dependable, and efficient software. My research addresses
 the challenges within the fields of software engineering, software testing, and
-computer systems. I conduct this research in collaboration with undergraduates
+computer systems. I conduct this research with undergraduates
 at [Allegheny College](http://www.allegheny.edu), graduate students and
 professors at several universities, and colleagues in industry.
 {% enddescribe %}
