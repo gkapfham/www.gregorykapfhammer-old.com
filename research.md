@@ -4,10 +4,8 @@ layout: defaults
 image: /download/images/7029911579_0ddd6e8352_z.jpg
 ---
 
-# {{page.title}}
-
-<!-- include_cached header image -->
-{% include_cached _popovers/image_reference.html image="7029911579_0ddd6e8352_z.jpg" content="<a title='Color Test #4a' target='_blank' href='http://flickr.com/photos/multichrome/7029911579'>flickr photo</a> shared by <a target='_blank' href='http://flickr.com/people/multichrome'>/Casper</a> under a <a target='_blank' href='http://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
+{% capture page_title %} {{page.title}} {% endcapture %}
+{% include _jumbotrons/header.html title=page_title subtitle="implementing innovation in" highlight="software engineering" %}
 
 {% describe %}
 As an experimental computer scientist, the goal of my research is to design,
