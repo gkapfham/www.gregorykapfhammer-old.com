@@ -6,7 +6,7 @@ image: /download/images/6145817075_2536dd7b4c_z.jpg
 ---
 
 {% capture page_title %} {{page.title}} {% endcapture %}
-{% include _jumbotrons/header.html title=page_title subtitle="transforming research into" highlight="open opportunities" %}
+{% include _jumbotrons/header.html title=page_title subtitle="turning research into" highlight="open opportunities" %}
 
 ## Research Software
 
