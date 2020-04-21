@@ -5,10 +5,8 @@ description: In addition to writing about technical writing and computer science
 image: /download/images/4101567511_e88d64015c_z.jpg
 ---
 
-# {{ page.title }}
-
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="4101567511_e88d64015c_z.jpg" content="<a title='Colored Pencils' href='https://flickr.com/photos/therefore/4101567511'>flickr photo</a> by <a href='https://flickr.com/people/therefore'>Dean Terry</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
+{% capture page_title %} {{page.title}} {% endcapture %}
+{% include _jumbotrons/header.html title=page_title subtitle="quirky insights on" highlight="technical topics" %}
 
 {% comment %} Only generate the list of posts when requested or for a production build {% endcomment %}
 {% if jekyll.environment == 'production' or jekyll.environment == 'posts' %}
