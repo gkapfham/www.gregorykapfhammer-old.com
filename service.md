@@ -5,7 +5,7 @@ image: /download/images/3944094295_833175fc98_z.jpg
 ---
 
 {% capture page_title %} {{page.title}} {% endcapture %}
-{% include _jumbotrons/header.html title=page_title subtitle="fueling innovation with" highlight="selfless assistance" %}
+{% include _jumbotrons/header.html title=page_title subtitle="fueling innovation with" highlight="selfless support" %}
 
 {% describe %}
 An outstanding and award-winning [teacher]({{site.baseurl}}teaching/),
