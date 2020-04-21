@@ -5,10 +5,8 @@ description: In addition to editing volumes of journals, my colleagues and stude
 image: /download/images/10600355815_18896130aa_z.jpg
 ---
 
-# {{ page.title }}
-
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="10600355815_18896130aa_z.jpg" content="<a title='window detail bethlemi' href='https://flickr.com/photos/56938735@N03/10600355815'>flickr photo</a> by <a href='https://flickr.com/people/56938735@N03'>rost8668</a> shared under a <a href='https://creativecommons.org/licenses/by-sa/2.0/'>CC (BY-SA) license</a>" label="CC (BY-SA)" %}
+{% capture page_title %} {{page.title}} {% endcapture %}
+{% include _jumbotrons/header.html title=page_title subtitle="polished publications in" highlight="software engineering" %}
 
 {% comment %} Only generate the list of papers when requested or for a production build {% endcomment %}
 {% if jekyll.environment == 'production' or jekyll.environment == 'papers' %}
