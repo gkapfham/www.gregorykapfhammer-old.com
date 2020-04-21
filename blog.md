@@ -26,6 +26,7 @@ image: /download/images/4101567511_e88d64015c_z.jpg
 <a class="btn btn-info btn-xs active" href="/categories/#{{ category | slugify }}"> {{ category }}</a>
 {% endfor %}
 <p>
+{% comment %} Display the post's date in a human-readable fashion {% endcomment %}
 <i class="fa fa-calendar-o" aria-hidden="true"></i>
 &nbsp; {{ page.date | date_to_long_string }}
 {% if page.last_modified_at %}
