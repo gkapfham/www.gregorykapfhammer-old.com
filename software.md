@@ -5,10 +5,8 @@ description: In addition to submitting defect reports and sharing replication pa
 image: /download/images/6145817075_2536dd7b4c_z.jpg
 ---
 
-# {{ page.title }}
-
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="6145817075_2536dd7b4c_z.jpg" content="<a title='Code' href='https://flickr.com/photos/txmx-2/6145817075'>flickr photo</a> by <a href='https://flickr.com/people/txmx-2'>txmx 2</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>Creative Commons (BY-NC-ND) license</a> </small>" label="CC (BY-NC-ND)" %}
+{% capture page_title %} {{page.title}} {% endcapture %}
+{% include _jumbotrons/header.html title=page_title subtitle="transforming research into" highlight="useful tools" %}
 
 ## Research Software
 
