@@ -7,6 +7,7 @@ date: 2018-12-07
 image: /download/images/1432258649_7aac1d0287_z.jpg
 ---
 
+# {{page.title}}
 {% include _headers/blog_header.html %}
 
 {% describe %}
