@@ -5,10 +5,8 @@ description: I regularly teach courses in many areas of computer science, always
 image: /download/images/11484919766_33a2c4677f_z.jpg
 ---
 
-# {{ page.title }}
-
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="11484919766_33a2c4677f_z.jpg" content="<a title='Untitled' href='https://flickr.com/photos/foto_olio/11484919766'>flickr photo</a> by <a href='https://flickr.com/people/foto_olio'>Olio</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
+{% capture page_title %} {{page.title}} {% endcapture %}
+{% include _jumbotrons/header.html title=page_title subtitle="launching learners in" highlight="computer science" %}
 
 {% comment %} Only generate the list of courses when requested or for a production build {% endcomment %}
 {% if jekyll.environment == 'production' or jekyll.environment == 'courses' %}
