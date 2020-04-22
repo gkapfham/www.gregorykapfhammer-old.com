@@ -48,8 +48,8 @@ expertise in teaching was recognized when Allegheny College presented him with
 the [Thoburn Award for Excellence in
 Teaching](https://sites.allegheny.edu/alumni/award-recipients/#thoburn). As a
 leader of software engineering teams, Kapfhammer creates useful educational
-[software]({{site.baseurl}}software/) tools that effectively support tasks such
-as project assessment and team formation.
+[software]({{site.baseurl}}software/) that supports tasks such as project
+assessment and team formation.
 
 {% comment %} Summarize research service {% endcomment %}
 
