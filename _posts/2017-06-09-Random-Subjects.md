@@ -7,10 +7,8 @@ date: 2017-06-09
 image: /download/images/2686497196_20d0e1b1c7_z.jpg
 ---
 
+# {{page.title}}
 {% include _headers/blog_header.html %}
-
-<!-- include_cached header image -->
-{% include_cached _popovers/image_reference.html image="2686497196_20d0e1b1c7_z.jpg" content="<a title='Pick your favorite!' href='https://flickr.com/photos/sellersfamily/2686497196'>flickr photo</a> by <a href='https://flickr.com/people/sellersfamily'>HnyBny1969 (Regina)</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
 Many types of software engineering research require software subjects that a researcher can use during an experimental

@@ -7,10 +7,8 @@ date: 2017-06-30
 image: /download/images/7974636493_6304db854f_z.jpg
 ---
 
+# {{page.title}}
 {% include _headers/blog_header.html %}
-
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="7974636493_6304db854f_z.jpg" content="<a title='Rectangles' href='https://flickr.com/photos/ikhlasulamal/7974636493'>flickr photo</a> by <a href='https://flickr.com/people/ikhlasulamal'>Ikhlasul Amal</a> shared under a <a href='https://creativecommons.org/licenses/by-nc/2.0/'>CC (BY-NC) license</a>" label="CC (BY-NC)" %}
 
 {% describe %}
 When I write my own research [papers]({{site.baseurl}}research/papers/) I often

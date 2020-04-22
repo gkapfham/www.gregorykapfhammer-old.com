@@ -8,10 +8,8 @@ web_site: "https://www.linkedin.com/in/sbhadra/"
 image: /download/images/2488888194_a837faa302_z.jpg
 ---
 
+# {{page.title}}
 {% include _headers/blog_header.html %}
-
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="2488888194_a837faa302_z.jpg" content="<a title='Blue light' href='https://flickr.com/photos/f-l-e-x/2488888194'>flickr photo</a> by <a href='https://flickr.com/people/f-l-e-x'>Sjoerd van Oosten</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% assign size = site.baseurl | size | minus: 1 %}
 

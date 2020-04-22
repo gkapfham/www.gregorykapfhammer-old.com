@@ -8,10 +8,8 @@ web_site: "https://www.linkedin.com/in/rebecca-dilla-ab174974/"
 image: /download/images/15526756711_24ec251f65_z.jpg
 ---
 
+# {{page.title}}
 {% include _headers/blog_header.html %}
-
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="15526756711_24ec251f65_z.jpg" content="<a title='Hit the bricks' href='https://flickr.com/photos/marirn/15526756711'>flickr photo</a> by <a href='https://flickr.com/people/marirn'>mgstanton</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% assign size = site.baseurl | size | minus: 1 %}
 
