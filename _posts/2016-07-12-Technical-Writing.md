@@ -7,10 +7,8 @@ last_modified_at: 2016-10-12
 image: /download/images/8663830964_76117e9b4b_z.jpg
 ---
 
+# {{page.title}}
 {% include _headers/blog_header.html %}
-
-<!-- include_cached header image -->
-{% include_cached _popovers/image_reference.html image="8663830964_76117e9b4b_z.jpg" content="<a title='cap & nib' href='https://flickr.com/photos/mysight/8663830964'>flickr photo</a> by <a href='https://flickr.com/people/mysight'>Inkysloth</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
 If you are like me, then you may enjoy writing in a notebook with a fountain pen

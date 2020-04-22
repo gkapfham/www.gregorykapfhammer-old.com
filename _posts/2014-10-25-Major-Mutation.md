@@ -7,10 +7,8 @@ last_modified_at: 2018-6-4
 image: /download/images/3707813723_6750e6bc8b_z.jpg
 ---
 
+# {{page.title}}
 {% include _headers/blog_header.html %}
-
-<!-- include_cached header image -->
-{% include_cached _popovers/image_reference.html image="3707813723_6750e6bc8b_z.jpg" content="<a title='Speed...' href='https://flickr.com/photos/rhk313/3707813723'>flickr photo</a> by <a href='https://flickr.com/people/rhk313'>Rami™</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-sa/2.0/'>Creative Commons (BY-NC-SA) license</a>" label="CC (BY-NC-SA)" %}
 
 {% describe %}
 If you have a [JUnit](http://www.junit.org) test suite, it is important that you ask the question "how good are my test

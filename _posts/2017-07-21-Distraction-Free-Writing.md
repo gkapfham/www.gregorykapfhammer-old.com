@@ -7,10 +7,8 @@ date: 2017-07-21
 image: /download/images/20994094828_38e0fd6a4e_z.jpg
 ---
 
+# {{page.title}}
 {% include _headers/blog_header.html %}
-
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="20994094828_38e0fd6a4e_z.jpg" content="<a title='Train of Hope, Frankfurt, Germany' href='https://flickr.com/photos/121184747@N06/20994094828'>flickr photo</a> by <a href='https://flickr.com/people/121184747@N06'>Franz Ferdinand Photography</a> shared under a <a href='https://creativecommons.org/licenses/by-nc/2.0/'>CC (BY-NC) license</a>" label="CC (BY-NC)" %}
 
 {% describe %}
 Have you ever struggled to focus on your technical writing? Even though I enjoy writing

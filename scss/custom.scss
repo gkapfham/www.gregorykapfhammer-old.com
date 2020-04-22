@@ -221,6 +221,13 @@ h6,
   word-spacing: -.25em;
 }
 
+//
+$sub-headings-highlight-color: $blue;
+
+$sub-headings-font-family: $headings-font-family;
+
+$sub-headings-font-style: italic;
+
 // }}}
 
 // Body {{{
@@ -431,7 +438,7 @@ body {
   .jumbotron {
     margin-top: 1.25rem;
     padding: .75rem;
-    margin-bottom: .75rem;
+    margin-bottom: 1.25rem;
   }
 }
 
@@ -504,6 +511,32 @@ body {
 
 // }}}
 
+// Other: Jumbotron-based Headers {{{
+
+// Make the jumbotron smaller in width
+.header {
+  width: 95%;
+  margin-bottom: 1.25rem !important;
+}
+
+// Define the subheading to be the same font
+// as headers (e.g., IBM Plex Mono), but
+// in italics and same size as second-level headers
+.subheading {
+  font-family: $sub-headings-font-family;
+  font-style: $sub-headings-font-style;
+  font-size: $h2-font-size;
+  hyphens: auto;
+}
+
+// Highlight certain words in the jumbotron-based header
+.subheading-highlight {
+  @extend .subheading;
+  color: $sub-headings-highlight-color;
+}
+
+// }}}
+
 // Other: Research Papers {{{
 
 // A research item needs extra space on the bottom
@@ -541,17 +574,17 @@ body {
 
 // }}}
 
-// Other: Blog Post Footer {{{
+// Other: Blog Post Header {{{
 
 // Adjust the spacing for the date in the footer of a blog post
-.datefooter {
-  margin-top: -20px;
+.dateheader {
+  margin-top: 10px;
   margin-bottom: 10px;
 }
 
 // }}}
 
-// Other: Details about a Research Paper {{{
+// Other: Details About a Research Paper {{{
 
 // Adjust font size and family for the author and paper details
 .paperdetails {

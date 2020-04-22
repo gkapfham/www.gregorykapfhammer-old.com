@@ -1,1 +1,20 @@
-# {{ page.title }}
+<!-- Display the date of the post and the last modified date if it exists -->
+<div class="dateheader">
+<i class="fa fa-calendar-o" aria-hidden="true"></i>
+&nbsp; {{ page.date | date_to_long_string }}
+{% if page.last_modified_at %}
+(Updated: {{ page.last_modified_at | date_to_long_string }})
+{% endif %}
+</div>
+
+<!-- Display all of the tags for this post -->
+<!-- Use a button toolbar because this groups the buttons together -->
+<!-- Note that a button toolbar is supposed to add spacing, which I did not notice -->
+<div class="btn-toolbar mb-4">
+<i class="fa fa-tags"></i>
+{% for category in page.categories %}
+<!-- Display the post's tags in a link that is an extra-small sized button -->
+<!-- Represent the tags as buttons that have extra vertical spacing between then -->
+<a class="btn btn-info btn-xs active mx-1" href="/categories/#{{ category | slugify }}"> {{ category }}</a>
+{% endfor %}
+</div>

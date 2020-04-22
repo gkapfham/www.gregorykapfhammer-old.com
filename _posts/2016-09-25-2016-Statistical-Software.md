@@ -7,10 +7,8 @@ last_modified_at: 2017-6-24
 image: /download/images/8083703457_5b2bb242b0_z.jpg
 ---
 
+# {{page.title}}
 {% include _headers/blog_header.html %}
-
-<!-- include_cached header image -->
-{% include_cached _popovers/image_reference.html image="8083703457_5b2bb242b0_z.jpg" content="<a title='20121004_untitled_0012' href='https://flickr.com/photos/rick_bergstrom/8083703457'>flickr photo</a> by <a href='https://flickr.com/people/rick_bergstrom'>BergsPix</a> shared under a <a href='https://creativecommons.org/licenses/by-nd/2.0/'>CC (BY-ND) license</a>" label="CC (BY-ND)" %}
 
 {% describe %}
 As evident by Arcuri and Briand's paper "A Hitchhiker's guide to statistical tests for assessing randomized algorithms

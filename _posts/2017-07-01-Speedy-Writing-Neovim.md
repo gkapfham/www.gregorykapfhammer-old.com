@@ -7,10 +7,8 @@ date: 2017-07-01
 image: /download/images/160181261_8694ae7eb5_z.jpg
 ---
 
+# {{page.title}}
 {% include _headers/blog_header.html %}
-
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="160181261_8694ae7eb5_z.jpg" content="<a title='Speedy Red Citroen' href='https://flickr.com/photos/extremearq/160181261'>flickr photo</a> by <a href='https://flickr.com/people/extremearq'>ExtremearQ</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
 Since, in my experience, writing technical research

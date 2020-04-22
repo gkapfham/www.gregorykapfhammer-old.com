@@ -4,12 +4,12 @@ layout: defaults
 image: /download/images/johannes-plenio-voQ97kezCx0-unsplash.jpg
 ---
 
-# {{ page.title }}
-
-<!-- include_cached header image -->
-{% include_cached _popovers/image_reference.html image="johannes-plenio-voQ97kezCx0-unsplash.jpg" content="Photo by <a href='https://unsplash.com/@jplenio'>Johannes Plenio</a> shared under a <a href='https://unsplash.com/license'>Unsplash License</a>" label="Unsplash" %}
+{% capture page_title %} {{page.title}} {% endcapture %}
+{% include _jumbotrons/head_jumbotron.html title=page_title subtitle="joyfully pursuing" highlight="absolute excellence" %}
 
 {% comment %} Summarize professional principles {% endcomment %}
+
+## Overview
 
 {% describe %}
 As an outworking of his Christian faith, all of Gregory Kapfhammer's endeavors are

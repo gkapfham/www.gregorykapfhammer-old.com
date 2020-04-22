@@ -7,10 +7,8 @@ last_modified_at: 2016-01-07
 image: /download/images/2428544365_4fdd69c25d_z.jpg
 ---
 
+# {{page.title}}
 {% include _headers/blog_header.html %}
-
-<!-- include_cached header image -->
-{% include_cached _popovers/image_reference.html image="2428544365_4fdd69c25d_z.jpg" content="<a title='vases' href='http://flickr.com/photos/mybloodyself/2428544365'>flickr photo</a> shared by <a href='http://flickr.com/people/mybloodyself'>danmachold</a> under a <a href='http://creativecommons.org/licenses/by-nc-sa/2.0/'>CC (BY-NC-SA) license</a>" label="CC (BY-NC-SA)" %}
 
 {% describe %}
 <p>

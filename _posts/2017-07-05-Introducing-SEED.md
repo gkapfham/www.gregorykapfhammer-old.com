@@ -7,10 +7,8 @@ date: 2017-07-05
 image: /download/images/8608133415_35de14d034_z.jpg
 ---
 
+# {{page.title}}
 {% include _headers/blog_header.html %}
-
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="8608133415_35de14d034_z.jpg" content="<a title='SEED PODS' href='https://flickr.com/photos/meloart/8608133415'>flickr photo</a> by <a href='https://flickr.com/people/meloart'>meloart</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
 
 {% describe %}
 Do you work in the software industry? Are you interested in sharing your knowledge and experiences with up-and-coming

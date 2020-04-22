@@ -5,15 +5,13 @@ description: In addition to giving talks to accompany my conference papers, I al
 image: /download/images/10133867075_2eef7bbc80_z.jpg
 ---
 
-# {{ page.title }}
-
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="10133867075_2eef7bbc80_z.jpg" content="<a title='Lines & Beads' href='https://flickr.com/photos/mrpikachu1/10133867075'>flickr photo</a> shared by <a href='https://flickr.com/people/mrpikachu1'>Mr. Pikachu</a> under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
+{% capture page_title %} {{page.title}} {% endcapture %}
+{% include _jumbotrons/head_jumbotron.html title=page_title subtitle="engaging audiences with" highlight="dynamic displays" %}
 
 {% comment %} Only generate the list of talks when requested or for a production build {% endcomment %}
 {% if jekyll.environment == 'production' or jekyll.environment == 'talks' %}
 
-{% comment %} display all of the recent presentations (not with conference papers) that I gave directly {% endcomment %}
+{% comment %} Display all of the recent presentations (not with conference papers) that I gave directly {% endcomment %}
 {% bibliography --query @misc[keywords!=supervised && year!=2000] %}
 
 {% endif %}
