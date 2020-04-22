@@ -7,6 +7,8 @@ image: /download/images/7029911579_0ddd6e8352_z.jpg
 {% capture page_title %} {{page.title}} {% endcapture %}
 {% include _jumbotrons/header.html title=page_title subtitle="implementing innovation in" highlight="software engineering" %}
 
+## Overview
+
 {% describe %}
 As an experimental computer scientist, the goal of my research is to design,
 implement, and rigorously evaluate techniques and tools that support the
@@ -17,14 +19,16 @@ at [Allegheny College](http://www.allegheny.edu), graduate students and
 professors at several universities, and colleagues in industry.
 {% enddescribe %}
 
+## Details
+
 My research is empirical in nature because it involves the application of the
 scientific method to formulate problem statements, carry out experiments, take
 observations, statistically analyze and visualize the data sets, and draw
-conclusions based on the experimental results. Each research project focuses on
-the development and evaluation of [software]({{site.baseurl}}software/)
-artifacts that can be used in both empirical studies and real-world practice by
-undergraduate and graduate students, software engineers, and computer scientists
-in both academia and industry. In addition to supporting my professional
+conclusions based on the results. Each project focuses on the development and
+evaluation of [software]({{site.baseurl}}software/) artifacts that can be used
+in both empirical studies and real-world practice by undergraduate and graduate
+students, software engineers, and computer scientists in both academia and
+industry. In addition to supporting my professional
 [service]({{site.baseurl}}service/), my research also results in award-winning
 and frequently cited research [papers]({{site.baseurl}}research/papers/),
 oft-complimented [presentations]({{site.baseurl}}research/presentations/), and
@@ -69,9 +73,9 @@ to visually classify layout failures in a web page.
 <b>Mutation Testing:</b> Given the challenges associated with judging the
 quality of a test suite, my research has designed efficient and useful ways to
 perform test assessment through mutation analysis. Presenting and evaluating
-automated techniques for both real-world Java programs and relational database
-schemas, some examples of papers include {% include
-_popovers/paper_reference.html cite="Just2012b" trailing="," %} {%
+automated techniques that seed synthetic faults into both real-world Java
+programs and relational database schemas, some examples of papers include {%
+include _popovers/paper_reference.html cite="Just2012b" trailing="," %} {%
 include_cached _popovers/paper_reference.html cite="Wright2014" trailing="," %}
 and {% include_cached _popovers/paper_reference.html cite="McMinn2019"
 trailing="." %}
