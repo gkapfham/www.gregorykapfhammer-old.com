@@ -4,10 +4,10 @@ layout: defaults
 image: /download/images/15373329032_668c8184e9_z.jpg
 ---
 
-# {{page.title}}
+{% capture page_title %} {{page.title}} {% endcapture %}
+{% include _jumbotrons/head_jumbotron.html title=page_title subtitle="creating connections in" highlight="computer science" %}
 
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="15373329032_668c8184e9_z.jpg" content="<a title='Light bulbs' href='https://flickr.com/photos/126725739@N05/15373329032'>flickr photo</a> shared by <a href='https://flickr.com/people/126725739@N05'>peachesh</a> under a <a href='https://creativecommons.org/licenses/by/2.0/'>CC (BY) license</a> </small>" label="CC (BY)" %}
+## Reminder
 
 {% describe %}
 Thank you for signing up for my mailing list! Instead of selling your email
