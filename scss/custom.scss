@@ -516,6 +516,7 @@ body {
 // Make the jumbotron smaller in width
 .header {
   width: 95%;
+  margin-bottom: 1.25rem !important;
 }
 
 // Define the subheading to be the same font
@@ -525,6 +526,7 @@ body {
   font-family: $sub-headings-font-family;
   font-style: $sub-headings-font-style;
   font-size: $h2-font-size;
+  hyphens: auto;
 }
 
 // Highlight certain words in the jumbotron-based header
