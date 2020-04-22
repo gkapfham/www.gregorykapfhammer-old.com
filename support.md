@@ -7,8 +7,6 @@ image: /download/images/15373329032_668c8184e9_z.jpg
 {% capture page_title %} {{page.title}} {% endcapture %}
 {% include _jumbotrons/head_jumbotron.html title=page_title subtitle="creating connections in" highlight="computer science" %}
 
-{% comment %} Summarize professional principles {% endcomment %}
-
 ## Subscription
 
 Please subscribe to my mailing list! Instead of selling your email or bombarding you with spam, I will send you several
