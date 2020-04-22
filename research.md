@@ -154,6 +154,8 @@ how to replicate my research results.
 
 </ul>
 
+## Connections
+
 Do you work in one of these areas and are you interested in collaborating with
 me on a project? If so, then please [contact]({{site.baseurl}}contact/) me with
 your ideas.
