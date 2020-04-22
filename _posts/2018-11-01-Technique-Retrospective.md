@@ -7,10 +7,8 @@ date: 2018-11-01
 image: /download/images/33263496771_334a5b0b93_z.jpg
 ---
 
+# {{page.title}}
 {% include _headers/blog_header.html %}
-
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="33263496771_334a5b0b93_z.jpg" content="<a title='It's Lantern City here!' href='https://flickr.com/photos/nevillewootton/33263496771'>It's Lantern City here!</a> flickr photo by <a href='https://flickr.com/people/nevillewootton'>Neville Wootton Photography</a> shared under a <a href='https://creativecommons.org/licenses/by/2.0/'>Creative Commons (BY) license</a>" label="CC (BY)" %}
 
 {% describe %}
 Many of the articles on my [blog]({{site.baseurl}}blog/) describe the tools
