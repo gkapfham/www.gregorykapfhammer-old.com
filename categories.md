@@ -6,10 +6,8 @@ description: Here are the topics that I most frequently write about! Find you fa
 image: /download/images/5700106776_857c0ded3b_z.jpg
 ---
 
-# {{ page.title }}
-
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="5700106776_857c0ded3b_z.jpg" content="<a title='Blue tag' href='https://flickr.com/photos/tjololo_photo/5700106776'>flickr photo</a> by <a href='https://flickr.com/people/tjololo_photo'>Tjololo Photo</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-nd/2.0/'>CC (BY-NC-ND) license</a>" label="CC (BY-NC-ND)" %}
+{% capture page_title %} {{page.title}} {% endcapture %}
+{% include _jumbotrons/head_jumbotron.html title=page_title subtitle="brief brainstorms on" highlight="technical topics" %}
 
 {% comment %} Only generate the cross-index of blog posts for a production build or a blog {% endcomment %}
 {% if jekyll.environment == 'production' or jekyll.environment == 'posts' %}
