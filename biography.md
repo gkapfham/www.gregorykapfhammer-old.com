@@ -39,12 +39,13 @@ href="https://www.synopsys.com/">Synopsys</a>.
 
 {% comment %} Explain teaching areas and educational software {% endcomment %}
 
-As an educator, Gregory Kapfhammer develops and teaches
-[courses]({{site.baseurl}}teaching/) in the areas of software engineering,
-software testing, web development, data management, operating systems, and
-distributed systems. He is also a research adviser for undergraduate and
-graduate theses. Kapfhammer's expertise in teaching was recognized when
-Allegheny College presented him with the [Thoburn Award for Excellence in
+As an educator, Gregory Kapfhammer teaches [courses]({{site.baseurl}}teaching/)
+in the alphabetically organized areas of algorithm analysis, discrete
+structures, data management, distributed systems, software engineering, software
+testing, operating systems, and web development. He is also a research adviser
+for undergraduate and graduate theses and PhD dissertations. Kapfhammer's
+expertise in teaching was recognized when Allegheny College presented him with
+the [Thoburn Award for Excellence in
 Teaching](https://sites.allegheny.edu/alumni/award-recipients/#thoburn). As a
 leader of several software engineering teams, Kapfhammer creates useful
 educational [software]({{site.baseurl}}software/) tools that effectively support
@@ -52,6 +53,8 @@ tasks such as project assessment and team formation.
 
 {% comment %} Summarize research service {% endcomment %}
 
+Funded by [Facebook
+Research](https://research.fb.com/blog/2019/10/announcing-the-winners-of-the-2019-testing-and-verification-research-awards/),
 Gregory Kapfhammer conducts [research]({{site.baseurl}}research/) in areas such
 as software engineering and software testing. Collaborating with a diverse and
 skilled group of students and colleagues, Kapfhammer completes research that
