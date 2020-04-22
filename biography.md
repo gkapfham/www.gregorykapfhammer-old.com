@@ -4,10 +4,10 @@ layout: defaults
 image: /download/images/gregory-kapfhammer-biography-small.jpg
 ---
 
-# {{ page.title }}
+{% capture page_title %} {{page.title}} {% endcapture %}
+{% include _jumbotrons/header.html title=page_title subtitle="joyfully exploring" highlight="computer science" %}
 
-<!-- include_cached header image -->
-{% include_cached _popovers/image_reference.html image="gregory-kapfhammer-biography-small.jpg" content="Photo by <a href='https://www.facebook.com/tkpapinchak'>Tanya Greer</a> shared under a <a href='http://creativecommons.org/licenses/by-nc-nd/4.0/'>CC (BY-NC-ND)</a>" label="CC (BY-NC-ND)" %}
+## Overview
 
 {% comment %} State current appointment and prior appointments {% endcomment %}
 
@@ -24,7 +24,7 @@ href="http://www.cs.virginia.edu/~soffa/">Mary Lou Soffa</a> and published as
 {% include_cached _popovers/paper_reference.html cite="Kapfhammer2007d"
 trailing="." %} Kapfhammer also earned a BSc in Computer Science from Allegheny
 College and a MSc in Computer Science from the University of Pittsburgh.
-Kapfhammer was previously a short-term visitor in the <a
+He was previously a short-term visitor in the <a
 href="http://www.cs.virginia.edu">Department of Computer Science</a> at the <a
 href="http://www.virginia.edu">University of Virginia</a>, the <a
 href="http://iai.mathematik.uni-ulm.de/en/index.html">Institute of Applied
@@ -36,6 +36,8 @@ associate at Cigital, a software company that was acquired by <a
 href="https://www.synopsys.com/">Synopsys</a>.
 </p>
 {% enddescribe %}
+
+## Teaching
 
 {% comment %} Explain teaching areas and educational software {% endcomment %}
 
@@ -50,6 +52,8 @@ Teaching](https://sites.allegheny.edu/alumni/award-recipients/#thoburn). As a
 leader of software engineering teams, Kapfhammer creates useful educational
 [software]({{site.baseurl}}software/) that supports tasks such as project
 assessment and team formation.
+
+## Research
 
 {% comment %} Summarize research service {% endcomment %}
 
@@ -108,8 +112,10 @@ the Distinguished Paper Award from the <a href = "http://www.cs-tcse.org/">IEEE
 Technical Council on Software Engineering</a>.
 </p>
 
+## Invitation
+
 {% comment %} Give a call for collaboration {% endcomment %}
 
-Do you teach or conduct research in one of my areas of expertise? Are you
-interested in collaborating with me on a project? If so, then please
-[contact]({{site.baseurl}}contact/) me with your ideas.
+Do you work in one of my areas of expertise? Are you interested in collaborating
+with me on a project? If so, then please [contact]({{site.baseurl}}contact/) me
+with your ideas.
