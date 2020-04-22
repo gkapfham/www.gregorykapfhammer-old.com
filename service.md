@@ -5,7 +5,7 @@ image: /download/images/3944094295_833175fc98_z.jpg
 ---
 
 {% capture page_title %} {{page.title}} {% endcapture %}
-{% include _jumbotrons/header.html title=page_title subtitle="inspiring innovation with" highlight="selfless support" %}
+{% include _jumbotrons/head_jumbotron.html title=page_title subtitle="inspiring innovation with" highlight="selfless support" %}
 
 ## Overview
 

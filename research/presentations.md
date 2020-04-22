@@ -6,7 +6,7 @@ image: /download/images/10133867075_2eef7bbc80_z.jpg
 ---
 
 {% capture page_title %} {{page.title}} {% endcapture %}
-{% include _jumbotrons/header.html title=page_title subtitle="engaging audiences with" highlight="dynamic displays" %}
+{% include _jumbotrons/head_jumbotron.html title=page_title subtitle="engaging audiences with" highlight="dynamic displays" %}
 
 {% comment %} Only generate the list of talks when requested or for a production build {% endcomment %}
 {% if jekyll.environment == 'production' or jekyll.environment == 'talks' %}

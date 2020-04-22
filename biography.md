@@ -5,7 +5,7 @@ image: /download/images/gregory-kapfhammer-biography-small.jpg
 ---
 
 {% capture page_title %} {{page.title}} {% endcapture %}
-{% include _jumbotrons/header.html title=page_title subtitle="joyfully exploring" highlight="computer science" %}
+{% include _jumbotrons/head_jumbotron.html title=page_title subtitle="joyfully exploring" highlight="computer science" %}
 
 ## Overview
 

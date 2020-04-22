@@ -1,12 +1,12 @@
 ---
-title: Courses
+title: Teaching
 layout: defaults
 description: I regularly teach courses in many areas of computer science, always releasing all of my course materials. Find a course with topics that interest you and start learning right away!
 image: /download/images/11484919766_33a2c4677f_z.jpg
 ---
 
 {% capture page_title %} {{page.title}} {% endcapture %}
-{% include _jumbotrons/header.html title=page_title subtitle="launching learners in" highlight="computer science" %}
+{% include _jumbotrons/head_jumbotron.html title=page_title subtitle="launching learners in" highlight="computer science" %}
 
 {% comment %} Only generate the list of courses when requested or for a production build {% endcomment %}
 {% if jekyll.environment == 'production' or jekyll.environment == 'courses' %}

@@ -6,7 +6,7 @@ image: /download/images/10600355815_18896130aa_z.jpg
 ---
 
 {% capture page_title %} {{page.title}} {% endcapture %}
-{% include _jumbotrons/header.html title=page_title subtitle="polished publications in" highlight="software engineering" %}
+{% include _jumbotrons/head_jumbotron.html title=page_title subtitle="polished publications in" highlight="software engineering" %}
 
 {% comment %} Only generate the list of papers when requested or for a production build {% endcomment %}
 {% if jekyll.environment == 'production' or jekyll.environment == 'papers' %}

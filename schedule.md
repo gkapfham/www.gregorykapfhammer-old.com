@@ -5,7 +5,7 @@ image: /download/images/10406520975_8a9ae685c4_z.jpg
 ---
 
 {% capture page_title %} {{page.title}} {% endcapture %}
-{% include _jumbotrons/header.html title=page_title subtitle="designing discussions of" highlight="computer science" %}
+{% include _jumbotrons/head_jumbotron.html title=page_title subtitle="designing discussions of" highlight="computer science" %}
 
 ## Overview
 

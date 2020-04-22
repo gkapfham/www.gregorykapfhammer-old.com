@@ -6,7 +6,7 @@ image: /download/images/4101567511_e88d64015c_z.jpg
 ---
 
 {% capture page_title %} {{page.title}} {% endcapture %}
-{% include _jumbotrons/header.html title=page_title subtitle="brief brainstorms on" highlight="technical topics" %}
+{% include _jumbotrons/head_jumbotron.html title=page_title subtitle="brief brainstorms on" highlight="technical topics" %}
 
 {% comment %} Only generate the list of posts when requested or for a production build {% endcomment %}
 {% if jekyll.environment == 'production' or jekyll.environment == 'posts' %}

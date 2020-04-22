@@ -5,7 +5,7 @@ image: /download/images/7029911579_0ddd6e8352_z.jpg
 ---
 
 {% capture page_title %} {{page.title}} {% endcapture %}
-{% include _jumbotrons/header.html title=page_title subtitle="implementing innovation in" highlight="software engineering" %}
+{% include _jumbotrons/head_jumbotron.html title=page_title subtitle="implementing innovation in" highlight="software engineering" %}
 
 ## Overview
 

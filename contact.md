@@ -6,7 +6,7 @@ image: /download/images/40827242235_b4587375de_z.jpg
 ---
 
 {% capture page_title %} {{page.title}} {% endcapture %}
-{% include _jumbotrons/header.html title=page_title subtitle="creating connections in" highlight="computer science" %}
+{% include _jumbotrons/head_jumbotron.html title=page_title subtitle="creating connections in" highlight="computer science" %}
 
 ## Information
 
