@@ -7,12 +7,14 @@ image: /download/images/3944094295_833175fc98_z.jpg
 {% capture page_title %} {{page.title}} {% endcapture %}
 {% include _jumbotrons/header.html title=page_title subtitle="inspiring innovation with" highlight="selfless support" %}
 
+## Overview
+
 {% describe %}
-An outstanding and award-winning [teacher]({{site.baseurl}}teaching/),
+An award-winning [teacher]({{site.baseurl}}teaching/),
 [researcher]({{site.baseurl}}research/),
 [writer]({{site.baseurl}}research/papers/), and
 [presenter]({{site.baseurl}}research/presentations/), I have expertise in the
-areas of software engineering, software testing, and data science. I am an
+areas such as software engineering and software testing. I am an
 associate editor for the [Journal of Software: Evolution and
 Process](https://onlinelibrary.wiley.com/journal/20477481), an academic editor
 for the [PeerJ Computer Science](https://peerj.com/computer-science/) journal, a
