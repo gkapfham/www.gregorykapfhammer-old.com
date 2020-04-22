@@ -4,10 +4,10 @@ layout: defaults
 image: /download/images/10406520975_8a9ae685c4_z.jpg
 ---
 
-# {{ page.title }}
+{% capture page_title %} {{page.title}} {% endcapture %}
+{% include _jumbotrons/header.html title=page_title subtitle="planning discussions of" highlight="computer science" %}
 
-<!-- Include header image -->
-{% include _popovers/image_reference.html image="10406520975_8a9ae685c4_z.jpg" content="<a title='Wired' href='https://flickr.com/photos/19779889@N00/10406520975'>flickr photo</a> by <a href='https://flickr.com/people/19779889@N00'>arbyreed</a> shared under a <a href='https://creativecommons.org/licenses/by-nc-sa/2.0/'>Creative Commons (BY-NC-SA) license</a>" label="CC (BY-NC-SA)" %}
+## Overview
 
 {% describe %}
 To arrange a meeting with me during my office hours, please try to <a
