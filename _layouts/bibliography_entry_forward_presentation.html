@@ -1,0 +1,16 @@
+---
+---
+
+<!-- NOTE: The "entry-forward" layout controls how the single-presentation listing will display on the index -->
+
+<!-- This is a presentation and we must display the title with a link to the download location (goes directly to a PDF) -->
+{% if entry.howpublished %}
+<!-- This is a presentation with a special download link, display it in a link (will always be to Speaker Deck) -->
+{% if entry.presentation %}
+<a class="major" target="_blank" rel="noopener" href="{{entry.presentation}}">{{entry.title}}</a>
+<!-- This presentation does not have a special download link and thus we give a link to a PDF named after the key -->
+{% else %}
+<a class="major" href="/download/research/presentations/key/{{entry.key}}-presentation.pdf">{{entry.title}}</a>
+{% endif %}
+<!-- Always display venue of the presentation -->
+<br> {{ entry.howpublished }}
