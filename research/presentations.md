@@ -12,6 +12,6 @@ image: /download/images/10133867075_2eef7bbc80_z.jpg
 {% if jekyll.environment == 'production' or jekyll.environment == 'talks' %}
 
 {% comment %} Display all of the recent presentations (not with conference papers) that I gave directly {% endcomment %}
-{% bibliography --query @misc[keywords!=supervised && year!=2000] %}
+{% bibliography --template bibliography_entry_presentation --query @misc[keywords!=supervised && year!=2000] %}
 
 {% endif %}
