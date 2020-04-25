@@ -47,7 +47,7 @@ production build {% endcomment %}
 
 {% if jekyll.environment == 'production' or jekyll.environment == 'papers' %}
 
-{% bibliography --template bibliography_entry_forward --group_by none --max 1 %}
+{% bibliography --template bibliography_entry_forward_paper --group_by none --max 1 %}
 
 {% endif %}
 
@@ -67,8 +67,8 @@ production build {% endcomment %}
 {% comment %} Reference one of the software tools and give a date for a recent
 update or release {% endcomment %}
 
-<ul class="fa-ul">
-<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+<ul>
+<li><a class="major"
 href="https://github.com/GatorEducator/gatorgrader">GatorGrader: Automated assessment tool for source code and technical writing</a></li>
 Updated January 2020
 </ul>
