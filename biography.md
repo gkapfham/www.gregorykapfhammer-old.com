@@ -80,7 +80,7 @@ program chair and general chair for international workshops and conferences.
 
 {% comment %} Describe published papers and research awards {% endcomment %}
 
-<p>
+{% comment %} <p> {% endcomment %}
 Gregory Kapfhammer collaboratively publishes papers, such as {% include_cached
 _popovers/paper_reference.html cite="Walsh2017" trailing="," %} {%
 include_cached _popovers/paper_reference.html cite="Alsharif2018" trailing=","
@@ -110,7 +110,7 @@ cite="Althomali2019" trailing="," %} published at the <a href =
 Conference on Software Testing, Verification and Validation (ICST 2019)</a>, won
 the Distinguished Paper Award from the <a href = "http://www.cs-tcse.org/">IEEE
 Technical Council on Software Engineering</a>.
-</p>
+{% comment %} </p> {% endcomment %}
 
 ## Invitation
 
