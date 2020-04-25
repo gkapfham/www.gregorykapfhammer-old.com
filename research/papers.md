@@ -13,14 +13,14 @@ image: /download/images/10600355815_18896130aa_z.jpg
 
 {% comment %} Display all of the research papers that are not edited volumes and published conference or journal papers {% endcomment %}
 ## Research Papers
-{% bibliography --query @article[keywords!=edit] && @inproceedings && @incollection %}
+{% bibliography --template bibliography_entry_paper --query @article[keywords!=edit] && @inproceedings && @incollection %}
 
 {% comment %} Display all of the theses and dissertations, matching by the keyword that filters them out in the CV {% endcomment %}
 ## Theses
-{% bibliography --query @*[keywords=kapfhammer] %}
+{% bibliography --template bibliography_entry_paper --query @*[keywords=kapfhammer] %}
 
 {% comment %} Display all of the volumes that I have edited, matching on the keyword for the articles {% endcomment %}
 ## Volumes Edited
-{% bibliography --query @article[keywords=edit] %}
+{% bibliography --template bibliography_entry_paper --query @article[keywords=edit] %}
 
 {% endif %}
