@@ -547,6 +547,17 @@ body {
 
 // }}}
 
+// Other: Research Bibliography {{{
+
+// There is no definition of bibliography
+// as jekyll-scholar will apply it to ul
+// and headers and thus it is not tightly
+// scoped enough to be useful for theming
+.bibliography {
+}
+
+// }}}
+
 // Other: Research Papers {{{
 
 // A research item needs extra space on the bottom
