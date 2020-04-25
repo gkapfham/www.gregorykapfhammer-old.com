@@ -224,7 +224,7 @@ gulp.task('build', function(cb) {
     stdio: 'inherit',
   };
   detectEnvironment(options);
-  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', CONFIGURATION_FLAG, CONFIGURATION_FILES], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', CONFIGURATION_FLAG, CONFIGURATION_FILES, "--trace"], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
@@ -389,11 +389,18 @@ gulp.task(
     gulp.parallel('fonts'))
 );
 
+// // TASK: perform the full build, but do not optimize images
+// gulp.task(
+//   'fulldeploy',
+//   gulp.series('sass', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads',
+//     gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
+// );
+
 // TASK: perform the full build, but do not optimize images
 gulp.task(
   'fulldeploy',
   gulp.series('sass', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads',
-    gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
+    gulp.parallel('fonts', 'cssminify', 'jsminify'))
 );
 
 // TASK: perform the full build, but do not optimize images
