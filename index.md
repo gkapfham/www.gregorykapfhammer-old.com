@@ -58,7 +58,7 @@ production build {% endcomment %}
 
 {% if jekyll.environment == 'production' or jekyll.environment == 'talks' %}
 
-{% bibliography --template bibliography_entry_forward --query @misc[keywords!=supervised] --group_by none --max 1 %}
+{% bibliography --template bibliography_entry_forward_presentation --query @misc[keywords!=supervised] --group_by none --max 1 %}
 
 {% endif %}
 
