@@ -2,31 +2,31 @@
 {% if jekyll.environment == 'production' or jekyll.environment == 'crumbs' %}
 
 <div class="row">
-  <div class="col">
-    <!-- If there is no previous link, then extra spacing is needed -->
-    {% if page.previous == nil %}
-    <p>
-    {% endif %}
-    <!-- If there is a next article, then provide a link to it -->
-    {% if page.next != nil %}
-    <i class="fa fa-long-arrow-left"></i> <a href="/{{ page.next.url | remove_first:'/'}}">{{ page.next.title | truncatewords: 7 }}</a>
-    {% endif %}
-    <!-- If there is no previous link, then extra spacing is needed -->
-    {% if page.previous == nil %}
-    </p>
-    {% endif %}
-  </div>
+<div class="col">
+<!-- If there is no previous link, then extra spacing is needed -->
+{% if page.previous == nil %}
+<p>
+{% endif %}
+<!-- If there is a next article, then provide a link to it -->
+{% if page.next != nil %}
+<a href="/{{ page.next.url | remove_first:'/'}}">{{ page.next.title | truncatewords: 7 }}</a>
+{% endif %}
+<!-- If there is no previous link, then extra spacing is needed -->
+{% if page.previous == nil %}
+</p>
+{% endif %}
+</div>
 </div>
 <div class="row">
-  <div class="col">
-    <!-- If there is a previous article, then provide a link to it -->
-    <!-- Note that this will always be in a paragraph because it comes last -->
-    {% if page.previous != nil %}
-    <p>
-    <i class="fa fa-long-arrow-right"></i> <a href="/{{ page.previous.url | remove_first:'/'}}">{{ page.previous.title | truncatewords: 7 }}</a>
-    </p>
-    {% endif %}
-  </div>
+<div class="col">
+<!-- If there is a previous article, then provide a link to it -->
+<!-- Note that this will always be in a paragraph because it comes last -->
+{% if page.previous != nil %}
+<p>
+<a href="/{{ page.previous.url | remove_first:'/'}}">{{ page.previous.title | truncatewords: 7 }}</a>
+</p>
+{% endif %}
+</div>
 </div>
 
 {% endif %}

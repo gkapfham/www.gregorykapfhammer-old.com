@@ -19,15 +19,15 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_whystudycomputerscience.html">Why Study Computer Science?</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_whystudycomputerscience.html">Why Study Computer Science?</a></li>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_introduction.html">Introduction to Computational Expression</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_introduction.html">Introduction to Computational Expression</a></li>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter1.html">Chapter 1: Introduction to Computation and Programming</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter1.html">Chapter 1: Introduction to Computation and Programming</a></li>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter2.html">Chapter 2: Data and Expressions</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter2.html">Chapter 2: Data and Expressions</a></li>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter3.html">Chapter 3: Using Classes and Objects</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter3.html">Chapter 3: Using Classes and Objects</a></li>
 
 </ul>
 
@@ -42,8 +42,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter4.html">Chapter 4: Writing Classes</a>
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter5.html">Chapter 5: Conditionals and Loops</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter4.html">Chapter 4: Writing Classes</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter5.html">Chapter 5: Conditionals and Loops</a></li>
 
 </ul>
 
@@ -56,7 +56,7 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter6.html">Chapter 6: More Conditionals and Loops</a>
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter8.html">Chapter 8: Arrays</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter6.html">Chapter 6: More Conditionals and Loops</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs100S2020/provide/slides/cs100_chapter8.html">Chapter 8: Arrays</a></li>
 
 </ul>

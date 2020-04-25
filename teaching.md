@@ -23,8 +23,8 @@ image: /download/images/11484919766_33a2c4677f_z.jpg
 {% assign year = current_year %}
 <h2>{{ year }}</h2>
 {% endif %}
-<ul class="fa-ul">
-<li><i class="fa-li fa fa-cog fa-lg"></i><a class="major" href="/{{ page.url | remove_first:'/'}}">{{ page.title | capitalize_all }}</a></li>
+<ul>
+<li><a class="major" href="/{{ page.url | remove_first:'/'}}">{{ page.title | capitalize_all }}</a></li>
 <em>{{page.subtitle}}</em>
 {% endif %}
 </ul>
