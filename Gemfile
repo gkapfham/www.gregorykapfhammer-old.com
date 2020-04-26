@@ -6,7 +6,6 @@ source "https://rubygems.org"
 
 # require most recent version of jekyll
 gem "jekyll", "~> 4.0"
-# gem "jekyll", "~> 3.8.5"
 
 # required patched version of ffi
 gem "ffi", ">= 1.9.24"
