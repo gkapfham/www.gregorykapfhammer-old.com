@@ -29,14 +29,14 @@ image: /download/images/11484919766_33a2c4677f_z.jpg
 {% endif %}
 </ul>
 {% endif %}
-<p>
+<p></p>
 {% endfor %}
 {% endfor %}
-
 {% endif %}
 
 ## Additional Courses
 
-The course materials for the classes that I taught between the Fall 2000 and Spring 2013 semesters are available if you
-[contact me](/contact/) with your request. However, please note that the most representative and current
-material is accessible through the above sites.
+The course materials for the classes that I taught between the Fall 2000 and
+Spring 2013 semesters are available if you [contact me](/contact/) with your
+request. However, please note that the most representative and current material
+is accessible through the above sites.
