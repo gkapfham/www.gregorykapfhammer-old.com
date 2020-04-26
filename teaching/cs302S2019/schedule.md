@@ -18,13 +18,13 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_whystudycomputerscience.html">Why Study Computer Science?</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_whystudycomputerscience.html">Why Study Computer Science?</a></li>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_introduction.html">Introduction to the Course</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_introduction.html">Introduction to the Course</a></li>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter1.html">Introduction to Web Development</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter1.html">Introduction to Web Development</a></li>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter2.html">How the Web Works</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter2.html">How the Web Works</a></li>
 
 </ul>
 
@@ -40,11 +40,11 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter3.html">Introduction to HTML</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter3.html">Introduction to HTML</a></li>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter4.html">Introduction to CSS</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter4.html">Introduction to CSS</a></li>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter5.html">HTML Tables and Forms</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter5.html">HTML Tables and Forms</a></li>
 
 </ul>
 
@@ -59,9 +59,9 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter6.html">Web Media</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter6.html">Web Media</a></li>
 
-<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter7.html">Advanced CSS: Layout</a>
+<li> <a target="_blank" rel="noopener" href="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter7.html">Advanced CSS: Layout</a></li>
 
 </ul>
 
@@ -76,9 +76,9 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter8.html">JavaScript Fundamentals</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter8.html">JavaScript Fundamentals</a></li>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter9.html">Using JavaScript</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter9.html">Using JavaScript</a></li>
 
 </ul>
 
@@ -91,8 +91,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter10.html">JavaScript with jQuery</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter10.html">JavaScript with jQuery</a></li>
 
-<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter20.html">JavaScript Frameworks</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs302S2019/provide/slides/cs302_chapter20.html">JavaScript Frameworks</a></li>
 
 </ul>

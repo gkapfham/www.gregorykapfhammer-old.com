@@ -19,19 +19,19 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment1/cs580S2015-assignment1.pdf">Assignment One: Assessing Your Interests</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment1/cs580S2015-assignment1.pdf">Assignment One: Assessing Your Interests</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/survey-of-interests-assignment1/cs580S2015-survey.pdf">Assignment One (Companion): Survey of Interests</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/survey-of-interests-assignment1/cs580S2015-survey.pdf">Assignment One (Companion): Survey of Interests</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment2/cs580S2015-assignment2.pdf">Assignment Two: Introduction to Research in Computer Science</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment2/cs580S2015-assignment2.pdf">Assignment Two: Introduction to Research in Computer Science</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment3/cs580S2015-assignment3.pdf">Assignment Three: Writing Good Proposals</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment3/cs580S2015-assignment3.pdf">Assignment Three: Writing Good Proposals</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment4/cs580S2015-assignment4.pdf">Assignment Four: Writing Good Theses</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment4/cs580S2015-assignment4.pdf">Assignment Four: Writing Good Theses</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment5/cs580S2015-assignment5.pdf">Assignment Five: Managing Technical Writing with Git</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment5/cs580S2015-assignment5.pdf">Assignment Five: Managing Technical Writing with Git</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment6/cs580S2015-assignment6.pdf">Assignment Six: Writing and Presenting with LaTeX and Beamer</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment6/cs580S2015-assignment6.pdf">Assignment Six: Writing and Presenting with LaTeX and Beamer</a></li>
 
 </ul>
 
@@ -46,21 +46,21 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment7/cs580S2015-assignment7.pdf">Assignment Seven: Research Paper Review</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment7/cs580S2015-assignment7.pdf">Assignment Seven: Research Paper Review</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment8/cs580S2015-assignment8.pdf">Assignment Eight: Writing for Computer Science Precis: Chapters One and Two</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment8/cs580S2015-assignment8.pdf">Assignment Eight: Writing for Computer Science Precis: Chapters One and Two</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment9/cs580S2015-assignment9.pdf">Assignment Nine: Ideas for a Senior Thesis Proposal and a Lightning Talk</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment9/cs580S2015-assignment9.pdf">Assignment Nine: Ideas for a Senior Thesis Proposal and a Lightning Talk</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment10/cs580S2015-assignment10.pdf">Assignment Ten: Writing a Precis and Creating a Bug Report</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment10/cs580S2015-assignment10.pdf">Assignment Ten: Writing a Precis and Creating a Bug Report</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment11/cs580S2015-assignment11.pdf">Assignment Eleven: Proposal Writing Workshop</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment11/cs580S2015-assignment11.pdf">Assignment Eleven: Proposal Writing Workshop</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment12/cs580S2015-assignment12.pdf">Assignment Twelve: Proposal Writing Workshop Continued</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment12/cs580S2015-assignment12.pdf">Assignment Twelve: Proposal Writing Workshop Continued</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment13/cs580S2015-assignment13.pdf">Assignment Thirteen: Module Two Proposal</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment13/cs580S2015-assignment13.pdf">Assignment Thirteen: Module Two Proposal</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment14/cs580S2015-assignment14.pdf">Assignment Fourteen: Your Ideas for a Senior Thesis Proposal (Lightning Talk)</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment14/cs580S2015-assignment14.pdf">Assignment Fourteen: Your Ideas for a Senior Thesis Proposal (Lightning Talk)</a></li>
 
 </ul>
 
@@ -75,21 +75,21 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment15/cs580S2015-assignment15.pdf">Assignment Fifteen: Research Paper Review</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment15/cs580S2015-assignment15.pdf">Assignment Fifteen: Research Paper Review</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment16/cs580S2015-assignment16.pdf">Assignment Sixteen: Writing for Computer Science Precis: Chapters Three and Six</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment16/cs580S2015-assignment16.pdf">Assignment Sixteen: Writing for Computer Science Precis: Chapters Three and Six</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment17/cs580S2015-assignment17.pdf">Assignment Seventeen: Ideas for a Senior Thesis Proposal and a Lightning Talk</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment17/cs580S2015-assignment17.pdf">Assignment Seventeen: Ideas for a Senior Thesis Proposal and a Lightning Talk</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment18/cs580S2015-assignment18.pdf">Assignment Eighteen: Proposal Writing Workshop (Parts One and Two)</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment18/cs580S2015-assignment18.pdf">Assignment Eighteen: Proposal Writing Workshop (Parts One and Two)</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment19/cs580S2015-assignment19.pdf">Assignment Nineteen: Writing a Precis and Creating a Bug Report</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment19/cs580S2015-assignment19.pdf">Assignment Nineteen: Writing a Precis and Creating a Bug Report</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment20/cs580S2015-assignment20.pdf">Assignment Twenty: Module Three Proposal</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment20/cs580S2015-assignment20.pdf">Assignment Twenty: Module Three Proposal</a></li>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment21/cs580S2015-assignment21.pdf">Assignment Twenty-One: Your Ideas for a Senior Thesis Proposal (Lightning Talk)</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment21/cs580S2015-assignment21.pdf">Assignment Twenty-One: Your Ideas for a Senior Thesis Proposal (Lightning Talk)</a></li>
 
-  </ul>
+</ul>
 
 ### Module Four: Graphics and Information Visualization
 
@@ -103,6 +103,6 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment22/cs580S2015-assignment22.pdf">Assignment Twenty-Two: Ideas for a Senior Thesis Proposal and a Lightning Talk</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs580S2015/provide/assignments/assignment22/cs580S2015-assignment22.pdf">Assignment Twenty-Two: Ideas for a Senior Thesis Proposal and a Lightning Talk</a></li>
 
 </ul>

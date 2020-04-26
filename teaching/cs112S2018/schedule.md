@@ -19,10 +19,10 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_whystudycomputerscience.html">Why Study Computer Science?</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter1.html">Chapter 1: Review of Computational Constructs</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter1_sd.html">Chapter 1: Software Engineering Strategies</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter2.html">Chapter 2: Object-Oriented Design</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_whystudycomputerscience.html">Why Study Computer Science?</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter1.html">Chapter 1: Review of Computational Constructs</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter1_sd.html">Chapter 1: Software Engineering Strategies</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter2.html">Chapter 2: Object-Oriented Design</a></li>
 
 </ul>
 
@@ -37,7 +37,7 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter3.html">Chapter 3: Arrays</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter3.html">Chapter 3: Arrays</a></li>
 
 </ul>
 
@@ -52,8 +52,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter4.html">Chapter 4: Algorithm Analysis</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter5.html">Chapter 5: Recursion</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter4.html">Chapter 4: Algorithm Analysis</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter5.html">Chapter 5: Recursion</a></li>
 
 </ul>
 
@@ -67,8 +67,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter3_ll.html">Chapter 3: Linked Lists</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter7.html">Chapter 7: Lists and Iterators</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter3_ll.html">Chapter 3: Linked Lists</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter7.html">Chapter 7: Lists and Iterators</a></li>
 
 </ul>
 
@@ -84,8 +84,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter8.html">Chapter 8: Trees</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter10.html">Chapter 10: HashMaps</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter8.html">Chapter 8: Trees</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter10.html">Chapter 10: HashMaps</a></li>
 
 </ul>
 
@@ -102,6 +102,6 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter6.html">Chapter 6: Stacks and Queues</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2018/provide/slides/cs112_chapter6.html">Chapter 6: Stacks and Queues</a></li>
 
 </ul>

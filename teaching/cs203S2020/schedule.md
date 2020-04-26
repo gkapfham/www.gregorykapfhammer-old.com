@@ -30,19 +30,19 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_introduction.html">Introduction to Software Engineering</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_introduction.html">Introduction to Software Engineering</a></li>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_lessons_from_google.html">Lessons from Google &mdash; And Each Other!</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_lessons_from_google.html">Lessons from Google &mdash; And Each Other!</a></li>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_cooperative_ch1to3.html">Cooperative Software Design, Chapters 1 through 3</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_cooperative_ch1to3.html">Cooperative Software Design, Chapters 1 through 3</a></li>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_philosophy_ch1to3.html">Philosophy of Software Design, Chapters 1 through 3</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_philosophy_ch1to3.html">Philosophy of Software Design, Chapters 1 through 3</a></li>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_programmingstyle_ch1to4.html">Exercises in Programming Style, Chapters 1 through 4</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_programmingstyle_ch1to4.html">Exercises in Programming Style, Chapters 1 through 4</a></li>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_pytest_ch1to2.html">Python Testing with Pytest, Chapters 1 through 2</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_pytest_ch1to2.html">Python Testing with Pytest, Chapters 1 through 2</a></li>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_thinkpython_ch1to3.html">Think Python, Chapters 1 through 3</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_thinkpython_ch1to3.html">Think Python, Chapters 1 through 3</a></li>
 
 </ul>
 
@@ -69,15 +69,15 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_cooperative_ch4to7.html">Cooperative Software Design, Chapters 4 through 7</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_cooperative_ch4to7.html">Cooperative Software Design, Chapters 4 through 7</a></li>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_philosophy_ch4to6.html">Philosophy of Software Design, Chapters 4 through 6</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_philosophy_ch4to6.html">Philosophy of Software Design, Chapters 4 through 6</a></li>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_programmingstyle_ch5to15.html">Exercises in Programming Style, Chapters 5 through 15</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_programmingstyle_ch5to15.html">Exercises in Programming Style, Chapters 5 through 15</a></li>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_pytest_ch3to4.html">Python Testing with Pytest, Chapters 3 through 4</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_pytest_ch3to4.html">Python Testing with Pytest, Chapters 3 through 4</a></li>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_thinkpython_ch5to8.html">Think Python, Chapters 5 through 8</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203S2020/provide/slides/cs203_thinkpython_ch5to8.html">Think Python, Chapters 5 through 8</a></li>
 
 </ul>
 
@@ -102,12 +102,12 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203s2020/provide/slides/cs203_cooperative_ch9to12.html">Cooperative Software Design, Chapters 9 through 12</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203s2020/provide/slides/cs203_cooperative_ch9to12.html">Cooperative Software Design, Chapters 9 through 12</a></li>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203s2020/provide/slides/cs203_philosophy_ch12to15.html">Philosophy of Software Design, Chapters 12 through 15</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203s2020/provide/slides/cs203_philosophy_ch12to15.html">Philosophy of Software Design, Chapters 12 through 15</a></li>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203s2020/provide/slides/cs203_programmingstyle_ch16to19.html">Exercises in Programming Style, Chapters 16 through 19</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203s2020/provide/slides/cs203_programmingstyle_ch16to19.html">Exercises in Programming Style, Chapters 16 through 19</a></li>
 
-<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203s2020/provide/slides/cs203_pytest_ch5.html">Python Testing with Pytest, Chapters 3 through 4</a>
+<li> <a target="_blank" rel="noopener" href = "{{site.baseurl}}teaching/cs203s2020/provide/slides/cs203_pytest_ch5.html">Python Testing with Pytest, Chapters 3 through 4</a></li>
 
 </ul>

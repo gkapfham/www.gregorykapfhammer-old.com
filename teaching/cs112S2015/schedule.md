@@ -19,8 +19,8 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2015/provide/slides/module1/cs112S2015-introduction.html">Introduction to Computer Science 112</a>
-  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2015/provide/slides/module1/cs112S2015-chapter1.html">Chapters One through Three </a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2015/provide/slides/module1/cs112S2015-introduction.html">Introduction to Computer Science 112</a></li>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2015/provide/slides/module1/cs112S2015-chapter1.html">Chapters One through Three </a></li>
 
 </ul>
 
@@ -34,7 +34,7 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2015/provide/slides/module1/cs112S2015-chapter1.html">Chapters One through Three </a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2015/provide/slides/module1/cs112S2015-chapter1.html">Chapters One through Three </a></li>
 
 </ul>
 
@@ -51,7 +51,7 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2015/provide/slides/module2/cs112S2015-chapter4.html">Chapters Four and Five</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2015/provide/slides/module2/cs112S2015-chapter4.html">Chapters Four and Five</a></li>
 
 </ul>
 
@@ -67,7 +67,7 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2015/provide/slides/module3/cs112S2015-chapter5.html">Chapters Three and Six</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2015/provide/slides/module3/cs112S2015-chapter5.html">Chapters Three and Six</a></li>
 
 </ul>
 
@@ -82,7 +82,7 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2015/provide/slides/module4/cs112S2015-chapter6.html">Chapter Seven</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2015/provide/slides/module4/cs112S2015-chapter6.html">Chapter Seven</a></li>
 
 </ul>
 
@@ -96,6 +96,6 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2015/provide/slides/module5/cs112S2015-chapter10.html">Chapter Ten</a>
+  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2015/provide/slides/module5/cs112S2015-chapter10.html">Chapter Ten</a></li>
 
 </ul>
