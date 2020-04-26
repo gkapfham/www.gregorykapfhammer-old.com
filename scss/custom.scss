@@ -297,6 +297,13 @@ body {
     outline: none;
   }
 
+  // Scale and position the SVG icons
+  .small-icon {
+    width: 1em;
+    margin-top: -.25em;
+    margin-right: .25em;
+  }
+
 }
 
 // }}}
