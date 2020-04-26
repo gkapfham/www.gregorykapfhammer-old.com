@@ -389,18 +389,11 @@ gulp.task(
     gulp.parallel('fonts'))
 );
 
-// // TASK: perform the full build, but do not optimize images
-// gulp.task(
-//   'fulldeploy',
-//   gulp.series('sass', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads',
-//     gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
-// );
-
 // TASK: perform the full build, but do not optimize images
 gulp.task(
   'fulldeploy',
   gulp.series('sass', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads',
-    gulp.parallel('fonts', 'cssminify', 'jsminify'))
+    gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: perform the full build, but do not optimize images
