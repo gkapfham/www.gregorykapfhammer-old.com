@@ -10,18 +10,18 @@ layout: course_item
 <ul>
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-9.0.1/cs100F2018_studyguide_quiz01.pdf">Study Guide One: Introduction to Computation and Programming
-(Quiz)</a> <p>Review the basic and introductory content for Computer Science 100.</p>
+(Quiz)</a> <p>Review the basic and introductory content for Computer Science 100.</p></li>
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-14.0.1/cs100F2018_studyguide_exam01.pdf">Study Guide
 Two: Procedural and Object-Oriented Programming (Examination)</a> <p>Review the introductory content for
-the first examination in Computer Science 100.</p>
+the first examination in Computer Science 100.</p></li>
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-19.0.1/cs100F2018_studyguide_quiz02.pdf">Study Guide
 Three: Iteration Constructs and Arrays (Quiz)</a> <p>Review iteration and arrays
-for the second quiz in Computer Science 100.</p>
+for the second quiz in Computer Science 100.</p></li>
 
 <li><a href="https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets/releases/download/cs100F2018_sheets-21.2.0/cs100F2018_studyguide_exam02.pdf">Study Guide
 Four: Problem Solving with the Java Language (Examination)</a> <p>Review all course content for
-the final examination in Computer Science 100.</p>
+the final examination in Computer Science 100.</p></li>
 
 </ul>
