@@ -9,7 +9,7 @@
 {% endif %}
 <!-- If there is a next article, then provide a link to it -->
 {% if page.next != nil %}
-<a href="/{{ page.next.url | remove_first:'/'}}">{{ page.next.title | truncatewords: 7 }}</a>
+<img class="small-icon" src="/download/images/svg/long-arrow-alt-left.svg"/><a href="/{{ page.next.url | remove_first:'/'}}">{{ page.next.title | truncatewords: 7 }}</a>
 {% endif %}
 <!-- If there is no previous link, then extra spacing is needed -->
 {% if page.previous == nil %}
@@ -23,10 +23,9 @@
 <!-- Note that this will always be in a paragraph because it comes last -->
 {% if page.previous != nil %}
 <p>
-<a href="/{{ page.previous.url | remove_first:'/'}}">{{ page.previous.title | truncatewords: 7 }}</a>
+<img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><a href="/{{ page.previous.url | remove_first:'/'}}">{{ page.previous.title | truncatewords: 7 }}</a>
 </p>
 {% endif %}
 </div>
 </div>
-
 {% endif %}
