@@ -224,7 +224,7 @@ gulp.task('build', function(cb) {
     stdio: 'inherit',
   };
   detectEnvironment(options);
-  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', CONFIGURATION_FLAG, CONFIGURATION_FILES, "--trace"], options);
+  var jekyll = spawn('bundle', ['exec', 'jekyll', 'build', CONFIGURATION_FLAG, CONFIGURATION_FILES], options);
   jekyll.on('exit', function(code) {
     cb(code === 0 ? null : 'Error: Jekyll process exited with code: ' + code);
   });
