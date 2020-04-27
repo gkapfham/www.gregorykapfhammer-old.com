@@ -69,22 +69,21 @@
           <!-- display the paper download link for the paper (it is always based on the key of the specific entry) -->
           {% if page.entry.nodownload != 'true' and page.entry.talk != 'true' and page.entry.keywords != 'undergraduate' %}
           <div class="researchitem">
-          <a target="_blank" rel="noopener" href = "/download/research/papers/key/{{page.entry.key}}-paper.pdf"><i class="fa fa-download"></i> Paper</a>
+            <img class="small-publication-icon" src="/download/images/svg/download.svg"/><a target="_blank" rel="noopener" href = "/download/research/papers/key/{{page.entry.key}}-paper.pdf"> Paper</a>
           </div>
           {% endif %}
 
           <!-- the paper is designated as being "presented" in bibtex file and thus the key-based name should be displayed -->
           {% if page.entry.presented %}
           <div class="researchitem">
-          <a class="researchitem" target="_blank" rel="noopener" href="/download/research/presentations/key/{{page.entry.key}}-presentation.pdf">
-            <i class="fa fa-download"></i> Presentation</a>
+          <img class="small-publication-icon" src="/download/images/svg/download.svg"/><a class="researchitem" target="_blank" rel="noopener" href="/download/research/presentations/key/{{page.entry.key}}-presentation.pdf"> Presentation</a>
           </div>
           {% endif %}
 
           <!-- there is a speaker deck presentation link in the bibtex file and thus this should be displayed -->
           {% if page.entry.presentation %}
           <div class="researchitem">
-          <a class="researchitem" target="_blank" rel="noopener" href = "{{page.entry.presentation}}"><i class="fa fa-cloud-download"></i> Presentation</a>
+          <img class="small-publication-icon" src="/download/images/svg/speaker-deck.svg"/><a class="researchitem" target="_blank" rel="noopener" href = "{{page.entry.presentation}}"> Presentation</a>
           </div>
           {% endif %}
 
@@ -99,16 +98,14 @@
           <!-- DATA: display the references to external resources (e.g., a GitHub site for the paper or the tool) -->
           {% if page.entry.data %}
           <div class="researchitem">
-          <a class="researchitem" target="_blank" rel="noopener" href = "{{page.entry.data}}">
-            <i class="fa fa-github"></i> {{ page.entry.data | replace: "https://github.com/", "" }}</a>
+          <img class="small-publication-icon" src="/download/images/svg/github-body.svg"/><a class="researchitem" target="_blank" rel="noopener" href = "{{page.entry.data}}"> {{ page.entry.data | replace: "https://github.com/", "" }}</a>
           </div>
           {% endif %}
 
           <!-- TOOL: display the references to external resources (e.g., a GitHub site for the paper or the tool) -->
           {% if page.entry.tool %}
           <div class="researchitem">
-          <a class="researchitem" target="_blank" rel="noopener" href = "{{page.entry.tool}}">
-            <i class="fa fa-github"></i> {{ page.entry.tool | replace: "https://github.com/", "" }}</a>
+          <img class="small-publication-icon" src="/download/images/svg/github-body.svg"/><a class="researchitem" target="_blank" rel="noopener" href = "{{page.entry.tool}}"> {{ page.entry.tool | replace: "https://github.com/", "" }}</a>
           </div>
           {% endif %}
 
