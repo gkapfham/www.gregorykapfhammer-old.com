@@ -1,6 +1,7 @@
 ---
 title: Support
 layout: defaults
+description: Please subscribe to my mailing list and review the content that I am creating!
 image: /download/images/15373329032_668c8184e9_z.jpg
 ---
 
@@ -50,7 +51,7 @@ I work hard to produce the highest quality content to serve people interested in
 Consider supporting my work in one or more of the following ways.
 {% enddescribe %}
 
-<ul class="fa-ul">
+<ul>
 
 <li><i class="fa-li fa fa-lightbulb-o fa-lg"></i><a class="major" href="{{site.baseurl}}research/papers/">Papers</a>:
 Read my research papers, pick your favorite, and share it with a friend.</li> <p>
