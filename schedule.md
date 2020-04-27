@@ -1,6 +1,7 @@
 ---
 title: Schedule
 layout: defaults
+description: Please schedule a meeting with me through Google Calendar. I look forward to our upcoming meeting!
 image: /download/images/10406520975_8a9ae685c4_z.jpg
 ---
 
@@ -9,7 +10,6 @@ image: /download/images/10406520975_8a9ae685c4_z.jpg
 
 ## Overview
 
-{% describe %}
 To arrange a meeting with me during my office hours, please try to <a
 href="https://www.google.com/calendar/selfsched?sstoken=UU9NbDBvclJCQjlQfGRlZmF1bHR8YTlkNzM1MzFiMTUxNDhhYTc2ZDI2MDhmM2ZiZWJjZGE">Schedule
 an Appointment</a>&mdash;you can browse my available office hours and pick a
@@ -26,4 +26,3 @@ that I have previously scheduled teaching, mentoring, research, and
 administrative events that may prevent me from either holding office hours
 beyond those normally scheduled or agreeing to extra meetings outside of
 existing office hours.
-{% enddescribe %}

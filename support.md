@@ -52,28 +52,28 @@ Consider supporting my work in one or more of the following ways.
 
 <ul>
 
-<li><<a class="major" href="{{site.baseurl}}research/papers/">Papers</a>:
-Read my research papers, pick your favorite, and share it with a friend.</li> <p>
+<li><a class="major" href="{{site.baseurl}}research/papers/">Papers</a>:
+Read my research papers, pick your favorite, and share it with a friend.</li>
 
 <li><a class="major" href="{{site.baseurl}}research/presentations/">Talks</a>:
-View my talks, select an engaging one, and reccomend it to someone.</li> <p>
+View my talks, select an engaging one, and reccomend it to someone.</li>
 
 <li><a class="major" href="{{site.baseurl}}software/">Software</a>:
-Browse my software projects, find a cool one, try it out, and star it.</li> <p>
+Browse my software projects, find a cool one, try it out, and star it.</li>
 
 <li><a class="major" href="{{site.baseurl}}teaching/">Courses</a>:
-Pick an interesting topic, explore it, and share what you learned with others.</li> <p>
+Pick an interesting topic, explore it, and share what you learned with others.</li>
 
 <li><a class="major" href="{{site.baseurl}}blog/">Blog</a>:
-Find an article of interest to you and draw it to the attention of your colleagues.</li> <p>
+Find an article of interest to you and draw it to the attention of your colleagues.</li>
 
 <li><a class="major" href="{{site.baseurl}}seed/">Survey</a>:
-If you are a member of the software industry, please take this survey.</li> <p>
+If you are a member of the software industry, please take this survey.</li>
 
 <li><a class="major" href="{{site.baseurl}}service/">Service</a>:
-Learn how I serve the technical community and ask me to help you.</li> <p>
+Learn how I serve the technical community and ask me to help you.</li>
 
 <li><a class="major" href="{{site.baseurl}}feed/index.xml">Updates</a>:
-Subscribe to my Atom feed to stay updated about my work.</li> <p>
+Subscribe to my Atom feed to stay updated about my work.</li>
 
 </ul>

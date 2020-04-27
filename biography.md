@@ -1,6 +1,7 @@
 ---
 title: Biography
 layout: defaults
+description: Gregory M. Kapfhammer is an Associate Professor of Computer Science.
 image: /download/images/gregory-kapfhammer-biography-small.jpg
 ---
 
@@ -11,7 +12,6 @@ image: /download/images/gregory-kapfhammer-biography-small.jpg
 
 {% comment %} State current appointment and prior appointments {% endcomment %}
 
-{% describe %}
 <p>
 Guided by his <a href = "/principles/">professional principles</a>, Gregory M.
 Kapfhammer is an Associate Professor in the <a
@@ -35,7 +35,6 @@ Sheffield</a>. In a prior industry position, Gregory Kapfhammer was a research
 associate at Cigital, a software company that was acquired by <a
 href="https://www.synopsys.com/">Synopsys</a>.
 </p>
-{% enddescribe %}
 
 ## Teaching
 

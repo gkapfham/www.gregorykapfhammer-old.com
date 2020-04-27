@@ -24,16 +24,16 @@
   <title>{{ page.title }} | {{ site.description }}</title>
   {% endif %}
 
-  <!-- <!-1- Define the description of the page if specified -1-> -->
-  <!-- {% if page.description %} -->
-  <!-- <!-1- <meta name="description" content="{{page.description | xml_escape | markdownify | strip_html}}"> -1-> -->
-  <!-- <!-1- <meta name="description" content="{{page.description | markdownify | stip_html }}"> -1-> -->
+  <!-- Define the description of the page if specified -->
+  {% if page.description %}
+  <meta name="description" content="{{page.description | xml_escape | markdownify | strip_html}}">
+  <!-- <meta name="description" content="{{page.description | markdownify | stip_html }}"> -->
   <!-- <meta name="description" content="{{site.description}}"> -->
-  <!-- {% else %} -->
-  <!-- <meta name="description" content="{{site.description}}"> -->
-  <!-- {% endif %} -->
-
+  {% else %}
   <meta name="description" content="{{site.description}}">
+  {% endif %}
+
+  <!-- <meta name="description" content="{{site.description}}"> -->
 
   <!-- include_cached the code that loads all of the required CSS and JavaScript -->
   {% include_cached _headers/head_load.html name=page.title %}
