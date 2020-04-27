@@ -639,7 +639,7 @@ body {
 #tw-gkapfham .timePosted {
   margin: -10px 0px 10px 5px;
   padding: 0 15px;
-  font-size: 14px;
+  font-size: $font-size-sm;
   text-align: left;
 }
 
@@ -650,7 +650,7 @@ body {
 
 #tw-gkapfham .interact {
   margin: -10px 0px 5px 2px;
-  padding: 0 15px;
+  padding: 0 10px;
   font-size: 14px;
   text-align: left;
 }
@@ -658,7 +658,8 @@ body {
 #tw-gkapfham .timePosted:before {
   font-family: "Fontawesome";
   -webkit-font-smoothing: antialiased;
-  content: "";
+  content: "•";
+  margin-left: -1.25em;
   padding-right: 4px;
 }
 
