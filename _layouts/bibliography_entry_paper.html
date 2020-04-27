@@ -16,5 +16,8 @@
 {% if entry.journal %}
 <em>{{ entry.journal}}</em>
 {% endif %}
+<!-- Include a line break between the publication venue and the list of authors -->
+<br>
 <!-- Always display the author(s) of the paper -->
-{{ entry.author }} <p></p>
+{{ entry.author }}
+<p></p>
