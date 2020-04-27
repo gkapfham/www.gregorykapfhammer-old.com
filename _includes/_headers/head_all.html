@@ -25,11 +25,11 @@
   {% endif %}
 
   <!-- Define the description of the page if specified -->
+  <!-- Note that page description cannot have nested HTML in it as that causes minification to break -->
   {% if page.description %}
   <meta name="description" content="{{page.description | xml_escape | markdownify | strip_html}}">
-  <!-- <meta name="description" content="{{page.description | markdownify | stip_html }}"> -->
-  <!-- <meta name="description" content="{{site.description}}"> -->
   {% else %}
+  <!-- Use the default description of the web site, since a page-specific description is not available -->
   <meta name="description" content="{{site.description}}">
   {% endif %}
 
