@@ -348,6 +348,7 @@ gulp.task('htmlminify', function() {
       removeCommentsFromCDATA: true,
       collapseBooleanAttributes: true,
       removeEmptyAttributes: true,
+      removeComments: true,
     }))
     .pipe(gulp.dest(DEPLOYSITE));
 });
