@@ -78,9 +78,9 @@ Updated January 2020
 {% comment %} Find the most recent blog post and provide a link to it, giving
 the date on which it was written {% endcomment %}
 
-<ul class="fa-ul">
+<ul>
 {% for post in site.posts limit:1 %}
-  <li><i class="fa-li fa fa-edit fa-lg"></i><a class="major"
+  <li><a class="major"
   href="{{site.baseurl}}{{ post.url | remove_first:'/'}}">{{ post.title
   }}</a></li> Published {{ post.date | date: '%B %Y'}}
 {% endfor %}
@@ -96,10 +96,10 @@ production build {% endcomment %}
 
 {% if jekyll.environment == 'production' or jekyll.environment == 'courses' %}
 
-<ul class="fa-ul">
+<ul>
 {% for page in site.pages %}
   {% if page.course == true and page.featured == true %}
-  <li><i class="fa-li fa fa-cog fa-lg"></i><a class="major" href="{{site.baseurl}}{{ page.url | remove_first:'/'}}">{{ page.title | capitalize_all }}</a></li>
+  <li><a class="major" href="{{site.baseurl}}{{ page.url | remove_first:'/'}}">{{ page.title | capitalize_all }}</a></li>
   {{page.subtitle}}
   {% endif %}
 {% endfor %}
@@ -112,8 +112,7 @@ production build {% endcomment %}
 {% comment %} Reference the SEED Survey for "interviews" with software
 engineers {% endcomment %}
 
-<ul class="fa-ul"> <li><i class="fa-li fa fa-users fa-lg"></i><a class="major"
-href="{{site.baseurl}}seed/">Are you working in the software industry? Share
+<ul><li><a class="major" href="{{site.baseurl}}seed/">Are you working in the software industry? Share
 your expertise!</a></li> Enhanced July 2018 </ul>
 
 ## Status Updates
