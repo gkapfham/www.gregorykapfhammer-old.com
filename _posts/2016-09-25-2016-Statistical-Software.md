@@ -4,18 +4,19 @@ layout: blog_n
 categories: [research, software, idea]
 author: Gregory M. Kapfhammer
 last_modified_at: 2017-6-24
+description: It is important for researchers to ensure that their statistical analyses are reproducible.
 image: /download/images/8083703457_5b2bb242b0_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
-As evident by Arcuri and Briand's paper "A Hitchhiker's guide to statistical tests for assessing randomized algorithms
-in software engineering", the field of search-based software engineering (SBSE) relies on statistical methods to support
-the empirical comparison of different techniques. Yet, this statistical source code is often bespoke and is rarely
-available so that other researchers can replicate the analyses.
-{% enddescribe %}
+As evident by Arcuri and Briand's paper "A Hitchhiker's guide to statistical
+tests for assessing randomized algorithms in software engineering", the field of
+search-based software engineering (SBSE) relies on statistical methods to
+support the empirical comparison of different techniques. Yet, this statistical
+source code is often bespoke and is rarely available so that other researchers
+can replicate the analyses.
 
 As a means for improving the maturity of the data analysis methods used in the
 SBSE field, I think that it would be useful if there were shared repositories

@@ -1,6 +1,7 @@
 ---
 title: Principles
 layout: defaults
+description: Gregory M. Kapfhammer's endeavors are guided by principles rooted in his Christian faith.
 image: /download/images/johannes-plenio-voQ97kezCx0-unsplash.jpg
 ---
 
@@ -11,10 +12,8 @@ image: /download/images/johannes-plenio-voQ97kezCx0-unsplash.jpg
 
 ## Overview
 
-{% describe %}
 As an outworking of his Christian faith, all of Gregory Kapfhammer's endeavors are
 guided by the following professional principles:
-{% enddescribe %}
 
 <b>Principle 1 (Selfless Service)</b>: Focus on the needs of your students and
 colleagues before considering your own. Commit to respectfully serving others

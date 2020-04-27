@@ -4,18 +4,19 @@ layout: blog_n
 categories: [writing, tool, vim]
 author: Gregory M. Kapfhammer
 date: 2017-06-26
+description: If you configure it correctly, you can use Neovim to write a LaTeX document.
 image: /download/images/6290429625_f6cf4b09b2_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
-I enjoy using Vim when I am writing LaTeX documents for my [teaching]({{site.baseurl}}teaching/) and
-[research]({{site.baseurl}}research/). Since [Neovim](https://neovim.io/) became available I have been using it as a
-(capable and compelling) alternative to Vim. I find that Neovim often works really well! But, if you want
-the [vimtex](https://github.com/lervag/vimtex) plugin to work with Neovim, then you need to take two extra steps.
-{% enddescribe %}
+I enjoy using Vim when I am writing LaTeX documents for my
+[teaching]({{site.baseurl}}teaching/) and [research]({{site.baseurl}}research/).
+Since [Neovim](https://neovim.io/) became available I have been using it as a
+(capable and compelling) alternative to Vim. I find that Neovim often works
+really well! But, if you want the [vimtex](https://github.com/lervag/vimtex)
+plugin to work with Neovim, then you need to take two extra steps.
 
 <p>
 What do you need to do to write LaTeX in Neovim? Well, when I was writing

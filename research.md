@@ -1,6 +1,7 @@
 ---
 title: Research
 layout: defaults
+description: Gregory M. Kapfhammer conducts research in fields such as software engineering and software testing.
 image: /download/images/7029911579_0ddd6e8352_z.jpg
 ---
 
@@ -9,7 +10,6 @@ image: /download/images/7029911579_0ddd6e8352_z.jpg
 
 ## Overview
 
-{% describe %}
 As an experimental computer scientist, the goal of my research is to design,
 implement, and rigorously evaluate techniques and tools that support the
 creation of useful, dependable, and efficient software. My research addresses
@@ -17,7 +17,6 @@ the challenges in fields such as software engineering, software testing, and
 computer systems. I conduct this research with undergraduates
 at [Allegheny College](http://www.allegheny.edu), graduate students and
 professors at several universities, and colleagues in industry.
-{% enddescribe %}
 
 ## Details
 

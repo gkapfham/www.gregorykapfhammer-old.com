@@ -4,13 +4,13 @@ layout: blog_n
 categories: [testing, database, idea]
 author: Gregory M. Kapfhammer
 last_modified_at: 2016-01-07
+description: It is important to test data stores if we want to realize the promises of big data.
 image: /download/images/2428544365_4fdd69c25d_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
 <p>
 This statement was written to support my participation in a panel at the <em>27th International Conference on Software
 Engineering and Knowledge Engineering</em>. To view the accompanying slides for this presentation, please refer to {%
@@ -20,7 +20,6 @@ then please read {% include_cached _popovers/paper_reference.html cite="Kinneer2
 _popovers/paper_reference.html cite="Kinneer2015a" trailing="," %} two papers that were also presented at the same
 conference.
 </p>
-{% enddescribe %}
 
 Big data analytics software allows researchers and practitioners to create descriptive models and make predictions.
 Often characterized by the "three Vs" of volume, velocity, and variety, big data systems must respectively handle large

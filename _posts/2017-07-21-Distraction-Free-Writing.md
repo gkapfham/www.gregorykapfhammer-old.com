@@ -4,17 +4,16 @@ layout: blog_n
 categories: [writing, productivity, idea]
 author: Gregory M. Kapfhammer
 date: 2017-07-21
+description: Have you ever gotten distracted while writing a technical article? Here are some tips to avoid distraction by using a terminal-based time!
 image: /download/images/20994094828_38e0fd6a4e_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
 Have you ever struggled to focus on your technical writing? Even though I enjoy writing
 [research]({{site.baseurl}}research/) papers, I too can sometimes find it difficult to focus on technical writing. So,
 what should you do when you mind is wandering and you have to finish some content by a deadline? Of course, set a timer!
-{% enddescribe %}
 
 Since I prepare [papers]({{site.baseurl}}research/papers/) and
 [presentations]({{site.baseurl}}research/presentations/) using Neovim in a

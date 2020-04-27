@@ -4,13 +4,13 @@ layout: blog_n
 categories: [writing, software, productivity]
 author: Gregory M. Kapfhammer
 date: 2018-11-01
+description: The tools that I use for research, development, and writing have changed a lot! Here are some updates on my software suggestions.
 image: /download/images/33263496771_334a5b0b93_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
 Many of the articles on my [blog]({{site.baseurl}}blog/) describe the tools
 that I use when I prepare my [courses]({{site.baseurl}}teaching/), conduct
 [research]({{site.baseurl}}research/), write
@@ -18,7 +18,6 @@ that I use when I prepare my [courses]({{site.baseurl}}teaching/), conduct
 [software]({{site.baseurl}}software/). Given the rapid pace of innovation in the
 field of software engineering, I thought that it would be a good idea to share a
 status update on my use of some software that I suggested in previous posts.
-{% enddescribe %}
 
 {% comment %} Distraction Free Writing {% endcomment %}
 

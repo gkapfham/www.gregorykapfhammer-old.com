@@ -4,19 +4,18 @@ layout: blog_n
 categories: [testing, database, tool]
 author: Gregory M. Kapfhammer
 last_modified_at: 2017-6-23
+description: Databases are very comment and yet there is not a sufficient amount of research into how to best test their schemas.
 image: /download/images/1640201245_c43eea5270_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
 Database applications are very common and there has been much attention to
 testing them and the individual database management systems with which they
 interact. Yet, there has been very little work devoted to testing arguably the
 most important artifact involving an application supported by a relational
 database &mdash; the underlying schema!
-{% enddescribe %}
 
 The development of a database schema is a process open to flaws like any stage
 of application development. Examples of potential flaws in database schemas

@@ -4,20 +4,19 @@ layout: blog_n
 categories: [writing, programming, vim]
 author: Gregory M. Kapfhammer
 last_modified_at: 2016-10-12
+description: I think that it is productive and fun to write technical documents in Vim!
 image: /download/images/8663830964_76117e9b4b_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
 If you are like me, then you may enjoy writing in a notebook with a fountain pen
 &mdash; if you have not tried writing this way, then borrow someone's fountain
 pen and try it! As much as I may like writing with a fountain pen, I still spend
 a substantial amount of time preparing technical papers and presentations in
 [LaTeX](http://www.latex-project.org/) with the [Vim](http://www.vim.org/) text
 editor &mdash; a task I also find to be challenging and rewarding.
-{% enddescribe %}
 
 If you write with Vim and LaTeX and you would like to improve your writing
 experience, then please consider using the
