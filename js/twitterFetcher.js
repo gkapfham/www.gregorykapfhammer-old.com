@@ -481,7 +481,7 @@ var config1 = {
   "enableLinks": true,
   "showUser": false,
   "dateFunction": dateFormatter,
-  "showInteraction": true,
+  "showInteraction": false,
 };
 twitterFetcher.fetch(config1);
 
