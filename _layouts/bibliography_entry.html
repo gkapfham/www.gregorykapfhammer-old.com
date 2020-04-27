@@ -27,10 +27,10 @@
 <!-- This is a paper and thus we always display the title of the paper and link to the details page -->
 <!-- Also display the publication venue, which will be either the name of the conference or the journal name -->
 {% else %}
-<li><i class="fa-li fa fa-file-text-o fa-lg"></i>
+<li>
   <a class="major" href="{{entry.key}}/">{{entry.title}}</a>
   <!-- Add a line break between the title of the paper and the publication venue -->
-  <br>
+  <p></p>
   <!-- If there is a "booktitle" (i.e., proceedings), then display its name -->
   {% if entry.booktitle %}
   <em>{{ entry.booktitle }}</em>
