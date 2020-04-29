@@ -49,7 +49,11 @@ trailing="." %} Since the relational schema preserves the correctness of the
 database's state, my research has also focused on testing this complex artifact,
 with {% include_cached _popovers/paper_reference.html cite="McMinn2015" %} and
 {% include_cached _popovers/paper_reference.html cite="McMinn2019" %} being
-examples of papers.
+examples of papers. Recent papers such as
+{% include_cached _popovers/paper_reference.html cite="Alsharif2020" %} and
+{% include_cached _popovers/paper_reference.html cite="Alsharif2020a" %} present
+techniques for improving the efficiency of regression testing for database
+schemas.
 
 </li>
 
@@ -64,7 +68,7 @@ in live web pages include {% include_cached _popovers/paper_reference.html
 cite="Walsh2017" %} and {% include_cached _popovers/paper_reference.html
 cite="Walsh2017a" trailing="." %} The recent work in {% include_cached
 _popovers/paper_reference.html cite="Althomali2019" %} explains how to visually
-classify layout failures in a web page.
+confirm and classify the responsive layout failures in a web page.
 
 </li>
 
@@ -75,12 +79,12 @@ classify layout failures in a web page.
 <b>Mutation Testing:</b> Given the challenges associated with judging the
 quality of a test suite, my research has designed efficient and useful ways to
 perform test assessment through mutation analysis. Presenting and evaluating
-automated techniques that seed synthetic faults into both real-world Java
-programs and relational database schemas, some examples of papers include {%
-include _popovers/paper_reference.html cite="Just2012b" trailing="," %} {%
-include_cached _popovers/paper_reference.html cite="Wright2014" trailing="," %}
-and {% include_cached _popovers/paper_reference.html cite="McMinn2019"
-trailing="." %}
+automated techniques that efficiently insert synthetic faults into both
+real-world Java programs and relational database schemas, some examples of
+papers include {% include _popovers/paper_reference.html cite="Just2012b"
+trailing="," %} {% include_cached _popovers/paper_reference.html
+cite="Wright2014" trailing="," %} and {% include_cached
+_popovers/paper_reference.html cite="McMinn2019" trailing="." %}
 
 </li>
 
@@ -98,10 +102,7 @@ include_cached _popovers/paper_reference.html cite="Lin2014" trailing="," %} and
 Leading the way in the realistic assessment of regression testing, papers such
 as {% include _popovers/paper_reference.html cite="Paterson2018" %} and {%
 include _popovers/paper_reference.html cite="Paterson2019" %} show how to
-conduct rigorous experiments with faults harvested from real programs. Recent
-papers like {% include _popovers/paper_reference.html cite="Alsharif2020" %}
-show how to perform efficient regression testing on a relational database
-schema.
+conduct rigorous experiments with faults harvested from real programs.
 
 </li>
 
@@ -137,9 +138,9 @@ _popovers/paper_reference.html cite="Jones2011" trailing="," %} {%
 include_cached _popovers/paper_reference.html cite="Burdette2012" trailing=","
 %} and {% include_cached _popovers/paper_reference.html cite="Kinneer2015"
 trailing="." %} Papers such as {% include_cached _popovers/paper_reference.html
-cite="Kotelyanskii2014a" %} highlight how my research has also experimentally
-characterized the influence that the parameters of a search-based algorithm have
-on its efficiency and effectiveness.
+cite="Kotelyanskii2014a" %} highlight how my research has also characterized the
+influence that the parameters of a search-based algorithm have on its efficiency
+and effectiveness.
 
 </li>
 
