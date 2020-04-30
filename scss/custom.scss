@@ -297,7 +297,7 @@ body {
     outline: none;
   }
 
-  // Scale and position the SVG icons
+  // Scale and position the small SVG icons used in blog posts
   .small-icon {
     width: 1em;
     margin-top: -.25em;
@@ -311,7 +311,7 @@ body {
     margin-right: .35em;
   }
 
-  // Scale and position the SVG icons
+  // Scale and position the SVG icons used in footers
   .footer-icon {
     width: 2.25em;
     margin-bottom: .5em;
@@ -321,6 +321,15 @@ body {
   // Scale and position the SVG icons the zoom box
   .zoom-icon {
     width: 1.5em;
+  }
+
+  // Scale and position the icons in the popover references
+  .reference-icon {
+    width: 1em;
+    margin-top: .175em;
+    margin-bottom: .175em;
+    margin-right: .175em;
+    margin-left: .175em;
   }
 
 }
