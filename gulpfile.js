@@ -386,15 +386,14 @@ gulp.task('cleandownloads', function() {
 // TASK: perform the full build, but do not optimize images or minify
 gulp.task(
   'quickdeploy',
-  gulp.series('sass', 'incrementalbuild', 'javascripts', 'httptwo', 'downloads',
-    gulp.parallel('fonts'))
+  gulp.series('sass', 'incrementalbuild', 'javascripts', 'httptwo', 'downloads')
 );
 
 // TASK: perform the full build, but do not optimize images
 gulp.task(
   'fulldeploy',
   gulp.series('sass', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads',
-    gulp.parallel('fonts', 'cssminify', 'htmlminify', 'jsminify'))
+    gulp.parallel('cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: perform the full build, but do not optimize images
@@ -402,14 +401,14 @@ gulp.task(
 gulp.task(
   'fulldeployseo',
   gulp.series('sass', 'downloadspre', 'quicklink', 'build', 'javascripts', 'httptwo',
-    gulp.parallel('cleandownloads', 'fonts', 'cssminify', 'htmlminify', 'jsminify'))
+    gulp.parallel('cleandownloads', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
 gulp.task(
   'optimizeddeploy',
   gulp.series('sass', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads', 'imageoptimize', 'imagecompress',
-    gulp.parallel('fonts', 'imagemogrify', 'cssminify', 'htmlminify', 'jsminify'))
+    gulp.parallel('imagemogrify', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and optimize/compress images and then run the minifiers in parallel
@@ -417,7 +416,7 @@ gulp.task(
 gulp.task(
   'optimizeddeployseo',
   gulp.series('sass', 'downloadspre', 'quicklink', 'build', 'javascripts', 'httptwo', 'imageoptimize', 'imagecompress',
-    gulp.parallel('cleandownloads', 'fonts', 'imagemogrify', 'cssminify', 'htmlminify', 'jsminify'))
+    gulp.parallel('cleandownloads', 'imagemogrify', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // }}}
