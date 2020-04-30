@@ -66,7 +66,7 @@ web sites, my research has developed automated techniques for checking the pages
 in these sites. Some examples of papers describing methods for detecting defects
 in live web pages include {% include_cached _popovers/paper_reference.html
 cite="Walsh2017" %} and {% include_cached _popovers/paper_reference.html
-cite="Walsh2017a" trailing="." %} The recent work in {% include_cached
+cite="Walsh2017a" trailing="." %} The recent work introduced in {% include_cached
 _popovers/paper_reference.html cite="Althomali2019" %} explains how to visually
 confirm and classify the responsive layout failures in a web page.
 
