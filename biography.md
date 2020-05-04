@@ -79,17 +79,19 @@ Software Testing, Verification and
 Validation](https://cs.gmu.edu/icst/index.html), and a reviewer for journals
 such as [Transactions on Software
 Engineering](https://www.computer.org/csdl/journal/ts). Along with serving as a
-review panelist at the U.S. National Science Foundation, Kapfhammer works as a
-program chair and general chair for international workshops and conferences.
+review panelist at the [U.S. National Science Foundation](https://nsf.gov/),
+Kapfhammer works as a program chair and general chair for international
+workshops and conferences.
 
 {% comment %} Describe published papers and research awards {% endcomment %}
 
 <p>
-Gregory Kapfhammer collaboratively publishes papers, such as {% include_cached
+
+Gregory Kapfhammer collaboratively publishes papers like {% include_cached
 _popovers/paper_reference.html cite="Walsh2017" trailing="," %} {%
 include_cached _popovers/paper_reference.html cite="Alsharif2018" trailing=","
-%} and {% include_cached _popovers/paper_reference.html cite="McMinn2019"
-trailing="," %} at venues like the <a href =
+%} and {% include_cached _popovers/paper_reference.html cite="McMinn2019" %} at
+venues like the <a href =
 "https://conf.researchr.org/series/issta">International Symposium on Software
 Testing and Analysis</a>, the <a href =
 "https://cs.gmu.edu/icst/index.html">International Conference on Software
@@ -98,9 +100,9 @@ Testing, Verification and Validation</a>, and <a href =
 Engineering</a>, respectively. Kapfhammer's paper {% include_cached
 _popovers/paper_reference.html cite="Kapfhammer2003" %} received the ACM SIGSOFT
 Distinguished Paper Award at the <a href="http://esecfse.cs.helsinki.fi/">ACM
-SIGSOFT Foundations of Software Engineering Conference (ESEC/FSE 2003)</a>.
-His paper {% include_cached _popovers/paper_reference.html
-cite="Conrad2010a" %} was also recognized as the best paper in the <a
+SIGSOFT Foundations of Software Engineering Conference (ESEC/FSE 2003)</a>. His
+paper {% include_cached _popovers/paper_reference.html cite="Conrad2010a" %} was
+also recognized as the best paper in the <a
 href="http://www.sigevo.org/gecco-2010/organizers-tracks.html#sbse">Search-Based
 Software Engineering Track</a> of the <a
 href="http://www.sigevo.org/gecco-2010/">ACM SIGEVO Genetic and Evolutionary
@@ -108,12 +110,13 @@ Computation Conference (GECCO 2010)</a>. Kapfhammer's presentation for {%
 include_cached _popovers/paper_reference.html cite="Kapfhammer2016" %} won the
 best presentation award at the <a href="https://cse.sc.edu/~ggay/sbst2016/">9th
 International Workshop on Search-Based Software Testing (SBST 2016)</a>.
-Finally, his paper {% include_cached _popovers/paper_reference.html
+His paper {% include_cached _popovers/paper_reference.html
 cite="Althomali2019" trailing="," %} published at the <a href =
 "http://icst2019.xjtu.edu.cn/index.htm">12th International International
 Conference on Software Testing, Verification and Validation (ICST 2019)</a>, won
 the Distinguished Paper Award from the <a href = "http://www.cs-tcse.org/">IEEE
 Technical Council on Software Engineering</a>.
+
 </p>
 
 ## Invitation
