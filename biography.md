@@ -13,6 +13,7 @@ image: /download/images/gregory-kapfhammer-biography-small.jpg
 {% comment %} State current appointment and prior appointments {% endcomment %}
 
 <p>
+
 Guided by his <a href = "/principles/">professional principles</a>, Gregory M.
 Kapfhammer is an Associate Professor in the <a
 href="http://www.cs.allegheny.edu">Department of Computer Science</a> at <a
@@ -20,20 +21,24 @@ href="http://www.allegheny.edu">Allegheny College</a>. He earned his PhD from
 the <a href="https://cs.pitt.edu">Department of Computer Science</a> at the <a
 href="http://www.pitt.edu">University of Pittsburgh</a>, writing a PhD
 dissertation on database application testing that was supervised by <a
-href="http://www.cs.virginia.edu/~soffa/">Mary Lou Soffa</a> and published as
-{% include_cached _popovers/paper_reference.html cite="Kapfhammer2007d"
+href="http://www.cs.virginia.edu/~soffa/">Mary Lou Soffa</a> and published as {%
+include_cached _popovers/paper_reference.html cite="Kapfhammer2007d"
 trailing="." %} Kapfhammer also earned a BSc in Computer Science from Allegheny
-College and a MSc in Computer Science from the University of Pittsburgh.
-He was previously a short-term visitor in the <a
+College and a MSc in Computer Science from the University of Pittsburgh. He was
+previously a short-term visitor in the <a
 href="http://www.cs.virginia.edu">Department of Computer Science</a> at the <a
 href="http://www.virginia.edu">University of Virginia</a>, the <a
 href="http://iai.mathematik.uni-ulm.de/en/index.html">Institute of Applied
 Information Processing</a> at the <a href="http://www.uni-ulm.de/en">University
 of Ulm</a>, and the <a href="https://www.sheffield.ac.uk/dcs">Department of
 Computer Science</a> at the <a href="http://www.sheffield.ac.uk/">University of
-Sheffield</a>. In a prior industry position, Gregory Kapfhammer was a research
-associate at Cigital, a software company that was acquired by <a
-href="https://www.synopsys.com/">Synopsys</a>.
+Sheffield</a>. In a prior industry position, he was a research associate at
+Cigital, a software company that was acquired by <a
+href="https://www.synopsys.com/">Synopsys</a>. Kapfhammer's research is
+currently funded by a grant from <a href =
+"https://research.fb.com/blog/2019/10/announcing-the-winners-of-the-2019-testing-and-verification-research-awards/">Facebook
+Research</a>.
+
 </p>
 
 ## Teaching
