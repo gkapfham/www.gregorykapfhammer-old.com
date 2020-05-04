@@ -29,7 +29,6 @@ image: /download/images/11484919766_33a2c4677f_z.jpg
 {% endif %}
 </ul>
 {% endif %}
-<p></p>
 {% endfor %}
 {% endfor %}
 {% endif %}
