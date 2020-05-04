@@ -404,19 +404,19 @@ gulp.task(
     gulp.parallel('cleandownloads', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
-// TASK: first build and optimize/compress images and then run the minifiers in parallel
+// TASK: first build and then run the minifiers in parallel
 gulp.task(
   'optimizeddeploy',
-  gulp.series('sass', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads', 'imageoptimize', 'imagecompress',
-    gulp.parallel('imagemogrify', 'cssminify', 'htmlminify', 'jsminify'))
+  gulp.series('sass', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads',
+    gulp.parallel('cssminify', 'htmlminify', 'jsminify'))
 );
 
-// TASK: first build and optimize/compress images and then run the minifiers in parallel
+// TASK: first build and then run the minifiers in parallel
 // move the download directory over early to support sitemap creation
 gulp.task(
   'optimizeddeployseo',
-  gulp.series('sass', 'downloadspre', 'quicklink', 'build', 'javascripts', 'httptwo', 'imageoptimize', 'imagecompress',
-    gulp.parallel('cleandownloads', 'imagemogrify', 'cssminify', 'htmlminify', 'jsminify'))
+  gulp.series('sass', 'downloadspre', 'quicklink', 'build', 'javascripts', 'httptwo',
+    gulp.parallel('cleandownloads', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // }}}
