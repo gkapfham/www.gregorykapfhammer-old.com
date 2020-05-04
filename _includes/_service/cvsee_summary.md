@@ -9,5 +9,6 @@
 <li><div class="serviceitem"> International Symposium on Search-Based Software Engineering </div> </li><br>
 <li><div class="serviceitem"> International Workshop on Search-Based Software Testing </div> </li><br>
 <li><div class="serviceitem"> Journal of Systems and Software </div> </li><br>
+<li><div class="serviceitem"> Empirical Software Engineering Journal </div> </li><br>
 <li><div class="serviceitem"> Transactions on Software Engineering </div> </li><br>
 </ul>
