@@ -77,7 +77,7 @@ Conference </div></li>
 <br>  Program Committee Member (Four times)
 <p></p>
 <li><div class="serviceitem"> 2006 → 2007 International Conference on the Principles and Practice of Programming in Java </div></li>
-<br> ProgramCommittee Member (Two times)
+<br> Program Committee Member (Two times)
 <p></p>
 <li><div class="serviceitem"> 2005 → 2016 International Conference on Software Engineering </div></li>
 <br>  Reviewer (Two times)
