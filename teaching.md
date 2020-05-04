@@ -26,8 +26,8 @@ image: /download/images/11484919766_33a2c4677f_z.jpg
 <ul>
 <li><a class="major" href="/{{ page.url | remove_first:'/'}}">{{ page.title | capitalize_all }}</a></li>
 <em>{{page.subtitle}}</em>
-{% endif %}
 </ul>
+{% endif %}
 {% endif %}
 {% endfor %}
 {% endfor %}
