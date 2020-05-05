@@ -19,8 +19,8 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2014/provide/slides/module1/cs112S2014-introduction.html">Introduction to Computer Science 112</a>
-  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2014/provide/slides/module1/cs112S2014-chapter1.html">Chapters One through Three </a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2014/provide/slides/module1/cs112S2014-introduction.html">Introduction to Computer Science 112</a></li>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2014/provide/slides/module1/cs112S2014-chapter1.html">Chapters One through Three </a></li>
 
 </ul>
 
@@ -36,7 +36,7 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2014/provide/slides/module1/cs112S2014-chapter1.html">Chapters One through Three </a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2014/provide/slides/module1/cs112S2014-chapter1.html">Chapters One through Three </a></li>
 
 </ul>
 
@@ -52,7 +52,7 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2014/provide/slides/module2/cs112S2014-chapter4.html">Chapter Four</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2014/provide/slides/module2/cs112S2014-chapter4.html">Chapter Four</a></li>
 
 </ul>
 
@@ -68,7 +68,7 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2014/provide/slides/module3/cs112S2014-chapter5.html">Chapter Five</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2014/provide/slides/module3/cs112S2014-chapter5.html">Chapter Five</a></li>
 
 </ul>
 
@@ -82,7 +82,7 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2014/provide/slides/module4/cs112S2014-chapter6.html">Chapter Six</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2014/provide/slides/module4/cs112S2014-chapter6.html">Chapter Six</a></li>
 
 </ul>
 
@@ -96,6 +96,6 @@ layout: course_item
 
 <ul>
 
-  <li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2014/provide/slides/module5/cs112S2014-chapter9.html">Chapter Nine</a>
+  <li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs112S2014/provide/slides/module5/cs112S2014-chapter9.html">Chapter Nine</a></li>
 
 </ul>

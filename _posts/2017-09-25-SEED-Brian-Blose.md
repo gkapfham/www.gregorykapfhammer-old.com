@@ -5,6 +5,7 @@ title: SEED Interview with Brian Blose
 company_name: "Giant Eagle"
 title_name: "Software Developer"
 web_site: "https://www.linkedin.com/in/brian-blose-2545871a/"
+description: Let's learn from Brian Blose as part of the SEED survey.
 image: /download/images/7787947034_482bc3662e_z.jpg
 ---
 
@@ -12,8 +13,6 @@ image: /download/images/7787947034_482bc3662e_z.jpg
 {% include _headers/blog_header.html %}
 
 {% assign size = site.baseurl | size | minus: 1 %}
-
-{% describe %}
 
 As part of the [SEED project]({{ site.baseurl | slice: 0, size }}{% post_url
 2017-07-05-Introducing-SEED %}), I recently talked with [Brian
@@ -23,8 +22,6 @@ at gathering the requirements of the systems that they will implement. Brian
 also stressed that it is important for software engineers to seek out and learn
 from mentors. Read Brian's responses to the three SEED questions to learn more
 about his unique perspective on the engineering of software.
-
-{% enddescribe %}
 
 ## What is one fun fact that you can share about your company or a current project?
 

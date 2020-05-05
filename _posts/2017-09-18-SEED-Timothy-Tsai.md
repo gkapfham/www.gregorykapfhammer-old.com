@@ -5,6 +5,7 @@ title: SEED Interview with Timothy Tsai
 company_name: "Nvidia"
 title_name: "Senior Research Scientist"
 web_site: "https://www.linkedin.com/in/timothy-tsai-6501ba2/"
+description: Let's learn from Timothy Tsai as part of the SEED survey.
 image: /download/images/6117679215_cf28a0e6e2_z.jpg
 ---
 
@@ -13,7 +14,6 @@ image: /download/images/6117679215_cf28a0e6e2_z.jpg
 
 {% assign size = site.baseurl | size | minus: 1 %}
 
-{% describe %}
 As part of the [SEED project]({{ site.baseurl | slice: 0, size }}{% post_url
 2017-07-05-Introducing-SEED %}), I recently talked with [Timothy
 Tsai]({{page.web_site}}), a {{page.title_name}} at {{page.company_name}}. In
@@ -23,7 +23,6 @@ Timothy also explained that technology companies must pivot to best engage with
 new markets and opportunities. Read Timothy's responses to the three SEED
 questions to learn more about his unique perspective on the engineering of
 software.
-{% enddescribe %}
 
 ## What is one fun fact that you can share about your company or a current project?
 

@@ -18,9 +18,9 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_fallacies.html">Fallacies of Distributed Computing</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter1.html">Chapter 1: Introduction</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter2.html">Chapter 2: Architectures</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_fallacies.html">Fallacies of Distributed Computing</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter1.html">Chapter 1: Introduction</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter2.html">Chapter 2: Architectures</a></li>
 
 </ul>
 
@@ -36,8 +36,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter3.html">Chapter 3: Processes</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter4.html">Chapter 4: Communication</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter3.html">Chapter 3: Processes</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter4.html">Chapter 4: Communication</a></li>
 
 </ul>
 
@@ -52,9 +52,9 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter10.html">Chapter 10: Distributed Object-Based Systems</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter11.html">Chapter 11: Distributed File Systems</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter12.html">Chapter 12: Distributed Web-Based Systems</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter10.html">Chapter 10: Distributed Object-Based Systems</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter11.html">Chapter 11: Distributed File Systems</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter12.html">Chapter 12: Distributed Web-Based Systems</a></li>
 
 </ul>
 
@@ -68,7 +68,7 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter5.html">Chapter 5: Naming</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter8.html">Chapter 8: Fault Tolerance</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter5.html">Chapter 5: Naming</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/cs441S2016/provide/slides/cs441_chapter8.html">Chapter 8: Fault Tolerance</a></li>
 
 </ul>

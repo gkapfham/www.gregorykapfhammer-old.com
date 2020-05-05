@@ -5,6 +5,7 @@ title: SEED Interview with Suvarshi Bhadra
 company_name: "Facebook"
 title_name: "Software Engineer"
 web_site: "https://www.linkedin.com/in/sbhadra/"
+description: Let's learn from Suvarshi Bhadra as part of the SEED survey.
 image: /download/images/2488888194_a837faa302_z.jpg
 ---
 
@@ -13,7 +14,6 @@ image: /download/images/2488888194_a837faa302_z.jpg
 
 {% assign size = site.baseurl | size | minus: 1 %}
 
-{% describe %}
 As part of the [SEED project]({{ site.baseurl | slice: 0, size }}{% post_url
 2017-07-05-Introducing-SEED %}), I recently talked with [Suvarshi
 Bhadra]({{page.web_site}}), a {{page.title_name}} at {{page.company_name}}. In
@@ -23,7 +23,6 @@ want to be software engineers should focus on following a software idea from its
 inception to its completion and release. Read Suvarshi's responses to the three
 SEED questions to learn more about his unique perspective on the engineering of
 software in industry.
-{% enddescribe %}
 
 ## What is one fun fact that you can share about your company or a current project?
 

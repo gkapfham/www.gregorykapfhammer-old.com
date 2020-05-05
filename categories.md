@@ -2,7 +2,7 @@
 layout: defaults
 authors: Gregory M. Kapfhammer
 title: Categories
-description: Here are the topics that I most frequently write about! Find you favorite area and read one of my posts.
+description: Here are the topics that I most frequently write about! Find your favorite area and read one of my posts.
 image: /download/images/5700106776_857c0ded3b_z.jpg
 ---
 
@@ -45,14 +45,13 @@ List all posts with a specific tag
 
 {% for tag in tags %}
 <h2 id="{{ tag | slugify }}">{{ tag }}</h2>
-<ul class="fa-ul">
+<ul>
 {% for post in site.posts %}
 {% if post.categories contains tag %}
-  <li><i class="fa-li fa fa-edit fa-lg"></i><a class="major" href="{{site.baseurl}}{{ post.url | remove_first:'/'}}">{{ post.title }}</a></li>
+  <li><a class="major" href="{{site.baseurl}}{{ post.url | remove_first:'/'}}">{{ post.title }}</a></li>
   <!-- Use a button toolbar because this groups the buttons together -->
   <!-- Note that a button toolbar is supposed to add spacing, which I did not notice -->
   <div class="btn-toolbar mt-1 mb-2">
-  <i class="fa fa-tags"></i>
   {% for category in post.categories %}
   <!-- Display the post's tags in a link that is an extra-small sized button -->
   <!-- Represent the tags as buttons that have extra vertical spacing between then -->

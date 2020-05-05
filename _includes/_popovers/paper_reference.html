@@ -2,7 +2,16 @@
 <!-- References: include.trailing with a default of "" -->
 <!-- Note that this code uses single quotes to surround the data-content -->
 <!-- Note that this code uses conditional logic to prevent paper reference rendering if not set -->
-<span style="white-space: nowrap;">
-  <a href = "/research/papers/{{include.cite}}/">({{include.cite}})</a> <button type="button" title="Reference" class="btn btn-success btn-small active" data-toggle="popover" data-trigger="manual" data-html="true" data-placement="right" data-content='{% if jekyll.environment == 'production' or jekyll.environment == 'papers' %}{% reference {{include.cite}} %}{% endif %} <b><a href="/research/papers/{{include.cite}}/">Read this paper!</a></b>'>
-<i class="fa fa-ellipsis-h" aria-hidden="true"></i>
-</button>&#8239;{{ include.trailing | default: "" }}</span>
+
+{% if include.trailing != nil %}
+  {% assign referencetrailingfinal = include.trailing | append:"&hairsp;" %}
+{% else %}
+  {% assign referencetrailingfinal = "" %}
+{% endif %}
+
+<a href = "/research/papers/{{include.cite}}/">({{include.cite}})</a> <button type="button" title="Reference"
+    class="btn btn-success btn-small active" data-toggle="popover" data-trigger="manual" data-html="true"
+    data-placement="right" data-content='{% if jekyll.environment == 'production' or jekyll.environment == 'papers' %}{%
+    reference {{include.cite}} %}{% endif %} <b><a href="/research/papers/{{include.cite}}/">Read this paper!</a></b>'>
+    <img class="reference-icon" src="/download/images/svg/ellipsis-h.svg"/>
+</button>&#8239;{{- referencetrailingfinal -}}

@@ -4,13 +4,13 @@ layout: blog_n
 categories: [programming, research, idea]
 author: Gregory M. Kapfhammer
 date: 2017-07-14
+description: The Python programming language supports virtual environments through a wide variety of tools.
 image: /download/images/23499382459_6b372b4c4d_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
 The Python programming language supports "virtual environments" that make it
 easy to install libraries for specific projects. For instance, you can employ
 the newest version of a library for one project and an older version for
@@ -18,7 +18,6 @@ another. Since virtual environments ensure that all Python projects are no
 longer forced to depend on a system-wide library, they support program isolation
 and thus enable software engineers to manage the library dependencies in their
 Python projects.
-{% enddescribe %}
 
 For many years [`virtualenv`](https://virtualenv.pypa.io/en/latest/) was one of
 the most established and well-known tools for creating a virtual environment.

@@ -9,10 +9,9 @@ scholar:
   source: _bibliography/bibtex
   bibliography: bibliography_kapfhammer.bib
   bibliography_template: bibliography_entry
-  bibliography_list_tag: ul class="fa-ul"
+  bibliography_list_tag: ul
   replace_strings: true
   join_strings: true
-  use_raw_bibtex_entry: false
   bibtex_filters:
   - superscript
   - latex

@@ -219,6 +219,7 @@ h6,
 .h6 {
   hyphens: auto;
   word-spacing: -.25em;
+  margin-left: -.05em;
 }
 
 //
@@ -296,6 +297,41 @@ body {
     outline: none;
   }
 
+  // Scale and position the small SVG icons used in blog posts
+  .small-icon {
+    width: 1em;
+    margin-top: -.25em;
+    margin-right: .25em;
+  }
+
+  // Scale and position the SVG icons for publications
+  .small-publication-icon {
+    width: 1em;
+    margin-top: -.25em;
+    margin-right: .35em;
+  }
+
+  // Scale and position the SVG icons used in footers
+  .footer-icon {
+    width: 2.25em;
+    margin-bottom: .5em;
+    margin-right: .2em
+  }
+
+  // Scale and position the SVG icons the zoom box
+  .zoom-icon {
+    width: 1.5em;
+  }
+
+  // Scale and position the icons in the popover references
+  .reference-icon {
+    width: 1em;
+    margin-top: .1em;
+    margin-bottom: .1em;
+    margin-right: .175em;
+    margin-left: .175em;
+  }
+
 }
 
 // }}}
@@ -343,6 +379,7 @@ body {
     box-shadow: 0 0 0 0rem;
     line-height: 0rem;
     padding: 0.01rem 0.25rem;
+    margin-right: -0.1rem;
   }
 
   // Do not display a box shadow (it looks like a button border) for the "Success" buttons
@@ -357,6 +394,14 @@ body {
     font-size: .875rem;
     line-height: .5;
     border-radius: .2rem;
+  }
+
+  // Shift the button toolbar slightly to the left to align under previous content
+  .btn-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: -.2em;
   }
 }
 
@@ -476,7 +521,7 @@ body {
 @import "node_modules/bootstrap/scss/root";
 @import "node_modules/bootstrap/scss/reboot";
 @import "node_modules/bootstrap/scss/type";
-@import "node_modules/bootstrap/scss/images";
+// @import "node_modules/bootstrap/scss/images";
 @import "node_modules/bootstrap/scss/code";
 @import "node_modules/bootstrap/scss/grid";
 @import "node_modules/bootstrap/scss/forms";
@@ -487,7 +532,7 @@ body {
 @import "node_modules/bootstrap/scss/input-group";
 @import "node_modules/bootstrap/scss/nav";
 @import "node_modules/bootstrap/scss/navbar";
-@import "node_modules/bootstrap/scss/media";
+// @import "node_modules/bootstrap/scss/media";
 @import "node_modules/bootstrap/scss/list-group";
 @import "node_modules/bootstrap/scss/tooltip";
 @import "node_modules/bootstrap/scss/popover";
@@ -498,16 +543,16 @@ body {
 
 // Import the font icons {{{
 
-@import "node_modules/font-awesome/scss/variables";
-@import "node_modules/font-awesome/scss/mixins";
-@import "node_modules/font-awesome/scss/path";
-@import "node_modules/font-awesome/scss/core";
-@import "node_modules/font-awesome/scss/larger";
-@import "node_modules/font-awesome/scss/fixed-width";
-@import "node_modules/font-awesome/scss/bordered-pulled";
-@import "node_modules/font-awesome/scss/list";
-@import "node_modules/font-awesome/scss/icons";
-@import "node_modules/font-awesome/scss/screen-reader";
+// @import "node_modules/font-awesome/scss/variables";
+// @import "node_modules/font-awesome/scss/mixins";
+// @import "node_modules/font-awesome/scss/path";
+// @import "node_modules/font-awesome/scss/core";
+// @import "node_modules/font-awesome/scss/larger";
+// @import "node_modules/font-awesome/scss/fixed-width";
+// @import "node_modules/font-awesome/scss/bordered-pulled";
+// @import "node_modules/font-awesome/scss/list";
+// @import "node_modules/font-awesome/scss/icons";
+// @import "node_modules/font-awesome/scss/screen-reader";
 
 // }}}
 
@@ -537,12 +582,23 @@ body {
 
 // }}}
 
-// Other: Research Papers {{{
+// Other: Jumbotron content on front page {{{
 
-// A research item needs extra space on the bottom
+// Transform the text to be uppercase and make it bold
 .characteristic {
   text-transform: uppercase;
   font-weight: $font-weight-bold;
+}
+
+// }}}
+
+// Other: Research Bibliography {{{
+
+// There is no definition of bibliography
+// as jekyll-scholar will apply it to ul
+// and headers and thus it is not tightly
+// scoped enough to be useful for theming
+.bibliography {
 }
 
 // }}}
@@ -606,7 +662,7 @@ body {
 #tw-gkapfham .timePosted {
   margin: -10px 0px 10px 5px;
   padding: 0 15px;
-  font-size: 14px;
+  font-size: $font-size-sm;
   text-align: left;
 }
 
@@ -617,7 +673,7 @@ body {
 
 #tw-gkapfham .interact {
   margin: -10px 0px 5px 2px;
-  padding: 0 15px;
+  padding: 0 10px;
   font-size: 14px;
   text-align: left;
 }
@@ -625,7 +681,8 @@ body {
 #tw-gkapfham .timePosted:before {
   font-family: "Fontawesome";
   -webkit-font-smoothing: antialiased;
-  content: "";
+  content: "•";
+  margin-left: -1.25em;
   padding-right: 4px;
 }
 

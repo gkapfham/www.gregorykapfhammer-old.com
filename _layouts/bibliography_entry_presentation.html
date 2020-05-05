@@ -1,0 +1,25 @@
+---
+---
+
+<!-- NOTE: The "entry" layout controls how the full listing presentations will display -->
+
+<!-- This is a presentation and we must display the title with a link to the download location (goes directly to a PDF) -->
+{% if entry.howpublished %}
+{% if entry.nodownload != 'true' %}
+<a class="major" target="_blank" rel="noopener" href="/download/research/presentations/key/{{entry.key}}-presentation.pdf">{{entry.title}}</a> <br>
+{% if entry.addendum %}
+{{entry.addendum}} <br>
+{% endif %}
+{% if entry.howpublished %}
+{% if entry.presentation %}
+{{entry.howpublished}} <br>
+<!-- This presentation also has a presentation attribute which is a link to the Speaker Deck -->
+Preview on <a target="_blank" rel="noopener" href="{{entry.presentation}}">Speaker Deck</a> <br>
+{% else %}
+{{entry.howpublished}} <br>
+{% endif %}
+{% endif %}
+<!-- Add space between this presentation entry and the next one -->
+<p></p>
+{% endif %}
+{% endif %}

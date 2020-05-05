@@ -25,11 +25,15 @@
   {% endif %}
 
   <!-- Define the description of the page if specified -->
+  <!-- Note that page description cannot have nested HTML in it as that causes minification to break -->
   {% if page.description %}
   <meta name="description" content="{{page.description | xml_escape | markdownify | strip_html}}">
   {% else %}
+  <!-- Use the default description of the web site, since a page-specific description is not available -->
   <meta name="description" content="{{site.description}}">
   {% endif %}
+
+  <!-- <meta name="description" content="{{site.description}}"> -->
 
   <!-- include_cached the code that loads all of the required CSS and JavaScript -->
   {% include_cached _headers/head_load.html name=page.title %}

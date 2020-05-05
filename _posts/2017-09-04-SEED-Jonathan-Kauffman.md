@@ -5,6 +5,7 @@ title: SEED Interview with Jonathan Miller Kauffman
 company_name: "Coveros"
 title_name: "Consultant"
 web_site: "https://www.linkedin.com/in/jonathan-miller-kauffman-608b6318/"
+description: Let's learn from Jonathan Miller Kauffman as part of the SEED survey.
 image: /download/images/2718111196_e903539c72_z.jpg
 ---
 
@@ -13,7 +14,6 @@ image: /download/images/2718111196_e903539c72_z.jpg
 
 {% assign size = site.baseurl | size | minus: 1 %}
 
-{% describe %}
 As part of the [SEED project]({{ site.baseurl | slice: 0, size }}{% post_url
 2017-07-05-Introducing-SEED %}), I recently talked with [Jonathan Miller
 Kauffman]({{page.web_site}}), a {{page.title_name}} at {{page.company_name}}.
@@ -22,7 +22,6 @@ necessary, software engineers must be effective communicators. Jonathan also
 stressed both the importance of repeatedly practicing key skills and the need for
 continuous learning. Read Jonathan's responses to the three SEED questions to
 learn more about his unique perspective on the engineering of software.
-{% enddescribe %}
 
 ## What is one fun fact that you can share about your company or a current project?
 

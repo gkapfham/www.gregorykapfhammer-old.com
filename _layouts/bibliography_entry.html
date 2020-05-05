@@ -6,20 +6,19 @@
 <!-- This is a presentation and we must display the title with a link to the download location (goes directly to a PDF) -->
 {% if entry.howpublished %}
   {% if entry.nodownload != 'true' %}
-    <li><i class="fa-li fa fa-file-image-o fa-lg"></i>
+    <li>
     <a class="major" target="_blank" rel="noopener" href="/download/research/presentations/key/{{entry.key}}-presentation.pdf">{{entry.title}}</a></li>
     <!-- <ul class="fa-ul"> -->
     {% if entry.addendum %}
-      <i class="fa fa-caret-right" aria-hidden="true"></i> {{entry.addendum}} <br>
+      {{entry.addendum}} <br>
     {% endif %}
     {% if entry.howpublished %}
       {% if entry.presentation %}
-        <i class="fa fa-caret-right" aria-hidden="true"></i> {{entry.howpublished}} <br>
+        {{entry.howpublished}} <br>
         <!-- This presentation also has a presentation attribute which is a link to the Speaker Deck -->
-        <i class="fa fa-caret-right" aria-hidden="true"></i> Preview on <a target="_blank" rel="noopener"
-                                                                           href="{{entry.presentation}}">Speaker Deck</a> <br>
+         Preview on <a target="_blank" rel="noopener" href="{{entry.presentation}}">Speaker Deck</a> <br>
       {% else %}
-        <i class="fa fa-caret-right" aria-hidden="true"></i> {{entry.howpublished}} <br>
+         {{entry.howpublished}} <br>
       {% endif %}
     {% endif %}
   <!-- Add space between this presentation entry and the next one -->
@@ -28,10 +27,10 @@
 <!-- This is a paper and thus we always display the title of the paper and link to the details page -->
 <!-- Also display the publication venue, which will be either the name of the conference or the journal name -->
 {% else %}
-<li><i class="fa-li fa fa-file-text-o fa-lg"></i>
+<li>
   <a class="major" href="{{entry.key}}/">{{entry.title}}</a>
   <!-- Add a line break between the title of the paper and the publication venue -->
-  <br>
+  <p></p>
   <!-- If there is a "booktitle" (i.e., proceedings), then display its name -->
   {% if entry.booktitle %}
   <em>{{ entry.booktitle }}</em>

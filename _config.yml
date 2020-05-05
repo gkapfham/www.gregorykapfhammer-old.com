@@ -25,7 +25,7 @@ logo: "/favicon-256.png"
 webmaster_verifications:
   google: GRspUqgstyF-rt4Ys0KO4FLleSvGLrhwhgXrhkeb4R4
 # Configure the markdown parser (minifying HTML is sensitive)
-markdown: rdiscount
+markdown: kramdown
 # Do permalinks without mentioning file extensions
 permalink: pretty
 # The code should not have any highlighting

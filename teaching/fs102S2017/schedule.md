@@ -19,8 +19,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/fs102S2017/provide/slides/fs102_introduction.html">Introduction</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/fs102S2017/provide/slides/fs102_tradeoffs.html">Web Trade-offs</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/fs102S2017/provide/slides/fs102_introduction.html">Introduction</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/fs102S2017/provide/slides/fs102_tradeoffs.html">Web Trade-offs</a></li>
 
 </ul>
 
@@ -45,8 +45,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/fs102S2017/provide/slides/fs102_google_roles.html">Google's Role</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/fs102S2017/provide/slides/fs102_reflections.html">Presentation Reflections</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/fs102S2017/provide/slides/fs102_google_roles.html">Google's Role</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/fs102S2017/provide/slides/fs102_reflections.html">Presentation Reflections</a></li>
 
 </ul>
 
@@ -75,8 +75,8 @@ layout: course_item
 
 <ul>
 
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/fs102S2017/provide/slides/fs102_piracy_introduction.html">Piracy Questions</a>
-<li> <a target="_blank" rel="noopener" rel="noopener" rel="noopener" rel="noopener" href ="{{site.baseurl}}teaching/fs102S2017/provide/slides/fs102_releasing.html">Presentation Promotion</a>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/fs102S2017/provide/slides/fs102_piracy_introduction.html">Piracy Questions</a></li>
+<li> <a target="_blank" rel="noopener" href ="{{site.baseurl}}teaching/fs102S2017/provide/slides/fs102_releasing.html">Presentation Promotion</a></li>
 
 </ul>
 

@@ -4,19 +4,18 @@ layout: blog_n
 categories: [software, tool, productivity]
 author: Gregory M. Kapfhammer
 date: 2017-05-08
+description: You can use tools like Fzf and Fasd to zoom between directories in your terminal window.
 image: /download/images/6608592473_64ef54ce4b_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
 If you are working on many projects in many different directories of your
 computer, it is often difficult to remember the full path name of the directory
 that contains the files that you need. However, if you are already using a
 terminal window to navigate your file system, then there are some tools that
 can make this task easier.
-{% enddescribe %}
 
 To take advantage of the "directory zooming" technique that I present in this
 post, you will need to install two programs:

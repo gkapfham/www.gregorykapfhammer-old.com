@@ -5,6 +5,7 @@ title: SEED Interview with Rebecca Dilla
 company_name: "Niche.com"
 title_name: "Product Analyst"
 web_site: "https://www.linkedin.com/in/rebecca-dilla-ab174974/"
+description: Let's learn from Rebecca Dilla as part of the SEED survey.
 image: /download/images/15526756711_24ec251f65_z.jpg
 ---
 
@@ -13,7 +14,6 @@ image: /download/images/15526756711_24ec251f65_z.jpg
 
 {% assign size = site.baseurl | size | minus: 1 %}
 
-{% describe %}
 As part of the [SEED project]({{ site.baseurl | slice: 0, size }}{% post_url
 2017-07-05-Introducing-SEED %}), I recently talked with [Rebecca
 Dilla]({{page.web_site}}), a {{page.title_name}} at {{page.company_name}}. In
@@ -22,7 +22,6 @@ working in small companies. She also stressed the importance of professional
 networking, encouraging people to reach out to others with questions and
 requests for assistance. Read Rebecca's responses to the three SEED questions to
 learn more about her unique perspective on software engineering in industry.
-{% enddescribe %}
 
 ## What is one fun fact that you can share about your company or a current project?
 

@@ -4,20 +4,19 @@ layout: blog_n
 categories: [research, software, testing]
 author: Gregory M. Kapfhammer
 date: 2018-12-07
+description: It is a good idea to use real faults to evaluate test suite prioritization techniques.
 image: /download/images/1432258649_7aac1d0287_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
 In a previous post, called [Regression testing of software is costly &mdash; but
 you can do something about it!]({% post_url 2017-07-03-Regression-Testing-Costs
 %}), I pointed out that software engineers often write test suites that they
 will re-run as they modify a program. This valuable &mdash; and expensive!
 &mdash; process, called regression testing, helps developers to ensure that
 they have not introduced new defects as they add new features or bug fixes.
-{% enddescribe %}
 
 {% comment %} Explain the purpose of the article {% endcomment %}
 

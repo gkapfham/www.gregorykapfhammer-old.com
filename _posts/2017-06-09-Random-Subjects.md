@@ -4,18 +4,17 @@ layout: blog_n
 categories: [research, methodology, idea]
 author: Gregory M. Kapfhammer
 date: 2017-06-09
+description: Researchers need to think carefully about how they select the subjects that the use in their software engineering experiments.
 image: /download/images/2686497196_20d0e1b1c7_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
 Many types of software engineering research require software subjects that a researcher can use during an experimental
 evaluation of a technique. For instance, if you develop a new way to test software, then you need to demonstrate that it
 can effectively find defects in real-world programs. So, where will you find these programs? And, how can you select the
 programs so as to minimize the risk of compromising your experiment?
-{% enddescribe %}
 
 One way to pick subject programs is to download them from an archive like the Software-Artifact Infrastructure
 Repository ([SIR](http://sir.unl.edu/portal/index.php)). However, there is growing concern in the software engineering

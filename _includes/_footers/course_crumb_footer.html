@@ -13,7 +13,7 @@
   <div class="col">
     {% for thispage in site.pages %} {% if thispage.id == previd %} {% if thispage.course == true %}
     <!-- Display the link -->
-    <i class="fa fa-long-arrow-left"></i>  <a href="/{{ thispage.url | remove_first:'/'}}">{{ thispage.title | capitalize_all }}</a>
+    <img class="small-icon" src="/download/images/svg/long-arrow-alt-left.svg"/><a href="/{{ thispage.url | remove_first:'/'}}">{{ thispage.title | capitalize_all }}</a>
     <!-- Indicate that the left arrow link has been found -->
     {% assign found_left = 1 %}
     {% endif %} {% endif %} {% endfor %}
@@ -24,7 +24,7 @@
 <div class="row">
   <div class="col">
     {% for thispage in site.pages %} {% if thispage.id == nextid %} {% if thispage.course == true %}
-    <i class="fa fa-long-arrow-right"></i> <a href="/{{ thispage.url | remove_first:'/'}}">{{ thispage.title | capitalize_all }}</a>
+    <img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><a href="/{{ thispage.url | remove_first:'/'}}">{{ thispage.title | capitalize_all }}</a>
     <!-- We have already displayed a left link, so extra space is needed -->
     {% if found_left == 0 %}
     <p></p>

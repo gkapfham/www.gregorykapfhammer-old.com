@@ -4,17 +4,16 @@ layout: blog_n
 categories: [testing, mutation, research]
 author: Gregory M. Kapfhammer
 last_modified_at: 2018-6-4
+description: You can determine how good your JUnit test suite is by using mutation analysis with Major!
 image: /download/images/3707813723_6750e6bc8b_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
 If you have a [JUnit](http://www.junit.org) test suite, it is important that you ask the question "how good are my test
 cases?" If you have a low quality test suite, then you may not be doing a good job at establishing a confidence in the
 correctness of the program under test&mdash;and there also could be defects lurking in the application!
-{% enddescribe %}
 
 One strategy for assessing the quality of your test suite is to run coverage analysis with a tool like
 [JaCoCo](http://www.eclemma.org/jacoco/).  Since a test case cannot find a defect unless it first executes it, the idea

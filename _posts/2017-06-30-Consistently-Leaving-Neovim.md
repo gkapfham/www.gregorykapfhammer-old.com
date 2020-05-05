@@ -4,13 +4,13 @@ layout: blog_n
 categories: [writing, tool, vim]
 author: Gregory M. Kapfhammer
 date: 2017-06-30
+description: Leaving escape mode in Neovim may require a special configuration.
 image: /download/images/7974636493_6304db854f_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
 When I write my own research [papers]({{site.baseurl}}research/papers/) I often
 create them in [Neovim](https://neovim.io/). However, before using Neovim, I
 have spent years writing papers and code in Vim. Like many others who use Vim
@@ -18,7 +18,6 @@ for programming and writing, I have added the following two commands to my
 `.vimrc` file, thus enabling me to press `jK` when I want to leave insert mode.
 This works great in Vim &mdash; but I found that I needed a few other settings
 to ensure that I could consistently leave insert mode in Neovim!
-{% enddescribe %}
 
 ```
 inoremap jk <ESC>

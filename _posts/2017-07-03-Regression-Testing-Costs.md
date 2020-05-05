@@ -4,19 +4,18 @@ layout: blog_n
 categories: [testing, research, advice]
 author: Gregory M. Kapfhammer
 date: 2017-07-03
+description: Even though it is expensive, regression testing helps to establish a confidence in the correctness of a program.
 image: /download/images/3119405564_e48979041b_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
 To establish a confidence in the correctness of their software, developers will
 often write test suites that they will re-run as the program is modified,
 attempting to ensure that they have not introduced regressions, or faults that
 arise as an unintended side effect of changes. This process, known as regression
 testing, is important and yet expensive.
-{% enddescribe %}
 
 Regression testing is costly because, as software grows in size and complexity,
 a suite accumulate more tests and therefore take longer to run. For instance, a

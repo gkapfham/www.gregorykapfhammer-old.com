@@ -4,18 +4,17 @@ layout: blog_n
 categories: [seed, interview, software]
 author: Gregory M. Kapfhammer
 date: 2017-07-05
+description: Do you work in the software industry? Please complete the SEED survey so that we can learn from your experiences!
 image: /download/images/8608133415_35de14d034_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
 Do you work in the software industry? Are you interested in sharing your knowledge and experiences with up-and-coming
 members of your field? Do you want to influence the way academics teach and conduct research? If so, then please allow
 me to interview you through the [SEED survey]({{site.baseurl}}seed/). Want to learn more about this initiative? If yes,
 then keep reading this post.
-{% enddescribe %}
 
 I am an educator who frequently teaches courses in areas like software engineering and data management. While I am an
 active [researcher]({{site.baseurl}}research/) and I [teach]({{site.baseurl}}teaching/) courses in a wide variety of

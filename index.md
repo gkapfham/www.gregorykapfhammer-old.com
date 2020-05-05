@@ -1,6 +1,7 @@
 ---
 title: Gregory M. Kapfhammer
 layout: defaults
+description: Gregory M. Kapfhammer is an innovator in technical areas such as software engineering and software testing.
 categories: [main]
 ---
 
@@ -16,18 +17,16 @@ document.write(randomLead());
 
 ## Introduction
 
-{% describe %}
-Innovating in technical areas such as
-software engineering and software testing, I teach
-[courses]({{site.baseurl}}teaching/), conduct
+Innovating in technical areas such as software engineering and software testing,
+I teach [courses]({{site.baseurl}}teaching/), conduct
 [research]({{site.baseurl}}research/), write
 [papers]({{site.baseurl}}research/papers/) and a [blog]({{site.baseurl}}blog/),
 give [presentations]({{site.baseurl}}research/presentations/), create
 [software]({{site.baseurl}}software/), and [serve]({{site.baseurl}}service/)
 organizations. An Associate Professor in the [Department of Computer
 Science](http://www.cs.allegheny.edu) at [Allegheny
-College](http://www.allegheny.edu), I am an associate editor for the [Journal
-of Software: Evolution and
+College](http://www.allegheny.edu), I am an associate editor for the [Journal of
+Software: Evolution and
 Process](https://onlinelibrary.wiley.com/journal/20477481), an academic editor
 for the [PeerJ Computer Science](https://peerj.com/computer-science/) journal,
 and a program committee member for conferences like the [International
@@ -35,7 +34,6 @@ Conference on Software Testing, Verification and
 Validation](https://cs.gmu.edu/icst/index.html). You can learn more about me by
 reading my [biography]({{site.baseurl}}biography/) and stay up-to-date with my
 work by [subscribing]({{site.baseurl}}support/) to my mailing list.
-{% enddescribe %}
 
 ## Featured Paper
 
@@ -47,7 +45,7 @@ production build {% endcomment %}
 
 {% if jekyll.environment == 'production' or jekyll.environment == 'papers' %}
 
-{% bibliography --template bibliography_entry_forward --group_by none --max 1 %}
+{% bibliography --template bibliography_entry_forward_paper --group_by none --max 1 %}
 
 {% endif %}
 
@@ -58,7 +56,7 @@ production build {% endcomment %}
 
 {% if jekyll.environment == 'production' or jekyll.environment == 'talks' %}
 
-{% bibliography --template bibliography_entry_forward --query @misc[keywords!=supervised] --group_by none --max 1 %}
+{% bibliography --template bibliography_entry_forward_presentation --query @misc[keywords!=supervised] --group_by none --max 1 %}
 
 {% endif %}
 
@@ -67,8 +65,8 @@ production build {% endcomment %}
 {% comment %} Reference one of the software tools and give a date for a recent
 update or release {% endcomment %}
 
-<ul class="fa-ul">
-<li><i class="fa-li fa fa-code fa-lg"></i><a class="major"
+<ul>
+<li><a class="major"
 href="https://github.com/GatorEducator/gatorgrader">GatorGrader: Automated assessment tool for source code and technical writing</a></li>
 Updated January 2020
 </ul>
@@ -78,9 +76,9 @@ Updated January 2020
 {% comment %} Find the most recent blog post and provide a link to it, giving
 the date on which it was written {% endcomment %}
 
-<ul class="fa-ul">
+<ul>
 {% for post in site.posts limit:1 %}
-  <li><i class="fa-li fa fa-edit fa-lg"></i><a class="major"
+  <li><a class="major"
   href="{{site.baseurl}}{{ post.url | remove_first:'/'}}">{{ post.title
   }}</a></li> Published {{ post.date | date: '%B %Y'}}
 {% endfor %}
@@ -96,10 +94,10 @@ production build {% endcomment %}
 
 {% if jekyll.environment == 'production' or jekyll.environment == 'courses' %}
 
-<ul class="fa-ul">
+<ul>
 {% for page in site.pages %}
   {% if page.course == true and page.featured == true %}
-  <li><i class="fa-li fa fa-cog fa-lg"></i><a class="major" href="{{site.baseurl}}{{ page.url | remove_first:'/'}}">{{ page.title | capitalize_all }}</a></li>
+  <li><a class="major" href="{{site.baseurl}}{{ page.url | remove_first:'/'}}">{{ page.title | capitalize_all }}</a></li>
   {{page.subtitle}}
   {% endif %}
 {% endfor %}
@@ -112,8 +110,7 @@ production build {% endcomment %}
 {% comment %} Reference the SEED Survey for "interviews" with software
 engineers {% endcomment %}
 
-<ul class="fa-ul"> <li><i class="fa-li fa fa-users fa-lg"></i><a class="major"
-href="{{site.baseurl}}seed/">Are you working in the software industry? Share
+<ul><li><a class="major" href="{{site.baseurl}}seed/">Are you working in the software industry? Share
 your expertise!</a></li> Enhanced July 2018 </ul>
 
 ## Status Updates

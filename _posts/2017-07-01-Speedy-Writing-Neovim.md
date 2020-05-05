@@ -4,20 +4,19 @@ layout: blog_n
 categories: [writing, research, vim]
 author: Gregory M. Kapfhammer
 date: 2017-07-01
+description: There are some Neovim plugins that can help you to efficiently write technical content.
 image: /download/images/160181261_8694ae7eb5_z.jpg
 ---
 
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-{% describe %}
 Since, in my experience, writing technical research
 [papers]({{site.baseurl}}research/papers/) is a challenging task, I always try
 to use a writing environment that effectively supports my endeavors. If I am
 writing a paper in Neovim, then I now often use
 [deoplete.nvim](https://github.com/Shougo/deoplete.nvim) complete the words that
 I am writing in my paper.
-{% enddescribe %}
 
 Unlike other completion engines for Vim and Neovim, `deoplete.nvim` is flexible
 in its capability to perform completion from a wide variety of sources. In

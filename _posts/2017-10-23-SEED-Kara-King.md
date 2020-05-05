@@ -5,6 +5,7 @@ title: SEED Interview with Kara King
 company_name: "FirstEnergy"
 title_name: "SAP developer"
 web_site: "https://www.linkedin.com/in/kara-king-b245a259"
+description: Let's learn from Kara King as part of the SEED survey.
 image: /download/images/21381609840_70acd0aa1c_z.jpg
 ---
 
@@ -13,7 +14,6 @@ image: /download/images/21381609840_70acd0aa1c_z.jpg
 
 {% assign size = site.baseurl | size | minus: 1 %}
 
-{% describe %}
 As part of the [SEED project]({{ site.baseurl | slice: 0, size }}{% post_url
 2017-07-05-Introducing-SEED %}), I recently talked with [Kara
 King]({{page.web_site}}), a {{page.title_name}} at {{page.company_name}}. In
@@ -24,7 +24,6 @@ she stressed the importance of professional networking, encouraging people to
 pursue internships throughout their undergraduate education. Read Kara's
 responses to the three SEED questions to learn more about her unique
 perspective on the engineering of software in industry.
-{% enddescribe %}
 
 ## What is one fun fact that you can share about your company or a current project?
 
