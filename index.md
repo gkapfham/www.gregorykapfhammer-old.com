@@ -17,16 +17,16 @@ document.write(randomLead());
 
 ## Introduction
 
-Innovating in technical areas such as software engineering and software testing,
-I teach [courses]({{site.baseurl}}teaching/), conduct
+Innovating in technical areas such as software engineering and software
+testing, I teach [courses]({{site.baseurl}}teaching/), conduct
 [research]({{site.baseurl}}research/), write
 [papers]({{site.baseurl}}research/papers/) and a [blog]({{site.baseurl}}blog/),
 give [presentations]({{site.baseurl}}research/presentations/), create
 [software]({{site.baseurl}}software/), and [serve]({{site.baseurl}}service/)
-organizations. An Associate Professor in the [Department of Computer
+organizations. As an Associate Professor in the [Department of Computer
 Science](http://www.cs.allegheny.edu) at [Allegheny
-College](http://www.allegheny.edu), I am an associate editor for the [Journal of
-Software: Evolution and
+College](http://www.allegheny.edu), I am also an associate editor for the
+[Journal of Software: Evolution and
 Process](https://onlinelibrary.wiley.com/journal/20477481), an academic editor
 for the [PeerJ Computer Science](https://peerj.com/computer-science/) journal,
 and a program committee member for conferences like the [International
