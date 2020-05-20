@@ -33,9 +33,9 @@ and a program committee member for conferences like the [International
 Conference on Software Testing, Verification and
 Validation](https://cs.gmu.edu/icst/index.html) and the [International
 Conference on Automated Software
-Engineering](https://conf.researchr.org/series/ase). You can learn about me by
-reading my [biography]({{site.baseurl}}biography/) and stay up-to-date with my
-work by [subscribing]({{site.baseurl}}support/) to my mailing list.
+Engineering](https://conf.researchr.org/series/ase). You can learn more about me
+by reading my [biography]({{site.baseurl}}biography/) and stay up-to-date with
+my work by [subscribing]({{site.baseurl}}support/) to my mailing list.
 
 ## Featured Paper
 
