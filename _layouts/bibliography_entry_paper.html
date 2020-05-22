@@ -11,10 +11,13 @@
 <!-- If there is a "booktitle" (i.e., proceedings), then display its name -->
 {% if entry.booktitle %}
 <em>{{ entry.booktitle }}</em>
-{% endif %}
 <!-- If there is a "journal" (i.e., it is a journal), then display its name -->
-{% if entry.journal %}
+{% elsif entry.journal %}
 <em>{{ entry.journal}}</em>
+<!-- It is not a conference paper or a journal paper -->
+<!-- Yet, if there is a "type" (i.e., for a thesis or dissertation), then display it -->
+{% elsif entry.type %}
+<em>{{ entry.type }}</em>
 {% endif %}
 <!-- Include a line break between the publication venue and the list of authors -->
 <br>
