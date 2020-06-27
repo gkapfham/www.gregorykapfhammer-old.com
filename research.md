@@ -49,11 +49,10 @@ trailing="." %} Since the relational schema preserves the correctness of the
 database's state, my research has also focused on testing this complex artifact,
 with {% include_cached _popovers/paper_reference.html cite="McMinn2015" %} and
 {% include_cached _popovers/paper_reference.html cite="McMinn2019" %} being
-examples of papers. Recent papers such as
-{% include_cached _popovers/paper_reference.html cite="Alsharif2020" %} and
-{% include_cached _popovers/paper_reference.html cite="Alsharif2020a" %} present
-techniques for improving the efficiency of regression testing for database
-schemas.
+examples of papers. Recent papers such as {% include_cached
+_popovers/paper_reference.html cite="Alsharif2020" %} and {% include_cached
+_popovers/paper_reference.html cite="Alsharif2020a" %} present techniques for
+improving the efficiency of regression testing for relational database schemas.
 
 </li>
 
@@ -66,9 +65,12 @@ web sites, my research has developed automated techniques for checking the pages
 in these sites. Some examples of papers describing methods for detecting defects
 in live web pages include {% include_cached _popovers/paper_reference.html
 cite="Walsh2017" %} and {% include_cached _popovers/paper_reference.html
-cite="Walsh2017a" trailing="." %} The recent work introduced in {% include_cached
-_popovers/paper_reference.html cite="Althomali2019" %} explains how to visually
-confirm and classify the responsive layout failures in a web page.
+cite="Walsh2017a" trailing="." %} The automated approach introduced in {%
+include_cached _popovers/paper_reference.html cite="Althomali2019" %} can
+visually confirm and classify the responsive layout failures in a web page.
+Finally, the technique described in {% include_cached
+_popovers/paper_reference.html cite="Walsh2020" %} can automatically identify
+potential regressions from the correct layout of mobile-ready web pages.
 
 </li>
 
@@ -76,9 +78,9 @@ confirm and classify the responsive layout failures in a web page.
 
 <li>
 
-<b>Mutation Testing:</b> Given the challenges associated with judging the
-quality of a test suite, my research has designed efficient and useful ways to
-perform test assessment through mutation analysis. Presenting and evaluating
+<b>Mutation Testing:</b> Given the challenges associated with accurately judging
+the quality of a test suite, my research has designed efficient and useful ways
+to perform test assessment through mutation analysis. Presenting and evaluating
 automated techniques that efficiently insert synthetic faults into both
 real-world Java programs and relational database schemas, some examples of
 papers include {% include _popovers/paper_reference.html cite="Just2012b"
@@ -170,5 +172,5 @@ how to replicate my research results.
 ## Connections
 
 Do you work in one of these areas and are you interested in collaborating with
-me on a project? If so, then please [contact]({{site.baseurl}}contact/) me with
-your ideas.
+me on a project in the fields like software engineering or software testing? If
+so, then please [contact]({{site.baseurl}}contact/) me with your ideas.
