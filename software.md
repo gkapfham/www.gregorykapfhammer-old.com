@@ -161,6 +161,10 @@ target="_blank" rel="noopener" href="https://github.com/schemaanalyst/imdetect-r
 TSE 2019 paper</li>
 
 <li><a class="major"
+target="_blank" rel="noopener" href="https://github.com/redecheck/jstvr-webpages">jstvr-webpages</a>: Experimental subjects used for the
+JSTVR 2020 paper</li>
+
+<li><a class="major"
 target="_blank" rel="noopener" href="https://github.com/schemaanalyst/sticcer-replicate">sticcer-replicate</a>: Data and analysis code for the
 ICST 2020 paper</li>
 
