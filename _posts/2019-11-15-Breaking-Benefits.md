@@ -13,12 +13,12 @@ description: When software fails, it is an opportunity for growth and exploratio
 My [research]({{site.baseurl}}research/) in the fields of software engineering
 and software testing focuses on the design, implementation, and experimental
 evaluation of automated techniques for finding and fixing the defects that lead
-to software failure. Even though much of my professional work focuses on
-developing methods to avoid software failure, I've also learning that when
-software fails it is an opportunity for me to learn about why it failed and to
-explore alternatives to, for instance, the approach that lead to failure or the
-software that itself failed. After reflecting on my research and teaching
-experiences, it is now clear that I've greatly benefited from software failures!
-Here are a few examples that help to illustrate my point.
+to software failure. Even though much of my professional work develops methods
+to avoid software failure, I've also learning that when software does fails it
+is an opportunity for me to learn about why it failed and to explore
+alternatives to, for instance, the approach that lead to failure or the software
+that itself failed. After reflecting on my research and teaching experiences, it
+is now clear that I've greatly benefited from software failures! Here are a few
+examples that help to illustrate my point.
 
 {% include _footers/blog_footer.html %}
