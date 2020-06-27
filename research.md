@@ -33,8 +33,9 @@ and frequently cited research [papers]({{site.baseurl}}research/papers/),
 oft-complimented [presentations]({{site.baseurl}}research/presentations/), and
 useful free and open-source [software]({{site.baseurl}}software/).
 
-My research has concentrated on several areas, examples of which are summarized
-in the following list that references key papers.
+My research has concentrated on several areas in software engineering and
+software testing, examples of which are summarized in the following list that
+references key papers.
 
 <ul>
 
@@ -62,15 +63,15 @@ improving the efficiency of regression testing for relational database schemas.
 
 <b>Web Testing:</b> In response to the prevalence and complexity of mobile-ready
 web sites, my research has developed automated techniques for checking the pages
-in these sites. Some examples of papers describing methods for detecting defects
-in live web pages include {% include_cached _popovers/paper_reference.html
-cite="Walsh2017" %} and {% include_cached _popovers/paper_reference.html
-cite="Walsh2017a" trailing="." %} The automated approach introduced in {%
-include_cached _popovers/paper_reference.html cite="Althomali2019" %} can
-visually confirm and classify the responsive layout failures in a web page.
-Finally, the technique described in {% include_cached
+in these sites. Some examples of papers describing methods for automatically
+detecting defects in live web pages include {% include_cached
+_popovers/paper_reference.html cite="Walsh2017" %} and {% include_cached
+_popovers/paper_reference.html cite="Walsh2017a" trailing="." %} The automated
+approach introduced in {% include_cached _popovers/paper_reference.html
+cite="Althomali2019" %} can visually confirm and classify the responsive layout
+failures in a web page. Finally, the technique described in {% include_cached
 _popovers/paper_reference.html cite="Walsh2020" %} can automatically identify
-potential regressions from the correct layout of mobile-ready web pages.
+potential regressions from the correct layout of a mobile-ready web page.
 
 </li>
 
