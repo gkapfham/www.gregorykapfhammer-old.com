@@ -31,6 +31,8 @@ Retrospectively study effectiveness of mutation testing techniques</li>
 
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/schemaanalyst-team/schemaanalyst">schemaanalyst</a>: Data generation and mutation analysis for database schemas</li>
 
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/Tada-Project/tada">tada</a>: Automated order of growth analysis for Python functions</li>
+
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/redecheck/viser">viser</a>: Automated visual verification of responsive layout failure reports</li>
 
 </ul>
