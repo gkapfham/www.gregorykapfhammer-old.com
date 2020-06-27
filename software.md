@@ -187,6 +187,12 @@ AST 2016 paper</li>
 <ul>
 
 <li><a class="major"
+target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-100-S2020/">cs100S2020</a>: Course content for Computer Science 100 Spring 2020</li>
+
+<li><a class="major"
+target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-203-S2020/">cs203S2020</a>: Course content for Computer Science 203 Spring 2020</li>
+
+<li><a class="major"
 target="_blank" rel="noopener" href="https://github.com/Allegheny-Computer-Science-100-F2019">cs100F2019</a>: Course content for Computer Science 100 Fall 2019</li>
 
 <li><a class="major"
