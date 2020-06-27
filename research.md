@@ -173,6 +173,6 @@ how to replicate my research results.
 
 ## Connections
 
-Do you work on one of these topics and are you interested in collaborating with
-me on a project in the fields like software engineering or software testing? If
+Do you work on these topics and are you interested in collaborating with
+me on a project in fields like software engineering or software testing? If
 so, then please [contact]({{site.baseurl}}contact/) me with your ideas.
