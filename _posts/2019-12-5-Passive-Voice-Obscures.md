@@ -10,8 +10,14 @@ description: Using passive voice in a research paper makes it difficult to see t
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-[serve]({{site.baseurl}}service/)
-
+Through my [service]({{site.baseurl}}service/) as an associate editor for the
+[Journal of Software: Evolution and
+Process](https://onlinelibrary.wiley.com/journal/20477481), an academic editor
+for the [PeerJ Computer Science](https://peerj.com/computer-science/) journal,
+and a program committee member for conferences like the [International
+Conference on Software Testing, Verification and
+Validation](https://cs.gmu.edu/icst/index.html), I've read a lot of research
+papers in the field of software engineering and software testing.
 
 Do you have your own tips about how to effectively write a research paper? Have
 you noticed sentence structures that make it difficult for you to effectively
