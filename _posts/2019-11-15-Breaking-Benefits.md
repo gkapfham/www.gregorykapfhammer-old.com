@@ -49,16 +49,16 @@ emails, Markdown, HTML, CSS, JavaScript, LaTeX, Python, R, Java, and more!
 
 - **Victories with Version Control**: Throughout my undergraduate and graduate
 education in computer science and then my early years as computer science
-instructor, I used a variety of version control systems including source code
-control system (SCCS), revision control system (RCS), concurrent versions system
-(CVS), subversion (SVN), and Git. Although I benefited from personally using
-SCCS and RCS, I became frustrated with attempting to use them in a team setting,
-ultimately adopting CVS and then SVN. I can also remember first struggling to
-use Git, always wondering why I had to run my own server or daemon to share
-files with collaborators in a decentralized fashion. Even though I delightfully
-adopted the use of Bitbucket for all of my teaching and research I never really
-felt completely victorious with version control until I adopted GitHub and
-GitHub Classroom for all of my teaching and research!
+instructor, I used a variety of version control systems including the source
+code control system (SCCS), revision control system (RCS), concurrent versions
+system (CVS), subversion (SVN), and Git. Although I benefited from personally
+using SCCS and RCS, I became frustrated with attempting to use them in a team
+setting, ultimately adopting CVS and then SVN. I can also remember first
+struggling to use Git, always wondering why I had to run my own server or daemon
+to share files with collaborators in a decentralized fashion. Even though I
+delightfully adopted the use of Bitbucket for all of my teaching and research I
+never really felt completely victorious with version control until I adopted
+GitHub and GitHub Classroom for all of my teaching and research!
 
 - **Struggles with Statistical Analysis**: Since some of my computer science
 graduate courses required me to program in Matlab, I decided that, after using
@@ -68,7 +68,7 @@ had a site license to Mathematica, I later adopted it for all of my statistical
 analysis and data visualization tasks. Using Mathematica and Matlab soon proved
 frustrating since, as commercial software, I could not share them with my
 graduating students or my colleagues who worked at institutions that did not
-have the expensive software. One summer I gave up and rewrote tens of thousands
+have these expensive tools. One summer I gave up and rewrote tens of thousands
 of lines of code in Matlab and Mathematica in the R language for statistical
 computation. While I always appreciated R through many years of use, it never
 felt to me like a general-purpose programming language and, in recent years, I
@@ -83,14 +83,14 @@ of window managers and desktop environments, like fvwm2 and Enlightenment. Once
 Ubuntu started to ship with the Unity desktop environment I happily used it for
 years, learning how to tweak it so that it was as minimal as possible. When
 Unity was no longer available in Ubuntu, I briefly tried to use GNOME Shell,
-only too find it too slow for my laptop and too cumbersome for my daily use.
-Even after multiple recommendations to use the i3 window manager, I was hesitant
-to adopt it due to concerns about the time required to create another customized
-configuration. After the failings of GNOME became to much for me, I learned
-about i3 from friends who were already using it, leveraging their configurations
-to craft one of my own. Today, my customized configuration of i3 is a delight to
-use and I could not imagine return to heavy-weight environments such as Unity or
-GNOME Shell!
+only to find it too slow for my laptop and too cumbersome for my daily use. Even
+after multiple recommendations to use the i3 window manager, I was hesitant to
+adopt it due to concerns about the time required to create another customized
+configuration. After the failings of GNOME became too much for me, I learned
+more about i3 from friends who were already using it, leveraging their
+configurations to craft one of my own. Today, my customized configuration of i3
+is a delight to use and I could not imagine returning to heavy-weight
+environments such as Unity or GNOME Shell!
 
 In summary, I might still be using Windows, plotting data with commercial
 software, and managing my own version control server if it were not for all of
