@@ -14,7 +14,7 @@ Given the exceptional page layout, interesting and relevant articles, and
 amazing artwork, I've enjoyed reading all of the issues of [Increment
 Magazine](https://increment.com/). Since web testing is one of my active
 [research]({{site.baseurl}}research/) areas, I read with interest the May 2020
-issue on theme "Frontend" theme. An interview on [Frontend at
+issue on "Frontend" theme. An interview collection called [Frontend at
 scale](https://increment.com/frontend/frontend-at-scale/) with leading industry
 experts such as [Joscha Feth](https://www.linkedin.com/in/joschafeth/) from
 [Canva](https://www.canva.com/) piqued my interest! Here's an excerpt from
@@ -29,8 +29,8 @@ Joscha's interview:
  to continuous deployment."
 
 If you want to learn more about the "visual regression testing" approach that
-they have adopted at Canva, I encourage you to read Joscha's article [Why we
-left manual UI testing
+they have adopted at Canva, then I encourage you to read Joscha's article [Why
+we left manual UI testing
 behind](https://product.canva.com/automated-visual-testing-at-canva/). Now, you
 may be wondering why I am so excited to see articles from industry-leading
 experts and industry-focused magazines highlight the challenges and importance
@@ -44,7 +44,7 @@ the responsive layout of a mobile-ready page.
 
 Since 2015 my colleagues and I have also been building and experimentally
 studying tools that support the testing of responsive web pages. To date, our
-work has developed automated techniques to address two key challenges: (i)
+work has created automated techniques to address two key challenges: (i)
 surfacing differences in responsive web layouts and (ii) detecting responsive
 layout failures without explicit test oracles. Our work published in {%
 include_cached _popovers/paper_reference.html cite="Walsh2015" %} and {%
@@ -77,17 +77,17 @@ to automatically detect layout failures in a responsive web page!
 </p>
 
 In summary, it is exciting to see that software engineers in industry are
-adopting commercial tools, like [Percy](https://percy.io/), that are similar to
-those that we are prototyping and releasing as free and open-source
+adopting commercial tools, like [Percy](https://percy.io/), that are similar in
+aim to those that we are prototyping and releasing as free and open-source
 [software]({{site.baseurl}}software/). While both academia and industry are
 starting to make progress on this important problem, more work remains to create
 fully automated methods for testing responsive web pages. Do you have ideas
-about how to further automate this testing process? Are you interested in
-collaborating with me on [research]({{site.baseurl}}research/) to make the next
-generation of automated responsive web testing techniques? If so, then I hope
-that you will [contact]({{site.baseurl}}contact/) me to share some of your
-ideas! Or, do you want to be updated when I publish new blog posts like this
-one? If you do, then please [subscribe]({{site.baseurl}}support/) to my mailing
-list.
+about how to further enhance the process of testing a mobile-ready web page? Are
+you interested in collaborating with me on [research]({{site.baseurl}}research/)
+to make the next generation of automated responsive web testing techniques? If
+so, then I hope that you will [contact]({{site.baseurl}}contact/) me to share
+some of your ideas! Or, do you want to be updated when I publish new blog posts
+like this one? If you do, then please [subscribe]({{site.baseurl}}support/) to
+my mailing list.
 
 {% include _footers/blog_footer.html %}
