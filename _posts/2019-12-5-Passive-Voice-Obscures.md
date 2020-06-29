@@ -48,7 +48,7 @@ rephrased to be more active. Once you recognize that the sentence is in passive
 voice, start asking yourself questions like "what algorithm or technique or tool
 performed this action?" and "is this process one that is automated or manual?".
 Finally, if the action is one that you or your coauthors took &mdash; say to
-make a decision or to configure some aspect of your experimental set &mdash;
+make a decision or to configure some aspect of your experimental setup &mdash;
 then consider using "we" to ensure that the reader knows that a tool did not
 take the step.
 
