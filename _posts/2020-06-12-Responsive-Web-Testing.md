@@ -77,15 +77,16 @@ to automatically detect layout failures in a responsive web page!
 </p>
 
 In summary, it is exciting to see that software engineers in industry are
-developing techniques that are similar to those that we are prototyping and
-releasing as free and open-source [software]({{site.baseurl}}software/). While
-both academia and industry are starting to make progress on this important
-problem, more work remains to create fully automated methods for testing
-responsive web pages. Do you have ideas about how to automate this process? Are
-you interested in collaborating with me on research to make the next generation
-of automated responsive web testing techniques? If so, then I hope that you will
-[contact]({{site.baseurl}}contact/) me to share some of your ideas! Or, do you
-want to be updated when I publish new blog posts like this one? If you do, then
-please [subscribe]({{site.baseurl}}support/) to my mailing list.
+adopting commercial tools, like [Percy](https://percy.io/), that are similar to
+those that we are prototyping and releasing as free and open-source
+[software]({{site.baseurl}}software/). While both academia and industry are
+starting to make progress on this important problem, more work remains to create
+fully automated methods for testing responsive web pages. Do you have ideas
+about how to automate this process? Are you interested in collaborating with me
+on research to make the next generation of automated responsive web testing
+techniques? If so, then I hope that you will [contact]({{site.baseurl}}contact/)
+me to share some of your ideas! Or, do you want to be updated when I publish new
+blog posts like this one? If you do, then please
+[subscribe]({{site.baseurl}}support/) to my mailing list.
 
 {% include _footers/blog_footer.html %}
