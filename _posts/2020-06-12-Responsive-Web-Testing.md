@@ -13,8 +13,8 @@ description: It is important to test the responsive layout of a web page.
 Given the exceptional page layout, interesting and relevant articles, and
 amazing artwork, I've enjoyed reading all of the issues of [Increment
 Magazine](https://increment.com/). Since web testing is one of my active
-[research]({{site.baseurl}}research/), I read with interest the May 2020 issue
-on theme "Frontend" theme. An interview on [Frontend at
+[research]({{site.baseurl}}research/) areas, I read with interest the May 2020
+issue on theme "Frontend" theme. An interview on [Frontend at
 scale](https://increment.com/frontend/frontend-at-scale/) with leading industry
 experts such as [Joscha Feth](https://www.linkedin.com/in/joschafeth/) from
 [Canva](https://www.canva.com/) piqued my interest! Here's an excerpt from
@@ -32,13 +32,13 @@ If you want to learn more about the "visual regression testing" approach that
 they have adopted at Canva, I encourage you to read Joscha's article [Why we
 left manual UI testing
 behind](https://product.canva.com/automated-visual-testing-at-canva/). Now, you
-may be wondering why I am so excited to see articles from industry leading
-experts and industry-focused online magazines highlight the challenges and
-importance of mobile-ready web testing. Well, I teach
-[courses]({{site.baseurl}}teaching/) on web development &mdash; in fact, I'm
-teaching the course again during the Fall 2020 semester! &mdash; and I've used a
-variety of technologies to create and maintain several web sites, helping me to
-understand how hard it is to test a mobile-ready page.
+may be wondering why I am so excited to see articles from industry-leading
+experts and industry-focused magazines highlight the challenges and importance
+of mobile-ready web testing. Well, I teach [courses]({{site.baseurl}}teaching/)
+on web development &mdash; in fact, I'm teaching the course again during the
+Fall 2020 semester! &mdash; and I've used a variety of technologies to create
+and maintain several web sites, helping me to understand how hard it is to test
+the responsive layout of a mobile-ready page.
 
 <p>
 
@@ -82,11 +82,12 @@ those that we are prototyping and releasing as free and open-source
 [software]({{site.baseurl}}software/). While both academia and industry are
 starting to make progress on this important problem, more work remains to create
 fully automated methods for testing responsive web pages. Do you have ideas
-about how to automate this process? Are you interested in collaborating with me
-on research to make the next generation of automated responsive web testing
-techniques? If so, then I hope that you will [contact]({{site.baseurl}}contact/)
-me to share some of your ideas! Or, do you want to be updated when I publish new
-blog posts like this one? If you do, then please
-[subscribe]({{site.baseurl}}support/) to my mailing list.
+about how to further automate this testing process? Are you interested in
+collaborating with me on [research]({{site.baseurl}}research/) to make the next
+generation of automated responsive web testing techniques? If so, then I hope
+that you will [contact]({{site.baseurl}}contact/) me to share some of your
+ideas! Or, do you want to be updated when I publish new blog posts like this
+one? If you do, then please [subscribe]({{site.baseurl}}support/) to my mailing
+list.
 
 {% include _footers/blog_footer.html %}
