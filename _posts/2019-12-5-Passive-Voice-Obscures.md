@@ -35,7 +35,22 @@ However, it is important for the reader to understand that the technique
 presented in the paper is, in fact, the one that performed the computation.
 Moreover, using passive voice in sentences with "was performed" or "was
 analyzed" makes it less clear if the action was done in an automated or a manual
-fashion, which is also important to know in computer science research papers.
+fashion, which is also useful for the reader to know in computer science
+research papers.
+
+It's easy for you to determine if your sentence contains a verb in passive
+voice! Following the
+[strategy](https://twitter.com/johnsonr/status/259012668298506240?lang=en)
+suggested by [Rebecca Johnson](https://twitter.com/johnsonr), you should ask
+yourself if you can insert "by zombies" after the verb! If you can, then you
+know that your sentence is written in passive voice and should be rephrased to
+be more active. Once you know that the sentence is in passive voice, start
+asking yourself questions like "what algorithm or technique or tool performed
+this action?" and "is this process one that is automated or manual?". Finally,
+if the action is one that you or your coauthors took &mdash; say to make a
+decision or to configure some aspect of your experimental set &mdash; then
+consider using "we" to ensure that the reader knows that a tool did not take the
+step.
 
 Do you have your own tips about how to effectively write a research paper? Have
 you noticed sentence structures that make it difficult for you to effectively
