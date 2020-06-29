@@ -27,9 +27,9 @@ _popovers/paper_reference.html cite="Alsharif2019" trailing="," %} presents a
 human study of automated test data generation techniques for relational database
 schemas. </p>
 
-<p> Since relational databases are a key component of software applications
-ranging from small mobile to large enterprise applications, there are
-well-studied methods that automatically generate test cases for database-related
+<p> Since relational databases are a key component of software systems ranging
+from small mobile to large enterprise applications, there are well-studied
+methods that automatically generate test cases for database-related
 functionality. As explained in a previous blog post called <a
 href="{{site.baseurl}}testing/database/tool/2014/06/12/Schema-Testing/">How do
 you test a relational database's schema?</a>, a schema testing tool
