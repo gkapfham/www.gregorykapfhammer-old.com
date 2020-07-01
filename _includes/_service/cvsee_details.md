@@ -98,6 +98,9 @@ Conference </div></li>
 ## Transactions and Journals
 
 <ul>
+<li><div class="serviceitem"> 2020 Genetic Programming and Evolvable Machines </div></li>
+<br> Reviewer (One time)
+<p></p>
 <li><div class="serviceitem"> 2018 Formal Aspects of Computing Journal </div></li>
 <br> Reviewer (One time)
 <p></p>
