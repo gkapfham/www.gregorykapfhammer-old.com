@@ -10,11 +10,11 @@ description: It is important to test the responsive layout of a web page.
 # {{page.title}}
 {% include _headers/blog_header.html %}
 
-Given the exceptional page layout, interesting and relevant articles, and
-amazing artwork, I've enjoyed reading all of the issues of [Increment
+Given its exceptional page layout, interesting and relevant articles, and
+amazing artwork, I've enjoyed reading all the issues of [Increment
 Magazine](https://increment.com/). Since web testing is one of my active
 [research]({{site.baseurl}}research/) areas, I read with interest the May 2020
-issue on "Frontend" theme. An interview collection called [Frontend at
+issue on the "Frontend" theme. An interview collection called [Frontend at
 scale](https://increment.com/frontend/frontend-at-scale/) with leading industry
 experts such as [Joscha Feth](https://www.linkedin.com/in/joschafeth/) from
 [Canva](https://www.canva.com/) piqued my interest! Here's an excerpt from
