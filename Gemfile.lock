@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/Shopify/liquid-c.git
+  remote: https://github.com/Shopify/liquid-c.git
   revision: 34ee43ccf2d48b5d07f72ffa68b456626679affc
   branch: master
   specs:
@@ -7,8 +7,8 @@ GIT
       liquid (>= 3.0.0)
 
 GIT
-  remote: git://github.com/Shopify/liquid.git
-  revision: e9b649b3455c63859f1b865a8684607d6ff5b050
+  remote: https://github.com/Shopify/liquid.git
+  revision: 1ced4eaf109d754949bfa1d8db1e1e1a3f18edee
   branch: master
   specs:
     liquid (4.0.3)
@@ -118,4 +118,4 @@ DEPENDENCIES
   unicode
 
 BUNDLED WITH
-   1.17.2
+   2.1.4
