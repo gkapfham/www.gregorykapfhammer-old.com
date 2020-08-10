@@ -106,14 +106,14 @@ Journal </div></li>
 <br> Reviewer (One time)
 <p></p>
 <li><div class="serviceitem"> 2012 → 2020 Empirical Software Engineering Journal </div></li>
-<br> Reviewer(Four times)
+<br> Reviewer (Four times)
 <p></p>
 <li><div class="serviceitem"> 2011 → 2019 Journal of Software: Evolution and
 Process </div></li>
 <br> Reviewer (Three times)
 <p></p>
 <li><div class="serviceitem"> 2010 Advances in Software Engineering Journal </div></li>
-<br> Reviewer(One time)
+<br> Reviewer (One time)
 <p></p>
 <li><div class="serviceitem"> 2010 Journal of Software Engineering and Knowledge
 Engineering </div></li>
@@ -134,19 +134,19 @@ Journal </div></li>
 <br> Reviewer (Twelve times)
 <p></p>
 <li><div class="serviceitem"> 2008 → 2010 Automated Software Engineering Journal </div></li>
-<br> Reviewer(Two times)
+<br> Reviewer (Two times)
 <p></p>
 <li><div class="serviceitem"> 2008 Communications of the ACM </div></li>
 <br> Reviewer (One time)
 <p></p>
 <li><div class="serviceitem"> 2007 → 2017 Science of Computer Programming Journal </div></li>
-<br> Reviewer(Three times)
+<br> Reviewer (Three times)
 <p></p>
 <li><div class="serviceitem"> 2007 Transactions on Computers </div></li>
 <br> Reviewer (One time)
 <p></p>
 <li><div class="serviceitem"> 2006 → 2020 Transactions on Software Engineering </div></li>
-<br> Reviewer(Thirty-three times)
+<br> Reviewer (Thirty-three times)
 <p></p>
 <li><div class="serviceitem"> 2004 → 2015 Transactions on Software Engineering and
 Methodology </div></li>
