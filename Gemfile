@@ -7,6 +7,9 @@ source "https://rubygems.org"
 # required patched version of ffi
 gem "ffi", ">= 1.9.24"
 
+# required patcher version of kramdown
+gem "kramdown", ">= 2.3.0"
+
 # }}}
 
 # --> Upgraded version of Jekyll: {{{
@@ -26,8 +29,6 @@ group :jekyll_plugins do
   gem 'jekyll-scholar'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
-  # Parser to convert Markdown to HTML
-  gem 'kramdown'
   # Recognize and reference unicode characters
   gem 'unicode'
   # Improve performance by using native liquid parser
