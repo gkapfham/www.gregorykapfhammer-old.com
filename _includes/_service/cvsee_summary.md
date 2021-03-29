@@ -9,5 +9,6 @@ Test </div> </li><br>
 <li><div class="serviceitem"> Journal of Software: Evolution and Process </div> </li><br>
 <li><div class="serviceitem"> PeerJ Computer Science Journal </div> </li><br>
 <li><div class="serviceitem"> Software Quality Journal </div> </li><br>
+<li><div class="serviceitem"> Transactions on Software Engineering </div> </li><br>
 <li><div class="serviceitem"> Transactions on Software Engineering and Methodology </div> </li><br>
 </ul>
