@@ -7,7 +7,7 @@ source "https://rubygems.org"
 # required patched version of ffi
 gem "ffi", ">= 1.9.24"
 
-# required patcher version of kramdown
+# required patched version of kramdown
 gem "kramdown", ">= 2.3.0"
 
 # }}}
@@ -29,11 +29,13 @@ group :jekyll_plugins do
   gem 'jekyll-scholar'
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
+  gem 'liquid'
+  gem 'liquid-c'
   # Recognize and reference unicode characters
   gem 'unicode'
   # Improve performance by using native liquid parser
-  gem 'liquid', github: 'Shopify/liquid', branch: 'master'
-  gem 'liquid-c', github: 'Shopify/liquid-c', branch: 'master'
+  # gem 'liquid', github: 'Shopify/liquid', branch: 'master'
+  # gem 'liquid-c', github: 'Shopify/liquid-c', branch: 'master'
 end
 
 # }}}
