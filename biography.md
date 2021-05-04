@@ -62,7 +62,9 @@ assessment and team formation.
 {% comment %} Summarize research service {% endcomment %}
 
 Funded by [Facebook
-Research](https://research.fb.com/blog/2019/10/announcing-the-winners-of-the-2019-testing-and-verification-research-awards/),
+Research](https://research.fb.com/blog/2019/10/announcing-the-winners-of-the-2019-testing-and-verification-research-awards/)
+and the [Mozilla
+Foundation](https://foundation.mozilla.org/en/what-we-fund/awards/responsible-computer-science-challenge/winners/),
 Gregory Kapfhammer conducts [research]({{site.baseurl}}research/) in areas such
 as software engineering and software testing. Collaborating with a diverse and
 skilled group of students and colleagues, Kapfhammer completes research that
@@ -80,8 +82,8 @@ Validation](https://cs.gmu.edu/icst/index.html), and a reviewer for journals
 such as [Transactions on Software
 Engineering](https://www.computer.org/csdl/journal/ts). Along with serving as a
 review panelist at the [U.S. National Science Foundation](https://nsf.gov/),
-Kapfhammer works as a program chair and general chair for international
-workshops and conferences.
+Kapfhammer works as a program chair and general chair for workshops and
+conferences.
 
 {% comment %} Describe published papers and research awards {% endcomment %}
 
