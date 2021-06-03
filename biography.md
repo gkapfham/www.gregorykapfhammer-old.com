@@ -1,4 +1,4 @@
-bio---
+---
 title: Biography
 layout: defaults
 description: Gregory M. Kapfhammer is an Associate Professor of Computer Science.
@@ -34,10 +34,12 @@ of Ulm</a>, and the <a href="https://www.sheffield.ac.uk/dcs">Department of
 Computer Science</a> at the <a href="http://www.sheffield.ac.uk/">University of
 Sheffield</a>. In a prior industry position, he was a research associate at
 Cigital, a software company that was acquired by <a
-href="https://www.synopsys.com/">Synopsys</a>. Kapfhammer's research is
-currently funded by a grant from <a href =
+href="https://www.synopsys.com/">Synopsys</a>. His work is funded by grants from
+<a href =
 "https://research.fb.com/blog/2019/10/announcing-the-winners-of-the-2019-testing-and-verification-research-awards/">Facebook
-Research</a>.
+Research</a> and the <a href =
+"https://foundation.mozilla.org/en/what-we-fund/awards/responsible-computer-science-challenge/winners/">Mozilla
+Foundation</a>.
 
 </p>
 
