@@ -21,12 +21,12 @@ Innovating in technical areas such as software engineering and software testing,
 I teach [courses]({{site.baseurl}}teaching/), conduct
 [research]({{site.baseurl}}research/), write
 [papers]({{site.baseurl}}research/papers/) and a [blog]({{site.baseurl}}blog/),
-give [presentations]({{site.baseurl}}research/presentations/), create and
-maintain [software]({{site.baseurl}}software/), and
-[serve]({{site.baseurl}}service/) organizations. Working as an Associate
-Professor in the [Department of Computer Science](http://www.cs.allegheny.edu)
-at [Allegheny College](http://www.allegheny.edu), I am an associate editor for
-the [Journal of Software: Evolution and
+give [presentations]({{site.baseurl}}research/presentations/), create
+[software]({{site.baseurl}}software/), and [serve]({{site.baseurl}}service/)
+organizations. Working as an Associate Professor in the [Department of Computer
+Science](http://www.cs.allegheny.edu) at [Allegheny
+College](http://www.allegheny.edu), I am an associate editor for the [Journal of
+Software: Evolution and
 Process](https://onlinelibrary.wiley.com/journal/20477481), an academic editor
 for the [PeerJ Computer Science](https://peerj.com/computer-science/) journal, a
 program committee member for conferences like the [International Conference on
@@ -36,11 +36,10 @@ Conference on Automated Software
 Engineering](https://conf.researchr.org/series/ase), and a reviewer for journals
 like [Transactions on Software
 Engineering](https://www.computer.org/csdl/journal/ts). You can learn more about
-me by reading my [biography]({{site.baseurl}}biography/) and downloading my
-[curriculum
-vitae](https://github.com/gkapfham/curriculum-vitae/releases/download/v1.1.0/curriculum_vitae_kapfhammer.pdf).
-You can stay up-to-date with my work by [subscribing]({{site.baseurl}}support/)
-to my mailing list.
+me and my work by reading my [biography]({{site.baseurl}}biography/),
+downloading my [curriculum
+vitae](https://github.com/gkapfham/curriculum-vitae/releases/download/v1.1.0/curriculum_vitae_kapfhammer.pdf),
+and [subscribing]({{site.baseurl}}support/) to my mailing list.
 
 ## Featured Paper
 
