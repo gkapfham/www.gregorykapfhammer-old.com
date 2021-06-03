@@ -186,11 +186,13 @@ AST 2016 paper</li>
 
 <ul>
 
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/dockagator">dockagator</a>: Docker container and infrastructure for GatorGrader</li>
+
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgrader">gatorgrader</a>: Automated assessment for source code and writing</li>
 
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgrouper">gatorgrouper</a>: Group formation tool for team-based courses</li>
 
-<li><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgradle">gatorgradle</a>: Gradle plugin for the GatorGrader tool</li>
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgradle">gatorgradle</a>: Gradle plugin for efficient use of GatorGrader</li>
 
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/gkapfham/seed">seed</a>: Analyzer and displayer of responses to the SEED survey</li>
 
