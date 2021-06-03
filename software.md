@@ -15,6 +15,9 @@ image: /download/images/6145817075_2536dd7b4c_z.jpg
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/AVMf/avmf">avmf</a>:
 Extensible framework for the search-based alternating variable method</li>
 
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/CommittedTeam/CommitCanvas">commitcanvas</a>:
+Automated prediction of commit labels for version control messages</li>
+
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/kinneerc/ExpOse/">expose</a>:
 Doubling experiments to infer actual-worst-case time complexity</li>
 
