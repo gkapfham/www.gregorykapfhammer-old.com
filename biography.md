@@ -1,4 +1,4 @@
----
+bio---
 title: Biography
 layout: defaults
 description: Gregory M. Kapfhammer is an Associate Professor of Computer Science.
@@ -116,7 +116,7 @@ His paper {% include_cached _popovers/paper_reference.html
 cite="Althomali2019" trailing="," %} published at the <a href =
 "http://icst2019.xjtu.edu.cn/index.htm">12th International International
 Conference on Software Testing, Verification and Validation (ICST 2019)</a>, won
-the Distinguished Paper Award from the <a href = "http://www.cs-tcse.org/">IEEE
+the distinguished paper award from the <a href = "http://www.cs-tcse.org/">IEEE
 Technical Council on Software Engineering</a>.
 
 </p>
