@@ -48,7 +48,7 @@ Foundation</a>.
 {% comment %} Explain teaching areas and educational software {% endcomment %}
 
 As an educator, Gregory Kapfhammer teaches [courses]({{site.baseurl}}teaching/)
-in the alphabetically organized areas of algorithm analysis, discrete
+in the alphabetically ordered areas of algorithm analysis, discrete
 structures, data management, distributed systems, software engineering, software
 testing, operating systems, and web development. He is also a research adviser
 for undergraduate and graduate theses and PhD dissertations. Kapfhammer's
