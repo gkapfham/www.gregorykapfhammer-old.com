@@ -1,6 +1,6 @@
 # Web Site for Gregory M. Kapfhammer
 
-![Lint](https://github.com/gkapfham/www.gregorykapfhammer.com/workflows/main/badge.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/f669b514-6bc6-49b2-8496-258d18c5beab/deploy-status)](https://app.netlify.com/sites/gregorykapfhammer/deploys)
+![Lint](https://github.com/gkapfham/www.gregorykapfhammer.com/workflows/main.yml/badge.svg) [![Netlify Status](https://api.netlify.com/api/v1/badges/f669b514-6bc6-49b2-8496-258d18c5beab/deploy-status)](https://app.netlify.com/sites/gregorykapfhammer/deploys)
 
 This repository contains the Markdown and HTML source code for web site of
 [Gregory M. Kapfhammer](https://www.gregorykapfhammer.com).
