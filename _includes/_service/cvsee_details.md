@@ -22,8 +22,8 @@ Repair </div></li>
 <br> Program Committee Member (One time)
 <p></p>
 <li><div class="serviceitem"> 2015 International Conference on Software Engineering and Knowledge Engineering </div></li>
-<br>  Session Chair (One time)
 <br>  Panel Member (One time)
+<br>  Session Chair (One time)
 <p></p>
 <li><div class="serviceitem"> 2013 → 2014 International Workshop on Testing the Cloud </div></li>
 <br> Program Committee Member (Two times)
@@ -31,8 +31,8 @@ Repair </div></li>
 <li><div class="serviceitem"> 2012 → 2017 International Workshop on Program Debugging </div></li>
 <br> Program Committee Member (Five times)
 <p></p>
-<li><div class="serviceitem"> 2012 International Asia-Pacific Software Engineering Conference </div></li>
-<br> Program Committee Member (One time)
+<li><div class="serviceitem"> 2012 → 2021 International Asia-Pacific Software Engineering Conference </div></li>
+<br> Program Committee Member (Two times)
 <p></p>
 <li><div class="serviceitem"> 2011 → 2021 International Conference on Software Testing, Verification and Validation </div></li>
 <br>  Program Committee Member (Five times)
@@ -68,10 +68,11 @@ Engineering </div></li>
 <li><div class="serviceitem"> 2010 Late Breaking Abstracts Workshop at the Genetic and Evolutionary Computation Conference </div></li>
 <br> Session Chair (One time)
 <p></p>
-<li><div class="serviceitem"> 2009 → 2020 International Symposium on Search-Based Software Engineering </div></li>
+<li><div class="serviceitem"> 2009 → 2021 International Symposium on Search-Based Software Engineering </div></li>
 <br>  Publicity Chair (One time)
 <br>  Doctoral Symposium Chair (One time)
 <br>  Program Committee Member (Eight times)
+<br>  Challenge Track Program Committee Member (One time)
 <p></p>
 <li><div class="serviceitem"> 2008 → 2021 International Workshop on Search-Based Software Testing </div></li>
 <br> Program Committee Member (Eleven times)
@@ -83,9 +84,10 @@ Engineering </div></li>
 <li><div class="serviceitem"> 2006 → 2007 International Conference on the Principles and Practice of Programming in Java </div></li>
 <br> Program Committee Member (Two times)
 <p></p>
-<li><div class="serviceitem"> 2005 → 2016 International Conference on Software Engineering </div></li>
+<li><div class="serviceitem"> 2005 → 2021 International Conference on Software Engineering </div></li>
 <br>  Reviewer (Two times)
 <br>  Poster Track Program Committee Member (One time)
+<br>  Software Engineering in Practice Track Program Committee Member (One time)
 <p></p>
 <li><div class="serviceitem"> 2005 International Conference on the Foundations of Software Engineering </div></li>
 <br> Reviewer (One time)
@@ -176,7 +178,7 @@ Engineering </div></li>
 <p></p>
 </ul>
 
-## Other Services
+## Other Service
 
 <ul>
 <li><div class="serviceitem"> 2016 Natural Sciences and Engineering Research Council of Canada </div></li>
