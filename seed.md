@@ -12,9 +12,10 @@ image: /download/images/8608133415_35de14d034_z.jpg
 
 ## Overview
 
-Do you work in the software industry? Are you interested in sharing your knowledge and experience with up-and-coming
-members of your field? Do you want to influence the way academics teach and conduct research? If so, then please fill
-out this <a href="#seedsurvey">survey</a>.
+Do you work in the software industry? Are you interested in sharing your
+knowledge and experience with up-and-coming members of your field? Do you want
+to influence the way academics teach and conduct research? If so, then please
+fill out this <a href="#seedsurvey">survey</a>.
 
 To learn the details of why I am interviewing you through this survey, I
 encourage you to read the [introduction to the SEED project]({{ site.baseurl |
