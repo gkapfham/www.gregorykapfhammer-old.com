@@ -1,6 +1,6 @@
 ## Current Service
 <ul>
-<li><div class="serviceitem"> International Asia-Pacific Software Engineering Conference </div> </li><br>
+<li><div class="serviceitem"> Asia-Pacific Software Engineering Conference </div> </li><br>
 <li><div class="serviceitem"> International Conference on Automated Software
 Engineering </div> </li><br>
 <li><div class="serviceitem"> International Conference on Software Engineering </div> </li><br>
