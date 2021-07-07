@@ -31,7 +31,7 @@ Repair </div></li>
 <li><div class="serviceitem"> 2012 → 2017 International Workshop on Program Debugging </div></li>
 <br> Program Committee Member (Five times)
 <p></p>
-<li><div class="serviceitem"> 2012 → 2021 International Asia-Pacific Software Engineering Conference </div></li>
+<li><div class="serviceitem"> 2012 → 2021 Asia-Pacific Software Engineering Conference </div></li>
 <br> Program Committee Member (Two times)
 <p></p>
 <li><div class="serviceitem"> 2011 → 2021 International Conference on Software Testing, Verification and Validation </div></li>
