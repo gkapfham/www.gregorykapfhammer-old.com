@@ -108,19 +108,22 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/per2012-paper">
 <ul>
 
 <li><a class="major"
+target="_blank" rel="noopener" href="https://github.com/gkapfham/pyohio2021-presentation">pyohio2021-presentation</a>: Slides for a presentation at the PyOhio 2021 conference</li>
+
+<li><a class="major"
 target="_blank" rel="noopener" href="https://github.com/gkapfham/pycon2019-functionfiasco-poster">pycon2019-functionfiasco-poster</a>: Slides for a poster at the PyCon 2019 conference</li>
 
 <li><a class="major"
 target="_blank" rel="noopener" href="https://github.com/gkapfham/pycon2019-gatorgrouper-poster">pycon2019-gatorgrouper-poster</a>: Slides for a poster at the PyCon 2019 conference</li>
 
 <li><a class="major"
-target="_blank" rel="noopener" href="https://github.com/gkapfham/pyohio2019-presentation">pyohio2019-presentation</a>: Slides for a presentation at the  PyOhio 2019 conference</li>
+target="_blank" rel="noopener" href="https://github.com/gkapfham/pyohio2019-presentation">pyohio2019-presentation</a>: Slides for a presentation at the PyOhio 2019 conference</li>
 
 <li><a class="major"
-target="_blank" rel="noopener" href="https://github.com/gkapfham/pygotham2018-presentation">pygotham2018-presentation</a>: Slides for a talk at the PyGotham 2018 conference</li>
+target="_blank" rel="noopener" href="https://github.com/gkapfham/pygotham2018-presentation">pygotham2018-presentation</a>: Slides for a presentation at the PyGotham 2018 conference</li>
 
 <li><a class="major"
-target="_blank" rel="noopener" href="https://github.com/gkapfham/pyohio2018-presentation">pyohio2018-presentation</a>: Slides for a presentation at the  PyOhio 2018 conference</li>
+target="_blank" rel="noopener" href="https://github.com/gkapfham/pyohio2018-presentation">pyohio2018-presentation</a>: Slides for a presentation at the PyOhio 2018 conference</li>
 
 <li><a class="major"
 target="_blank" rel="noopener" href="https://github.com/mccurdyc/icsme2016-presentation">icsme2016-presentation</a>: Slides for the presentation of an
