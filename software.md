@@ -50,11 +50,15 @@ visual verification of responsive layout failure reports</li>
 <ul>
 
 <li><a class="major"
+target="_blank" rel="noopener" href="https://github.com/AVMf/avm-bibliography">avm-bibliography</a>: References on search-based methods</li>
+
+<li><a class="major"
 target="_blank" rel="noopener" href="https://github.com/gkapfham/curriculum-vitae/">curriculum-vitae</a>: A curriculum vitae using moderncv and
 moderntimeline</li>
 
 <li><a class="major"
-target="_blank" rel="noopener" href="https://github.com/AVMf/avm-bibliography">avm-bibliography</a>: References on search-based methods</li>
+target="_blank" rel="noopener" href="https://github.com/gkapfham/python-talk-abstracts">python-talk-abstracts</a>: Details about my Python-related
+presentations</li>
 
 <li><a class="major"
 target="_blank" rel="noopener" href="https://github.com/gkapfham/research-bibliography">research-bibliography</a>: References for all of my research
@@ -63,10 +67,6 @@ deliverables</li>
 <li><a class="major"
 target="_blank" rel="noopener" href="https://github.com/schemaanalyst/schemaanalyst-bibliography">schemaanalyst-bibliography</a>: References on testing
 database applications</li>
-
-<li><a class="major"
-target="_blank" rel="noopener" href="https://github.com/gkapfham/python-talk-abstracts">python-talk-abstracts</a>: Details about my Python-related
-presentations</li>
 
 </ul>
 
