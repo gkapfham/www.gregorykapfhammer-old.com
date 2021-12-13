@@ -193,9 +193,9 @@ AST 2016 paper</li>
 
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgrader">gatorgrader</a>: Automated assessment for source code and writing</li>
 
-<li><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgrouper">gatorgrouper</a>: Group formation tool for team-based courses</li>
-
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgradle">gatorgradle</a>: Gradle plugin for efficient use of GatorGrader</li>
+
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgrouper">gatorgrouper</a>: Group formation tool for team-based courses</li>
 
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/gkapfham/seed">seed</a>: Analyzer and displayer of responses to the SEED survey</li>
 
