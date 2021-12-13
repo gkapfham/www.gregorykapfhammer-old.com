@@ -335,7 +335,7 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/vim-vitamin-one
 
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/neovim/neovim/issues/6204">neovim/neovim Issue #6204</a>: Using FZF turns off relativenumber</li>
 
-<li><a class="major" target="_blank" rel="noopener" href="https://github.com/ms-jpq/coq_nvim/issues/265">ms-jpq/coq_nvim Issue #264</a>: Neovim .5.0 Crashes with segmentation fault ...</li>
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/ms-jpq/coq_nvim/issues/265">ms-jpq/coq_nvim Issue #264</a>: Neovim 0.5.0 Crashes with segmentation fault ...</li>
 
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/neovim/neovim/issues/8775">neovim/neovim Issue #8775</a>: Version 0.3.2 interface deranged</li>
 
