@@ -78,10 +78,10 @@ database applications</li>
 <ul>
 
 <li><a class="major"
-target="_blank" rel="noopener" href="https://github.com/gkapfham/ast2016-paper">ast2016-paper</a>: Source code for a research paper at AST 2016</li>
+target="_blank" rel="noopener" href="https://github.com/AVMf/avmframework-paper">avmframework-paper</a>: Source code for a research paper at SSBSE 2016</li>
 
 <li><a class="major"
-target="_blank" rel="noopener" href="https://github.com/AVMf/avmframework-paper">avmframework-paper</a>: Source code for a research paper at SSBSE 2016</li>
+target="_blank" rel="noopener" href="https://github.com/gkapfham/ast2016-paper">ast2016-paper</a>: Source code for a research paper at AST 2016</li>
 
 <li><a class="major"
 target="_blank" rel="noopener" href="https://github.com/schemaanalyst/icsme2016-mrstudyrtool-paper">icsme2016-mrstudyrtool-paper</a>: Source code for a tool paper
