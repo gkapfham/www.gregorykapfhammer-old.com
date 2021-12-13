@@ -34,8 +34,8 @@ Repair </div></li>
 <li><div class="serviceitem"> 2012 → 2021 Asia-Pacific Software Engineering Conference </div></li>
 <br> Program Committee Member (Two times)
 <p></p>
-<li><div class="serviceitem"> 2011 → 2021 International Conference on Software Testing, Verification and Validation </div></li>
-<br>  Program Committee Member (Five times)
+<li><div class="serviceitem"> 2011 → 2022 International Conference on Software Testing, Verification and Validation </div></li>
+<br>  Program Committee Member (Six times)
 <br>  Program Committee Member for the Testing Tools Track (One time)
 <br>  PhD Symposium Panel Member (One time)
 <p></p>
@@ -74,8 +74,8 @@ Engineering </div></li>
 <br>  Program Committee Member (Eight times)
 <br>  Program Committee Member for the Challenge Track (One time)
 <p></p>
-<li><div class="serviceitem"> 2008 → 2021 International Workshop on Search-Based Software Testing </div></li>
-<br> Program Committee Member (Eleven times)
+<li><div class="serviceitem"> 2008 → 2022 International Workshop on Search-Based Software Testing </div></li>
+<br> Program Committee Member (Twelve times)
 <p></p>
 <li><div class="serviceitem"> 2007 → 2015 Testing: Academic and Industrial Conference &mdash; Practice and Research Techniques </div></li>
 <br>  Program Co-Chair (Three times)
