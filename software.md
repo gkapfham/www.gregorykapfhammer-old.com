@@ -303,6 +303,8 @@ target="_blank" rel="noopener" href="https://github.com/gkapfham/vim-vitamin-one
 
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/artur-shaik/vim-javacomplete2/issues/277">artur-shaik/vim-javacomplete2 Issue #277</a>: Errors when starting Vim or Neovim ...</li>
 
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/asdf-vm/asdf-nodejs/issues/277">asdf-vm/asdf-nodejs Issue #277</a>: bug: Cannot create directory ...</li>
+
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/education/classroom/issues/1117">education/classroom  #1117</a>: Internal Server Error 500 When Accessing ...</li>
 
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/education/classroom/issues/1543">education/classroom  #1543</a>: Students suddenly cannot import repo ...</li>
