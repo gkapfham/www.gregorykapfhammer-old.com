@@ -38,7 +38,7 @@ like [Transactions on Software
 Engineering](https://www.computer.org/csdl/journal/ts). You can learn more about
 me and my work by reading my [biography]({{site.baseurl}}biography/),
 downloading my [curriculum
-vitae](https://github.com/gkapfham/curriculum-vitae/releases/download/v1.2.2/curriculum_vitae_kapfhammer.pdf),
+vitae](https://github.com/gkapfham/curriculum-vitae/releases/download/v1.3.2/curriculum_vitae_kapfhammer.pdf),
 and [subscribing]({{site.baseurl}}support/) to my mailing list.
 
 ## Featured Paper
