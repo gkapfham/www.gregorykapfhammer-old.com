@@ -41,6 +41,25 @@ references key papers.
 
 <li>
 
+<b>Flaky Tests:</b> Since flaky tests are test cases that can both pass or fail
+without any changes to the test code or the code under test, they are an
+unreliable indicator of software correctness and a major problem for software
+developers. To address this challenge, my research has developed an automated
+technique that uses machine learning to predict which test cases are most likely
+to be flaky {% include_cached _popovers/paper_reference.html cite="Parry2022a"
+trailing="." %} In addition to proposing a methodology for automatically
+determining which tests have latent flakiness {% include
+_popovers/paper_reference.html cite="Parry2020" trailing="," %} my colleagues
+and I published a systematic survey of the literature relevant to
+flaky test research {% include_cached _popovers/paper_reference.html
+cite="Parry2022" trailing="." %}
+
+</li>
+
+<p></p>
+
+<li>
+
 <b>Database Testing:</b> Given the importance of verifying the behavior of a
 database application, my PhD dissertation {% include_cached
 _popovers/paper_reference.html cite="Kapfhammer2007d" %} presented an approach
@@ -53,7 +72,7 @@ with {% include_cached _popovers/paper_reference.html cite="McMinn2015" %} and
 examples of papers. Recent papers such as {% include_cached
 _popovers/paper_reference.html cite="Alsharif2020" %} and {% include_cached
 _popovers/paper_reference.html cite="Alsharif2020a" %} present techniques for
-improving the efficiency of regression testing for relational database schemas.
+improving the efficiency of regression testing for database schemas.
 
 </li>
 
@@ -62,19 +81,19 @@ improving the efficiency of regression testing for relational database schemas.
 <li>
 
 <b>Web Testing:</b> In response to the prevalence and complexity of mobile-ready
-web sites, my research has developed automated techniques for checking the pages
-in these sites. Some examples of papers describing methods for automatically
-detecting defects in live web pages include {% include_cached
+web sites, my research has developed automated tools for checking the pages in
+these sites. Some examples of papers describing methods for automatically
+detecting defects in web pages include {% include_cached
 _popovers/paper_reference.html cite="Walsh2017" %} and {% include_cached
 _popovers/paper_reference.html cite="Walsh2017a" trailing="." %} The automated
 approach introduced in {% include_cached _popovers/paper_reference.html
 cite="Althomali2019" %} can visually confirm and classify the reported
-responsive layout failures in a web page. Moreover, the technique described in
-{% include_cached _popovers/paper_reference.html cite="Walsh2020" %} can
-automatically identify potential regressions from the correct layout of a
-mobile-ready web page. Finally, recent work described in {% include_cached
-_popovers/paper_reference.html cite="Althomali2022" %} introduces an automated
-technique for repairing a layout fault in a responsive web page.
+responsive layout failures in a web page. The method described in {%
+include_cached _popovers/paper_reference.html cite="Walsh2020" %} can
+automatically identify potential regressions from the correct responsive layout
+of a web page. Finally, recent work introduced a method to automatically repair
+a layout failure in a responsive web page {% include_cached
+_popovers/paper_reference.html cite="Althomali2022" trailing="." %}
 
 </li>
 
@@ -99,16 +118,16 @@ _popovers/paper_reference.html cite="McMinn2019" trailing="." %}
 <li>
 
 <b>Regression Testing:</b> Since software is often incrementally developed, my
-work on regression testing has created automated ways to efficiently and
-effectively run test suites for complex programs. Some examples of papers that
-present and evaluate regression testing techniques include {% include
-_popovers/paper_reference.html cite="Walcott2006" trailing="," %} {%
+research on regression testing has created research automated ways to
+efficiently and effectively run test suites for complex programs. Some examples
+of papers that present and evaluate regression testing techniques include {%
+include _popovers/paper_reference.html cite="Walcott2006" trailing="," %} {%
 include_cached _popovers/paper_reference.html cite="Lin2014" trailing="," %} and
 {% include_cached _popovers/paper_reference.html cite="Lin2017" trailing="." %}
 Leading the way in the realistic assessment of regression testing, papers such
 as {% include _popovers/paper_reference.html cite="Paterson2018" %} and {%
 include _popovers/paper_reference.html cite="Paterson2019" %} show how to
-conduct rigorous experiments with faults harvested from real programs.
+conduct rigorous experiments with real program faults.
 
 </li>
 
@@ -162,10 +181,10 @@ articles. Papers like {% include_cached _popovers/paper_reference.html
 cite="Kapfhammer2016" %} and {% include_cached _popovers/paper_reference.html
 cite="McMinn2016" %} show how I have articulated a research agenda for the field
 of software engineering that stresses, for instance, the need for well-tested
-statistical methods. I have also written papers, such as {% include_cached
+statistical methods. I have also written papers, like {% include_cached
 _popovers/paper_reference.html cite="Alsharif2018a" %} and {% include_cached
 _popovers/paper_reference.html cite="Alsharif2018b" trailing="," %} that explain
-how to replicate my research results.
+how to replicate my research.
 
 </li>
 
