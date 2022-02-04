@@ -69,10 +69,12 @@ _popovers/paper_reference.html cite="Walsh2017" %} and {% include_cached
 _popovers/paper_reference.html cite="Walsh2017a" trailing="." %} The automated
 approach introduced in {% include_cached _popovers/paper_reference.html
 cite="Althomali2019" %} can visually confirm and classify the reported
-responsive layout failures in a web page. Finally, the technique described in {%
-include_cached _popovers/paper_reference.html cite="Walsh2020" %} can
+responsive layout failures in a web page. Moreover, the technique described in
+{% include_cached _popovers/paper_reference.html cite="Walsh2020" %} can
 automatically identify potential regressions from the correct layout of a
-mobile-ready web page.
+mobile-ready web page. Finally, recent work described in {% include_cached
+_popovers/paper_reference.html cite="Althomali2022" %} introduces an automated
+technique for repairing a layout fault in a responsive web page.
 
 </li>
 
