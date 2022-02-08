@@ -41,21 +41,19 @@ references key papers.
 
 <li>
 
-<b>Flaky Tests:</b> Since flaky tests are test cases that can both pass or fail
-without any changes to the test code or the code under test, they are an
-unreliable indicator of software correctness and a major problem for software
-developers. To address this challenge, my research has developed an automated
-technique that uses machine learning to predict which test cases are most likely
-to be flaky {% include_cached _popovers/paper_reference.html cite="Parry2022a"
-trailing="." %} In addition to proposing a methodology for automatically
-determining which tests have latent flakiness {% include
-_popovers/paper_reference.html cite="Parry2020" trailing="," %} my colleagues
-and I published a systematic survey of the literature relevant to flaky test
-research {% include_cached _popovers/paper_reference.html cite="Parry2022"
-trailing="." %} Finally, my colleagues and I recently published one of the first
-multi-source investigations into how developers experience the impacts and
-causes of flaky test cases {% include_cached _popovers/paper_reference.html
-cite="Parry2022b" trailing="." %}
+<b>Flaky Tests:</b> Since flaky tests can pass or fail without any changes to
+the test code or the code under test, they are an unreliable indicator of
+software correctness and a major problem for software developers. To address
+this challenge, my research has developed an automated method that uses machine
+learning to predict which tests are most likely to be flaky {% include_cached
+_popovers/paper_reference.html cite="Parry2022a" trailing="." %} Along with
+proposing a methodology for automatically determining which tests have latent
+flakiness {% include _popovers/paper_reference.html cite="Parry2020"
+trailing="," %} my colleagues and I also published a survey of the literature
+relevant to flaky test research {% include_cached _popovers/paper_reference.html
+cite="Parry2022" %} and a multi-source investigation into how developers
+experience the impacts and causes of flaky tests {% include_cached
+_popovers/paper_reference.html cite="Parry2022b" trailing="." %}
 
 </li>
 
