@@ -50,9 +50,12 @@ to be flaky {% include_cached _popovers/paper_reference.html cite="Parry2022a"
 trailing="." %} In addition to proposing a methodology for automatically
 determining which tests have latent flakiness {% include
 _popovers/paper_reference.html cite="Parry2020" trailing="," %} my colleagues
-and I published a systematic survey of the literature relevant to
-flaky test research {% include_cached _popovers/paper_reference.html
-cite="Parry2022" trailing="." %}
+and I published a systematic survey of the literature relevant to flaky test
+research {% include_cached _popovers/paper_reference.html cite="Parry2022"
+trailing="." %} Finally, my colleagues and I recently published one of the first
+multi-source investigations into how developers experience the impacts and
+causes of flaky test cases {% include_cached _popovers/paper_reference.html
+cite="Parry2022b" trailing="." %}
 
 </li>
 
