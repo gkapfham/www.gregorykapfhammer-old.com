@@ -142,14 +142,6 @@ production build {% endcomment %}
 
 {% endif %}
 
-## SEED Survey
-
-{% comment %} Reference the SEED Survey for "interviews" with software
-engineers {% endcomment %}
-
-<ul><li><a class="major" href="{{site.baseurl}}seed/">Are you working in the software industry? Share
-your expertise!</a></li> Enhanced July 2018 </ul>
-
 ## Status Updates
 
 {% comment %} Display recent tweets, using the Twitter fetcher plugin (see the
