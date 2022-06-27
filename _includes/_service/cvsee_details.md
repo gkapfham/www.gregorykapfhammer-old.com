@@ -68,11 +68,11 @@ Engineering </div></li>
 <li><div class="serviceitem"> 2010 Late Breaking Abstracts Workshop at the Genetic and Evolutionary Computation Conference </div></li>
 <br> Session Chair (One time)
 <p></p>
-<li><div class="serviceitem"> 2009 → 2021 International Symposium on Search-Based Software Engineering </div></li>
+<li><div class="serviceitem"> 2009 → 2022 International Symposium on Search-Based Software Engineering </div></li>
 <br>  Publicity Chair (One time)
 <br>  Doctoral Symposium Chair (One time)
 <br>  Program Committee Member (Eight times)
-<br>  Program Committee Member for the Challenge Track (One time)
+<br>  Program Committee Member for the Challenge Track (Two times)
 <p></p>
 <li><div class="serviceitem"> 2008 → 2022 International Workshop on Search-Based Software Testing </div></li>
 <br> Program Committee Member (Twelve times)
