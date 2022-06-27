@@ -93,7 +93,7 @@ href="https://github.com/Tada-Project/tada">TaDa</a>: Automated order-of-growth 
 
 <div class="featured">
 <li><a class="major"
-href="https://github.com/CommittedTeam/CommitCanvas">CommitCanvas</a>: Extensible checking of Git commit messages</li>
+href="https://github.com/CommittedTeam/CommitCanvas">CommitCanvas</a>: Extensible checking of Git commit messages with pre-commit hooks</li>
 </div>
 
 </ul>
