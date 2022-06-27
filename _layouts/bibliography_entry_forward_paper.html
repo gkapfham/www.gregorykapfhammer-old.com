@@ -4,6 +4,10 @@
 <!-- NOTE: The "entry-forward" layout controls how the single-paper listing will display on the index -->
 
 <!-- This is a paper and thus we always display the title of the paper and link to the details page -->
+<!-- Make this part of the featured class so that there is less space on the bottom margin
+     and the entries do not take up the entire width of the current div. -->
+<div class="featured">
 <a class="major" href="/research/papers/{{entry.key}}">{{entry.title}}</a>
 <!-- Always display the author(s) of the paper -->
 <br> {{ entry.author }}
+</div>
