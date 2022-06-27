@@ -80,10 +80,27 @@ production build {% endcomment %}
 update or release {% endcomment %}
 
 <ul>
+
+<div class="featured">
+<li><a class="major" target="_blank" rel="noopener"
+href="https://github.com/GatorEducator/gatorgrader">GatorGrader</a>: Automated assessment for source code and technical writing</li>
+</div>
+
+<div class="featured">
 <li><a class="major"
-href="https://github.com/GatorEducator/gatorgrader">GatorGrader: Automated assessment tool for source code and technical writing</a></li>
-Automated assessment for source code and writing
+href="https://github.com/Tada-Project/tada">TaDa</a>: Automated order-of-growth analysis for Python functions</li>
+</div>
+
+<div class="featured">
+<li><a class="major"
+href="https://github.com/CommittedTeam/CommitCanvas">CommitCanvas</a>: Extensible checking of Git commit messages</li>
+</div>
+
 </ul>
+
+<div class="question">
+<em>Wait</em>, don't forget to try my other <a href="{{site.baseurl}}software/">open-source software</a>!
+</div>
 
 ## Recent Posts
 
