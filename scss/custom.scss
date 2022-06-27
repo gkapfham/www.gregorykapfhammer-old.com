@@ -650,6 +650,16 @@ body {
 
 // }}}
 
+// Other: Lists on the front page for papers, presentations, and posts {{{
+
+// Adjust the spacing for the date in the footer of a blog post
+.featured {
+  width: 90%;
+  margin-bottom: 5px;
+}
+
+// }}}
+
 // Other: Twitter {{{
 
 // All of this styling is specialized for the twitterFetcher JavaScript
