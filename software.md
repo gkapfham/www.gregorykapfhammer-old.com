@@ -60,6 +60,9 @@ moderntimeline</li>
 target="_blank" rel="noopener" href="https://github.com/flake-it/flaky-tests-bibliography">flaky-tests-bibliography</a>: References on flaky test cases</li>
 
 <li><a class="major"
+target="_blank" rel="noopener" href="https://github.com/philmcminn/new-paper">new-paper</a>: Template for writing a research paper in LaTeX</li>
+
+<li><a class="major"
 target="_blank" rel="noopener" href="https://github.com/gkapfham/python-talk-abstracts">python-talk-abstracts</a>: Details about my Python-related
 presentations</li>
 
