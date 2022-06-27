@@ -41,6 +41,28 @@ downloading my [curriculum
 vitae](https://github.com/gkapfham/curriculum-vitae/releases/download/v1.3.2/curriculum_vitae_kapfhammer.pdf),
 and [subscribing]({{site.baseurl}}support/) to my mailing list.
 
+## Research Expertise
+
+<ul>
+
+<div class="featured"> <li><a class="major"
+href="{{site.baseurl}}research#FlakyTests">Flaky Tests</a>: Finding and fixing
+unpredictable and harmful test cases</li> </div>
+
+<div class="featured"> <li><a class="major"
+href="{{site.baseurl}}research#DatabaseTesting">Database Testing</a>:
+Automatically testing relational database schemas</li> </div>
+
+<div class="featured"> <li><a class="major"
+href="{{site.baseurl}}research#WebTesting">Web Testing</a>: Detecting and
+repairing poor responsive web page layout</li> </div>
+
+</ul>
+
+<div class="question">
+<em>Stop</em>, would you like to explore my areas of <a href="{{site.baseurl}}research/">research expertise</a>?
+</div>
+
 ## Featured Papers
 
 {% comment %} Display the paper that would display first on the research papers
