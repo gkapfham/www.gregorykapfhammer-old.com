@@ -4,6 +4,9 @@
 <!-- NOTE: The "entry-forward" layout controls how the single-presentation listing will display on the index -->
 
 <!-- This is a presentation and we must display the title with a link to the download location (goes directly to a PDF) -->
+<!-- Make this part of the featured class so that there is less space on the bottom margin
+     and the entries do not take up the entire width of the current div. -->
+<div class="featured">
 {% if entry.howpublished %}
 <!-- This is a presentation with a special download link, display it in a link (will always be to Speaker Deck) -->
 {% if entry.presentation %}
@@ -14,4 +17,5 @@
 {% endif %}
 <!-- Always display venue of the presentation -->
 <br> {{ entry.howpublished }}
+</div>
 {% endif %}
