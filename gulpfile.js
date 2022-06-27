@@ -280,6 +280,17 @@ gulp.task('browsersync', function() {
   gulp.watch(['_site/**/*.html', '_site/**/*.css', '_site/**/*.js']).on('change', browserSync.reload);
 });
 
+// TASK: use browsersync to load the site for local synced testing
+gulp.task('browsersync-html', function() {
+  browserSync.init({
+    server: {
+      baseDir: '_site/',
+    },
+    open: false,
+  });
+  gulp.watch(['_site/**/*.html']).on('change', browserSync.reload);
+});
+
 // }}}
 
 // {{{ OPTIMIZE and TRANSFORM ---> Images, CSS, JavaScript, HTML
