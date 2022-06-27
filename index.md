@@ -9,7 +9,7 @@ categories: [main]
 <h1><em>Hello</em> my name is Gregory M. Kapfhammer</h1>
 <p class="lead">I am an <a class="characteristic" href="/software/">engineer</a> who <a class="characteristic" href="/teaching/">educates</a>.</p>
 <p class="lead">I'm also a <a class="characteristic" href="/research/papers/">scientist</a> who <a class="characteristic" href="/service/">serves</a>.</p>
-<p class="lead">Mainly, I'm a <a class="characteristic" href="/biography/">person</a> who <a class="characteristic" href="/principles/">cares</a>.</p>
+<p class="lead">I'm also a <a class="characteristic" href="/biography/">person</a> who <a class="characteristic" href="/principles/">cares</a>.</p>
 <script>
 document.write(randomLead());
 </script>
@@ -60,7 +60,7 @@ repairing poor responsive web page layout</li> </div>
 </ul>
 
 <div class="question">
-<em>Stop</em>, would you like to explore my areas of <a href="{{site.baseurl}}research/">research expertise</a>?
+<em>Hold on</em>, would you like to explore my areas of <a href="{{site.baseurl}}research/">research expertise</a>?
 </div>
 
 ## Featured Papers
@@ -115,7 +115,7 @@ href="https://github.com/Tada-Project/tada">TaDa</a>: Automated order-of-growth 
 
 <div class="featured">
 <li><a class="major"
-href="https://github.com/CommittedTeam/CommitCanvas">CommitCanvas</a>: Extensible checking of Git commit messages with pre-commit hooks</li>
+href="https://github.com/CommittedTeam/CommitCanvas">CommitCanvas</a>: Extensible checking of Git commit messages with pre-commit</li>
 </div>
 
 </ul>
