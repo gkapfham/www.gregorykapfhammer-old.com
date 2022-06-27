@@ -117,7 +117,7 @@ href="">SSBSE 2022</a>: PC member for the Challenge track</li>
 
 </ul>
 
-<div class="question">presentations
+<div class="question">
 <em>Stop</em>, do you want to review my full list of <a href="{{site.baseurl}}service/">professional service</a>?
 </div>
 
