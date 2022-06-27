@@ -109,11 +109,17 @@ the date on which it was written {% endcomment %}
 
 <ul>
 {% for post in site.posts limit:3 %}
+  <div class="featured">
   <li><a class="major"
   href="{{site.baseurl}}{{ post.url | remove_first:'/'}}">{{ post.title
-  }}</a></li> Published {{ post.date | date: '%B %Y'}}
+  }}</a></li> Last Updated on {{ post.date | date: '%B %Y'}}
+  </div>
 {% endfor %}
 </ul>
+
+<div class="question">
+<em>Hold on</em>, make sure to read my other <a href="{{site.baseurl}}blog/">blog posts</a>!
+</div>
 
 ## Highlighted Course
 
