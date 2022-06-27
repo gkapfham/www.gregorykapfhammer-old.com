@@ -112,7 +112,7 @@ the date on which it was written {% endcomment %}
   <div class="featured">
   <li><a class="major"
   href="{{site.baseurl}}{{ post.url | remove_first:'/'}}">{{ post.title
-  }}</a></li> Last Updated on {{ post.date | date: '%B %Y'}}
+  }}</a></li> Last updated on {{ post.date | date: '%B %Y'}}
   </div>
 {% endfor %}
 </ul>
