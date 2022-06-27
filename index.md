@@ -60,7 +60,7 @@ repairing poor responsive web page layout</li> </div>
 </ul>
 
 <div class="question">
-<em>Hold on</em>, would you like to explore my areas of <a href="{{site.baseurl}}research/">research expertise</a>?
+<em>Hold on</em>, would you like to explore all my areas of <a href="{{site.baseurl}}research/">research expertise</a>?
 </div>
 
 ## Featured Papers
@@ -94,6 +94,31 @@ production build {% endcomment %}
 
 <div class="question">
 <em>Psst</em>, do you want to preview my other <a href="{{site.baseurl}}research/presentations/">technical presentations</a>?
+</div>
+
+## Professional Service
+
+<ul>
+
+<div class="featured">
+<li><a class="major" target="_blank" rel="noopener"
+href="https://conf.researchr.org/home/icse-2022">ICSE 2022</a>: PC member for the Software Engineering in Practice track</li>
+</div>
+
+<div class="featured">
+<li><a class="major" target="_blank" rel="noopener"
+href="https://icst2022.vrain.upv.es/">ICST 2022</a>: PC member for the Research Papers track</li>
+</div>
+
+<div class="featured">
+<li><a class="major" target="_blank" rel="noopener"
+href="">SSBSE 2022</a>: PC member for the Challenge track</li>
+</div>
+
+</ul>
+
+<div class="question">presentations
+<em>Stop</em>, do you want to review my full list of <a href="{{site.baseurl}}service/">professional service</a>?
 </div>
 
 ## Useful Software
