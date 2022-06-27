@@ -35,7 +35,7 @@ Repair </div></li>
 <br> Program Committee Member (Two times)
 <p></p>
 <li><div class="serviceitem"> 2011 → 2022 International Conference on Software Testing, Verification and Validation </div></li>
-<br>  Program Committee Member (Six times)
+<br>  Program Committee Member (Seven times)
 <br>  Program Committee Member for the Testing Tools Track (One time)
 <br>  PhD Symposium Panel Member (One time)
 <p></p>
@@ -104,10 +104,10 @@ Engineering </div></li>
 ## Transactions and Journals
 
 <ul>
-<li><div class="serviceitem"> 2019 → 2021 Journal of Software: Evolution and Process </div></li>
+<li><div class="serviceitem"> 2019 → 2022 Journal of Software: Evolution and Process </div></li>
 <br> Associate Editor
 <p></p>
-<li><div class="serviceitem"> 2019 → 2021 PeerJ Computer Science Journal </div></li>
+<li><div class="serviceitem"> 2019 → 2022 PeerJ Computer Science Journal </div></li>
 <br> Academic Editor
 <p></p>
 <li><div class="serviceitem"> 2020 Genetic Programming and Evolvable Machines Journal </div></li>
