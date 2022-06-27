@@ -41,6 +41,8 @@ references key papers.
 
 <li>
 
+<div id="FlakyTests">
+
 <b>Flaky Tests:</b> Since flaky tests can pass or fail without any changes to
 the test code or the code under test, they are an unreliable indicator of
 software correctness and a major problem for software developers. To address
@@ -55,11 +57,15 @@ cite="Parry2022" %} and a multi-source investigation into how developers
 experience the impacts and causes of flaky tests {% include_cached
 _popovers/paper_reference.html cite="Parry2022b" trailing="." %}
 
+</div>
+
 </li>
 
 <p></p>
 
 <li>
+
+<div id="DatabaseTesting">
 
 <b>Database Testing:</b> Given the importance of verifying the behavior of a
 database application, my PhD dissertation {% include_cached
@@ -75,11 +81,15 @@ _popovers/paper_reference.html cite="Alsharif2020" %} and {% include_cached
 _popovers/paper_reference.html cite="Alsharif2020a" %} present techniques for
 improving the efficiency of regression testing for database schemas.
 
+</div>
+
 </li>
 
 <p></p>
 
 <li>
+
+<div id="WebTesting">
 
 <b>Web Testing:</b> In response to the prevalence and complexity of mobile-ready
 web sites, my research has developed automated tools for checking the pages in
@@ -95,6 +105,8 @@ automatically identify potential regressions from the correct responsive layout
 of a web page. Finally, recent work introduced a method to automatically repair
 a layout failure in a responsive web page {% include_cached
 _popovers/paper_reference.html cite="Althomali2022" trailing="." %}
+
+</div>
 
 </li>
 
