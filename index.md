@@ -112,7 +112,7 @@ href="https://icst2022.vrain.upv.es/">ICST 2022</a>: PC member for the Research 
 
 <div class="featured">
 <li><a class="major" target="_blank" rel="noopener"
-href="">SSBSE 2022</a>: PC member for the Challenge track</li>
+href="https://conf.researchr.org/home/ssbse-2022">SSBSE 2022</a>: PC member for the Challenge track</li>
 </div>
 
 </ul>
