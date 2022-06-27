@@ -41,7 +41,7 @@ downloading my [curriculum
 vitae](https://github.com/gkapfham/curriculum-vitae/releases/download/v1.3.2/curriculum_vitae_kapfhammer.pdf),
 and [subscribing]({{site.baseurl}}support/) to my mailing list.
 
-## Featured Paper
+## Featured Papers
 
 {% comment %} Display the paper that would display first on the research papers
 page (must use a different template) {% endcomment %}
@@ -51,20 +51,28 @@ production build {% endcomment %}
 
 {% if jekyll.environment == 'production' or jekyll.environment == 'papers' %}
 
-{% bibliography --template bibliography_entry_forward_paper --group_by none --max 1 %}
+{% bibliography --template bibliography_entry_forward_paper --group_by none --max 3 %}
 
 {% endif %}
 
-## Recent Talk
+<div class="question">
+<em>Hey</em>, are you interested in reading my other <a href="{{site.baseurl}}research/papers/">research papers</a>?
+</div>
+
+## Recent Talks
 
 {% comment %} Only generate the list of papers when requested or for a
 production build {% endcomment %}
 
 {% if jekyll.environment == 'production' or jekyll.environment == 'talks' %}
 
-{% bibliography --template bibliography_entry_forward_presentation --query @misc[keywords!=supervised] --group_by none --max 1 %}
+{% bibliography --template bibliography_entry_forward_presentation --query @misc[keywords!=supervised] --group_by none --max 3 %}
 
 {% endif %}
+
+<div class="question">
+<em>Psst</em>, do you want to preview my other <a href="{{site.baseurl}}research/presentations/">technical presentations</a>?
+</div>
 
 ## Useful Software
 
@@ -77,13 +85,13 @@ href="https://github.com/GatorEducator/gatorgrader">GatorGrader: Automated asses
 Updated July 2021
 </ul>
 
-## Latest Post
+## Recent Posts
 
 {% comment %} Find the most recent blog post and provide a link to it, giving
 the date on which it was written {% endcomment %}
 
 <ul>
-{% for post in site.posts limit:1 %}
+{% for post in site.posts limit:3 %}
   <li><a class="major"
   href="{{site.baseurl}}{{ post.url | remove_first:'/'}}">{{ post.title
   }}</a></li> Published {{ post.date | date: '%B %Y'}}
