@@ -168,7 +168,7 @@ the date on which it was written {% endcomment %}
 <em>Hold on</em>, make sure to read my other <a href="{{site.baseurl}}blog/">blog posts</a>!
 </div>
 
-## Highlighted Course
+<!-- ## Highlighted Course -->
 
 {% comment %} Display the featured course site by iterating through the sites
 and finding the featured one {% endcomment %}
@@ -176,18 +176,18 @@ and finding the featured one {% endcomment %}
 {% comment %} Only generate the list of courses when requested or for a
 production build {% endcomment %}
 
-{% if jekyll.environment == 'production' or jekyll.environment == 'courses' %}
+<!-- {% if jekyll.environment == 'production' or jekyll.environment == 'courses' %} -->
 
-<ul>
-{% for page in site.pages %}
-  {% if page.course == true and page.featured == true %}
-  <li><a class="major" href="{{site.baseurl}}{{ page.url | remove_first:'/'}}">{{ page.title | capitalize_all }}</a></li>
-  {{page.subtitle}}
-  {% endif %}
-{% endfor %}
-</ul>
+<!-- <ul> -->
+<!-- {% for page in site.pages %} -->
+<!--   {% if page.course == true and page.featured == true %} -->
+<!--   <li><a class="major" href="{{site.baseurl}}{{ page.url | remove_first:'/'}}">{{ page.title | capitalize_all }}</a></li> -->
+<!--   {{page.subtitle}} -->
+<!--   {% endif %} -->
+<!-- {% endfor %} -->
+<!-- </ul> -->
 
-{% endif %}
+<!-- {% endif %} -->
 
 ## Status Updates
 
