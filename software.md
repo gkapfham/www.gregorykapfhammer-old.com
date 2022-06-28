@@ -12,6 +12,9 @@ image: /download/images/6145817075_2536dd7b4c_z.jpg
 
 <ul>
 
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/AFLuent/AFLuent">afluent</a>:
+Pytest plugin to support automated fault localization</li>
+
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/AVMf/avmf">avmf</a>:
 Extensible framework for the search-based alternating variable method</li>
 
@@ -36,6 +39,8 @@ Automated checking of responsively designed web pages</li>
 <li><a class="major" target="_blank" rel="noopener"
 href="https://github.com/schemaanalyst-team/schemaanalyst">schemaanalyst</a>: Data generation and mutation analysis for
 database schemas</li>
+
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/flake-it/showflakes">showflakes</a>: Pytest plugin for automatically finding flaky tests</li>
 
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/Tada-Project/tada">tada</a>: Automated
 order-of-growth analysis for Python functions</li>
@@ -169,25 +174,19 @@ QSIC 2014 paper</li>
 
 <ul>
 
-<li><a class="major"
-target="_blank" rel="noopener" href="https://github.com/schemaanalyst/domino-replicate">domino-replicate</a>: Data and analysis code for the
-ICST 2018 paper</li>
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/schemaanalyst/domino-replicate">domino-replicate</a>: Data and analysis code for the ICST 2018 paper</li>
 
-<li><a class="major"
-target="_blank" rel="noopener" href="https://github.com/schemaanalyst/imdetect-replicate">imdetect-replicate</a>: Data and analysis code for the
-TSE 2019 paper</li>
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/flake-it/flake16-framework">flake16-framework</a>: Data, analysis code, and tools for the ICST 2022 paper</li>
 
-<li><a class="major"
-target="_blank" rel="noopener" href="https://github.com/redecheck/jstvr-webpages">jstvr-webpages</a>: Experimental subjects used for the
-JSTVR 2020 paper</li>
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/flake-it/flaky-test-survey-replication-package">flaky-test-survey-replication-package</a>: Data and analysis code for the ICSE-SEIP 2022 paper</li>
 
-<li><a class="major"
-target="_blank" rel="noopener" href="https://github.com/schemaanalyst/sticcer-replicate">sticcer-replicate</a>: Data and analysis code for the
-ICST 2020 paper</li>
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/schemaanalyst/imdetect-replicate">imdetect-replicate</a>: Data and analysis code for the TSE 2019 paper</li>
 
-<li><a class="major"
-target="_blank" rel="noopener" href="https://github.com/gkapfham/vmutation-replicate">vmutation-replicate</a>: Data and analysis code for the
-AST 2016 paper</li>
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/redecheck/jstvr-webpages">jstvr-webpages</a>: Experimental subjects used for the JSTVR 2020 paper</li>
+
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/schemaanalyst/sticcer-replicate">sticcer-replicate</a>: Data and analysis code for the ICST 2020 paper</li>
+
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/gkapfham/vmutation-replicate">vmutation-replicate</a>: Data and analysis code for the AST 2016 paper</li>
 
 </ul>
 
