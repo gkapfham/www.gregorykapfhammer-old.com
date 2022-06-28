@@ -60,7 +60,7 @@ repairing poor responsive web page layout</li> </div>
 </ul>
 
 <div class="question">
-<em>Hold on</em>, would you like to explore all my areas of <a href="{{site.baseurl}}research/">research expertise</a>?
+<em>Explore</em> all my areas of <a href="{{site.baseurl}}research/">research expertise</a>
 </div>
 
 ## Featured Papers
@@ -78,7 +78,7 @@ production build {% endcomment %}
 {% endif %}
 
 <div class="question">
-<em>Hey</em>, are you interested in reading my other <a href="{{site.baseurl}}research/papers/">research papers</a>?
+<em>Read</em> any of my <a href="{{site.baseurl}}research/papers/">research papers</a>
 </div>
 
 ## Recent Talks
@@ -93,7 +93,7 @@ production build {% endcomment %}
 {% endif %}
 
 <div class="question">
-<em>Psst</em>, do you want to preview my other <a href="{{site.baseurl}}research/presentations/">technical presentations</a>?
+<em>Preview</em> all of my <a href="{{site.baseurl}}research/presentations/">technical talks</a>
 </div>
 
 ## Professional Service
@@ -118,7 +118,7 @@ href="https://conf.researchr.org/home/ssbse-2022">SSBSE 2022</a>: PC member for 
 </ul>
 
 <div class="question">
-<em>Stop</em>, do you want to study my full listing of <a href="{{site.baseurl}}service/">professional service</a>?
+<em>Study</em> the full listing of my <a href="{{site.baseurl}}service/">professional service</a>
 </div>
 
 ## Useful Software
@@ -146,7 +146,7 @@ href="https://github.com/CommittedTeam/CommitCanvas">CommitCanvas</a>: Extensibl
 </ul>
 
 <div class="question">
-<em>Wait</em>, don't forget to try my other <a href="{{site.baseurl}}software/">open-source software</a>!
+<em>Try out</em> all of my <a href="{{site.baseurl}}software/">open-source software</a>
 </div>
 
 ## Recent Posts
@@ -165,7 +165,7 @@ the date on which it was written {% endcomment %}
 </ul>
 
 <div class="question">
-<em>Hold on</em>, make sure to read my other <a href="{{site.baseurl}}blog/">blog posts</a>!
+<em>Read</em> all of my <a href="{{site.baseurl}}blog/">blog posts</a>
 </div>
 
 <!-- ## Highlighted Course -->
