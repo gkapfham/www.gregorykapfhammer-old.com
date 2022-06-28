@@ -60,7 +60,7 @@ repairing poor responsive web page layout</li> </div>
 </ul>
 
 <div class="question">
-<img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><em>Explore</em> all my areas of <a href="{{site.baseurl}}research/">research expertise</a>
+<img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><em>Explore</em> all of my areas of <a href="{{site.baseurl}}research/">research expertise</a>
 </div>
 
 ## Featured Papers
