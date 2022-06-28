@@ -118,7 +118,7 @@ href="https://conf.researchr.org/home/ssbse-2022">SSBSE 2022</a>: PC member for 
 </ul>
 
 <div class="question">
-<em>Stop</em>, do you want to review my full listing of <a href="{{site.baseurl}}service/">professional service</a>?
+<em>Stop</em>, do you want to study my full listing of <a href="{{site.baseurl}}service/">professional service</a>?
 </div>
 
 ## Useful Software
