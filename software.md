@@ -207,6 +207,8 @@ QSIC 2014 paper</li>
 
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/gatorgrouper">gatorgrouper</a>: Group formation tool for team-based courses</li>
 
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/GatorEducator/SheetShuttle">sheetshuttle</a>: Tool for data transfer between Google Sheets and GitHub</li>
+
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/gkapfham/seed">seed</a>: Analyzer and displayer of responses to the SEED survey</li>
 
 </ul>
