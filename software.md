@@ -24,6 +24,9 @@ Prediction of commit labels for version control messages</li>
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/kinneerc/ExpOse/">expose</a>:
 Doubling experiments to infer actual-worst-case time complexity</li>
 
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/flake-it/testinspect">testinspect</a>:
+Pytest plugin to characterize Pytest test suites</li>
+
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/kanonizo/kanonizo">kanonizo</a>:
 Effective automated regression test suite prioritization for JUnit</li>
 
@@ -183,6 +186,8 @@ QSIC 2014 paper</li>
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/schemaanalyst/imdetect-replicate">imdetect-replicate</a>: Data and analysis code for the TSE 2019 paper</li>
 
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/redecheck/jstvr-webpages">jstvr-webpages</a>: Experimental subjects used for the JSTVR 2020 paper</li>
+
+<li><a class="major" target="_blank" rel="noopener" href="https://github.com/flake-it/showflakes-framework">showflakes-framework</a>: Data and analysis code for the AST 2022 paper</li>
 
 <li><a class="major" target="_blank" rel="noopener" href="https://github.com/schemaanalyst/sticcer-replicate">sticcer-replicate</a>: Data and analysis code for the ICST 2020 paper</li>
 
