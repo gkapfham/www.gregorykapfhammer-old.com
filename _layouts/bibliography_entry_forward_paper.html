@@ -8,6 +8,12 @@
      and the entries do not take up the entire width of the current div. -->
 <div class="featured">
 <a class="major" href="/research/papers/{{entry.key}}">{{entry.title}}</a>
-<!-- Always display the author(s) of the paper -->
-<br> {{ entry.author }}
+<!-- If there is a "booktitle" (i.e., proceedings), then display its name -->
+<br>
+{% if entry.booktitle %}
+<em>{{ entry.booktitle }}</em>
+<!-- If there is a "journal" (i.e., it is a journal), then display its name -->
+{% elsif entry.journal %}
+<em>{{ entry.journal}}</em>
+{% endif %}
 </div>
