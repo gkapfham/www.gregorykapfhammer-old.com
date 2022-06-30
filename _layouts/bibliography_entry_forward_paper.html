@@ -11,9 +11,9 @@
 <!-- If there is a "booktitle" (i.e., proceedings), then display its name -->
 <br>
 {% if entry.booktitle %}
-<em>{{ entry.booktitle }}</em>
+{{ entry.booktitle }}
 <!-- If there is a "journal" (i.e., it is a journal), then display its name -->
 {% elsif entry.journal %}
-<em>{{ entry.journal}}</em>
+{{ entry.journal}}
 {% endif %}
 </div>
