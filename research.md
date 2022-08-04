@@ -217,7 +217,7 @@ alphabetical order:
 - [Gordon Fraser](https://www.fim.uni-passau.de/en/chair-for-software-engineering-ii/), Chair of Software Engineering II, University of Passau
 - [Mark Harman](https://research.facebook.com/people/harman-mark/), Research Scientist, Meta
 - [Mary Jean Harrold](https://faculty.cc.gatech.edu/~harrold/), Professor, Georgia Institute of Technology
-- [Michale Hilton](https://www.cs.cmu.edu/~mhilton/), Associate Teaching Professor, Carnegie Mellon University
+- [Michael Hilton](https://www.cs.cmu.edu/~mhilton/), Associate Teaching Professor, Carnegie Mellon University
 - [René Just](https://homes.cs.washington.edu/~rjust/), Assistant Professor, University of Washington
 - [Hareton K. N. Leung](https://dblp.org/pid/l/HaretonKNLeung.html), Professor, Hong Kong Polytechnic University
 - [Chu-Ti Lin](http://web.ncyu.edu.tw/~chutilin/), Associate Professor, National Chiayi University
