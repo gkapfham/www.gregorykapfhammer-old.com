@@ -207,7 +207,7 @@ how to replicate my research.
 
 ## Collaboration
 
-It has be a priviledge to collaborate on research with these individuals, listed
+It has been my priviledge to collaborate on research with these individuals, listed
 in alphabetical order:
 
 - [Rui Maranhao Abreu](https://ruimaranhao.com/), Professor, University of Porto
