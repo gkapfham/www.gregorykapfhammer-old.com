@@ -207,8 +207,8 @@ how to replicate my research.
 
 ## Collaboration
 
-It has been my priviledge to collaborate on research with these individuals, listed
-in alphabetical order:
+It has been my priviledge to conduct research with these individuals, listed in
+alphabetical order:
 
 - [Rui Maranhao Abreu](https://ruimaranhao.com/), Professor, University of Porto
 - [Ahmed Amer](https://users.soe.ucsc.edu/~amer4/SSRC-Amer/Home.html), Professor, Santa Clara University
