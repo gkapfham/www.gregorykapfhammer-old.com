@@ -78,7 +78,7 @@ production build {% endcomment %}
 {% endif %}
 
 <div class="question">
-<img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><em>Read</em> any of my <a href="{{site.baseurl}}research/papers/">research papers</a>
+<img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><em>Read</em> all of my <a href="{{site.baseurl}}research/papers/">research papers</a>
 </div>
 
 ## Recent Talks
