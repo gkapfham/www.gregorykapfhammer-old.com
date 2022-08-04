@@ -214,9 +214,9 @@ alphabetical order:
 - [Ahmed Amer](https://users.soe.ucsc.edu/~amer4/SSRC-Amer/Home.html), Professor, Santa Clara University
 - [José Campos](https://jose.github.io/), Assistant Professor, University of Porto
 - [Panos K. Chrysanthis](https://panos.cs.pitt.edu/), Professor, University of Pittsburgh
-- [Gordon Fraser](https://www.fim.uni-passau.de/en/chair-for-software-engineering-ii/), Chair of Software Engineering
-II, University of Passau
+- [Gordon Fraser](https://www.fim.uni-passau.de/en/chair-for-software-engineering-ii/), Chair of Software Engineering II, University of Passau
 - [Mark Harman](https://research.facebook.com/people/harman-mark/), Research Scientist, Meta
+- [Mary Jean Harrold](https://faculty.cc.gatech.edu/~harrold/), Professor, Georgia Institute of Technology
 - [Michale Hilton](https://www.cs.cmu.edu/~mhilton/), Associate Teaching Professor, Carnegie Mellon University
 - [René Just](https://homes.cs.washington.edu/~rjust/), Assistant Professor, University of Washington
 - [Hareton K. N. Leung](https://dblp.org/pid/l/HaretonKNLeung.html), Professor, Hong Kong Polytechnic University
