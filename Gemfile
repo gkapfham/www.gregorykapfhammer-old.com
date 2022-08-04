@@ -40,4 +40,10 @@ end
 
 # }}}
 
+# --> Extra plugins: {{{
+
+gem "webrick", "~> 1.7"
+
+# }}}
+
 # }}}
