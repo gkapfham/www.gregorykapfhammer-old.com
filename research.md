@@ -211,16 +211,23 @@ It has be a priviledge to collaborate on research with these individuals, listed
 in alphabetical order:
 
 - [Rui Maranhao Abreu](https://ruimaranhao.com/), Professor, University of Porto
+- [Ahmed Amer](https://users.soe.ucsc.edu/~amer4/SSRC-Amer/Home.html), Professor, Santa Clara University
 - [José Campos](https://jose.github.io/), Assistant Professor, University of Porto
+- [Panos K. Chrysanthis](https://panos.cs.pitt.edu/), Professor, University of Pittsburgh
 - [Gordon Fraser](https://www.fim.uni-passau.de/en/chair-for-software-engineering-ii/), Chair of Software Engineering
 II, University of Passau
 - [Mark Harman](https://research.facebook.com/people/harman-mark/), Research Scientist, Meta
 - [Michale Hilton](https://www.cs.cmu.edu/~mhilton/), Associate Teaching Professor, Carnegie Mellon University
 - [René Just](https://homes.cs.washington.edu/~rjust/), Assistant Professor, University of Washington
+- [Hareton K. N. Leung](https://dblp.org/pid/l/HaretonKNLeung.html), Professor, Hong Kong Polytechnic University
 - [Chu-Ti Lin](http://web.ncyu.edu.tw/~chutilin/), Associate Professor, National Chiayi University
+- [G. Elisabeta Marai](https://www.evl.uic.edu/marai/), Associate Professor, University of Illinois at Chicago
 - [Phil McMinn](https://mcminn.io/), Professor, University of Sheffield
+- [Daniel Mossé](https://www.sci.pitt.edu/people/daniel-mosse), Professor, University of Pittsburgh
+- [Chanhai Nie](https://gist.nju.edu.cn/~changhai/), Professor, University of Nanjing
 - [Franz Schweiggert](https://www.mathematik.uni-ulm.de/sai/swg/), Professor, University of Ulm
 - [Mary Lou Soffa](https://www.cs.virginia.edu/~soffa/index.html%3Fp=6.html), Professor, University of Virginia
+- [Kristen Rachelle Walcott](http://cs.uccs.edu/~kjustice/), Associate Professor, University of Colorado at Colorado Springs
 
 Do you work on research in software engineering and are you interested in
 collaborating with me on a project? If so, then please
