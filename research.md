@@ -5,8 +5,8 @@ description: Gregory M. Kapfhammer conducts research in fields such as software 
 image: /download/images/7029911579_0ddd6e8352_z.jpg
 ---
 
-{% capture page_title %} {{page.title}} {% endcapture %}
-{% include _jumbotrons/head_jumbotron.html title=page_title subtitle="implementing innovation in" highlight="software engineering" %}
+<!-- {% capture page_title %} {{page.title}} {% endcapture %} -->
+<!-- {% include _jumbotrons/head_jumbotron.html title=page_title subtitle="implementing innovation in" highlight="software engineering" %} -->
 
 ## Overview
 
@@ -205,8 +205,24 @@ how to replicate my research.
 
 </ul>
 
-## Connections
+## Collaboration
 
-Do you work on these topics and are you interested in collaborating with me on a
-project in the fields of software engineering and software testing? If so, then
-please [contact]({{site.baseurl}}contact/) me with your ideas.
+It has be a priviledge to collaborate on research with these individuals, listed
+in alphabetical order:
+
+- [Rui Maranhao Abreu](https://ruimaranhao.com/), Professor, University of Porto
+- [José Campos](https://jose.github.io/), Assistant Professor, University of Porto
+- [Gordon Fraser](https://www.fim.uni-passau.de/en/chair-for-software-engineering-ii/), Chair of Software Engineering
+II, University of Passau
+- [Mark Harman](https://research.facebook.com/people/harman-mark/), Research Scientist, Meta
+- [Michale Hilton](https://www.cs.cmu.edu/~mhilton/), Associate Teaching Professor, Carnegie Mellon University
+- [René Just](https://homes.cs.washington.edu/~rjust/), Assistant Professor, University of Washington
+- [Chu-Ti Lin](http://web.ncyu.edu.tw/~chutilin/), Associate Professor, National Chiayi University
+- [Phil McMinn](https://mcminn.io/), Professor, University of Sheffield
+- [Franz Schweiggert](https://www.mathematik.uni-ulm.de/sai/swg/), Professor, University of Ulm
+- [Mary Lou Soffa](https://www.cs.virginia.edu/~soffa/index.html%3Fp=6.html), Professor, University of Virginia
+
+Do you work on research in software engineering and are you interested in
+collaborating with me on a project? If so, then please
+[contact]({{site.baseurl}}contact/) me with your ideas. I look forward to
+hearing from you!
