@@ -5,8 +5,9 @@ description: Gregory M. Kapfhammer conducts research in fields such as software 
 image: /download/images/7029911579_0ddd6e8352_z.jpg
 ---
 
-{% comment %} <!-- {% capture page_title %} {{page.title}} {% endcapture %} --> {% endcomment %}
-{% comment %} <!-- {% include _jumbotrons/head_jumbotron.html title=page_title subtitle="implementing innovation in" highlight="software engineering" %} --> {% endcomment %}
+{% capture page_title %} {{page.title}} {% endcapture %}
+{% include _jumbotrons/head_jumbotron.html title=page_title
+subtitle="implementing innovation in" highlight="software engineering" %}
 
 ## Overview
 
