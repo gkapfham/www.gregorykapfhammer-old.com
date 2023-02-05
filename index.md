@@ -194,5 +194,3 @@ production build {% endcomment %}
 {% comment %} Display recent tweets, using the Twitter fetcher plugin (see the
 corresponding CSS and JavaScript for details) {% endcomment %}
 
-<div id="tw-gkapfham">
-</div>
