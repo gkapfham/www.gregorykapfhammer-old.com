@@ -191,6 +191,10 @@ production build {% endcomment %}
 
 ## Status Updates
 
-{% comment %} Display recent tweets, using the Twitter fetcher plugin (see the
-corresponding CSS and JavaScript for details) {% endcomment %}
+{% comment %}
+Display recent toots, using the mastodon-feed plugin called emfeed
+{%endcomment %}
 
+<a class="mastodon-feed" href="https://fosstodon.org/@gkapfham" data-toot-limit="4">Status Updates</a>
+
+<script type="module" src="https://esm.sh/emfed"></script>
