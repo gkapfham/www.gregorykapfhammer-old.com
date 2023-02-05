@@ -87,6 +87,7 @@ GEM
       unicode-display_width (~> 1.1, >= 1.1.1)
     unicode (0.4.4.4)
     unicode-display_width (1.7.0)
+    webrick (1.7.0)
 
 PLATFORMS
   x86_64-linux
@@ -104,6 +105,7 @@ DEPENDENCIES
   liquid
   liquid-c
   unicode
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.2.16
