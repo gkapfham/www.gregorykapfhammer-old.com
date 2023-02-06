@@ -691,6 +691,7 @@ body {
   height: 46px;  /* Avatar height. */
   column-gap: 0.5rem;
   text-decoration: none;
+  margin-top: -1rem;
   color: inherit;
 }
 
@@ -717,7 +718,8 @@ body {
 /* Boosting user is smaller and above the posting user. */
 .toot .boost {
   height: 23px;
-  margin-bottom: 0.25rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   column-gap: 0.25rem;
 }
 
@@ -732,9 +734,11 @@ body {
 
 .toot .permalink {
   text-decoration: none;
-  display: none;
-  color: #999;
-  float: right;
+  display: flex;
+  margin-bottom: 1rem;
+  // display: none;
+  // color: #999;
+  // float: right;
 }
 
 .toot .permalink:hover {
