@@ -669,10 +669,8 @@ body {
 
 // Other: Mastodon {{{
 
-// All of this styling is specialized for the twitterFetcher JavaScript
-
 .toots {
-  max-width: 90%;
+  // max-width: 90%;
   list-style: disc;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
@@ -680,7 +678,6 @@ body {
 
 .toot {
   list-style: disc;
-  min-width: 600px;
   padding: 0rem;
   margin-left: 2rem;
 }
@@ -704,7 +701,7 @@ body {
 
 .toot .display-name {
   font-weight: bold;
-  display: block;
+  display: flex;
 }
 
 .toot .user:hover .display-name {
@@ -735,7 +732,7 @@ body {
 
 .toot .permalink {
   text-decoration: none;
-  display: block;
+  display: none;
   color: #999;
   float: right;
 }
