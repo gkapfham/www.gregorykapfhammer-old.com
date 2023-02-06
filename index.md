@@ -195,6 +195,6 @@ production build {% endcomment %}
 Display recent toots, using the mastodon-feed plugin called emfeed
 {%endcomment %}
 
-<a class="mastodon-feed" href="https://fosstodon.org/@gkapfham" data-toot-limit="4">Status Updates</a>
+<a class="mastodon-feed" href="https://fosstodon.org/@gkapfham" data-toot-limit="5">Status Updates</a>
 
 <script type="module" src="https://esm.sh/emfed"></script>
