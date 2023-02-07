@@ -168,13 +168,32 @@ the date on which it was written {% endcomment %}
 <img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><em>Read</em> all of my <a href="{{site.baseurl}}blog/">blog posts</a>
 </div>
 
-<!-- ## Highlighted Course -->
+## Highlighted Courses
 
-{% comment %} Display the featured course site by iterating through the sites
-and finding the featured one {% endcomment %}
+{% comment %} Display the featured course sites by referencing their course platforms {% endcomment %}
 
-{% comment %} Only generate the list of courses when requested or for a
-production build {% endcomment %}
+<ul>
+
+<div class="featured">
+<li><a class="major" target="_blank" rel="noopener"
+href="https://proactiveprogrammers.com/data-abstraction/introduction-data-abstraction/">Data Abstraction</a>: Build effective and efficient software</li>
+</div>
+
+<div class="featured">
+<li><a class="major"
+href="https://github.com/Tada-Project/tada">TaDa</a>: Automated order-of-growth analysis for Python functions</li>
+</div>
+
+<div class="featured">
+<li><a class="major"
+href="https://github.com/CommittedTeam/CommitCanvas">CommitCanvas</a>: Extensible checking of Git commit messages with pre-commit</li>
+</div>
+
+</ul>
+
+<div class="question">
+<img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><em>Explore</em> all of my <a href="{{site.baseurl}}teaching/">learning materials</a>
+</div>
 
 <!-- {% if jekyll.environment == 'production' or jekyll.environment == 'courses' %} -->
 
