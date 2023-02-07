@@ -176,7 +176,7 @@ the date on which it was written {% endcomment %}
 
 <div class="featured">
 <li><a class="major" target="_blank" rel="noopener"
-href="https://proactiveprogrammers.com/data-abstraction/introduction-data-abstraction/">Data Abstraction</a>: Build effective and efficient software</li>
+href="https://proactiveprogrammers.com/data-abstraction/introduction-data-abstraction/">Data Abstraction</a>: Build correct and efficient software</li>
 </div>
 
 <div class="featured">
