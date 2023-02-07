@@ -195,19 +195,6 @@ href="https://github.com/CommittedTeam/CommitCanvas">CommitCanvas</a>: Extensibl
 <img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><em>Explore</em> all of my <a href="{{site.baseurl}}teaching/">learning materials</a>
 </div>
 
-<!-- {% if jekyll.environment == 'production' or jekyll.environment == 'courses' %} -->
-
-<!-- <ul> -->
-<!-- {% for page in site.pages %} -->
-<!--   {% if page.course == true and page.featured == true %} -->
-<!--   <li><a class="major" href="{{site.baseurl}}{{ page.url | remove_first:'/'}}">{{ page.title | capitalize_all }}</a></li> -->
-<!--   {{page.subtitle}} -->
-<!--   {% endif %} -->
-<!-- {% endfor %} -->
-<!-- </ul> -->
-
-<!-- {% endif %} -->
-
 ## Status Updates
 
 {% comment %}
