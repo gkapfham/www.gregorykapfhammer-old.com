@@ -206,5 +206,5 @@ Display recent toots, using the mastodon-feed plugin called emfeed
 <script type="module" src="https://esm.sh/emfed"></script>
 
 <div class="question">
-<img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><em>Review</em> all of <a href="https://fosstodon.org/@gkapfham">status updates</a>
+<img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><em>Review</em> all of my <a href="https://fosstodon.org/@gkapfham">status updates</a>
 </div>
