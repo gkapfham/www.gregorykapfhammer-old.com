@@ -201,6 +201,6 @@ href="https://www.os-sketch.com/">Operating Systems</a>: Understand operating sy
 Display recent toots, using the mastodon-feed plugin called emfeed
 {%endcomment %}
 
-<a class="mastodon-feed" href="https://fosstodon.org/@gkapfham" data-toot-limit="5">Hey <img class="footer-icon" src="/download/images/svg/mastodon.svg"/> ! Can you please load my status updates?</a>
+<a class="mastodon-feed" href="https://fosstodon.org/@gkapfham" data-toot-limit="5">Hey <img class="footer-icon" src="/download/images/svg/mastodon.svg"/>&mdash; can you please load my status updates?</a>
 
 <script type="module" src="https://esm.sh/emfed"></script>
