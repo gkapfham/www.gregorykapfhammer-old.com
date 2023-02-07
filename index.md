@@ -168,31 +168,43 @@ the date on which it was written {% endcomment %}
 <img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><em>Read</em> all of my <a href="{{site.baseurl}}blog/">blog posts</a>
 </div>
 
-<!-- ## Highlighted Course -->
+## Highlighted Courses
 
-{% comment %} Display the featured course site by iterating through the sites
-and finding the featured one {% endcomment %}
+{% comment %} Display the featured course sites by referencing their course platforms {% endcomment %}
 
-{% comment %} Only generate the list of courses when requested or for a
-production build {% endcomment %}
+<ul>
 
-<!-- {% if jekyll.environment == 'production' or jekyll.environment == 'courses' %} -->
+<div class="featured">
+<li><a class="major" target="_blank" rel="noopener"
+href="https://proactiveprogrammers.com/data-abstraction/introduction-data-abstraction/">Data Abstraction</a>: Build correct and efficient software</li>
+</div>
 
-<!-- <ul> -->
-<!-- {% for page in site.pages %} -->
-<!--   {% if page.course == true and page.featured == true %} -->
-<!--   <li><a class="major" href="{{site.baseurl}}{{ page.url | remove_first:'/'}}">{{ page.title | capitalize_all }}</a></li> -->
-<!--   {{page.subtitle}} -->
-<!--   {% endif %} -->
-<!-- {% endfor %} -->
-<!-- </ul> -->
+<div class="featured">
+<li><a class="major" target="_blank" rel="noopener"
+href="https://proactiveprogrammers.com/discrete-structures/introduction-discrete-structures/">Discrete Structures</a>: Connect mathematics and programming</li>
+</div>
 
-<!-- {% endif %} -->
+<div class="featured">
+<li><a class="major"
+href="https://www.os-sketch.com/">Operating Systems</a>: Understand operating systems, one sketch at a time</li>
+</div>
+
+</ul>
+
+<div class="question">
+<img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><em>Explore</em> all of my <a href="{{site.baseurl}}teaching/">learning materials</a>
+</div>
 
 ## Status Updates
 
-{% comment %} Display recent tweets, using the Twitter fetcher plugin (see the
-corresponding CSS and JavaScript for details) {% endcomment %}
+{% comment %}
+Display recent toots, using the mastodon-feed plugin called emfeed
+{%endcomment %}
 
-<div id="tw-gkapfham">
+<a class="mastodon-feed" href="https://fosstodon.org/@gkapfham" data-toot-limit="5">&nbsp; Hey <img class="footer-icon" src="/download/images/svg/mastodon.svg"/>&mdash; can you please load my status updates?</a>
+
+<script type="module" src="https://esm.sh/emfed"></script>
+
+<div class="question">
+<img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><em>Review</em> all of my <a href="https://fosstodon.org/@gkapfham">status updates</a>
 </div>
