@@ -180,13 +180,13 @@ href="https://proactiveprogrammers.com/data-abstraction/introduction-data-abstra
 </div>
 
 <div class="featured">
-<li><a class="major"
-href="https://github.com/Tada-Project/tada">TaDa</a>: Automated order-of-growth analysis for Python functions</li>
+<li><a class="major" target="_blank" rel="noopener"
+href="https://proactiveprogrammers.com/discrete-structures/introduction-discrete-structures/">Discrete Structures</a>: Connect mathematics and programming</li>
 </div>
 
 <div class="featured">
 <li><a class="major"
-href="https://github.com/CommittedTeam/CommitCanvas">CommitCanvas</a>: Extensible checking of Git commit messages with pre-commit</li>
+href="https://www.os-sketch.com/">Operating Systems</a>: Understand operating systems, one sketch at a time</li>
 </div>
 
 </ul>
