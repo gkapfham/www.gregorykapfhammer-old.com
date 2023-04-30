@@ -32,9 +32,6 @@ group :jekyll_plugins do
   gem 'liquid-c'
   # Recognize and reference unicode characters
   gem 'unicode'
-  # Improve performance by using native liquid parser
-  # gem 'liquid', github: 'Shopify/liquid', branch: 'master'
-  # gem 'liquid-c', github: 'Shopify/liquid-c', branch: 'master'
 end
 
 # }}}
