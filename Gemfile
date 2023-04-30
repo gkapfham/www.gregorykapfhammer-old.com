@@ -15,7 +15,6 @@ gem "kramdown", ">= 2.3.0"
 # --> Upgraded version of Jekyll: {{{
 
 # require most recent version of Jekyll
-gem "jekyll", "~> 4.0"
 
 # }}}
 
@@ -41,3 +40,5 @@ end
 # }}}
 
 # }}}
+
+gem "jekyll", "~> 4.3"
