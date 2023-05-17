@@ -22,7 +22,10 @@ var newer = require('gulp-newer');
 var postcss = require('gulp-postcss');
 var pump = require('pump');
 var rsync = require('gulp-rsync');
-var sass = require('gulp-sass');
+// var sass = require('gulp-sass');
+// var sass = require('gulp-sass')(require('node-sass'));
+// autoprefixer = require('gulp-autoprefixer');
+var sass = require('gulp-sass')(require('sass'));
 var uglify = require('gulp-uglify');
 var yargs = require('yargs');
 
@@ -124,11 +127,27 @@ var CRUMBS = Boolean(yargs.argv.crumbs);
 // }}}
 
 // TASK: Generate the CSS files from the Sassy CSS files
-gulp.task('sass', function() {
+gulp.task('scss', function() {
   return gulp.src(['scss/*.scss'])
     .pipe(sass())
     .pipe(gulp.dest('css/'));
 });
+
+// // Copy Bootstrap SCSS(SASS) from node_modules to /assets/scss/bootstrap
+// gulp.task('bootstrap:scss', function() {
+//   return gulp.src(['./node_modules/bootstrap/scss/**/*'])
+//     .pipe(gulp.dest('./assets/scss/bootstrap'));
+// });
+
+// // Compile SCSS(SASS) files
+// gulp.task('scss', gulp.series('bootstrap:scss', function compileScss() {
+//   return gulp.src(['./assets/scss/*.scss'])
+//     .pipe(sass.sync({
+//       outputStyle: 'expanded'
+//     }).on('error', sass.logError))
+//     .pipe(autoprefixer())
+//     .pipe(gulp.dest('./assets/css'))
+// }));
 
 // TASK: Copy all of the changed font-awesome fonts to _site
 gulp.task('fonts', function() {
@@ -397,13 +416,13 @@ gulp.task('cleandownloads', function() {
 // TASK: perform the full build, but do not optimize images or minify
 gulp.task(
   'quickdeploy',
-  gulp.series('sass', 'incrementalbuild', 'javascripts', 'httptwo', 'downloads')
+  gulp.series('scss', 'incrementalbuild', 'javascripts', 'httptwo', 'downloads')
 );
 
 // TASK: perform the full build, but do not optimize images
 gulp.task(
   'fulldeploy',
-  gulp.series('sass', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads',
+  gulp.series('scss', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads',
     gulp.parallel('cssminify', 'htmlminify', 'jsminify'))
 );
 
@@ -411,14 +430,14 @@ gulp.task(
 // move the download directory over early to support sitemap creation
 gulp.task(
   'fulldeployseo',
-  gulp.series('sass', 'downloadspre', 'quicklink', 'build', 'javascripts', 'httptwo',
+  gulp.series('scss', 'downloadspre', 'quicklink', 'build', 'javascripts', 'httptwo',
     gulp.parallel('cleandownloads', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
 // TASK: first build and then run the minifiers in parallel
 gulp.task(
   'optimizeddeploy',
-  gulp.series('sass', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads',
+  gulp.series('scss', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads',
     gulp.parallel('cssminify', 'htmlminify', 'jsminify'))
 );
 
@@ -426,7 +445,7 @@ gulp.task(
 // move the download directory over early to support sitemap creation
 gulp.task(
   'optimizeddeployseo',
-  gulp.series('sass', 'downloadspre', 'quicklink', 'build', 'javascripts', 'httptwo',
+  gulp.series('scss', 'downloadspre', 'quicklink', 'build', 'javascripts', 'httptwo',
     gulp.parallel('cleandownloads', 'cssminify', 'htmlminify', 'jsminify'))
 );
 
