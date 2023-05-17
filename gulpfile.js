@@ -55,7 +55,7 @@ var HTTPTWO_SOURCE = '_headers';
 var HTTPTWO_DEST = '_site/';
 
 // define the directory for the JavaScript
-var JS_SOURCE = ['_js/jquery-3.3.1.min.js', '_js/popper.min.js', '_js/bootstrap.min.js', '_js/jquery.scrollTo.min.js'];
+var JS_SOURCE = ['_js/jquery-3.3.1.min.js', '_js/popper.min.js', '_js/bootstrap.min.js', '_js/jquery.scrollTo.min.js', '_js/mastodon-timeline.js'];
 var JS_SITE = '_site/js/';
 var JS_SITE_ALL = '_site/js/*.js';
 var JS_COMBINE = 'scripts.js';
@@ -381,7 +381,8 @@ gulp.task('jsminify', function(cb) {
 // TASK: run all of the minifiers in parallel
 gulp.task(
   'minify',
-  gulp.parallel('cssminify', 'htmlminify', 'jsminify')
+  // gulp.parallel('cssminify', 'htmlminify', 'jsminify')
+  gulp.parallel('cssminify', 'htmlminify')
 );
 
 // }}}
@@ -408,6 +409,7 @@ gulp.task(
   'fulldeploy',
   gulp.series('scss', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads',
     gulp.parallel('cssminify', 'htmlminify', 'jsminify'))
+    // gulp.parallel('cssminify', 'htmlminify'))
 );
 
 // TASK: perform the full build, but do not optimize images
