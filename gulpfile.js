@@ -133,22 +133,6 @@ gulp.task('scss', function() {
     .pipe(gulp.dest('css/'));
 });
 
-// // Copy Bootstrap SCSS(SASS) from node_modules to /assets/scss/bootstrap
-// gulp.task('bootstrap:scss', function() {
-//   return gulp.src(['./node_modules/bootstrap/scss/**/*'])
-//     .pipe(gulp.dest('./assets/scss/bootstrap'));
-// });
-
-// // Compile SCSS(SASS) files
-// gulp.task('scss', gulp.series('bootstrap:scss', function compileScss() {
-//   return gulp.src(['./assets/scss/*.scss'])
-//     .pipe(sass.sync({
-//       outputStyle: 'expanded'
-//     }).on('error', sass.logError))
-//     .pipe(autoprefixer())
-//     .pipe(gulp.dest('./assets/css'))
-// }));
-
 // TASK: Copy all of the changed font-awesome fonts to _site
 gulp.task('fonts', function() {
   return gulp.src(FONT_SOURCE)
