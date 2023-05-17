@@ -142,7 +142,7 @@ $headings-line-height: 1.1;
 // Define the padding on the navbar to be
 // small than the Bootstrap 4 defaults
 $spacer: 1rem !default;
-$navbar-padding-x: ($spacer/2);
+$navbar-padding-x: (calc($spacer/2));
 
 // Define the hamburger menu to be 1em
 .navbar-toggler-icon {
