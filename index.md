@@ -11,7 +11,7 @@ categories: [main]
 <p class="lead">I'm also a <a class="characteristic" href="/research/papers/">scientist</a> who <a class="characteristic" href="/service/">serves</a>.</p>
 <p class="lead">I'm also a <a class="characteristic" href="/biography/">person</a> who <a class="characteristic" href="/principles/">cares</a>.</p>
 <script>
-document.write(randomLead());
+// document.write(randomLead());
 </script>
 </div>
 
