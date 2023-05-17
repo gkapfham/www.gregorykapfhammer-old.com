@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     container_body_id: "mt-body",
 
     // Preferred color theme: 'light', 'dark' or 'auto' (default: auto).
-    default_theme: "auto",
+    default_theme: "dark",
 
     // Your Mastodon instance.
     instance_url: "https://fosstodon.org",
