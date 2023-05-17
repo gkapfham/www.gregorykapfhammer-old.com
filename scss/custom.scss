@@ -22,16 +22,6 @@ $gray-800:         rgba(66, 66, 66, 1.0);       // #424242
 $gray-900:         rgba(33, 33, 33, 1.0);       // #212121
 $gray-1000:        rgba(255, 255, 255, 1.0);    // #ffffff
 
-// $gray-100: material-color("gray", "100");
-// $gray-200: material-color("gray", "200");
-// $gray-300: material-color("gray", "300");
-// $gray-400: material-color("gray", "400");
-// $gray-500: material-color("gray", "500");
-// $gray-600: material-color("gray", "600");
-// $gray-700: material-color("gray", "700");
-// $gray-800: material-color("gray", "800");
-// $gray-900: material-color("gray", "900");
-
 $black: #000 !default;
 
 $orange-800:       rgba(239, 108, 0, 1.0);      // #ef6c00
@@ -98,19 +88,6 @@ $danger:    $red !default;
 $light:     $gray-200;
 $dark:      darken($secondary, 5%);
 $sparkle:   lighten($gray-600, 5%);
-
-// // Create the map for the theme's colors
-// $theme-colors: () !default;
-// $theme-colors: map-merge((
-//   "primary":   $primary,
-//   "secondary": $secondary,
-//   "success":   $success,
-//   "info":      $info,
-//   "warning":   $warning,
-//   "danger":    $danger,
-//   "light":     $light,
-//   "dark":      $dark
-// ), $theme-colors);
 
 // }}}
 
