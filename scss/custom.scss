@@ -699,7 +699,7 @@ html[data-theme="dark"] {
   --bg-hover-color: #313543;
   --line-gray-color: #393f4f;
   --content-text: $body-color;
-  --link-color: #8c8dff;
+  --link-color: $orange;
   --error-text-color: #fe6c6c;
 }
 
@@ -715,7 +715,7 @@ html[data-theme="dark"] {
 .mt-timeline a:active,
 .mt-timeline a {
   text-decoration: none;
-  color: var(--link-color);
+  // color: var(--link-color) !important;
 }
 .mt-timeline a:hover {
   text-decoration: underline;
@@ -759,7 +759,7 @@ html[data-theme="dark"] {
   position: relative;
   min-height: 3.75rem;
   background-color: transparent;
-  border-bottom: 1px solid var(--line-gray-color);
+  // border-bottom: 1px solid var(--line-gray-color);
 }
 .mt-toot:hover,
 .mt-toot:focus {
