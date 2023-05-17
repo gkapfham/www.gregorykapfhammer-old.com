@@ -698,7 +698,7 @@ html[data-theme="dark"] {
   --bg-color: $body-color;
   --bg-hover-color: #313543;
   --line-gray-color: #393f4f;
-  --content-text: #fff;
+  --content-text: $body-color;
   --link-color: #8c8dff;
   --error-text-color: #fe6c6c;
 }
