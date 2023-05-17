@@ -11,7 +11,7 @@ categories: [main]
 <p class="lead">I'm also a <a class="characteristic" href="/research/papers/">scientist</a> who <a class="characteristic" href="/service/">serves</a>.</p>
 <p class="lead">I'm also a <a class="characteristic" href="/biography/">person</a> who <a class="characteristic" href="/principles/">cares</a>.</p>
 <script>
-document.write(randomLead());
+// document.write(randomLead());
 </script>
 </div>
 
@@ -201,9 +201,13 @@ href="https://www.os-sketch.com/">Operating Systems</a>: Understand operating sy
 Display recent toots, using the mastodon-feed plugin called emfeed
 {%endcomment %}
 
-<a class="mastodon-feed" href="https://fosstodon.org/@gkapfham" data-toot-limit="5">&nbsp; Hey <img class="footer-icon" src="/download/images/svg/mastodon.svg"/>&mdash; can you please load my status updates?</a>
-
-<script type="module" src="https://esm.sh/emfed"></script>
+<div class="dummy-container">
+	<div class="mt-timeline">
+		<div id="mt-body" class="mt-body" role="feed">
+		  <div class="loading-spinner"></div>
+		</div>
+  </div>
+</div>
 
 <div class="question">
 <img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><em>Review</em> all of my <a href="https://fosstodon.org/@gkapfham">status updates</a>
