@@ -409,7 +409,6 @@ gulp.task(
   'fulldeploy',
   gulp.series('scss', 'quicklink', 'build', 'javascripts', 'httptwo', 'downloads',
     gulp.parallel('cssminify', 'htmlminify', 'jsminify'))
-    // gulp.parallel('cssminify', 'htmlminify'))
 );
 
 // TASK: perform the full build, but do not optimize images
