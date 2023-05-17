@@ -209,11 +209,6 @@ Display recent toots, using the mastodon-feed plugin called emfeed
   </div>
 </div>
 
-<!-- <a class="mastodon-feed" href="https://fosstodon.org/@gkapfham" data-toot-limit="5">&nbsp; Hey <img class="footer-icon" src="/download/images/svg/mastodon.svg"/>&mdash; can you please load my status updates?</a> -->
-
-<!-- <script type="module" src="https://esm.sh/emfed"></script> -->
-<!-- <script type="module" src="js/emfed.js"></script> -->
-
 <div class="question">
 <img class="small-icon" src="/download/images/svg/long-arrow-alt-right.svg"/><em>Review</em> all of my <a href="https://fosstodon.org/@gkapfham">status updates</a>
 </div>
