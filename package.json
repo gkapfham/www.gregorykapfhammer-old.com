@@ -4,7 +4,6 @@
   "description": "www.gregorykapfhammer.com",
   "main": "index.js",
   "devDependencies": {
-    "bootstrap": "^4.1.1",
     "browser-sync": "^2.24.4",
     "check-pages": "^0.10.0",
     "cssnano": "^3.10.0",
@@ -20,7 +19,7 @@
     "gulp-newer": "^1.4.0",
     "gulp-postcss": "^7.0.1",
     "gulp-rsync": "0.0.8",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^5.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
     "imagemin-gifsicle": "^5.2.0",
@@ -31,7 +30,7 @@
     "imagemin-svgo": "^6.0.0",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3",
-    "sass-material-colors": "0.0.5"
+    "sass-material-colors": "^0.0.5"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -50,6 +49,12 @@
   },
   "homepage": "https://github.com/gkapfham/www.gregorykapfhammer.com.git",
   "dependencies": {
-    "quicklink": "^2.0.0-alpha"
+    "bootstrap": "^5.3.0-alpha3",
+    "gulp-autoprefixer": "^8.0.0",
+    "light-switch-bootstrap": "^0.1.5",
+    "material-colors": "^1.2.6",
+    "node-sass": "^8.0.0",
+    "quicklink": "^2.0.0-alpha",
+    "sass": "^1.32.12"
   }
 }
