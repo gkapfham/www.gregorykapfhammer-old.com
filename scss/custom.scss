@@ -254,9 +254,9 @@ $sub-headings-font-style: italic;
 
 // Body {{{
 
-// // Define the background and main text color
-// $body-bg: $secondary;
-// $body-color: $gray-400;
+// Define the background and main text color
+$body-bg: $secondary;
+$body-color: $gray-400;
 
 // Define non-Bootstrap rules for body elements
 body {
