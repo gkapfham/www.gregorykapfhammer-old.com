@@ -1,6 +1,11 @@
   <!-- Define the meta characteristics of the site for responsive design -->
   <meta charset="utf-8">
 
+  <!-- Load the critical CSS and font content before the fold -->
+  <script>
+    {% include _headers/critical.html %}
+  </script>
+
   <!-- Perform a full preconnect (DNS plus more) for the sites commonly referenced -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
